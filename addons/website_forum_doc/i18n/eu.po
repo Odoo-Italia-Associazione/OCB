@@ -33,7 +33,7 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "<span class=\"text-muted\">or</span>"
-msgstr "<span class=\"text-muted\">edo</span>"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_crm_after_sale
@@ -43,12 +43,12 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Bad answer structure"
-msgstr "Erantzun okerren egitura "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Bad questions"
-msgstr "Galdera okerrak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -60,7 +60,7 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Benefits of having done this setup"
-msgstr "Konfigurazio hau egin ondorengo abantailak"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_cms_ecommerce
@@ -70,7 +70,7 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_child_ids
 msgid "Children Table Of Content"
-msgstr "Haurrentzako eduki taula "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_crm_claim
@@ -112,7 +112,7 @@ msgstr "Ezabatu"
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Describe the business solution"
-msgstr "Deskribatu negozio konponbidea"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_stage_display_name
@@ -132,7 +132,7 @@ msgstr "Dokumentazioa"
 #: model:ir.actions.act_window,name:website_forum_doc.action_forum_doc_post
 #: model:ir.ui.menu,name:website_forum_doc.menu_forum_doc_posts
 msgid "Documentation Posts"
-msgstr "Dokumentazio posta"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_post_documentation_stage_id
@@ -159,23 +159,23 @@ msgstr "Zirriborroa"
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.view_forum_post_kanban
 msgid "Edit Post"
-msgstr "Posta editatu "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_hrm_contract
 msgid "Employee Contract"
-msgstr "Langile kontratua "
+msgstr ""
 
 #. module: website_forum_doc
 #: code:addons/website_forum_doc/models/forum_documentation_toc.py:38
 #, python-format
 msgid "Error ! You cannot create recursive categories."
-msgstr "Errorea! Ezin duzu errekurtsibitate kategoriak sortu."
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Explain how to configure Odoo"
-msgstr "Azaldu Odoo nola konfiguratu "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -190,7 +190,7 @@ msgstr "Foro"
 #. module: website_forum_doc
 #: model:ir.model,name:website_forum_doc.model_forum_post
 msgid "Forum Post"
-msgstr "Foroaren posta "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_functional_doc
@@ -200,17 +200,17 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Good answer structure"
-msgstr "Erantzun egokiaren egitura"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Good question titles"
-msgstr "Galdera egokien tituluak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "How to compute future inventories for a product?"
-msgstr "Nola kalkulatu etorkizuneko produktu bateko inbentarioa?"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -231,12 +231,12 @@ msgstr "ID"
 #. module: website_forum_doc
 #: model:forum.documentation.stage,name:website_forum_doc.stage_ideas
 msgid "Ideas"
-msgstr "Ideiak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_introduction
 msgid "Introduction"
-msgstr "Sarrera "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_stage___last_update
@@ -274,7 +274,7 @@ msgstr "Izena"
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.documentation_post
 msgid "Need more info?"
-msgstr "Informazio gehiago behar duzu?"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -289,12 +289,12 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.model,name:website_forum_doc.model_forum_documentation_stage
 msgid "Post Stage"
-msgstr "Postaren etapak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_post_ids
 msgid "Posts"
-msgstr "Postak"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -309,12 +309,12 @@ msgstr ""
 #. module: website_forum_doc
 #: model:forum.documentation.stage,name:website_forum_doc.stage_publish
 msgid "Publish"
-msgstr "Argitaratu "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Publish in Chapter:"
-msgstr "Argitaratu kapituluan: "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -324,22 +324,22 @@ msgstr ""
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Question:"
-msgstr "Galdera:"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.documentation_post
 msgid "Related question"
-msgstr "Galdera erlatiboa "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.documentation_post
 msgid "Related topics"
-msgstr "Lotutako gaiak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.stage,name:website_forum_doc.stage_review
 msgid "Review"
-msgstr "Berrikusi"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_parent_right
@@ -354,17 +354,17 @@ msgstr "Salmetak eta Biltegia"
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_sale
 msgid "Sales Management"
-msgstr "Salmenten kudeaketa "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_sale_so
 msgid "Sales orders"
-msgstr "Salmenta eskaerak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "Samples"
-msgstr "Laginak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.documentation
@@ -387,18 +387,17 @@ msgstr "Sekuentzia"
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_stage_name
 msgid "Stage Name"
-msgstr "Etaparen izena "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "Erantzuna ulergarria da Odoo ezagutzen ez duenarentzat "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "The question describes a real business problem, not a software problem"
 msgstr ""
-"Galdera benetako negozio arazoa deskribatzen du, ez software arazo bat"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -445,12 +444,12 @@ msgstr "Website"
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "What report should I use to compute probabilities per stage?"
-msgstr "Zer txosten erabili behar dut etapaka probabilitateak kalkulatzeko?"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
 msgid "What's the available stock field?"
-msgstr "Zer da eskuragarri dagoen stock eremua?"
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
@@ -460,19 +459,19 @@ msgstr "ezeztatu"
 #. module: website_forum_doc
 #: model:forum.documentation.toc,introduction:website_forum_doc.toc_functional_doc
 msgid "community forum"
-msgstr "Komunitate foroa "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.toc
 msgid "essay"
-msgstr "saiakera "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.toc
 msgid "essays"
-msgstr "saiakerak "
+msgstr ""
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.forum_question_doc
 msgid "official documentation"
-msgstr "dokumentazio ofiziala "
+msgstr ""

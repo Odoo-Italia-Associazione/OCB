@@ -50,11 +50,7 @@ tour.register('sale_tour', {
     in_modal: false,
     run: function (actions) {
         actions.auto();
-        // There might be a modal because of the view:
-        // sale.order.form.editable.list, enabled by some groups
-        if ($(".modal-footer .btn-primary").length) {
-            actions.auto(".modal-footer .btn-primary");
-        }
+        actions.auto(".modal-footer .btn-primary");
     },
     id: "quotation_product_selected",
 }, {

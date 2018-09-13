@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Martin Trigaux, 2016
-# Maria Boyadjieva <marabo2000@gmail.com>, 2016
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2016
 # kalatchev, 2016
 # Iliana Ilieva <i.ilieva@sunservice-bg.com>, 2016
@@ -84,7 +83,7 @@ msgid ""
 " fa-clock-o\"/> Waiting</span>"
 msgstr ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
-" fa-clock-o\"/> Изакащ</span>"
+" fa-clock-o\"/> Чакащо</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -146,7 +145,7 @@ msgstr "<strong>Количество</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Shipping Address</strong>"
-msgstr "<strong>Адрес за шипинг</strong>"
+msgstr "<strong>Адрес на доставка</strong>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -166,7 +165,7 @@ msgstr "<strong>Единична Цена</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Amount Due"
-msgstr "Дължима сума"
+msgstr ""
 
 #. module: website_portal_sale
 #: code:addons/website_portal_sale/controllers/main.py:181
@@ -222,7 +221,7 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Order"
-msgstr "Поръчка"
+msgstr "Ред"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -289,7 +288,7 @@ msgstr "Няма фактури за вашия потребител."
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "There are currently no orders for your account."
-msgstr "Понастоящем няма поръчки по Вашата сметка."
+msgstr "Няма поръчки за вашия потребител."
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
@@ -323,7 +322,7 @@ msgstr "Вашите Фактури и Плащания"
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
 msgid "Your Orders"
-msgstr "Вашите поръчки"
+msgstr "Вашите Поръчки"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale

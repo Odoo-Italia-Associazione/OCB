@@ -30,7 +30,7 @@ msgstr ""
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:380
 #, python-format
 msgid " already out"
-msgstr "juba väljas"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines_account_id
@@ -45,7 +45,7 @@ msgstr "Konto päevik"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_additional_landed_cost
 msgid "Additional Landed Cost"
-msgstr "Täiendav maaletoomise kulu"
+msgstr ""
 
 #. module: stock_landed_costs
 #: selection:product.template,split_method:0
@@ -84,12 +84,12 @@ msgstr "Tühistatud"
 #. module: stock_landed_costs
 #: model:ir.actions.act_window,help:stock_landed_costs.action_stock_landed_cost
 msgid "Click to create a new landed cost."
-msgstr "Vajuta, et luua uus maaletoomises kulu."
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.actions.act_window,help:stock_landed_costs.stock_landed_cost_type_action
 msgid "Click to define a new kind of landed cost."
-msgstr "Vajuta, et luua uut tüüpi maaletoomise kulu."
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
@@ -104,7 +104,7 @@ msgstr "Maksumus"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_cost_line_id
 msgid "Cost Line"
-msgstr "Kulu rida"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_cost_lines
@@ -191,17 +191,17 @@ msgstr ""
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_final_cost
 msgid "Final Cost"
-msgstr "Lõplik kulu"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_former_cost
 msgid "Former Cost"
-msgstr "Eelnev kulu"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_former_cost_per_unit
 msgid "Former Cost(Per Unit)"
-msgstr "Eelnev kulu (koguse kohta)"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
@@ -223,7 +223,7 @@ msgstr "Informatsioon"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_description
 msgid "Item Description"
-msgstr "Kirjeldus"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_account_move_id
@@ -234,17 +234,17 @@ msgstr "Päeviku kanne"
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines_cost_id
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_cost_id
 msgid "Landed Cost"
-msgstr "Maaletoomise kulu"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Landed Cost Name"
-msgstr "Maaletoomise kulu nimi"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.ui.menu,name:stock_landed_costs.menu_stock_landed_cost_type
 msgid "Landed Cost Type"
-msgstr "Maaletoomise kulu tüüp"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.actions.act_window,name:stock_landed_costs.action_stock_landed_cost
@@ -260,12 +260,12 @@ msgstr "Maaletoomise kulud"
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Landed cost are computed based on the purchase unit of measure."
-msgstr "Maaletoomise kulu arvutatakse ostu mõõtühiku alusel."
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:mail.message.subtype,description:stock_landed_costs.mt_stock_landed_cost_open
 msgid "Landed cost validated"
-msgstr "Maaletoomise kulu kinnitatud"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost___last_update
@@ -304,18 +304,18 @@ msgstr "Nimi"
 #, python-format
 msgid ""
 "No valuation adjustments lines. You should maybe recompute the landed costs."
-msgstr "Pole muudatuse ridu. Peaksite ümberarvutama maaletoomise kulud."
+msgstr ""
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:75
 #, python-format
 msgid "Only draft landed costs can be validated"
-msgstr "Ainult mustand staatuses kulusid saab kinnitada"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_picking_ids
 msgid "Pickings"
-msgstr "Nopped"
+msgstr ""
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:322
@@ -374,12 +374,12 @@ msgstr "Olek"
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_landed_cost
 msgid "Stock Landed Cost"
-msgstr "Lao maaletoomise kulu"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_landed_cost_lines
 msgid "Stock Landed Cost Lines"
-msgstr "Lao maaletoomise kuluread"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_move_id
@@ -389,7 +389,7 @@ msgstr "Laoseisu liikumine"
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
 msgid "Stock Valuation Adjustment Lines"
-msgstr "Lao hindamise muudatuse read"
+msgstr ""
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:171
@@ -400,9 +400,6 @@ msgid ""
 " time valuation with real price costing method. Please make sure it is the "
 "case, or you selected the correct picking"
 msgstr ""
-"Valitud nopped ei sisalda siirdeid, mida mõjutaks maaletoomise kulusid. "
-"Maaletoomise kulusid saab määrata ainult reaalaja kulu meetodiga toodetele. "
-"Veend, et see nii on ja vali korrektne noppe tüüp"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_amount_total
@@ -421,14 +418,12 @@ msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
 "landed costs to reverse them"
 msgstr ""
-"Kinnitatud maaletoomise kulusid ei saa tühistada aga saate luua negatiivse "
-"maaltetoomise kulu selle tühistamiseks"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_valuation_adjustment_lines
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Valuation Adjustments"
-msgstr "Hindamise täiendamised"
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines_volume
@@ -449,7 +444,7 @@ msgstr "Kaal"
 #. module: stock_landed_costs
 #: model:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_type_form
 msgid "describe the product characteristics..."
-msgstr "kirjelda tootetunnuseid..."
+msgstr ""
 
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_purchase_config_settings

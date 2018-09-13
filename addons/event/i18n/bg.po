@@ -7,17 +7,15 @@
 # Martin Trigaux, 2016
 # kalatchev, 2016
 # preslav <hackerz99999@gmail.com>, 2016
-# Maria Boyadjieva <marabo2000@gmail.com>, 2016
 # Vladimir Dachev <v.dachev@dalkomotors.com>, 2016
 # Albena Mincheva <albena_vicheva@abv.bg>, 2018
-# Boris Stefanov <borkata@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-10 08:43+0000\n"
 "PO-Revision-Date: 2016-10-10 08:43+0000\n"
-"Last-Translator: Boris Stefanov <borkata@gmail.com>, 2018\n"
+"Last-Translator: Albena Mincheva <albena_vicheva@abv.bg>, 2018\n"
 "Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -563,7 +561,7 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_seats_available
 msgid "Available Seats"
-msgstr "Свободни Места"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_badge_back
@@ -626,7 +624,7 @@ msgstr "Изграждане на Цели Приложения"
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Calling the ORM"
-msgstr "Извикване на ORM."
+msgstr "Работа с ORM."
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_configuration
@@ -901,7 +899,7 @@ msgstr "Готов"
 #: selection:report.event.registration,event_state:0
 #: selection:report.event.registration,registration_state:0
 msgid "Draft"
-msgstr "Чернова"
+msgstr "Проект"
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -1344,7 +1342,7 @@ msgstr "Последно обновено на"
 #. module: event
 #: selection:event.event,seats_availability:0
 msgid "Limited"
-msgstr "Ограничен"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_address_id
@@ -1571,7 +1569,7 @@ msgstr "Телефон"
 #. module: event
 #: model:event.event,description:event.event_2
 msgid "Point of Sale (POS), Introduction to report customization."
-msgstr "Център за продажби (POS), Въведение в отчитането на персонализацията."
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -1755,7 +1753,7 @@ msgstr "Изпратено"
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_form
 msgid "Set To Draft"
-msgstr "Върнете в чернова"
+msgstr "Изпратено в проект"
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_registration_form
@@ -1770,7 +1768,7 @@ msgstr "Настройки"
 #. module: event
 #: model:event.type,name:event.event_type_3
 msgid "Show"
-msgstr "Покажете"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_origin

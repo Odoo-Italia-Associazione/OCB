@@ -34,7 +34,7 @@ msgstr "Kategoria"
 #. module: website_theme_install
 #: model:ir.actions.act_window,name:website_theme_install.theme_install_kanban_action
 msgid "Choose Your Theme"
-msgstr "Aukeratu zure gaia "
+msgstr ""
 
 #. module: website_theme_install
 #: model:ir.actions.server,name:website_theme_install.theme_install_todo_action
@@ -64,9 +64,9 @@ msgstr ""
 #. module: website_theme_install
 #: model:ir.ui.view,arch_db:website_theme_install.customize_modal
 msgid "See themes here"
-msgstr "Ikusi gaiak hemen "
+msgstr ""
 
 #. module: website_theme_install
 #: model:ir.ui.view,arch_db:website_theme_install.theme_view_search
 msgid "Theme"
-msgstr "Gaia "
+msgstr ""

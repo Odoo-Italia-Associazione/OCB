@@ -188,7 +188,7 @@ class Property(models.Model):
         if not values:
             return
 
-        if default_value is None:
+        if not default_value:
             domain = self._get_domain(name, model)
             if domain is None:
                 raise Exception()

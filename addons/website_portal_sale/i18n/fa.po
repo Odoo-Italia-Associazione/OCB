@@ -3,9 +3,9 @@
 # * website_portal_sale
 # 
 # Translators:
-# Martin Trigaux, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # Sahar Daraye <sahar.daraye.1369@gmail.com>, 2016
-# Hamid Darabi, 2016
+# Hamid Darabi <hamid.darabi@gmail.com>, 2016
 # Hamed Mohammadi <hamed@dehongi.com>, 2017
 msgid ""
 msgstr ""
@@ -19,12 +19,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "<i class=\"fa fa-arrow-circle-right\"/> Pay Now"
-msgstr "<i class=\"fa fa-arrow-circle-right\"/> اکنون بپرداز"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -61,8 +61,6 @@ msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> "
 "Cancelled</span>"
 msgstr ""
-"<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> لغو "
-"شده</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -70,8 +68,6 @@ msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
 msgstr ""
-"<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
-" fa-clock-o\"/> در انتظار</span>"
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_orders
@@ -102,7 +98,7 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Date:</strong>"
-msgstr "<strong>تاریخ:</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -117,12 +113,12 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Product</strong>"
-msgstr "<strong>محصول</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Quantity</strong>"
-msgstr "<strong>تعداد</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -137,17 +133,17 @@ msgstr "<strong>مبلغ کل</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Total:</strong>"
-msgstr "<strong>کل:</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Unit Price</strong>"
-msgstr "<strong>قیمت واحد</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Amount Due"
-msgstr "مقدار سر رسید"
+msgstr ""
 
 #. module: website_portal_sale
 #: code:addons/website_portal_sale/controllers/main.py:181
@@ -178,7 +174,7 @@ msgstr "سیاهه"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Invoice #"
-msgstr "تعداد فاکتور"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
@@ -218,7 +214,7 @@ msgstr "سفارشات"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_invoices
 msgid "Pay Now"
-msgstr "اکنون بپرداز"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_payment_transaction
@@ -258,7 +254,7 @@ msgstr "سفارش فروش"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Taxes:"
-msgstr "مالیاتها:"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_home_sale
@@ -287,7 +283,7 @@ msgstr "جمع کل:"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Untaxed Amount:"
-msgstr "مقدار بدون مالیات"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.portal_my_quotations

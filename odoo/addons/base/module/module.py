@@ -169,9 +169,12 @@ class Module(models.Model):
                     'doctitle_xform': False,
                     'output_encoding': 'unicode',
                     'xml_declaration': False,
-                    'file_insertion_enabled': False,
                 }
-                output = publish_string(source=module.description or '', settings_overrides=overrides, writer=MyWriter())
+                # [antoniov 2018-09-04] Avoid translation error
+                try:
+                    output = publish_string(source=module.description or '', settings_overrides=overrides, writer=MyWriter())
+                except:
+                    output = 'Error in Description'
                 module.description_html = tools.html_sanitize(output)
 
     @api.depends('name')
@@ -600,7 +603,7 @@ class Module(models.Model):
         res = [0, 0]    # [update, add]
 
         default_version = modules.adapt_version('1.0')
-        known_mods = self.with_context(lang=None).search([])
+        known_mods = self.search([])
         known_mods_names = {mod.name: mod for mod in known_mods}
 
         # iterate through detected modules and update/create them in db

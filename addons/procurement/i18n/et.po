@@ -8,15 +8,13 @@
 # Arma Gedonsky <armagedonsky@hot.ee>, 2017
 # Rivo Zängov <eraser@eraser.ee>, 2017
 # Eneli Õigus <enelioigus@gmail.com>, 2017
-# Ants Peetsalu <ants@avalah.ee>, 2018
-# Egon Raamat <egon@avalah.ee>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:57+0000\n"
 "PO-Revision-Date: 2016-09-07 08:57+0000\n"
-"Last-Translator: Egon Raamat <egon@avalah.ee>, 2018\n"
+"Last-Translator: Eneli Õigus <enelioigus@gmail.com>, 2017\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,7 +137,7 @@ msgstr "Loodud"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_move_type
 msgid "Delivery Type"
-msgstr "Tarne tüüp"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_name
@@ -172,7 +170,7 @@ msgstr ""
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "External note..."
-msgstr "Väline märkus..."
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
@@ -187,7 +185,7 @@ msgstr "Fikseeritud"
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_id
 msgid "Fixed Procurement Group"
-msgstr "Kindel hankegrupp"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
@@ -216,12 +214,12 @@ msgstr "ID"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
 msgid "If the route is global"
-msgstr "Kui marsruut on globaalne"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_rule_active
 msgid "If unchecked, it will allow you to hide the rule without removing it."
-msgstr "Kui see pole märgitud, saad peita reegli ilma seda kustutamata."
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group___last_update
@@ -255,7 +253,7 @@ msgstr "ületähtaja"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Leave Empty"
-msgstr "Jäta tühjaks"
+msgstr ""
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
@@ -313,12 +311,12 @@ msgstr "Hankimine"
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_exceptions
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Procurement Exceptions"
-msgstr "Hankimise erandid"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_group_id
 msgid "Procurement Group"
-msgstr "Hankegrupp"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_tree_view
@@ -346,7 +344,7 @@ msgstr "Hankimise reeglid"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_tree
 msgid "Procurement Rules"
-msgstr "Hankimise reeglid"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_group_form_view
@@ -380,17 +378,17 @@ msgstr "Toote mõõtühik"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Propagate"
-msgstr "Täienda"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "Propagation Options"
-msgstr "Täiendamise valikud"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_propagation_option
 msgid "Propagation of Procurement Group"
-msgstr "Hankegruppi täiendamine"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_product_qty
@@ -433,7 +431,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:procurement.action_compute_schedulers
 #: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
 msgid "Run Schedulers"
-msgstr "Käivita planeerijad"
+msgstr ""
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -464,7 +462,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
 msgid "Search Procurement"
-msgstr "Otsi Hankimist"
+msgstr ""
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_sequence
@@ -485,7 +483,7 @@ msgstr "Olek"
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_rule_name
 msgid "This field will fill the packing origin and the name of its moves"
-msgstr "Väli täidab pakkimise lähtekoha ja nime seotud siiretel"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_tree_view
@@ -521,7 +519,7 @@ msgstr ""
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
 msgid "e.g. Buy"
-msgstr "näiteks Ostmine"
+msgstr ""
 
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view

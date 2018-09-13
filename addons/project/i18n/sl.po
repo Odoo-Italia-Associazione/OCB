@@ -137,26 +137,21 @@ msgid ""
 "<p>If you have any questions, please let us know.</p>\n"
 "<p>Best regards,</p>"
 msgstr ""
-"\n"
-"<p>Spoštovani ${object.partner_id.name or 'customer'},</p>\n"
-"<p>Zahvaljujemo se vam za povpraševanje.<br /></p>\n"
-"<p>V primeru kakršnih koli vprašanj, vas prosimo, da nas obvestite.</p>\n"
-"<p>Lep pozdrav,</p>"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_opening_days
 msgid "# Days to Assign"
-msgstr "# dni do dodelitve"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_closing_days
 msgid "# Days to Close"
-msgstr "# dni do zaključka"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_delay_endings_days
 msgid "# Days to Deadline"
-msgstr "# dni do roka"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_partner_task_count
@@ -167,7 +162,7 @@ msgstr "# opravil"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_no_of_days
 msgid "# Working Days"
-msgstr "# delovnih dni"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_nbr
@@ -216,15 +211,13 @@ msgid ""
 "<b>Assign the task</b> to someone. <i>You can create and invite a new user "
 "on the fly.</i>"
 msgstr ""
-"<b>Dodeli opravilo</b> nekomu drugemu. <i>Novega uporabnika lahko ustvarite "
-"in povabite takoj.</i>"
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:83
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
-msgstr "<b>Za uveljavitev sprememb</b> na opravilu, pritisnite gumb shrani."
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -943,13 +936,11 @@ msgid ""
 "Activate 'Allow invoicing based on timesheets' from the <i>Human Resources "
 "Settings</i>."
 msgstr ""
-"Aktivirajte 'Dovoli obračun po časovnicah' preko <i>Kadrovske "
-"nastavitve</i>."
 
 #. module: project
 #: model:ir.actions.server,name:project.activate_sample_project
 msgid "Activate Sample Project"
-msgstr "Aktiviraj vzorčni projekt"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_active
@@ -975,13 +966,11 @@ msgid ""
 "Add columns to configure <b>stages for your tasks</b>.<br/><i>e.g. "
 "Specification &gt; Development &gt; Done</i>"
 msgstr ""
-"Dodaj stolpce za nastavitev <b>stopenj svojih opravil</b>.<br/><i>npr. "
-"Specifikacija &gt; Razvoj &gt; Opravljeno</i>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Add/remove from favorite"
-msgstr "Dodaj/odstrani priljubljene"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1032,9 +1021,6 @@ msgid ""
 "will  reinforce the need for each of them to be prepared for status "
 "meetings."
 msgstr ""
-"Bodite za zgled. Ko bodo člani vaše ekipe opazili, kako pripravljeni ste, bo"
-"  v njih obudilo potrebo, da tudi sami pridejo pripravljeni na "
-"koordinacijske sestanke."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1042,8 +1028,6 @@ msgid ""
 "Alternatively, Timesheets can be added directly from Tasks by activating "
 "<strong>'Log work activities on tasks'</strong> in the"
 msgstr ""
-"Namesto tega se lahko časovnice dodaja tudi neposredno preko opravil z "
-"aktivacijo <strong>'Beleži delovne aktivnosti v opravila'</strong> v"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1051,8 +1035,6 @@ msgid ""
 "An internal message will not send any email notification, but your message "
 "will still be displayed to every user that has access to the page."
 msgstr ""
-"Interno sporočilo ne bo poslalo nobenih e-poštnih obvestil, a bo sporočilo "
-"še vedno prikazano vsakemu uporabniku, ki ima dostop do strani."
 
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_account
@@ -1073,10 +1055,6 @@ msgid ""
 " a Task or Issue is created, and can  manually decide if you want to be "
 "notified for its other events too."
 msgstr ""
-"Še en dober način za omejitev števila prejetih obvestil je, da sledite le "
-"dogodkom na vam dodeljenih opravilih.  Tako boste obveščeni, kadar se "
-"opravilo ali zadeva ustvarijo in se lahko  odločite, ali želite biti "
-"obveščeni tudi o drugih dogodkih."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -1169,7 +1147,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:63
 #, python-format
 msgid "Backlog"
-msgstr "Zaostanki"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_balance
@@ -1223,7 +1201,7 @@ msgstr ""
 #: model:project.task,legend_done:project.project_task_7
 #: model:project.task.type,legend_done:project.project_stage_1
 msgid "Buzz or set as done"
-msgstr "Odmevnost ali opravljno"
+msgstr ""
 
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_responsible
@@ -1268,7 +1246,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Choose a Project Email"
-msgstr "Izberi projektni e-poštni naslov"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1363,7 +1341,7 @@ msgstr "Nastavitve"
 #: code:addons/project/static/src/js/tour.js:93
 #, python-format
 msgid "Configuration options are available in the Settings app."
-msgstr "Nastavitvene opcije so na voljo v aplikaciji Nastavitve."
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_config_settings
@@ -1380,7 +1358,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Congratulations, you're done !"
-msgstr "Čestitamo, opravljeno je!"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1402,7 +1380,7 @@ msgstr "Pogodba/Analitični konto"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Control projects quality and satisfaction"
-msgstr "Nadzor kvalitete projektov in zadovoljstva"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1419,12 +1397,12 @@ msgstr "Ustvari"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Create a Gantt chart with your projects tasks and deadlines"
-msgstr "Ustvari Gantt diagram s projektnimi opravili in roki"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_create_project
 msgid "Create a Project"
-msgstr "Ustvari projekt"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all_config
@@ -1436,7 +1414,7 @@ msgstr "Ustvari nov projekt"
 msgid ""
 "Create a task by sending an email to a project alias with one of your "
 "colleagues in copy"
-msgstr "Ustvari opravilo s pošiljanjem e-pošte na vzdevek projekta."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1637,7 +1615,7 @@ msgstr "Razvoj"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Development Process"
-msgstr "Razvojni proces"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1861,7 +1839,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_fold
 msgid "Folded in Kanban"
-msgstr "Prepognjeno v Kanban"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -2406,7 +2384,7 @@ msgstr "Člani"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr "Več <i class=\"fa fa-caret-down\"/>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -2421,7 +2399,7 @@ msgstr "Učinkovitejše komunikacije med zaposlenimi"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "My Favorites"
-msgstr "Moje priljubljene"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -2511,7 +2489,7 @@ msgstr "Obvestila"
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
-msgstr "Zdaj, ko je projekt nastavljen, <b>ustvarite nekaj opravil</b>."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_report_project_task_user_opening_days
@@ -2560,14 +2538,14 @@ msgstr ""
 #: selection:project.project,privacy_visibility:0
 #, python-format
 msgid "On invitation only"
-msgstr "Le povabljeni"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Once a Timesheet is confirmed by an employee, it needs to be Approved by a "
 "manager in the"
-msgstr "Ko uslužbenec potrdi časovnico, jo mora odobriti še upravitelj"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_force_thread_id
@@ -2622,8 +2600,6 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ne upoštevaj privzete prikazane vrednosti blokiranega stanja v kanban "
-"izboru, kadar je opravilo ali zadeva v tej stopnji."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_legend_done
@@ -2632,8 +2608,6 @@ msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ne upoštevaj privzete prikazane vrednosti stanja opravljeno v kanban izboru,"
-" kadar je opravilo ali zadeva v tej stopnji."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_legend_normal
@@ -2642,8 +2616,6 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ne upoštevaj privzete prikazane vrednosti stanja normalno v kanban izboru, "
-"kadar je opravilo ali zadeva v tej stopnji."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_user_id
@@ -2755,7 +2727,7 @@ msgstr "Vzdevek projekta"
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_project_count
 #: model:ir.model.fields,field_description:project.field_project_project_project_count
 msgid "Project Count"
-msgstr "Števec projektov"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -2798,7 +2770,7 @@ msgstr "Projektna opravila"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_project_time_mode_id
 msgid "Project Time Unit *"
-msgstr "Projektna enota časa *"
+msgstr ""
 
 #. module: project
 #: model:res.request.link,name:project.req_link_task
@@ -2826,12 +2798,12 @@ msgstr "Projekti"
 #. module: project
 #: model:mail.channel,name:project.mail_channel_project_task
 msgid "Projects & Tasks"
-msgstr "Projekti in opravila"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_rating_project
 msgid "Rating on task"
-msgstr "Ocena na opravilu"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2851,28 +2823,28 @@ msgstr "Pripravljeno za naslednjo stopnjo"
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Ready for release"
-msgstr "Pripravljeno za izdajo"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Ready for testing"
-msgstr "Pripravljeno za testiranje"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready to be displayed, published or sent"
-msgstr "Pripravljeno za prikaz, objavo ali pošiljanje"
+msgstr ""
 
 #. module: project
 #: model:project.task,legend_done:project.project_task_16
 #: model:project.task,legend_done:project.project_task_19
 #: model:project.task.type,legend_done:project.project_stage_3
 msgid "Ready to reopen"
-msgstr "Pripravljeno za ponovno odprtje"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2880,12 +2852,12 @@ msgstr "Pripravljeno za ponovno odprtje"
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Reason for cancellation has been documented"
-msgstr "Razlog preklica je zabeležen"
+msgstr ""
 
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_project_task
 msgid "Reception of ${object.name}"
-msgstr "Prejem ${object.name}"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_force_thread_id
@@ -2895,7 +2867,7 @@ msgstr "ID niti zapisov"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Red: the Task is blocked (there's a problem)"
-msgstr "Rdeča: opravilo je blokirano (problem)"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
@@ -2907,7 +2879,7 @@ msgstr "Sklic"
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Release"
-msgstr "Izdaja"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_remaining_hours
@@ -2919,26 +2891,26 @@ msgstr "Preostale ure"
 #: code:addons/project/static/src/js/project.js:48
 #, python-format
 msgid "Remove Cover Image"
-msgstr "Odstrani naslovno sliko"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Repair Workshop"
-msgstr "Servisna delavnica"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "Repair has started"
-msgstr "Popravilo se je začelo"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Repair is completed"
-msgstr "Popravilo je dokončano"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2965,7 +2937,7 @@ msgstr "Odgovorni"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Responsibility"
-msgstr "Odgovornost"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2975,7 +2947,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Scrum Methodology"
-msgstr "Scrum metodologija"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_management
@@ -2998,7 +2970,6 @@ msgstr "Izberi"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Send an alert when a task is stuck in red for more than a few days"
 msgstr ""
-"Pošlji opozorilo, kadar opravilo obtiči na rdečem za več kot le nekaj dni"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3560,7 +3531,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Use Timesheets"
-msgstr "Uporaba časovnic"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3631,7 +3602,7 @@ msgstr ""
 #: selection:project.project,privacy_visibility:0
 #, python-format
 msgid "Visible by all employees"
-msgstr "Vidno za vse zaposlene"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:205
@@ -3833,12 +3804,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Your Projects"
-msgstr "Vaši projekti"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Your Projects:"
-msgstr "Vaši projekti:"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all

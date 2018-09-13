@@ -326,12 +326,9 @@ var RTE = Widget.extend({
         });
 
         // start element observation
-        $(document).on('content_changed', '.o_editable', function (ev) {
+        $(document).on('content_changed', '.o_editable', function (event) {
             self.trigger('change', this);
-            if (!ev.__isDirtyHandled) {
-                $(this).addClass('o_dirty');
-                ev.__isDirtyHandled = true;
-            }
+            $(this).addClass('o_dirty');
         });
 
         $('#wrapwrap, .o_editable').on('click.rte', '*', this, this.onClick.bind(this));
@@ -360,10 +357,6 @@ var RTE = Widget.extend({
 
         this.__saved = {}; // list of allready saved views and data
 
-
-        $('.o_editable')
-            .destroy()
-            .removeClass('o_editable o_is_inline_editable');
         var defs = $('.o_dirty')
             .removeAttr('contentEditable')
             .removeClass('o_dirty oe_carlos_danger o_is_inline_editable')

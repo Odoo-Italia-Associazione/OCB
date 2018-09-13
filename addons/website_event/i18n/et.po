@@ -30,7 +30,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.country_events_list
 msgid "<b>Upcoming Events</b>"
-msgstr "<b>Tulevased üritused</b>"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
@@ -38,8 +38,6 @@ msgid ""
 "<br/>\n"
 "                    <i class=\"fa fa-clock-o\"/> To"
 msgstr ""
-"<br/>\n"
-"                    <i class=\"fa fa-clock-o\"/> Alates"
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
@@ -49,7 +47,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
 msgid "<i class=\"fa fa-clock-o\"/> From"
-msgstr "<i class=\"fa fa-clock-o\"/> Alates"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.index
@@ -60,7 +58,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_right_quotes
 msgid "<small>Author</small>"
-msgstr "<small>Autor</small>"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.country_events
@@ -75,7 +73,7 @@ msgstr "<span>Online sündmued</span>"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "<span>Unlimited</span>"
-msgstr "<span>Piiramatult</span>"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details
@@ -111,7 +109,7 @@ msgstr ""
 #: code:addons/website_event/controllers/main.py:96
 #, python-format
 msgid "All Categories"
-msgstr "Kõik kategooriad"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:103
@@ -122,7 +120,7 @@ msgstr "Kõik riigid"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.layout
 msgid "All Events"
-msgstr "Kõik üritused"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details
@@ -198,7 +196,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
 msgid "E-mail"
-msgstr "E-post"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.view_event_sale_form
@@ -218,7 +216,7 @@ msgstr "Sündmus"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
 msgid "Event Details"
-msgstr "Ürituse andmed"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.template_intro
@@ -233,7 +231,7 @@ msgstr "Sündmuse asukoht"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event_menu_id
 msgid "Event Menu"
-msgstr "Ürituse menüü"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
@@ -243,7 +241,7 @@ msgstr "Sündmuse registreerimine"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.404
 msgid "Event not found!"
-msgstr "Üritust ei leitud!"
+msgstr ""
 
 #. module: website_event
 #: model:mail.message.subtype,description:website_event.mt_event_published
@@ -286,7 +284,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.country_events_list
 msgid "Events:"
-msgstr "Üitused:"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
@@ -334,36 +332,36 @@ msgstr "Nimi"
 #: model:ir.ui.view,arch_db:website_event.content_new_event
 #, python-format
 msgid "New Event"
-msgstr "Uus üritus"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:34
 #, python-format
 msgid "Next Events"
-msgstr "Järgmised üritused"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:43
 #, python-format
 msgid "Next Week"
-msgstr "Järgmine nädal"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:51
 #, python-format
 msgid "Next month"
-msgstr "Järgmine kuu"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.index
 msgid "No event found"
-msgstr "Ühtegi üritust ei leitud"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:55
 #, python-format
 msgid "Old Events"
-msgstr "Vanad üritused"
+msgstr ""
 
 #. module: website_event
 #. openerp-web
@@ -385,23 +383,23 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
 msgid "Organizer"
-msgstr "Organiseerija"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.index
 msgid "Our Events"
-msgstr "Meie üritused"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_right_photos
 msgid "Our Trainings"
-msgstr "Meie treeningud"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_details
 #: model:ir.ui.view,arch_db:website_event.index
 msgid "Participating"
-msgstr "Osalemine"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
@@ -437,7 +435,7 @@ msgstr "Registreeri"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "Register Now"
-msgstr "Registreeru kohe"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
@@ -467,7 +465,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "Sold Out"
-msgstr "Välja müüdud"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.404
@@ -484,12 +482,12 @@ msgstr "See nädal"
 #: code:addons/website_event/controllers/main.py:47
 #, python-format
 msgid "This month"
-msgstr "Sellel kuul"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "Ticket Type"
-msgstr "Pileti liik"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details
@@ -545,7 +543,7 @@ msgstr "Veebilehe suhtluse ajalugu"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full
 msgid "When"
-msgstr "Millal"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_description_full

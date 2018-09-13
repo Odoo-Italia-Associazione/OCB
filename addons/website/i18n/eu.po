@@ -153,7 +153,7 @@ msgstr "5s"
 #: code:addons/website/static/src/xml/website.xml:69
 #, python-format
 msgid ":&nbsp;"
-msgstr ":&nbsp;"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
@@ -522,17 +522,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">125</b><small>.00</small>"
-msgstr "<span>€</span> <b style=\"font-size: 60px\">125</b> <small>,00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">35</b><small>.00</small>"
-msgstr "<span>€</span> <b style=\"font-size: 60px\">35</b> <small>,00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<span>$</span><b style=\"font-size: 60px\">65</b><small>.00</small>"
-msgstr "<span>€</span> <b style=\"font-size: 60px\">65</b> <small>,00</small>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
@@ -1567,7 +1567,7 @@ msgstr "Hiriaren erdigunea"
 #: code:addons/website/static/src/xml/website.contentMenu.xml:42
 #, python-format
 msgid "Drag a menu to the right to create a sub-menu"
-msgstr "Arrastatu menua eskuinera azpi-menua sortzeko"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1710,12 +1710,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Feature One"
-msgstr "Lehenengo ezaugarria"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Feature Three"
-msgstr "Hirugarren ezaugarria"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_panel
@@ -1725,7 +1725,7 @@ msgstr "Ezaugarrien titulua"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Feature Two"
-msgstr "Bigarren ezaugarria"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1821,7 +1821,7 @@ msgstr "Gengo"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Get access to all modules"
-msgstr "Modulu guztietarako sarbidea lortu"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1892,7 +1892,7 @@ msgstr ""
 #: code:addons/website/static/src/js/website.backendDashboard.js:73
 #, python-format
 msgid "Google Analytics"
-msgstr "Google analitikak "
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_google_analytics_key
@@ -2062,7 +2062,7 @@ msgstr "Bezeroaren ID okerra"
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid "Information about the"
-msgstr "buruzko informazioa"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -2495,7 +2495,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Online users:"
-msgstr "Linean dauden erabiltzaileak:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3028,7 +3028,7 @@ msgstr "Diapositibak "
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Slow"
-msgstr "Motela"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3468,7 +3468,7 @@ msgstr "Formulario estandarrak erabili "
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Use the <i>Customize</i> menu to change the look of your theme:"
-msgstr "Erabili <i>Pertsonalizatu</i> menua zure gaiaren itxura aldatzeko:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3482,7 +3482,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:45
 #, python-format
 msgid "User Documentation"
-msgstr "Erabiltzailearen dokumentazioa"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.robots
@@ -3504,12 +3504,12 @@ msgstr "Oso motela"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "View downloadable themes"
-msgstr "Deskargatu daitezken gaiak ikusi"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "View our Odoo Online themes (free!)"
-msgstr "Ikusi linean dauden Odoo gaiak (doan!)"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_blog_post_website_published
@@ -3524,7 +3524,7 @@ msgstr "Ikusi linean dauden Odoo gaiak (doan!)"
 #: model:ir.model.fields,field_description:website.field_slide_slide_website_published
 #: model:ir.model.fields,field_description:website.field_website_published_mixin_website_published
 msgid "Visible in Website"
-msgstr "Webgunean ikusgai "
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3601,7 +3601,7 @@ msgstr ""
 #. module: website
 #: model:ir.actions.act_window,name:website.action_module_website
 msgid "Website Apps"
-msgstr "Webgune aplikazioak"
+msgstr ""
 
 #. module: website
 #: model:ir.actions.client,name:website.backend_dashboard
@@ -3611,7 +3611,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_domain
 msgid "Website Domain"
-msgstr "Webgune domeinua"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_favicon
@@ -3621,7 +3621,7 @@ msgstr ""
 #. module: website
 #: model:ir.actions.act_url,name:website.action_website_homepage
 msgid "Website Homepage"
-msgstr "Webgune hasiera orria "
+msgstr ""
 
 #. module: website
 #: model:ir.actions.act_window,name:website.action_website_menu
@@ -3654,12 +3654,12 @@ msgstr ""
 #: model:ir.actions.act_window,name:website.action_website_configuration
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "Website Settings"
-msgstr "Webgune ezarpenak"
+msgstr ""
 
 #. module: website
 #: model:ir.actions.act_window,name:website.action_module_theme
 msgid "Website Theme"
-msgstr "Webgune gaia"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_blog_post_website_url
@@ -3683,7 +3683,7 @@ msgstr "Website URL"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_url
 msgid "Website Url"
-msgstr "Webgune URL"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_tree
@@ -3787,7 +3787,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:26
 #, python-format
 msgid "What do you want to do?"
-msgstr "Zer egin nahi duzu?"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3908,7 +3908,6 @@ msgid ""
 "You do not have sufficient access rights to configure the Google Analytics "
 "account."
 msgstr ""
-"Ez dituzu nahikoa sarbide eskubideak Google Analytics kontua konfiguratzeko."
 
 #. module: website
 #. openerp-web
@@ -3923,15 +3922,13 @@ msgid ""
 "You have many blocks available: References, Quotes Slider, Twitter "
 "Scroller,etc."
 msgstr ""
-"Bloke asko dituzu eskuragarri: erreferentziak, Quotes Slider, Twitter "
-"Scroller,etc."
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:39
 #, python-format
 msgid "You need to log in to your Google Account before:"
-msgstr "Beharrezkoa da aurretik saioa hastea zure Google kontuarekin:"
+msgstr ""
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_theme
@@ -3947,7 +3944,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Domain Name"
-msgstr "Zure domeinuaren izena"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3959,17 +3956,17 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:43
 #, python-format
 msgid "Your Google Analytic Client ID:"
-msgstr "Google Analytic-eko zure bezero ID-a:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Homepage"
-msgstr "Zure hasiera orria"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Your Main Menu"
-msgstr "Zure menu nagusia"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3986,7 +3983,7 @@ msgstr "Webgunearen titulua"
 #: code:addons/website/static/src/xml/website.editor.xml:27
 #, python-format
 msgid "Your current changes will be saved automatically."
-msgstr "Uneko aldaketak automatikoki gordeko dira."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4027,29 +4024,29 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "add keywords in picture's description."
-msgstr "Gehitu hitz-gakoak irudiaren deskribapenean. "
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
 msgid "and evaluating the following expression:"
-msgstr "eta hurrengo adierazpena ebaluatzen:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "campaign."
-msgstr "kanpaina."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "check out our Blog application"
-msgstr "begiratu gure Blog aplikazioa"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:17
 #, python-format
 msgid "describing your page content"
-msgstr "zure orriaren edukia deskribatzen"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -4061,7 +4058,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "etc."
-msgstr "etab."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4100,7 +4097,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.seo.xml:62
 #, python-format
 msgid "how your page will be listed on Google"
-msgstr "zure orria Google-n nola agertuko den "
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -4112,29 +4109,29 @@ msgstr "https://plus.google.com/+Odooapps"
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 msgid "https://www.facebook.com/Odoo"
-msgstr "https://www.facebook.com/Odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.linkedin.com/company/odoo"
-msgstr "https://www.linkedin.com/company/odoo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.youtube.com/user/OpenERPonline"
-msgstr "https://www.youtube.com/user/OpenERPonline"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
@@ -4237,7 +4234,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_config_settings
 msgid "to create your key."
-msgstr "zure pasahitza sortzeko."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4251,7 +4248,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:45
 #, python-format
 msgid "to get more information."
-msgstr "informazio gehiago lortzeko."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4273,19 +4270,19 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
 msgid "url"
-msgstr "url"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "user / month (billed annually)"
-msgstr "erabiltzaile / hilero (urtero fakturatutakoa)"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:45
 #, python-format
 msgid "using above suggested keywords"
-msgstr "goian gomendatutako hitz-gakoak erabiliz"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_website_id

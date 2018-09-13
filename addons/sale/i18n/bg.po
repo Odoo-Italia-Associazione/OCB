@@ -6,7 +6,6 @@
 # Martin Trigaux, 2016
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2016
 # kalatchev, 2016
-# Maria Boyadjieva <marabo2000@gmail.com>, 2016
 # Radina <radis.choice@gmail.com>, 2016
 # Любо Енев, 2016
 # Anton Vassilev, 2016
@@ -15,16 +14,13 @@
 # preslav <hackerz99999@gmail.com>, 2016
 # aleksandar ivanov, 2018
 # Albena Mincheva <albena_vicheva@abv.bg>, 2018
-# Chudomir Monevski <cm@plana.solutions>, 2018
-# Boyan Rabchev <boyan.rabchev@plana.solutions>, 2018
-# Boris Stefanov <borkata@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-08 13:18+0000\n"
 "PO-Revision-Date: 2018-03-08 13:18+0000\n"
-"Last-Translator: Boris Stefanov <borkata@gmail.com>, 2018\n"
+"Last-Translator: Albena Mincheva <albena_vicheva@abv.bg>, 2018\n"
 "Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,7 +91,7 @@ msgstr "# от редове"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_count
 msgid "# of Orders"
-msgstr "# от поръчки"
+msgstr "бр. поръчки"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_product_uom_qty
@@ -106,7 +102,7 @@ msgstr "# от кол."
 #: model:ir.model.fields,field_description:sale.field_res_partner_sale_order_count
 #: model:ir.model.fields,field_description:sale.field_res_users_sale_order_count
 msgid "# of Sales Order"
-msgstr "# от поръчка за продажби"
+msgstr ""
 
 #. module: sale
 #: model:mail.template,report_name:sale.email_template_edi_sale
@@ -133,7 +129,7 @@ msgstr "${object.subject}"
 #: model:ir.ui.view,arch_db:sale.report_invoice_layouted
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "&amp;bull;"
-msgstr "&amp;bull;"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -247,7 +243,6 @@ msgid ""
 "<span>(*) This configuration is related to the company you're logged "
 "into.</span>"
 msgstr ""
-"(*) Тази конфигурация се отнася до компанията, в която сте регистрирани. "
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -257,7 +252,7 @@ msgstr "<strong>Фискална позиция отбелязване:</strong>
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Payment Terms:</strong>"
-msgstr "<strong>Условия за Плащане:</strong>"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -268,13 +263,13 @@ msgstr "<strong>Търговец:</strong>"
 #: model:ir.ui.view,arch_db:sale.report_invoice_document_inherit_sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Shipping address:</strong>"
-msgstr "<strong>Адрес за шипинг:</strong>"
+msgstr "<strong>Адрес на доставка:</strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_invoice_layouted
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Subtotal: </strong>"
-msgstr "<strong>Междинна сума: </strong>"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -309,12 +304,12 @@ msgstr "Сметка за депозити"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_layout_category_pagebreak
 msgid "Add pagebreak"
-msgstr "Добави разделител на страници"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_layout_category_subtotal
 msgid "Add subtotal"
-msgstr "Добави междинна сума"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_sale_delivery_address
@@ -324,7 +319,7 @@ msgstr "Адрес"
 #. module: sale
 #: model:res.groups,name:sale.group_delivery_invoice_address
 msgid "Addresses in Sales Orders"
-msgstr "Адреси в поръчките за продажба"
+msgstr "Адрес в Поръчките за Продажба"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:153
@@ -345,7 +340,7 @@ msgstr ""
 #. module: sale
 #: selection:sale.config.settings,group_discount_per_so_line:0
 msgid "Allow discounts on sales order lines"
-msgstr "Позволете отстъпки в редовете на поръчка за продажби"
+msgstr "Позволи отстъпки в редовете на поръчката"
 
 #. module: sale
 #: selection:sale.config.settings,auto_done_setting:0
@@ -371,11 +366,6 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_account_config_settings_group_analytic_account_for_sales
 msgid "Allows you to specify an analytic account on sales orders."
 msgstr ""
-
-#. module: sale
-#: model:ir.ui.view,arch_db:sale.report_invoice_layouted
-msgid "Amount"
-msgstr "Сума"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_sales_to_invoice_amount
@@ -459,7 +449,7 @@ msgstr "По търговци"
 #. module: sale
 #: model:ir.filters,name:sale.filter_sale_report_salesteam
 msgid "By Salesteam"
-msgstr "От продавач"
+msgstr "От търговец"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_qty_delivered_updateable
@@ -481,13 +471,11 @@ msgstr "Отменено"
 #: model:ir.model.fields,help:sale.field_crm_team_use_invoices
 msgid "Check this box to manage invoices in this sales team."
 msgstr ""
-"Отметнете това поле, за да управлявате фактури в този търговски отдел."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_use_quotations
 msgid "Check this box to manage quotations in this sales team."
 msgstr ""
-"Отметнете това поле, за да управлявате офертите на този търговски отдел."
 
 #. module: sale
 #. openerp-web
@@ -504,7 +492,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_commercial_partner_id
 msgid "Commercial Entity"
-msgstr "Търговско вписване"
+msgstr ""
 
 #. module: sale
 #: model:ir.model,name:sale.model_res_company
@@ -624,7 +612,7 @@ msgstr "По дата"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Date Ordered:"
-msgstr "Поръчана дата:"
+msgstr "Дата на поръчка:"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_create_date
@@ -703,7 +691,7 @@ msgstr "Депозит"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_deposit_product_id_setting
 msgid "Deposit Product"
-msgstr "Депозитен Продукт"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_name
@@ -754,8 +742,6 @@ msgid ""
 "Display 3 fields on sales orders: customer, invoice address, delivery "
 "address"
 msgstr ""
-"Показва 3 полета в поръчките за продажби: клиент, адрес на фактура, адрес за"
-" доставка"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_display_name
@@ -774,7 +760,7 @@ msgstr ""
 #. module: sale
 #: selection:sale.config.settings,module_sale_margin:0
 msgid "Display margins on quotations and sales orders"
-msgstr "Показва маржовете в оферти и поръчки за продажби"
+msgstr ""
 
 #. module: sale
 #: selection:sale.config.settings,group_sale_layout:0
@@ -785,38 +771,38 @@ msgstr ""
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:84
 #, python-format
 msgid "Down Payment"
-msgstr "Предплащане"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_amount
 msgid "Down Payment Amount"
-msgstr "Предплатена Сума"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_product_id
 msgid "Down Payment Product"
-msgstr "Продукт Предплащане"
+msgstr ""
 
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
 msgid "Down payment (fixed amount)"
-msgstr "Аванс (сума)"
+msgstr ""
 
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
 msgid "Down payment (percentage)"
-msgstr "Аванс (процент)"
+msgstr ""
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:81
 #, python-format
 msgid "Down payment of %s%%"
-msgstr "Аванс от %s%%"
+msgstr ""
 
 #. module: sale
 #: selection:sale.report,state:0
 msgid "Draft Quotation"
-msgstr "Чернова оферта"
+msgstr "Примерна оферта"
 
 #. module: sale
 #: model:ir.model,name:sale.model_mail_compose_message
@@ -837,7 +823,7 @@ msgstr "Разширени филтри"
 #: code:addons/sale/models/sale.py:688
 #, python-format
 msgid "Extra line with %s "
-msgstr "Допълнителен ред с %s "
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_fiscal_position_id
@@ -851,9 +837,6 @@ msgid ""
 "Different prices per Customer: you can assign price on buying of minimum quantity in products sale tab.\n"
 "Advanced pricing based on formula: You can have all the rights on pricelist"
 msgstr ""
-"Фиксирана цена: всички цени се определят от продажната цена на продуктите.\n"
-"Различни цени за клиент: можете да определите цена при закупуване на минимално количество в маркера продажби на продукти.\n"
-"Сложно ценообразуване базирано на формула: Можете да имате всички права върху ценовата листа."
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_account_invoice_report_salesteam
@@ -884,7 +867,7 @@ msgstr "Групиране по"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_configuration_search_view
 msgid "Group By Name"
-msgstr "Групирай по Име"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_id
@@ -921,7 +904,7 @@ msgstr "Фактура"
 #: code:addons/sale/models/account_invoice.py:52
 #, python-format
 msgid "Invoice %s paid"
-msgstr "Фактура %s е платена"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_partner_invoice_id
@@ -951,12 +934,12 @@ msgstr "Редове на фактура"
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 msgid "Invoice Order"
-msgstr "Поръчка на фактура"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Invoice Sales Order"
-msgstr "Фактурирайте поръчка за продажби"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_invoice_status
@@ -972,7 +955,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_partner_invoice_id
 msgid "Invoice address for current sales order."
-msgstr "Адрес за фактурата за текущата поръчка за продажба."
+msgstr "Адрес за фактурата за настоящото нареждане за продажба."
 
 #. module: sale
 #: selection:sale.config.settings,default_invoice_policy:0
@@ -982,7 +965,7 @@ msgstr ""
 #. module: sale
 #: selection:sale.config.settings,default_invoice_policy:0
 msgid "Invoice ordered quantities"
-msgstr "Фактура поръчани количества"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_invoiced
@@ -991,9 +974,6 @@ msgid ""
 " invoiced this month. It is used to compute the progression ratio of the "
 "current and target revenue on the kanban view."
 msgstr ""
-"Фактурирайте приход за текущия месец. Това е сумата, която търговският отдел"
-" е фактурирал този месец. Тя се използва, за да изчисли съотношението на "
-"прогреса на текущите и целевите приходи в канбан изгледа."
 
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
@@ -1003,7 +983,7 @@ msgstr "Фактурируеми редове"
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
 msgid "Invoiceable lines (deduct down payments)"
-msgstr "Фактурируеми редове (с приспадане на аванси)"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_qty_invoiced
@@ -1047,8 +1027,6 @@ msgid ""
 "Invoices will be created in draft so that you can review\n"
 "                        them before validation."
 msgstr ""
-"Фактурите ще бъдат създадени в чернова, така че да можете да ги преглеждате\n"
-"                        преди валидирането им."
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_sale_invoicing
@@ -1074,7 +1052,7 @@ msgstr "Адрес за фактура:"
 #: model:ir.ui.view,arch_db:sale.report_invoice_document_inherit_sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Invoicing and shipping address:"
-msgstr "Адрес за фактуриране и шипинг :"
+msgstr "Адрес за фактуриране и доставка :"
 
 #. module: sale
 #: selection:sale.config.settings,group_sale_delivery_address:0
@@ -1082,8 +1060,6 @@ msgid ""
 "Invoicing and shipping addresses are always the same (Example: services "
 "companies)"
 msgstr ""
-"Адресите за фактуриране и шипинг са винаги едни и същи (Пример: компании за "
-"услуги)"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_form
@@ -1127,7 +1103,7 @@ msgstr "Последно обновено на"
 #: model:ir.model.fields,field_description:sale.field_account_invoice_line_layout_category_sequence
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_layout_category_sequence
 msgid "Layout Sequence"
-msgstr "Последователност"
+msgstr ""
 
 #. module: sale
 #. openerp-web
@@ -1143,7 +1119,7 @@ msgstr ""
 #: code:addons/sale/static/src/js/tour.js:18
 #, python-format
 msgid "Let's have a look at the quotations of this sales team."
-msgstr "Нека хвърлим поглед към офертите на този търговски отдел."
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1207,7 +1183,7 @@ msgstr "Съобщение за ред от поръчка за продажба
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_config
 msgid "More Info"
-msgstr "Повече информация"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
@@ -1217,7 +1193,7 @@ msgstr "Мои поръчки"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "My Sales Order Lines"
-msgstr "Моите редове на поръчки за продажби"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_layout_category_name
@@ -1228,7 +1204,7 @@ msgstr "Име"
 #. module: sale
 #: selection:sale.config.settings,auto_done_setting:0
 msgid "Never allow to modify a confirmed sales order"
-msgstr "Никога не подволявайте да се променя потвърдена поръчка за продажби."
+msgstr ""
 
 #. module: sale
 #: code:addons/sale/models/sale.py:110 code:addons/sale/models/sale.py:261
@@ -1256,8 +1232,7 @@ msgstr "Без съобщение"
 #. module: sale
 #: selection:sale.config.settings,group_discount_per_so_line:0
 msgid "No discount on sales order lines, global discount only"
-msgstr ""
-"Без отстъпки по редовете за поръчки на продажби, само цялостна отстъпка"
+msgstr "Без отстъпка на редовете, само глобална отстъпка"
 
 #. module: sale
 #: selection:sale.config.settings,group_display_incoterm:0
@@ -1303,8 +1278,6 @@ msgid ""
 "Number of days between the order confirmation and the shipping of the "
 "products to the customer"
 msgstr ""
-"Брой дни между потвърждаването на поръчката и шипинга на продуктите до "
-"клиента"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_orders
@@ -1337,7 +1310,7 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Order"
-msgstr "Поръчка"
+msgstr "Ред"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -1359,36 +1332,36 @@ msgstr "Редове от поръчка"
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Order Month"
-msgstr "Месец на поръчка"
+msgstr "Месец на Поръчка"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_tree
 msgid "Order Number"
-msgstr "Номер на поръчка"
+msgstr "Номер на Поръчка"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_order_id
 #: model:ir.model.fields,field_description:sale.field_sale_order_name
 #: model:ir.model.fields,field_description:sale.field_sale_report_name
 msgid "Order Reference"
-msgstr "Референция към поръчка"
+msgstr "Отпратка към поръчка"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_state
 msgid "Order Status"
-msgstr "Етап на поръчка"
+msgstr "Статус на Поръчка"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Ordered Qty"
-msgstr "Поръчано количество"
+msgstr "Поръчано к-во"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:713
 #: model:ir.ui.view,arch_db:sale.view_order_form
 #, python-format
 msgid "Ordered Quantity"
-msgstr "Поръчано количество"
+msgstr "Поръчано Количество"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_product_invoice_policy
@@ -1443,12 +1416,12 @@ msgstr "Партньор"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_country_id
 msgid "Partner Country"
-msgstr "Държава"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Partner's Country"
-msgstr "Държава"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_payment_term_id
@@ -1471,7 +1444,7 @@ msgstr ""
 #: code:addons/sale/models/sale.py:276
 #, python-format
 msgid "Please define an accounting sale journal for this company."
-msgstr "Моля определете счетоводен журнал за продажби за тази компания."
+msgstr ""
 
 #. module: sale
 #: code:addons/sale/models/sale.py:770
@@ -1490,7 +1463,7 @@ msgstr "Цена"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_price_reduce
 msgid "Price Reduce"
-msgstr "Намаляне на Цената"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_price_reduce_taxexcl
@@ -1512,7 +1485,7 @@ msgstr "Ценоразпис"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_pricelist_id
 msgid "Pricelist for current sales order."
-msgstr "Ценова листа за текущата поръчка за продажба"
+msgstr "Ценова листа за настоящото нареждане за продажба"
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_product_pricelist_action2
@@ -1664,19 +1637,19 @@ msgstr "Номер на офертата"
 #. module: sale
 #: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Quotation Sent"
-msgstr "Изпратена на"
+msgstr ""
 
 #. module: sale
 #: model:mail.message.subtype,description:sale.mt_order_confirmed
 msgid "Quotation confirmed"
-msgstr "Офертата е приета"
+msgstr ""
 
 #. module: sale
 #: model:mail.message.subtype,description:sale.mt_order_sent
 #: model:mail.message.subtype,name:sale.mt_order_sent
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_sent
 msgid "Quotation sent"
-msgstr "Офертата е изпратена"
+msgstr ""
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_quotations
@@ -1697,12 +1670,12 @@ msgstr ""
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_order_report_quotation_salesteam
 msgid "Quotations Analysis"
-msgstr "Анализ на Офертите"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.sale_order_view_search_inherit_quotation
 msgid "Quotations Sent"
-msgstr "Изпратени Оферти"
+msgstr ""
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.act_res_partner_2_sale_order
@@ -1719,20 +1692,18 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_sale_order_origin
 msgid "Reference of the document that generated this sales order request."
 msgstr ""
-"Референция към документа, който създаде това запитване за поръчка за "
-"продажби."
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.report_configuration_action
 #: model:ir.ui.view,arch_db:sale.report_configuration_form_view
 #: model:ir.ui.view,arch_db:sale.report_configuration_tree_view
 msgid "Report Configuration"
-msgstr "Конфигурация на Отчет"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.Report_configuration
 msgid "Report Layout Categories"
-msgstr "Категория Шаблон за Отчет"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1749,7 +1720,7 @@ msgstr "Ред от поръчка за продажба"
 #: model:ir.actions.act_window,name:sale.action_product_sale_list
 #: model:ir.model.fields,field_description:sale.field_account_invoice_line_sale_line_ids
 msgid "Sale Order Lines"
-msgstr "Редове на Поръчка"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_auto_done_setting
@@ -1806,7 +1777,7 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Sales Information"
-msgstr "Информация за продажбите"
+msgstr ""
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_order
@@ -1832,7 +1803,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_product_product_sale_line_warn
 #: model:ir.model.fields,field_description:sale.field_product_template_sale_line_warn
 msgid "Sales Order Line"
-msgstr "Ред от поръчка за продажба"
+msgstr "Ред от нареждане за продажба"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1866,7 +1837,7 @@ msgstr "Поръчки за продажби"
 #. module: sale
 #: model:ir.model,name:sale.model_sale_report
 msgid "Sales Orders Statistics"
-msgstr "Статистика на поръчки за продажби"
+msgstr "Статистика на нареждани за продажби"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_sale_layout
@@ -1911,13 +1882,13 @@ msgstr "Търговец"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_configuration_search_view
 msgid "Search Name"
-msgstr "Търси Име"
+msgstr ""
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Search Sales Order"
-msgstr "Потърсете поръчки за продажби"
+msgstr "Търсене на нареждания за продажби"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_invoice_line_layout_category_id
@@ -2072,7 +2043,7 @@ msgstr "Междинна сума"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_invoice_document_inherit_sale
 msgid "TIN:"
-msgstr "ИН по ЗДДС:"
+msgstr ""
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_invoiced_target
@@ -2080,8 +2051,6 @@ msgid ""
 "Target of invoice revenue for the current month. This is the amount the "
 "sales team estimates to be able to invoice this month."
 msgstr ""
-"Цел на приходите от фактури за текущия месец. Това е сумата, преценена от "
-"търговския отдел, че е способна да фактурира този месец."
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_sale_show_tax
@@ -2134,7 +2103,7 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_sale_order_project_id
 #: model:ir.model.fields,help:sale.field_sale_order_related_project_id
 msgid "The analytic account related to a sales order."
-msgstr "Аналитичната сметкта, свързана с поръчка за продажби"
+msgstr "Аналитичната сметкта свързана с нареждания за продажби"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:709
@@ -2181,8 +2150,6 @@ msgid ""
 "There is no income account defined for this product: \"%s\". You may have to"
 " install a chart of account from Accounting app, settings menu."
 msgstr ""
-"Няма входяща сметка, определена за този продукт: \"%s\". Може да се наложи "
-"да инсталирате сметкоплан от счетоводното приложение, менюто с настройки."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:366 code:addons/sale/models/sale.py:370
@@ -2460,7 +2427,7 @@ msgstr "дни"
 #. module: sale
 #: model:ir.model,name:sale.model_sale_config_settings
 msgid "sale.config.settings"
-msgstr "sale.config.settings"
+msgstr ""
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_layout_category

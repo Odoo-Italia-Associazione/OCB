@@ -784,9 +784,8 @@ class Picking(models.Model):
         else:
             moves = self.env['stock.move'].browse(move_ids)
             if self.env.context.get('no_state_change'):
-                moves.filtered(lambda m: m.reserved_quant_ids).do_unreserve()
-            else:
-                moves.do_unreserve()
+                moves = moves.filtered(lambda m: m.reserved_quant_ids)
+            moves.do_unreserve()
             moves.action_assign(no_prepare=True)
 
     @api.multi

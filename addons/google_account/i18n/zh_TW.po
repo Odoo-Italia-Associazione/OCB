@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 # Michael Yeung, 2018
 msgid ""
 msgstr ""
@@ -23,12 +22,12 @@ msgstr ""
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_create_uid
 msgid "Created by"
-msgstr "創建人"
+msgstr "建立者"
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_create_date
 msgid "Created on"
-msgstr "創建時間"
+msgstr "建立於"
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_display_name
@@ -38,28 +37,28 @@ msgstr "顯示名稱"
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_id
 msgid "ID"
-msgstr "ID"
+msgstr "編號"
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service___last_update
 msgid "Last Modified on"
-msgstr "最後修改日"
+msgstr "最後修改:"
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_write_uid
 msgid "Last Updated by"
-msgstr "最後更新人"
+msgstr "最後更新："
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_write_date
 msgid "Last Updated on"
-msgstr "最後更新時間"
+msgstr "最後更新於"
 
 #. module: google_account
 #: code:addons/google_account/models/google_service.py:169
 #, python-format
 msgid "Method not supported [%s] not in [GET, POST, PUT, PATCH or DELETE]!"
-msgstr "該方法不支援 [%s] 於 [GET, POST, PUT, PATCH or DELETE]!"
+msgstr ""
 
 #. module: google_account
 #: code:addons/google_account/models/google_service.py:117
@@ -67,7 +66,7 @@ msgstr "該方法不支援 [%s] 於 [GET, POST, PUT, PATCH or DELETE]!"
 msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid"
-msgstr "密鑰生成過程中出現錯誤。請重新申請授權碼。"
+msgstr "於生成安全碼期間發生錯誤，可能是你的授權碼不正確"
 
 #. module: google_account
 #: code:addons/google_account/models/google_service.py:52
@@ -75,7 +74,7 @@ msgstr "密鑰生成過程中出現錯誤。請重新申請授權碼。"
 msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid or already expired"
-msgstr "密鑰生成過程中出現錯誤。或許您的授權碼無效或已過期。"
+msgstr "於生成安全碼期間發生錯誤，可能是你的授權碼不正確或已經過期"
 
 #. module: google_account
 #: code:addons/google_account/models/google_service.py:144
@@ -83,13 +82,13 @@ msgstr "密鑰生成過程中出現錯誤。或許您的授權碼無效或已過
 msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid or already expired [%s]"
-msgstr "密鑰生成過程中出現錯誤。或許您的授權碼無效已過期[%s]"
+msgstr "於生成安全碼期間發生錯誤，可能是你的授權碼不正確或已經過期 [%s]"
 
 #. module: google_account
 #: code:addons/google_account/models/google_service.py:193
 #, python-format
 msgid "Something went wrong with your request to google"
-msgstr "您對Google的服務請求出現錯誤"
+msgstr "與Google溝通期間發生異常"
 
 #. module: google_account
 #: model:ir.model,name:google_account.model_google_service

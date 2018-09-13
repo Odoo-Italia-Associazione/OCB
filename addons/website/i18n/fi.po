@@ -17,15 +17,13 @@
 # Mikko Närjänen <mikko.narjanen@web-veistamo.fi>, 2016
 # Tommi Rintala <tommi.rintala@gmail.com>, 2016
 # artol <arto.leskinen@tek.fi>, 2017
-# Jukka Paulin <jukka.paulin@gmail.com>, 2018
-# Heikki Katajisto <heikki.katajisto@myyntivoima.fi>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Heikki Katajisto <heikki.katajisto@myyntivoima.fi>, 2018\n"
+"Last-Translator: artol <arto.leskinen@tek.fi>, 2017\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -714,7 +712,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Subscriptions</strong>"
-msgstr "<strong>Tilaukset"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -871,7 +869,7 @@ msgstr "Lisää mahtava slogan"
 #: code:addons/website/static/src/xml/website.gallery.xml:18
 #, python-format
 msgid "Add images"
-msgstr "Lisää kuvat"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1049,7 +1047,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Big"
-msgstr "Suuri"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1059,34 +1057,34 @@ msgstr "Tehosta verkkomyyntiäsi hienoilla tuotesivuilla."
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Build awareness and credibility"
-msgstr "Luo tietoisuutta ja vakuuttavuutta"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Building Profile"
-msgstr "Profiilin luonti"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Buy it at a provider:"
-msgstr "Osta tuottajalta:"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_cdn_url
 #: model:ir.model.fields,field_description:website.field_website_config_settings_cdn_url
 msgid "CDN Base URL"
-msgstr "CDN perus-URL"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_cdn_filters
 #: model:ir.model.fields,field_description:website.field_website_config_settings_cdn_filters
 msgid "CDN Filters"
-msgstr "CDN suotimet"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Can I afford for advertising on the keyword?"
-msgstr "Onko minulla varaa mainontaan tälle avainsanalle?"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -1117,7 +1115,7 @@ msgstr "Vaihda ikonit"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Check its availability"
-msgstr "Tarkista saatavuus"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1179,7 +1177,7 @@ msgstr "Sulje"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Colors palette"
-msgstr "Väripaletti"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1221,12 +1219,12 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_compress_html
 msgid "Compress HTML"
-msgstr "Pakkaa HTML"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_compress_html
 msgid "Compress rendered HTML"
-msgstr "Pakkaa renderöity HTML"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.menu,name:website.menu_website_global_configuration
@@ -1322,7 +1320,7 @@ msgstr "Luo sivu"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Create a community"
-msgstr "Luo yhteisö"
+msgstr ""
 
 #. module: website
 #: selection:website.config.settings,module_website_form_editor:0
@@ -1387,7 +1385,7 @@ msgstr "Työpöytä"
 #: model:ir.model.fields,field_description:website.field_website_config_settings_default_lang_id
 #: model:ir.model.fields,field_description:website.field_website_default_lang_id
 msgid "Default Language"
-msgstr "Oletuskieli"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_default_lang_code
@@ -1406,7 +1404,7 @@ msgstr "Poista lohkoja"
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
 msgid "Delete Page"
-msgstr "Poista sivu"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
@@ -1419,7 +1417,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_references
 msgid "Demo Logo"
-msgstr "Demo logo"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -1486,7 +1484,7 @@ msgstr "Älä näytä tätä viestiä uudelleen."
 #: code:addons/website/static/src/js/website.snippets.editor.js:79
 #, python-format
 msgid "Do you want to edit the company data ?"
-msgstr "Haluatko muokata yrityksen tietoja?"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -1504,13 +1502,13 @@ msgstr "Verkkotunnus"
 #: code:addons/website/static/src/xml/website.xml:64
 #, python-format
 msgid "Don't forget to update all links referring to this page:"
-msgstr "Muista päivittää kaikki linkit jotka osoittavat tähän sivuun:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "Don't go over 6 items, otherwise your main menu will be difficult to use."
-msgstr "Älä käytä yli 6 navigointilinkkiä, muutoin päävalikosta tulee sekava."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1520,12 +1518,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Download the technical documentation of a product"
-msgstr "Lataa tuotteen tekninen dokumentaatio"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Downtown"
-msgstr "Keskusta"
+msgstr ""
 
 #. module: website
 #. openerp-web

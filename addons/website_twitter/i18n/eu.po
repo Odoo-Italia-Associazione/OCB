@@ -7,14 +7,13 @@
 # oihane <oihanecruce@gmail.com>, 2017
 # ibinka lete <ilete@fpbidasoa.net>, 2017
 # Eneko <eastigarraga@codesyntax.com>, 2018
-# Naomi Hidalgo <naomihid96@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:58+0000\n"
 "PO-Revision-Date: 2016-09-07 08:58+0000\n"
-"Last-Translator: Naomi Hidalgo <naomihid96@gmail.com>, 2018\n"
+"Last-Translator: Eneko <eastigarraga@codesyntax.com>, 2018\n"
 "Language-Team: Basque (https://www.transifex.com/odoo/teams/41243/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,12 +44,12 @@ msgstr ""
 #. module: website_twitter
 #: model:ir.ui.view,arch_db:website_twitter.view_website_config_settings
 msgid "<strong>Website: </strong>"
-msgstr "<strong>Webgune:</strong>"
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.ui.view,arch_db:website_twitter.view_website_config_settings
 msgid "Accept terms of use and click on the Create button at the bottom"
-msgstr "Onartu erabilera baldintzak eta sakatu Sortu botoia behealdean"
+msgstr ""
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/website_twitter_config.py:14
@@ -68,7 +67,7 @@ msgstr ""
 #. module: website_twitter
 #: model:ir.ui.view,arch_db:website_twitter.view_website_config_settings
 msgid "Create a new Twitter application on"
-msgstr "Sortu Twiterren aplikazio berri bat"
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_tweet_create_uid
@@ -118,7 +117,7 @@ msgstr "ID"
 #: code:addons/website_twitter/models/website_twitter_config.py:57
 #, python-format
 msgid "Internet connection refused"
-msgstr "Interneteko konexioa ukatu da"
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_tweet___last_update
@@ -161,7 +160,7 @@ msgstr ""
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
 #, python-format
 msgid "Reload"
-msgstr "Berriro kargatu "
+msgstr ""
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/website_twitter_config.py:16
@@ -174,7 +173,7 @@ msgstr ""
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_tweet_screen_name
 msgid "Screen Name"
-msgstr "Pantailaren izena "
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,help:website_twitter.field_website_config_settings_twitter_screen_name
@@ -206,8 +205,6 @@ msgstr ""
 msgid ""
 "The Twitter servers are up, but overloaded with requests. Try again later."
 msgstr ""
-"Twitter zerbitzariak sortu dira, baina eskaerak gainkargatuta daude. Saiatu "
-"berriro geroago."
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/website_twitter_config.py:20
@@ -237,7 +234,7 @@ msgstr ""
 #: code:addons/website_twitter/models/website_twitter_config.py:12
 #, python-format
 msgid "There was no new data to return."
-msgstr "Ez dago datu berririk itzultzeko. "
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_tweet_tweet_id
@@ -258,44 +255,41 @@ msgstr "Twitter API"
 #: model:ir.model.fields,field_description:website_twitter.field_website_config_settings_twitter_api_key
 #: model:ir.model.fields,help:website_twitter.field_website_twitter_api_key
 msgid "Twitter API Key"
-msgstr "Twitter API gakoa "
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,help:website_twitter.field_website_twitter_api_secret
 msgid "Twitter API Secret"
-msgstr "Twitter API sekretua "
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_api_key
 msgid "Twitter API key"
-msgstr "Twitter API gakoa "
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,help:website_twitter.field_website_config_settings_twitter_api_key
 msgid "Twitter API key you can get it from https://apps.twitter.com/app/new"
 msgstr ""
-"Twitter API gakoa https://apps.twitter.com/app/new helbidean lortu dezakezu"
 
 #. module: website_twitter
 #: model:ir.model.fields,field_description:website_twitter.field_website_config_settings_twitter_api_secret
 #: model:ir.model.fields,field_description:website_twitter.field_website_twitter_api_secret
 msgid "Twitter API secret"
-msgstr "Twitter API sekretua "
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model.fields,help:website_twitter.field_website_config_settings_twitter_api_secret
 msgid ""
 "Twitter API secret you can get it from https://apps.twitter.com/app/new"
 msgstr ""
-"Twitter API sekretua https://apps.twitter.com/app/new helbidean lortu "
-"dezakezu "
 
 #. module: website_twitter
 #. openerp-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
 #, python-format
 msgid "Twitter Configuration"
-msgstr "Twitter konfigurazioa "
+msgstr ""
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/website_twitter_config.py:60
@@ -330,7 +324,7 @@ msgstr ""
 #: code:addons/website_twitter/models/website_twitter_config.py:57
 #, python-format
 msgid "We failed to reach a twitter server."
-msgstr "Ezin izan dugu twitter-ren zerbitzarira iritsi."
+msgstr ""
 
 #. module: website_twitter
 #: model:ir.model,name:website_twitter.model_website

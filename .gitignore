@@ -32,3 +32,7 @@ install/win32/meta.py
 /man/
 /share/
 /src/
+OCB/
+stdout.log
+*.oca
+*.z0i

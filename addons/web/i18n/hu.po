@@ -4,17 +4,16 @@
 # 
 # Translators:
 # gezza <geza.nagy@oregional.hu>, 2016
-# Martin Trigaux, 2016
-# krnkris, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# krnkris <krnkris@freemail.hu>, 2016
 # Kovács Tibor <kovika@gmail.com>, 2016
-# Ákos Nagy <akos.nagy@oregional.hu>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:28+0000\n"
 "PO-Revision-Date: 2017-06-23 13:28+0000\n"
-"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2016\n"
+"Last-Translator: Kovács Tibor <kovika@gmail.com>, 2016\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -353,7 +352,7 @@ msgstr "Minden felhasználó"
 #: code:addons/web/static/src/xml/base.xml:1288
 #, python-format
 msgid "And more"
-msgstr "És még több"
+msgstr "És tovább"
 
 #. module: web
 #. openerp-web
@@ -369,7 +368,7 @@ msgstr "Alkalmazás"
 #: code:addons/web/static/src/js/views/list_view.js:289
 #, python-format
 msgid "Archive"
-msgstr "Archiválás"
+msgstr "Archívum"
 
 #. module: web
 #. openerp-web
@@ -794,7 +793,7 @@ msgstr "\"%s\" letöltése"
 #: code:addons/web/static/src/xml/base.xml:577
 #, python-format
 msgid "Download xls"
-msgstr "xls letöltése"
+msgstr "xls letöltés"
 
 #. module: web
 #. openerp-web
@@ -1056,9 +1055,7 @@ msgstr "Űrlap"
 #: code:addons/web/static/src/xml/base.xml:1280
 #, python-format
 msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr ""
-"Szerezze be ezt a funkciót és még sokkal többet az Odoo Enterprise kiadásra "
-"való frissítéssel!"
+msgstr "Ezt a funkciót és még többet is kaphat az Odoo Enterprise kiadással!"
 
 #. module: web
 #. openerp-web
@@ -1314,7 +1311,7 @@ msgstr "Hiányzó rekord"
 #: code:addons/web/static/src/xml/base.xml:1285
 #, python-format
 msgid "Mobile support"
-msgstr "Mobiltámogatás"
+msgstr "Mobil támogatás"
 
 #. module: web
 #. openerp-web
@@ -1396,7 +1393,7 @@ msgstr "Új jelszó"
 #: code:addons/web/static/src/xml/base.xml:1284
 #, python-format
 msgid "New design"
-msgstr "Új arculat"
+msgstr "Új felépítés"
 
 #. module: web
 #. openerp-web
@@ -1495,7 +1492,7 @@ msgstr "Nincs elég adat pont."
 #: code:addons/web/static/src/xml/base.xml:744
 #, python-format
 msgid "Not shown in kanban"
-msgstr "Kanbannézetben nem jelenik meg"
+msgstr "Kanban nézetben nem látszik"
 
 #. module: web
 #. openerp-web
@@ -1616,7 +1613,7 @@ msgstr "Jelszó"
 #: code:addons/web/static/src/xml/base.xml:548
 #, python-format
 msgid "Pie Chart"
-msgstr "Tortadiagram"
+msgstr "Torta diagram"
 
 #. module: web
 #. openerp-web
@@ -1841,7 +1838,7 @@ msgstr "Keresés %(field)s erre: %(value)s"
 #: code:addons/web/static/src/js/views/form_common.js:212
 #, python-format
 msgid "Search More..."
-msgstr "Továbbiak keresése..."
+msgstr "Több keresése..."
 
 #. module: web
 #. openerp-web
@@ -2091,8 +2088,8 @@ msgid ""
 "The record has been modified, your changes will be discarded. Are you sure "
 "you want to leave this page ?"
 msgstr ""
-"A rekord módosításra került, a változtatások elvetésre fognak kerülni. "
-"Biztosan el akarja hagyni ezt az oldalt?"
+"A rekord módosítva lett, a változtatásai figyelmen kívűl lesznek hagyva. "
+"Biztos el akarja hagyni ezt az oldalt ?"
 
 #. module: web
 #. openerp-web
@@ -2198,7 +2195,7 @@ msgstr "Típus:"
 #: code:addons/web/static/src/js/views/list_view.js:290
 #, python-format
 msgid "Unarchive"
-msgstr "Visszatöltés"
+msgstr "Archiválásból visszatölt"
 
 #. module: web
 #. openerp-web
@@ -2286,7 +2283,7 @@ msgstr "Frissítés most"
 #: code:addons/web/static/src/xml/base.xml:1286
 #, python-format
 msgid "Upgrade to future versions"
-msgstr "Frissítés jövőbeli verziókra"
+msgstr "Jövőbeni verziókra frissítés"
 
 #. module: web
 #. openerp-web

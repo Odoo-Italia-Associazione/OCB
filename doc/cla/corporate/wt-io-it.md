@@ -13,4 +13,3 @@ Wolfgang Taferner wolfgang.taferner@wt-io-it.at https://github.com/wt-io-it
 List of contributors:
 
 Wolfgang Taferner wolfgang.taferner@wt-io-it.at https://github.com/wtaferner
-Andreas Perhab andreas.perhab@wt-io-it.at https://github.com/ap-wtioit

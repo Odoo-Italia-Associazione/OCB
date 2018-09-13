@@ -419,8 +419,6 @@ msgid ""
 "<strong>Having attended this course, participants should be able "
 "to:</strong>"
 msgstr ""
-"<strong>Ikastaro hau egin ondoren, parte-hartzaileek gai izan beharko "
-"lukete:</strong>"
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -447,7 +445,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "<strong>Requirements:</strong>"
-msgstr "<strong>Baldintzak:</strong>"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -607,21 +605,21 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Bootstrap CSS"
-msgstr "Bootstrap CSS"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Bring your own laptop."
-msgstr "Ekarri zeure ordenagailua. "
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Building a Full Application"
-msgstr "Aplikazio osoa eraikitzen"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -645,7 +643,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:event.view_event_registration_form
 #: model:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Cancel Registration"
-msgstr "Erregistroa baliogabetu "
+msgstr ""
 
 #. module: event
 #: selection:event.event,state:0 selection:event.registration,state:0
@@ -775,7 +773,7 @@ msgstr "Herrialdea"
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Course Summary"
-msgstr "Ikastaroaren laburpena "
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_config_settings_create_uid
@@ -821,21 +819,21 @@ msgstr "Kidearen emaila"
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Day 1"
-msgstr "1. eguna"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Day 2"
-msgstr "2. eguna "
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Day 3"
-msgstr "3. eguna "
+msgstr ""
 
 #. module: event
 #: selection:event.mail,interval_unit:0
@@ -867,7 +865,7 @@ msgstr "Deskribapena"
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Develop a new module for a particular application."
-msgstr "Modulu berri bat garatu aplikazio jakin batentzako."
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_config_settings_display_name
@@ -884,7 +882,7 @@ msgstr "Izena erakutsi"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_sequence
 msgid "Display order"
-msgstr "Eskaera erakutsi "
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -1024,7 +1022,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:event.view_event_registration_form
 #: model:ir.ui.view,arch_db:event.view_registration_search
 msgid "Event Registration"
-msgstr "Ekitaldien erregistroa"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_report_event_registration_user_id
@@ -1161,7 +1159,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Functions"
-msgstr "Funtzioak "
+msgstr ""
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_search
@@ -1180,7 +1178,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Hello World"
-msgstr "Kaixo mundua "
+msgstr ""
 
 #. module: event
 #: selection:event.mail,interval_unit:0
@@ -1261,7 +1259,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Integrated Help"
-msgstr "Laguntza integratua "
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_interval_nbr
@@ -1505,7 +1503,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Odoo Official Website"
-msgstr "Odoo webgune ofiziala "
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -1530,7 +1528,7 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_organizer_id
 msgid "Organizer"
-msgstr "Antolatzailea "
+msgstr ""
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_registration_search
@@ -1617,7 +1615,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:event.view_event_registration_pivot
 #: model:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Registration"
-msgstr "Erregistratzea "
+msgstr ""
 
 #. module: event
 #: model:ir.actions.report.xml,name:event.report_event_registration_badge
@@ -1711,7 +1709,7 @@ msgstr "Txostenak"
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Requirements"
-msgstr "Baldintzak "
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_seats_reserved
@@ -1851,7 +1849,7 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_config_settings_module_event_sale
 msgid "Tickets"
-msgstr "Tiketak "
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_date_tz
@@ -1863,7 +1861,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "To get more information, visit the"
-msgstr "Informazio gehiago lortzeko, bisitatu "
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:434
@@ -1892,7 +1890,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Training Center Module"
-msgstr "Prestakuntza zentroaren modulua "
+msgstr ""
 
 #. module: event
 #: selection:event.event,state:0 selection:event.registration,state:0
@@ -1917,7 +1915,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Understand the development concepts and architecture;"
-msgstr "Garapenaren kontzeptuak eta arkitektura ulertu;"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -1997,7 +1995,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "What you will learn?"
-msgstr "Zer da ikasiko duzuna? "
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_interval_type
@@ -2045,7 +2043,7 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "drinks and lunch;"
-msgstr "edariak eta bazkaria;"
+msgstr ""
 
 #. module: event
 #: model:ir.model,name:event.model_event_config_settings
@@ -2077,4 +2075,4 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "training material."
-msgstr "prestakuntza materiala. "
+msgstr ""

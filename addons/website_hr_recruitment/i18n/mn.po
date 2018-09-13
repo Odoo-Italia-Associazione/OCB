@@ -126,12 +126,12 @@ msgstr ""
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Company Growth:"
-msgstr "Компанийн өсөлт:"
+msgstr "Компаний Өсөлт:"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Company Maturity:"
-msgstr "Компанийн төлөвшил:"
+msgstr "Компаний Төлөвшил:"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.index
@@ -374,7 +374,7 @@ msgstr "Спорт Үйл ажиллагаа"
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Team / Company Size:"
-msgstr "Баг / Компанийн хэмжээ:"
+msgstr "Баг / Компаний Хэмжээ:"
 
 #. module: website_hr_recruitment
 #: model:ir.ui.view,arch_db:website_hr_recruitment.thankyou

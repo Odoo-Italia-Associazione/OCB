@@ -3,23 +3,22 @@
 # * pos_restaurant
 # 
 # Translators:
-# Martin Trigaux, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # ifaraz ir <ifarazir@gmail.com>, 2016
-# Hamid Darabi, 2016
-# Hamed Mohammadi <hamed@dehongi.com>, 2018
+# Hamid Darabi <hamid.darabi@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:26+0000\n"
 "PO-Revision-Date: 2017-06-23 13:26+0000\n"
-"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2018\n"
+"Last-Translator: Hamid Darabi <hamid.darabi@gmail.com>, 2016\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_background_image
@@ -90,7 +89,7 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:61
 #, python-format
 msgid "Back"
-msgstr "بازگشت"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_color
@@ -112,7 +111,7 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:31
 #, python-format
 msgid "Bill"
-msgstr "صورتحساب"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -465,7 +464,7 @@ msgstr ""
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
 msgid "Square"
-msgstr "مربع"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -484,7 +483,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_table_id
 msgid "Table"
-msgstr "میز"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_name
@@ -502,7 +501,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_table_ids
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Tables"
-msgstr "جداول"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web

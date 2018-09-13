@@ -988,7 +988,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>There are two ways of managing your Kanban stages:</strong>"
-msgstr "<strong>Zure kanban faseak kudeatzeko bi modu daude:</strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -996,8 +996,6 @@ msgid ""
 "<strong>To increase the efficiency of your Projects</strong>, you should "
 "have a look at some of our other apps:"
 msgstr ""
-"<strong>Proiektuen eraginkortasuna handitzeko</strong>, gure beste "
-"aplikazioetako batzuk begiratu beharko dituzu:"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1023,12 +1021,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>What Activities</strong> would you like to manage?"
-msgstr "<strong>Zer jarduera</strong> kudeatu nahi dituzu?"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>What do you expect</strong> from using Odoo Project?"
-msgstr "<strong>Zer espero duzu</strong> Odoo proiektua erabiltzeaz? "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1085,19 +1083,19 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Accept Emails From"
-msgstr "Onartu epostak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Account Preferences"
-msgstr "Kontuaren lehentasunak "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:38
 #, python-format
 msgid "Action has a clear description"
-msgstr "Ekintzak deskribapen argi bat du"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1109,7 +1107,7 @@ msgstr ""
 #. module: project
 #: model:ir.actions.server,name:project.activate_sample_project
 msgid "Activate Sample Project"
-msgstr "Aktibatu probako proiektua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_active
@@ -1120,12 +1118,12 @@ msgstr "Gaituta"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Activities"
-msgstr "Jarduerak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
 msgid "Add a description..."
-msgstr "Deskripzioa gehitu... "
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1139,7 +1137,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Add/remove from favorite"
-msgstr "Gogokoenetatik gehitu/kendu"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1166,17 +1164,17 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model
 msgid "Alias Model"
-msgstr "Alias eredua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_name
 msgid "Alias Name"
-msgstr "Alias izena "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_domain
 msgid "Alias domain"
-msgstr "Alias domeinua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model_id
@@ -1239,34 +1237,34 @@ msgstr "Artxibatua"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_start
 msgid "Assignation Date"
-msgstr "Egokitutako data "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Assignation Month"
-msgstr "Egokitutako hilabetea "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.act_res_users_2_project_task_opened
 msgid "Assigned Tasks"
-msgstr "Egokitutako zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_user_id
 msgid "Assigned To"
-msgstr "Nori egokitua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_user_id
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Assigned to"
-msgstr "Nori egokitua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_assign
 msgid "Assigning Date"
-msgstr "Egokitutako data"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -1290,7 +1288,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_attachment_ids
 #, python-format
 msgid "Attachments"
-msgstr "Eranskinak "
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,generate_project_alias:0
@@ -1300,7 +1298,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Available on the Apple Store"
-msgstr "Apple dendan eskuragarri "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1331,7 +1329,7 @@ msgstr "Oinarrizkoa"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Basic Management"
-msgstr "Oinarrizko kudeaketa "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1344,7 +1342,7 @@ msgstr ""
 #: selection:project.task,kanban_state:0
 #: selection:report.project.task.user,state:0
 msgid "Blocked"
-msgstr "Blokeatuta "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1375,7 +1373,7 @@ msgstr ""
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_responsible
 msgid "By Responsible"
-msgstr "Arduratsua izan "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -1395,7 +1393,7 @@ msgstr "Ezeztatua"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Change their Stages in the Project Stages tab"
-msgstr "Aldatu faseak Proiektuaren faseen fitxan"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_account_analytic_account_use_tasks
@@ -1415,21 +1413,21 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Choose a Project Email"
-msgstr "Proiektuaren eposta aukeratu "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:54
 #, python-format
 msgid "Clear description and purpose"
-msgstr "Deskribapen eta helburu garbia "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
-msgstr "Egin klik txartel batean, zereginen xehetasunak lortzeko."
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1438,20 +1436,18 @@ msgstr "Egin klik txartel batean, zereginen xehetasunak lortzeko."
 msgid ""
 "Click on the card to <b>go to your project</b> and start organizing tasks."
 msgstr ""
-"Egin klik txartel batean <b>zure proiektura joateko</b> eta zereginak "
-"antolatzeko."
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:67
 #, python-format
 msgid "Click on this button to modify the task."
-msgstr "Egin klik botoi honetan zeregina aldatzeko. "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.project_tags_action
 msgid "Click to add a new tag."
-msgstr "Egin klik zeregin berri bat gehitzeko. "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
@@ -1461,7 +1457,7 @@ msgstr ""
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all
 msgid "Click to create a new project.<br>"
-msgstr "Egin klik proiektu berri bat sortzeko.<br>"
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,module_pad:0
@@ -1478,7 +1474,7 @@ msgstr "Koloreen indizea"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Communication campaign"
-msgstr "Komunikazio kanpaina "
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_res_company
@@ -1499,7 +1495,7 @@ msgstr "Enpresa"
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_company_uom_id
 #: model:ir.model.fields,field_description:project.field_project_project_company_uom_id
 msgid "Company UOM"
-msgstr "Konpainia UOM"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_config
@@ -1517,7 +1513,7 @@ msgstr "Konfigurazio aukerak eskuragarri daude Ezapenen atalean."
 #. module: project
 #: model:ir.actions.act_window,name:project.action_config_settings
 msgid "Configure Project"
-msgstr "Konfiguratu proiektua "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1529,12 +1525,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Congratulations, you're done !"
-msgstr "Zorionak, amaitu duzu!"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Consulting mission"
-msgstr "Aholkularitza misioa "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_partner_id
@@ -1546,12 +1542,12 @@ msgstr "Kontaktua"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_analytic_account_id
 msgid "Contract/Analytic"
-msgstr "Kontratua/Analitikoa "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Control projects quality and satisfaction"
-msgstr "Kontrolatu proiektuen kalitatea eta asebetetzea"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1568,17 +1564,17 @@ msgstr "Sortu"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Create a Gantt chart with your projects tasks and deadlines"
-msgstr "Sortu Gantt diagrama zure proiektuen zereginekin eta epeekin"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_create_project
 msgid "Create a Project"
-msgstr "Proiektua sortu "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all_config
 msgid "Create a new project."
-msgstr "Proiektu berri bat sortu."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1590,7 +1586,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Create at least 3 tasks"
-msgstr "Sortu gutxienez 3 zeregin"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1605,7 +1601,7 @@ msgstr "Sortze data"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Create the Projects"
-msgstr "Proiektuak sortu "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_create_uid
@@ -1674,45 +1670,45 @@ msgstr "Kidearen emaila"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customer Service"
-msgstr "Bezeroaren Zerbitzua"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Customer feedback has been requested"
-msgstr "Bezeroaren iritzia eskatu da"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Customer has cancelled repair"
-msgstr "Bezeroak konponketa bertan behera utzi du"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer has reported new issue"
-msgstr "Bezeroaren zerbitzuak arazo berri bati buruz informatu du"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #, python-format
 msgid "Customer service has found new issue"
-msgstr "Bezeroaren zerbitzuak arazo berri bat aurkitu du"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customer support tickets"
-msgstr "Bezeroentzako laguntza txartelak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customization"
-msgstr "Pertsonalizazioa "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_projects
@@ -1723,7 +1719,7 @@ msgstr "Arbela"
 #: model:ir.model.fields,field_description:project.field_project_task_date_deadline
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_deadline
 msgid "Deadline"
-msgstr "Epemuga "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_debit
@@ -1733,7 +1729,7 @@ msgstr "Zor"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_defaults
 msgid "Default Values"
-msgstr "Balio lehenetsiak "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
@@ -1781,12 +1777,12 @@ msgstr "Deskribapena"
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Development"
-msgstr "Garapen "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Development Process"
-msgstr "Garapen prozesua "
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1809,21 +1805,21 @@ msgstr "Izena erakutsi"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_displayed_image_id
 msgid "Displayed Image"
-msgstr "Erakutsitako irudia "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Distribute"
-msgstr "Banatu "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Distribution is completed"
-msgstr "Banaketa bukatu da "
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,generate_project_alias:0
@@ -1865,7 +1861,6 @@ msgstr "Ez izan zalantzarik"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Don't hesitate to select only the events you are interested in!"
 msgstr ""
-"Ez izan zalantzarik interesatzen zaizkizun gertaerak bakarrik hautatzeko!"
 
 #. module: project
 #. openerp-web
@@ -1895,17 +1890,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Edit Task"
-msgstr "Editatu zeregina"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Email Alias"
-msgstr "Eposta ezizena "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_mail_template_id
 msgid "Email Template"
-msgstr "Eposta txantiloia "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1921,22 +1916,18 @@ msgstr "Amaiera"
 #: model:ir.model.fields,field_description:project.field_project_task_date_end
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_end
 msgid "Ending Date"
-msgstr "Bukaera data "
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:418
 #, python-format
 msgid "Error ! Task starting date must be lower than its ending date."
 msgstr ""
-"Errorea! Zereginaren hasierako data amaierako data baino txikiagoa izan "
-"behar da."
 
 #. module: project
 #: sql_constraint:project.project:0
 msgid "Error! project start-date must be lower than project end-date."
 msgstr ""
-"Errorea! proiektuaren hasierako data amaierako data baino txikiagoa izan "
-"behar da."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_planned_hours
@@ -1969,7 +1960,7 @@ msgstr "Adibideak"
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Expert advice has been requested"
-msgstr "Adituen aholkularitza eskatu da"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_date
@@ -1996,14 +1987,14 @@ msgstr "Informazio gehigarria"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Extra useful for when you're with a customer or in a meeting."
-msgstr "Oso erabilgarria da bezeroarekin edo bilera batean zaudenean."
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Feedback from customer requested"
-msgstr "Eskatutako bezeroaren iritzia"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2027,12 +2018,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Followed by Me"
-msgstr "Jarraitzen ditudanak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "For employees, the"
-msgstr "Langileentzako "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2054,23 +2045,21 @@ msgid ""
 "For the same reason, don't create a Project based on weeks or time (example:"
 " Scrum)."
 msgstr ""
-"Arrazoi beragatik, ez ezazu astetan oinarritutako proiektua sortu (adibidez:"
-" Scrum)."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
 msgid "Forecasts"
-msgstr "Iragarpenak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_project_forecast
 msgid "Forecasts, planning and Gantt charts"
-msgstr "Iragarpenak, planifikazioa eta Gantt diagramak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_tasks_config
 msgid "GTD"
-msgstr "GTD"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2080,17 +2069,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get full synchronization with Odoo"
-msgstr "Lortu sinkronizazio osoa Odoo-rekin"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get it on Google Play"
-msgstr "Google Play-en lortu "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get more apps"
-msgstr "App gehiago lortu "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_label_tasks
@@ -2120,20 +2109,18 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Good luck!"
-msgstr "Zorte on! "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Green: the Task is ready for next stage (the job for this stage is complete)"
 msgstr ""
-"Berdea: zeregina prest dago hurrengo faserako (lana etapa honetarako osatuta"
-" dago)"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Grey: the Task is in progress (someone is working on it)"
-msgstr "Grisa: zeregina prozesuan dago (norbait lanean ari da)"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
@@ -2145,12 +2132,12 @@ msgstr "Taldekatu"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Here are some of the <strong>available customizations</strong>"
-msgstr "Hona hemen eskuragarri dauden <strong>pertsonalizazio batzuk</strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.act_project_project_2_project_task_all
 msgid "Here, you can create new tasks"
-msgstr "Hemen, zeregin berriak sor ditzakezu"
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -2173,7 +2160,7 @@ msgstr ""
 #: code:addons/project/models/project.py:567
 #, python-format
 msgid "I take it"
-msgstr "Hartu dut"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_id
@@ -2197,32 +2184,31 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea has been transformed into concrete actions"
-msgstr "Ideia ekintza zehatz batean bihurtu da"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:102
 #, python-format
 msgid "Idea is fully explained"
-msgstr "Ideia erabat azalduta dago"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Ideally, a person should only be responsible for one project."
 msgstr ""
-"Egokiena, pertsona batek proiektu bakar baten ardura izatea izango litzake. "
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:95
 #, python-format
 msgid "Ideas"
-msgstr "Ideiak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Identify problems and blocking points more easily"
-msgstr "Identifikatu arazoak eta blokeatu puntuak errazago"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type_mail_template_id
@@ -2230,8 +2216,6 @@ msgid ""
 "If set an email will be sent to the customer when the task or issue reaches "
 "this step."
 msgstr ""
-"Posta elektronikoa bezeroari bidaliko zaio, zeregina edo arazoa urrats "
-"honetara iristen denean."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_active
@@ -2239,14 +2223,13 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the project "
 "without removing it."
 msgstr ""
-"Eremu aktiboa faltsua bada, proiektua ezkutatzen lagako dizu ezabatu gabe."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "If you don't want to receive email notifications, you can uncheck the option"
 " in your"
-msgstr "Eposta jakinarazpenak jaso nahi ez badituzu, desautatu aukera zure"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2266,17 +2249,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Implement"
-msgstr "Inplementatu "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Improve"
-msgstr "Hobetu"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Improve collaboration with customers"
-msgstr "Bezeroekin lankidetza hobetu "
+msgstr ""
 
 #. module: project
 #: selection:project.task,kanban_state:0
@@ -2292,19 +2275,19 @@ msgstr "Lanean"
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "In progress"
-msgstr "Prozesuan "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:79
 #, python-format
 msgid "Incoming"
-msgstr "Sarrerako "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Incoming Emails create"
-msgstr "Sarrerako epostak sortu "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_planned_hours
@@ -2329,7 +2312,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Issue Tracking app."
-msgstr "Arazoen jarraipenerako aplikazioa."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_tags_search_view
@@ -2341,24 +2324,24 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Issue is being worked on"
-msgstr "Arazoa lantzen ari da "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Issue is resolved"
-msgstr "Arazoa konpondu da "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Issues"
-msgstr "Arazoak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Issues analysis"
-msgstr "Arazoen analisiak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2389,7 +2372,6 @@ msgstr ""
 msgid ""
 "It's for logging every change, event or message related to the Document."
 msgstr ""
-"Dokumentuarekin loturiko aldaketak, gertaerak edo mezuak erregistratzeko da."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2414,18 +2396,18 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Kanban Stage"
-msgstr "Kanban etapa"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Kanban Stages"
-msgstr "Kanban etapak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_kanban_state
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_state
 msgid "Kanban State"
-msgstr "Kanban egoera "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_legend_done
@@ -2436,17 +2418,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Keep track of messages and conversations"
-msgstr "Mantendu mezuen eta elkarrizketen jarraipena"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Know what my employees are working on"
-msgstr "Ezagutu nire langileek zer lan egiten duten"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Last Message"
-msgstr "Azken mezua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings___last_update
@@ -2462,7 +2444,7 @@ msgstr "Azken aldaketa"
 #: model:ir.model.fields,field_description:project.field_project_task_date_last_stage_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_last_stage_update
 msgid "Last Stage Update"
-msgstr "Eguneratzearen azkeneko etapa "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_write_uid
@@ -2493,7 +2475,7 @@ msgstr ""
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
-msgstr "Sortu zure lehenengo proiektua."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_config_settings_module_pad
@@ -2513,7 +2495,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "List, plan and track things to do"
-msgstr "Zerrendatu, antolatu eta jarraitu egin beharreko gauzak"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,priority:0
@@ -2552,17 +2534,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Marketing Department"
-msgstr "Marketing departamentua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_favorite_user_ids
 msgid "Members"
-msgstr "Kideak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr "Gehiago <i class=\"fa fa-caret-down\"/>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -2572,17 +2554,17 @@ msgstr "Informazio gehiago"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "More efficient communication between employees"
-msgstr "Langileen arteko komunikazio eraginkorragoa"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "My Favorites"
-msgstr "Nire gogokoenak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "My Tasks"
-msgstr "Nire zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_tags_name
@@ -2605,7 +2587,7 @@ msgstr "Izena"
 #: model:project.task,legend_blocked:project.project_task_7
 #: model:project.task.type,legend_blocked:project.project_stage_1
 msgid "Need functional or technical help"
-msgstr "Laguntza funtzionala edo teknikoa behar du"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2621,19 +2603,19 @@ msgstr "Berria"
 #: code:addons/project/models/project.py:571
 #, python-format
 msgid "New Task"
-msgstr "Zeregin berria "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:86
 #, python-format
 msgid "New repair added"
-msgstr "Konponketa berria gehituta "
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,module_rating_project:0
 msgid "No customer rating"
-msgstr "Ez dago bezeroen baloraziorik "
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -2650,7 +2632,7 @@ msgstr "Arrunta"
 #: model:project.task,legend_blocked:project.project_task_9
 #: model:project.task.type,legend_blocked:project.project_stage_0
 msgid "Not validated"
-msgstr "Ez balidatua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_notes
@@ -2660,34 +2642,34 @@ msgstr "Oharrak"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Notifications"
-msgstr "Jakinarazpenak "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
-msgstr "Proiektua konfiguratuta dagoenez, <b>sortu zeregin batzuk</b>."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_report_project_task_user_opening_days
 msgid "Number of Days to Open the task"
-msgstr "Zeregina irekitzeko egun kopurua"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_report_project_task_user_closing_days
 msgid "Number of Days to close the task"
-msgstr "Zeregina ixteko egun kopurua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_doc_count
 msgid "Number of documents attached"
-msgstr "Erantsitako dokumentu kopurua "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Objectives"
-msgstr "Helburuak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2716,7 +2698,7 @@ msgstr ""
 #: selection:project.project,privacy_visibility:0
 #, python-format
 msgid "On invitation only"
-msgstr "Gonbidatutakoak bakarrik "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2748,7 +2730,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Organize meetings"
-msgstr "Bilerak antolatu "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all_config
@@ -2766,7 +2748,7 @@ msgstr ""
 #. module: project
 #: model:ir.actions.act_window,name:project.action_view_task_overpassed_draft
 msgid "Overpassed Tasks"
-msgstr "Egindako zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_legend_blocked
@@ -2828,7 +2810,7 @@ msgstr "Kidea"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Plan your activities for the day"
-msgstr "Antolatu zure eguneko jarduerak "
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_web_planner
@@ -2855,7 +2837,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Prepare"
-msgstr "Prestatu "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_priority
@@ -2866,7 +2848,7 @@ msgstr "Lehenetsi"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_priority
 msgid "Priority Management Explanation"
-msgstr "Lehentasunezko kudeaketa azalpena"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_privacy_visibility
@@ -2876,7 +2858,7 @@ msgstr "Pribatutasuna"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Product or software version"
-msgstr "Produktu edo software bertsioa"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_project
@@ -2894,13 +2876,13 @@ msgstr "Proiektu"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_generate_project_alias
 msgid "Project Alias"
-msgstr "Proiektuaren ezizena "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_project_count
 #: model:ir.model.fields,field_description:project.field_project_project_project_count
 msgid "Project Count"
-msgstr "Proiektu kontua "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -2914,7 +2896,7 @@ msgstr "Proiektu kudeaketa"
 #: model:ir.ui.view,arch_db:project.view_project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Project Manager"
-msgstr "Proiektu kudeatzailea "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -2922,17 +2904,17 @@ msgstr "Proiektu kudeatzailea "
 #: model:ir.ui.view,arch_db:project.view_project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Project Name"
-msgstr "Proiektu izena "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Project Settings"
-msgstr "Proiektu ezarpenak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Project Settings."
-msgstr "Proiektu ezarpenak. "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_task_graph
@@ -2948,7 +2930,7 @@ msgstr ""
 #. module: project
 #: model:res.request.link,name:project.req_link_task
 msgid "Project task"
-msgstr "Proiektu zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.dblc_proj
@@ -2966,17 +2948,17 @@ msgstr "Proiektuaren atazak"
 #: model:ir.ui.view,arch_db:project.project_planner
 #: model:ir.ui.view,arch_db:project.view_project
 msgid "Projects"
-msgstr "Proiektuak "
+msgstr ""
 
 #. module: project
 #: model:mail.channel,name:project.mail_channel_project_task
 msgid "Projects & Tasks"
-msgstr "Proiektuak eta zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_rating_project
 msgid "Rating on task"
-msgstr "Zereginaren balorazioa"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2989,35 +2971,35 @@ msgstr ""
 #: selection:project.task,kanban_state:0
 #: selection:report.project.task.user,state:0
 msgid "Ready for next stage"
-msgstr "Hurrengo faserako prest"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Ready for release"
-msgstr "Argitaratzeko prest "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Ready for testing"
-msgstr "Probak egiteko prest"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready to be displayed, published or sent"
-msgstr "Bistaratzeko, argitaratzeko edo bidaltzeko prest"
+msgstr ""
 
 #. module: project
 #: model:project.task,legend_done:project.project_task_16
 #: model:project.task,legend_done:project.project_task_19
 #: model:project.task.type,legend_done:project.project_stage_3
 msgid "Ready to reopen"
-msgstr "Berriro irekitzeko prest "
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3025,7 +3007,7 @@ msgstr "Berriro irekitzeko prest "
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Reason for cancellation has been documented"
-msgstr "Baliogabetzeko arrazoia dokumentatu da"
+msgstr ""
 
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_project_task
@@ -3040,7 +3022,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Red: the Task is blocked (there's a problem)"
-msgstr "Gorria: zeregina blokeatuta dago (arazo bat dago)"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
@@ -3052,38 +3034,38 @@ msgstr "Erreferentzia"
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Release"
-msgstr "Argitaratu "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_remaining_hours
 msgid "Remaining Hours"
-msgstr "Gainerako orduak "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project.js:48
 #, python-format
 msgid "Remove Cover Image"
-msgstr "Kendu azaleko irudia "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Repair Workshop"
-msgstr "Konponketa tailerra "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "Repair has started"
-msgstr "Konponketa hasi da "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Repair is completed"
-msgstr "Konponketa bukatu da "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3100,27 +3082,27 @@ msgstr "Txostenak"
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Request for parts has been sent"
-msgstr "Atalen eskaera bidali egin da "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Responsibilities"
-msgstr "Ardurak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Responsibility"
-msgstr "Ardura "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Runs outside Odoo, always available"
-msgstr "Odoo-tik kanpo exekutatzen da, beti eskuragarri"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Scrum Methodology"
-msgstr "Scrum metodologia "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_management
@@ -3130,21 +3112,19 @@ msgstr "Bilatu"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Search Project"
-msgstr "Bilatu proiektua "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project.js:46
 #, python-format
 msgid "Select"
-msgstr "Aukeratu "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Send an alert when a task is stuck in red for more than a few days"
 msgstr ""
-"Bidali alerta zeregin bat gorriz blokeatuta dagoenean egun batzuk baino "
-"gehiagotan"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3168,14 +3148,14 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Set Cover Image"
-msgstr "Ezarri azaleko irudia "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project.js:45
 #, python-format
 msgid "Set a Cover Image"
-msgstr "Ezarri azaleko irudia "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_general_settings
@@ -3187,17 +3167,17 @@ msgstr "Ezarpenak"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Severity"
-msgstr "Larritasuna "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Share files and manage versions"
-msgstr "Partekatu fitxategiak eta bertsioak kudeatu"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_is_favorite
 msgid "Show Project on dashboard"
-msgstr "Erakutsi proiektua panelean"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3209,28 +3189,28 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Software development"
-msgstr "Software garapena "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:15
 #, python-format
 msgid "Specification"
-msgstr "Zehaztapena "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification is validated"
-msgstr "Espezifikazioa balidatu da "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:22
 #, python-format
 msgid "Specification of task is written"
-msgstr "Zereginaren zehaztapena idatzita dago"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3245,38 +3225,38 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Stage"
-msgstr "Etapa"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_task_stage
 msgid "Stage Changed"
-msgstr "Etapa aldatua "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
 msgid "Stage Description and Tooltips"
-msgstr "Etaparen deskribapena eta argibideak"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_name
 msgid "Stage Name"
-msgstr "Etaparen izena "
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_stage
 msgid "Stage changed"
-msgstr "Etapa aldatua "
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_task_type_form
 #: model:ir.ui.menu,name:project.menu_project_config_project
 msgid "Stages"
-msgstr "Etapak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Start / Stop a timer in one click"
-msgstr "Tenporizadorea hasi / gelditu klik bakarrarekin"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_date_start
@@ -3286,7 +3266,7 @@ msgstr "Hasiera Data"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_start
 msgid "Starting Date"
-msgstr "Hasiera data"
+msgstr ""
 
 #. module: project
 #: sql_constraint:project.tags:0
@@ -3305,7 +3285,7 @@ msgstr "Etiketak"
 #. module: project
 #: model:ir.model,name:project.model_project_tags
 msgid "Tags of project's tasks, issues..."
-msgstr "Proiektu zereginen etiketak, arazoak... "
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
@@ -3318,19 +3298,19 @@ msgstr "Ataza"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_tasks
 msgid "Task Activities"
-msgstr "Zereginaren jarduerak "
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_blocked
 #: model:mail.message.subtype,name:project.mt_task_blocked
 msgid "Task Blocked"
-msgstr "Zeregina blokeatuta "
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_new
 #: model:mail.message.subtype,name:project.mt_task_new
 msgid "Task Opened"
-msgstr "Zeregin irekia "
+msgstr ""
 
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_task_pipe
@@ -3341,71 +3321,71 @@ msgstr ""
 #: model:mail.message.subtype,name:project.mt_project_task_ready
 #: model:mail.message.subtype,name:project.mt_task_ready
 msgid "Task Ready"
-msgstr "Zeregina prest "
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_type
 #: model:ir.ui.view,arch_db:project.task_type_edit
 #: model:ir.ui.view,arch_db:project.task_type_tree
 msgid "Task Stage"
-msgstr "Zereginaren etapa"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_stage
 msgid "Task Stage Changed"
-msgstr "Zereginaren etapa aldatua "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_name
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_name
 msgid "Task Title"
-msgstr "Zereginaren titulua "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Task Title..."
-msgstr "Zereginaren titulua..."
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_blocked
 msgid "Task blocked"
-msgstr "Zeregina blokeatuta "
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,module_pad:0
 msgid "Task description is plain text"
-msgstr "Zereginaren deskribapena testu arrunta da"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Task is Developed"
-msgstr "Zeregina garatu da "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Task is completed"
-msgstr "Zeregina bukatu da "
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is tested"
-msgstr "Zeregina probatu da "
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_new
 msgid "Task opened"
-msgstr "Zeregina irekita "
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_ready
 msgid "Task ready for Next Stage"
-msgstr "Zeregina hurrengo etaparako prest"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.act_project_project_2_project_task_all
@@ -3439,29 +3419,28 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_project_user_pivot
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Tasks Analysis"
-msgstr "Zereginen analisia "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_type_ids
 #: model:ir.ui.view,arch_db:project.task_type_search
 msgid "Tasks Stages"
-msgstr "Zereginen etapak"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Tasks analysis"
-msgstr "Zereginen analisia "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Tasks are the main mechanism in Odoo and are activated by default."
 msgstr ""
-"Zereginak Odoo-ren mekanismo nagusiak dira eta lehenetsita aktibatzen dira."
 
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr "Zereginak erabiltzaileka eta proiektuka"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3475,14 +3454,14 @@ msgstr "Proba"
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Test is OK, need to document"
-msgstr "Proba ondo dago, dokumentatu beharra dago"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Testing"
-msgstr "Probak egiten"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3530,7 +3509,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "The same features as the Chrome extension, but on your mobile phone!"
 msgstr ""
-"Chrome luzapenaren ezaugarri berberak, baina zure telefono mugikorrean!"
 
 #. module: project
 #. openerp-web
@@ -3545,8 +3523,6 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_config_settings_module_rating_project
 msgid "This allows customers to give rating on provided services"
 msgstr ""
-"Horrek aukera ematen die bezeroei emandako zerbitzuei buruzko balorazioa "
-"emateko"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3602,12 +3578,12 @@ msgstr ""
 #. module: project
 #: model:res.groups,name:project.group_time_work_estimation_tasks
 msgid "Time Estimation on Tasks"
-msgstr "Zereginen denbora estimazioa "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Time Scheduling"
-msgstr "Denbora programatzen"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_company_project_time_mode_id
@@ -3626,7 +3602,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Timesheets can be used for several purposes:"
-msgstr "Denbora orriak hainbat helburuetarako erabili daitezke:"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3652,8 +3628,6 @@ msgid ""
 "To configure these Kanban Statuses, go to the 'Project Stages' tab of a "
 "Project."
 msgstr ""
-"Kanban egoera horiek konfiguratzeko, joan 'Proiektuen etapak' Proiektu "
-"etiketara."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3677,7 +3651,7 @@ msgstr ""
 #. module: project
 #: selection:project.config.settings,module_rating_project:0
 msgid "Track customer satisfaction on tasks"
-msgstr "Jarraitu bezeroen gogobetetzea zereginetan"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
@@ -3695,12 +3669,12 @@ msgstr "Irakurri gabeko mezuak"
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_use_tasks
 #: model:ir.model.fields,field_description:project.field_project_project_use_tasks
 msgid "Use Tasks"
-msgstr "Erabili zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_label_tasks
 msgid "Use Tasks as"
-msgstr "Erabili zereginak "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3713,8 +3687,6 @@ msgid ""
 "Use separate meetings to solve big issues or issues that aren’t important "
 "for the entire team."
 msgstr ""
-"Erabili bilera banatuak arazo nagusiak edo talde osoarentzat garrantzitsuak "
-"ez diren gaiak konpontzeko."
 
 #. module: project
 #. openerp-web
@@ -3724,8 +3696,6 @@ msgid ""
 "Use the <b>implementation guide</b> to setup Project Management in your "
 "company."
 msgstr ""
-"Erabili <b>inplementazio gida</b> konpainiaren Proiektuen kudeaketa "
-"konfiguratzeko."
 
 #. module: project
 #. openerp-web
@@ -3747,7 +3717,7 @@ msgstr "Erabiltzailea"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_user_email
 msgid "User Email"
-msgstr "Erabiltzailearen eposta "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3763,17 +3733,17 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Validation"
-msgstr "Balidazioa "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "View statistics (time spent, efficiency, etc.)"
-msgstr "Ikusi estatistikak (gastatutako denbora, eraginkortasuna, etab.)"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "View statistics for the week"
-msgstr "Ikusi asteko estatistikak "
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:204
@@ -3795,7 +3765,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:81
 #, python-format
 msgid "Wait. Customer"
-msgstr "Itxaron. Bezeroa"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3803,7 +3773,7 @@ msgstr "Itxaron. Bezeroa"
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
 msgid "Wait. Expert"
-msgstr "Itxaron. Aditua "
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3812,21 +3782,16 @@ msgstr "Itxaron. Aditua "
 msgid ""
 "Want a better way to <b>manage your projects</b>? <i>It starts here.</i>"
 msgstr ""
-"<b>Zure proiektuak kudeatzeko</b> modu hobea nahi duzu? <i>Hemen hasten "
-"da.</i>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "We can add fields related to your business on any screen, for example:"
 msgstr ""
-"Zure negozioarekin lotutako eremuak edozein pantailatan gehitu ditzakegu, "
-"adibidez:"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "We can automate steps in your workflow, for example:"
 msgstr ""
-"Zure laneko fluxuetan urratsak automatizatu ahal izango ditugu, adibidez:"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3896,12 +3861,12 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Work has started"
-msgstr "Lana hasi da"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_resource_calendar_id
 msgid "Working Time"
-msgstr "Lan ordua "
+msgstr ""
 
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_workload

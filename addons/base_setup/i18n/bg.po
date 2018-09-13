@@ -3,18 +3,16 @@
 # * base_setup
 # 
 # Translators:
-# kalatchev, 2016
+# kalatchev <kalatchev@gmail.com>, 2016
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2016
-# Martin Trigaux, 2016
-# Boris Stefanov <borkata@gmail.com>, 2018
-# Maria Boyadjieva <marabo2000@gmail.com>, 2018
+# Martin Trigaux <mat@odoo.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-19 12:35+0000\n"
 "PO-Revision-Date: 2016-09-19 12:35+0000\n"
-"Last-Translator: Maria Boyadjieva <marabo2000@gmail.com>, 2018\n"
+"Last-Translator: Martin Trigaux <mat@odoo.com>, 2016\n"
 "Language-Team: Bulgarian (https://www.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +31,6 @@ msgid ""
 "<span>(*) This configuration is related to the company you're logged "
 "into.</span>"
 msgstr ""
-"(*) Тази конфигурация се отнася до компанията, в която сте регистрирани. "
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_portal
@@ -48,7 +45,7 @@ msgstr "Разреши споделяне на документи"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_group_multi_currency
 msgid "Allow multi currencies"
-msgstr "Разрешете мулти-валути"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_google_calendar
@@ -64,7 +61,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_group_multi_currency
 msgid "Allows to work in a multi currency environment"
-msgstr "Разрешава да се работи в среда на мулти-валути"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
@@ -92,8 +89,6 @@ msgid ""
 "Check this to define the report footer manually. Otherwise it will be filled"
 " in automatically."
 msgstr ""
-"Отметнете това, за да определите долния колонтитул на отчета ръчно. В "
-"противен случай той ще бъде попълнен автоматично."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_company_id
@@ -154,7 +149,7 @@ msgstr ""
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_rml_footer
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_rml_footer_readonly
 msgid "Footer text displayed at the bottom of all reports."
-msgstr "Текст в долния колонтитул, показан в долната част на всички отчети."
+msgstr ""
 
 #. module: base_setup
 #: model:ir.actions.act_window,name:base_setup.action_general_configuration
@@ -258,7 +253,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Preview RML Report"
-msgstr "Прегледайте RML отчета"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_rml_header
@@ -283,7 +278,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.view_general_configuration
 msgid "Report Configuration"
-msgstr "Конфигурация на Отчет"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_rml_footer_readonly
@@ -296,8 +291,6 @@ msgid ""
 "Set the font into the report header, it will be used as default font in the "
 "RML reports of the user company"
 msgstr ""
-"Настройте шрифта в горния колонтитул на отчета, той ще се използва като "
-"шрифт по подразбиране в RML отчетите на компанията на потребителя"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_base_config_settings_module_share

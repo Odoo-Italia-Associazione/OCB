@@ -4,19 +4,18 @@
 # 
 # Translators:
 # lam nguyen <lamev.inc@gmail.com>, 2016
-# Martin Trigaux, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # fanha99 <fanha99@hotmail.com>, 2016
 # Hoang Loc Le Huu <loclhh@gmail.com>, 2016
 # son dang <son.dang@doda100.com>, 2016
 # Phạm Lân <phamquanglan@gmail.com>, 2016
-# Duy BQ <duybq86@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:56+0000\n"
 "PO-Revision-Date: 2016-09-07 08:56+0000\n"
-"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
+"Last-Translator: Phạm Lân <phamquanglan@gmail.com>, 2016\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +47,7 @@ msgstr "%s (bản sao)"
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
 msgid "<b>Category:</b>"
-msgstr "<b>Nhóm:</b>"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.project_issue_kanban_view
@@ -145,7 +144,7 @@ msgstr "Bị phong tỏa"
 #: model:project.issue,legend_done:project_issue.crm_case_patcheserrorinprogram0
 #: model:project.issue,legend_done:project_issue.crm_case_programnotgivingproperoutput0
 msgid "Buzz or set as done"
-msgstr "Buzz hoặc đặt là hoàn tất"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.filters,name:project_issue.filter_issue_report_responsible
@@ -364,7 +363,7 @@ msgstr "Cao"
 #: code:addons/project_issue/models/project_issue.py:271
 #, python-format
 msgid "I take it"
-msgstr "Tôi nhận nó"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_id
@@ -457,12 +456,12 @@ msgstr "Phân tích phát sinh"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_blocked
 msgid "Kanban Blocked Explanation"
-msgstr "Giải thích về Phong toả ở Kanban"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_normal
 msgid "Kanban Ongoing Explanation"
-msgstr "Kanban Đang thực hiện Giải thích"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_kanban_state
@@ -472,7 +471,7 @@ msgstr "Kanban State"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_done
 msgid "Kanban Valid Explanation"
-msgstr "Giải thích hợp lệ của Kanban"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_action_last
@@ -527,7 +526,7 @@ msgstr "Phát sinh của tôi"
 #: model:project.issue,legend_blocked:project_issue.crm_case_patcheserrorinprogram0
 #: model:project.issue,legend_blocked:project_issue.crm_case_programnotgivingproperoutput0
 msgid "Need functional or technical help"
-msgstr "Cần trợ giúp về tính năng hoặc kỹ thuật"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_filter
@@ -568,7 +567,7 @@ msgstr "Thông thường"
 #: model:project.issue,legend_blocked:project_issue.crm_case_problemloadingpage0
 #: model:project.issue,legend_blocked:project_issue.crm_case_programmingerror0
 msgid "Not validated"
-msgstr "Chưa Thẩm định"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_report_delay_close
@@ -586,8 +585,6 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ghi đè giá trị mặc định được hiển thị cho trạng thái phong toả trên menu lựa"
-" chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn đó."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_done
@@ -595,9 +592,6 @@ msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ghi đè giá trị mặc định được hiển thị cho trạng thái hoàn thành trên menu "
-"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn "
-"đó."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_normal
@@ -605,9 +599,6 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Ghi đè giá trị mặc định được hiển thị cho trạng thái bình thường trên menu "
-"lựa chọn (selection) ở kanban, khi một nhiệm vụ hoặc phát sinh ở giai đoạn "
-"đó."
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_res_partner
@@ -679,7 +670,7 @@ msgstr "Sẵn sàng cho giai đoạn tiếp theo"
 #. module: project_issue
 #: model:project.issue,legend_done:project_issue.crm_case_logicalerrorinprogram0
 msgid "Ready to reopen"
-msgstr "Sẵn sàng Mở lại"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.ui.view,arch_db:project_issue.view_project_issue_report_filter
@@ -737,8 +728,6 @@ msgid ""
 "These email addresses will be added to the CC field of all inbound\n"
 "        and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
 msgstr ""
-"Các địa chỉ email này sẽ được thêm vào trường CC của tất cả thư đến\n"
-"         và email gửi đi cho hồ sơ này trước khi được gửi. Phân tách nhiều địa chỉ email bằng dấu phẩy"
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_email_from

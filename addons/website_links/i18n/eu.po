@@ -25,14 +25,14 @@ msgstr ""
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
-msgstr "klikak"
+msgstr ""
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
-msgstr "Herrialdeak "
+msgstr ""
 
 #. module: website_links
 #. openerp-web
@@ -49,7 +49,7 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Campaign</strong>"
-msgstr "<strong>Kanpaina</strong>"
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -59,12 +59,12 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Original URL</strong>"
-msgstr "<strong>URL originala</strong>"
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Redirected URL</strong>"
-msgstr "<strong>URL birbideratua</strong>"
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -88,23 +88,20 @@ msgid ""
 "placement=\"top\" title=\"Defines the context of your link. It might be an "
 "event you want to promote or a special promotion.\"/>"
 msgstr ""
-"Kanpaina <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
-"placement=\"top\" title=\"Defines the context of your link. It might be an "
-"event you want to promote or a special promotion.\"/>"
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:37
 #, python-format
 msgid "Copy"
-msgstr "Kopiatu "
+msgstr ""
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:350
 #, python-format
 msgid "Generating link..."
-msgstr "Esteka sortzen... "
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -114,12 +111,12 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Last Month"
-msgstr "Aurreko hilabetea"
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Last Week"
-msgstr "Aurreko astea "
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -138,17 +135,17 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Most Clicked"
-msgstr "Klik gehien egindakoan "
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Newest"
-msgstr "Berriena"
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Recently Used"
-msgstr "Duela gutxi erabilitakoa "
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -168,14 +165,14 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Statistics"
-msgstr "Estatistikak "
+msgstr ""
 
 #. module: website_links
 #. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:38
 #, python-format
 msgid "Stats"
-msgstr "Estatistikak "
+msgstr ""
 
 #. module: website_links
 #. openerp-web
@@ -184,7 +181,7 @@ msgstr "Estatistikak "
 #: code:addons/website_links/static/src/js/website_links_charts.js:212
 #, python-format
 msgid "There is no data to show"
-msgstr "Ez dago erakusteko daturik "
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -203,7 +200,7 @@ msgstr "URL"
 #: code:addons/website_links/static/src/js/website_links.js:216
 #, python-format
 msgid "Unable to get recent links"
-msgstr "Ezin dira azken loturak lortu"
+msgstr ""
 
 #. module: website_links
 #. openerp-web
@@ -217,7 +214,7 @@ msgstr "Definitu gabea"
 #: code:addons/website_links/static/src/js/website_links.js:239
 #, python-format
 msgid "You don't have any recent links."
-msgstr "Ez duzu duela gutxi erabilitako loturarik."
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -237,12 +234,12 @@ msgstr "ezeztatu"
 #: code:addons/website_links/static/src/xml/recent_link.xml:8
 #, python-format
 msgid "clicks"
-msgstr "Klikak"
+msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "copy"
-msgstr "kopiatu "
+msgstr ""
 
 #. module: website_links
 #. openerp-web
@@ -276,7 +273,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
 msgid "ok"
-msgstr "ados"
+msgstr ""
 
 #. module: website_links
 #. openerp-web

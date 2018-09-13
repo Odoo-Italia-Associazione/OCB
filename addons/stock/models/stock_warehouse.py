@@ -151,14 +151,11 @@ class Warehouse(models.Model):
         # If another partner assigned
         if vals.get('partner_id'):
             warehouses._update_partner_data(vals['partner_id'], vals.get('company_id'))
-
         res = super(Warehouse, self).write(vals)
 
         # check if we need to delete and recreate route
         if vals.get('reception_steps') or vals.get('delivery_steps'):
-            route_vals = warehouses._update_routes()
-            if route_vals:
-                self.write(route_vals)
+            warehouses._update_routes()
 
         if vals.get('resupply_wh_ids') and not vals.get('resupply_route_ids'):
             for warehouse in warehouses:
@@ -285,7 +282,7 @@ class Warehouse(models.Model):
                 reception_route.pull_ids.unlink()
                 reception_route.push_ids.unlink()
             else:
-                warehouse.reception_route_id = reception_route = self.env['stock.location.route'].create(warehouse._get_reception_delivery_route_values(warehouse.reception_steps))
+                reception_route = self.env['stock.location.route'].create(warehouse._get_reception_delivery_route_values(warehouse.reception_steps))
             # push / procurement (pull) rules for reception
             routings = routes_data[warehouse.id][warehouse.reception_steps]
             push_rules_list, pull_rules_list = warehouse._get_push_pull_rules_values(
@@ -588,19 +585,12 @@ class Warehouse(models.Model):
         # change the default source and destination location and (de)activate picking types
         self._update_picking_type()
         # update delivery route and rules: unlink the existing rules of the warehouse delivery route and recreate it
-        delivery_route = self._create_or_update_delivery_route(routes_data)
+        self._create_or_update_delivery_route(routes_data)
         # update receipt route and rules: unlink the existing rules of the warehouse receipt route and recreate it
-        reception_route = self._create_or_update_reception_route(routes_data)
-        crossdock_route = self._create_or_update_crossdock_route(routes_data)
-        mto_pull = self._create_or_update_mto_pull(routes_data)
-
-        return {
-            'route_ids': [(4, route.id) for route in reception_route | delivery_route | crossdock_route],
-            'mto_pull_id': mto_pull.id,
-            'reception_route_id': reception_route.id,
-            'delivery_route_id': delivery_route.id,
-            'crossdock_route_id': crossdock_route.id,
-        }
+        self._create_or_update_reception_route(routes_data)
+        self._create_or_update_crossdock_route(routes_data)
+        self._create_or_update_mto_pull(routes_data)
+        return True
 
     @api.multi
     def change_route(self):
@@ -855,8 +845,7 @@ class Orderpoint(models.Model):
         days = self.lead_days or 0.0
         if self.lead_type == 'supplier':
             # These days will be substracted when creating the PO
-            qty = self.env.context.get('product_qty', 0.0)
-            days += self.product_id._select_seller(quantity=qty).delay or 0.0
+            days += self.product_id._select_seller().delay or 0.0
         date_planned = start_date + relativedelta.relativedelta(days=days)
         return date_planned.strftime(DEFAULT_SERVER_DATETIME_FORMAT)
 
@@ -864,7 +853,7 @@ class Orderpoint(models.Model):
     def _prepare_procurement_values(self, product_qty, date=False, group=False):
         return {
             'name': self.name,
-            'date_planned': date or self.with_context(product_qty=product_qty)._get_date_planned(datetime.today()),
+            'date_planned': date or self._get_date_planned(datetime.today()),
             'product_id': self.product_id.id,
             'product_qty': product_qty,
             'company_id': self.company_id.id,

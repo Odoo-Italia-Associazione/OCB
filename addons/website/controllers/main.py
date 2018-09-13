@@ -110,10 +110,7 @@ class Website(Home):
         }
         # /page/website.XXX --> /page/XXX
         if page.startswith('website.'):
-            url = '/page/' + page[8:]
-            if request.httprequest.query_string:
-                url += '?' + request.httprequest.query_string
-            return request.redirect(url, code=301)
+            return request.redirect('/page/' + page[8:], code=301)
         elif '.' not in page:
             page = 'website.%s' % page
 

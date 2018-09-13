@@ -3,15 +3,16 @@
 # * web_kanban
 # 
 # Translators:
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 # Martin Trigaux, 2018
+# Michael Yeung, 2018
+# Enfong Tsao <nelson22768384@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:28+0000\n"
 "PO-Revision-Date: 2017-06-23 13:28+0000\n"
-"Last-Translator: Martin Trigaux, 2018\n"
+"Last-Translator: Enfong Tsao <nelson22768384@gmail.com>, 2018\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: code:addons/web_kanban/static/src/js/kanban_column.js:178
 #, python-format
 msgid " records"
-msgstr "記錄"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -35,42 +36,42 @@ msgstr "記錄"
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:65
 #, python-format
 msgid "Add"
-msgstr "添加"
+msgstr "新增"
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:48
 #, python-format
 msgid "Add new Column"
-msgstr "增加新列"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/js/kanban_relational.js:53
 #, python-format
 msgid "Add: "
-msgstr "添加： "
+msgstr "新增: "
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:25
 #, python-format
 msgid "Archive Records"
-msgstr "存檔記錄"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/js/kanban_column.js:222
 #, python-format
 msgid "Are you sure that you want to remove this column ?"
-msgstr "您確定要移除此列嗎"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/js/kanban_view.js:550
 #, python-format
 msgid "Are you sure you want to delete this record ?"
-msgstr "您確定要刪除此記錄嗎？"
+msgstr "您確定要刪除這項紀錄？"
 
 #. module: web_kanban
 #. openerp-web
@@ -91,7 +92,7 @@ msgstr "建立"
 #: code:addons/web_kanban/static/src/js/kanban_relational.js:27
 #, python-format
 msgid "Create: "
-msgstr "創建： "
+msgstr "建立： "
 
 #. module: web_kanban
 #. openerp-web
@@ -106,28 +107,28 @@ msgstr "刪除"
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:66
 #, python-format
 msgid "Discard"
-msgstr "丟棄"
+msgstr "捨棄"
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/js/kanban_column.js:224
 #, python-format
 msgid "Edit Column"
-msgstr "編輯列"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:21
 #, python-format
 msgid "Edit Stage"
-msgstr "編輯階段"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:19
 #, python-format
 msgid "Fold"
-msgstr "收攏"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -141,7 +142,7 @@ msgstr "看板"
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:41
 #, python-format
 msgid "Load more... ("
-msgstr "加載更多...("
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -155,14 +156,14 @@ msgstr "確定"
 #: code:addons/web_kanban/static/src/js/kanban_relational.js:67
 #, python-format
 msgid "Open: "
-msgstr "打開： "
+msgstr "開啟: "
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:26
 #, python-format
 msgid "Unarchive Records"
-msgstr "取消存檔記錄"
+msgstr ""
 
 #. module: web_kanban
 #. openerp-web
@@ -171,11 +172,11 @@ msgstr "取消存檔記錄"
 #: code:addons/web_kanban/static/src/js/kanban_view.js:260
 #, python-format
 msgid "Undefined"
-msgstr "未定義的"
+msgstr "未定義"
 
 #. module: web_kanban
 #. openerp-web
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:41
 #, python-format
 msgid "remaining)"
-msgstr "剩餘)"
+msgstr ""

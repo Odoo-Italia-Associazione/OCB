@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Carles Antoli <carlesantoli@hotmail.com>, 2016
-# Martin Trigaux, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # RGB Consulting <odoo@rgbconsulting.com>, 2016
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2016
 msgid ""
@@ -55,8 +55,6 @@ msgid ""
 "Confirm\n"
 "                                        <span class=\"fa fa-long-arrow-right\"/>"
 msgstr ""
-"Confirmar\n"
-"                                        <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.contact
@@ -81,7 +79,7 @@ msgstr "País..."
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.custom_panel
 msgid "Custom Panel"
-msgstr "Panell personalitzat"
+msgstr ""
 
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.details
@@ -113,7 +111,7 @@ msgstr "Telèfon"
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.custom_panel
 msgid "Place your content here."
-msgstr "Poseu el vostre contingut aquí."
+msgstr ""
 
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.contact
@@ -144,7 +142,7 @@ msgstr "NIF-IVA"
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.portal_layout
 msgid "Your Details"
-msgstr "Els vostres detalls"
+msgstr ""
 
 #. module: website_portal
 #: model:ir.ui.view,arch_db:website_portal.details

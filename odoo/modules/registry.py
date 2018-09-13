@@ -127,7 +127,7 @@ class Registry(Mapping):
         # Indicates that the registry is 
         self.ready = False
 
-        # Inter-process signaling:
+        # Inter-process signaling (used only when odoo.multi_process is True):
         # The `base_registry_signaling` sequence indicates the whole registry
         # must be reloaded.
         # The `base_cache_signaling sequence` indicates all caches must be
@@ -151,6 +151,7 @@ class Registry(Mapping):
         """ Delete the registry linked to a given database. """
         with cls._lock:
             if db_name in cls.registries:
+                cls.registries[db_name].clear_caches()
                 del cls.registries[db_name]
 
     @classmethod
@@ -212,15 +213,9 @@ class Registry(Mapping):
         if self._fields_by_model is None:
             # Query manual fields for all models at once
             self._fields_by_model = dic = defaultdict(dict)
-            id2name = {}
             cr.execute('SELECT * FROM ir_model_fields WHERE state=%s', ('manual',))
             for field in cr.dictfetchall():
                 dic[field['model']][field['name']] = field
-                id2name[field['id']] = field['name']
-            # compute the attribute 'sparse'
-            for fields in dic.values():
-                for name, field in fields.items():
-                    field['sparse'] = id2name.get(field['serialization_field_id'])
         return self._fields_by_model[model_name]
 
     def do_parent_store(self, cr):
@@ -313,8 +308,6 @@ class Registry(Mapping):
         """
         if 'module' in context:
             _logger.info('module %s: creating or updating database tables', context['module'])
-        elif context.get('models_to_check', False):
-            _logger.info("verifying fields for every extended model")
 
         context = dict(context, todo=[])
         env = odoo.api.Environment(cr, SUPERUSER_ID, context)
@@ -364,7 +357,7 @@ class Registry(Mapping):
 
     def setup_signaling(self):
         """ Setup the inter-process signaling on this registry. """
-        if self.in_test_mode():
+        if not odoo.multi_process:
             return
 
         with self.cursor() as cr:
@@ -390,7 +383,7 @@ class Registry(Mapping):
         """ Check whether the registry has changed, and performs all necessary
         operations to update the registry. Return an up-to-date registry.
         """
-        if self.in_test_mode():
+        if not odoo.multi_process:
             return self
 
         with closing(self.cursor()) as cr:
@@ -416,7 +409,7 @@ class Registry(Mapping):
 
     def signal_registry_change(self):
         """ Notifies other processes that the registry has changed. """
-        if not self.in_test_mode():
+        if odoo.multi_process:
             _logger.info("Registry changed, signaling through the database")
             with closing(self.cursor()) as cr:
                 cr.execute("select nextval('base_registry_signaling')")
@@ -424,7 +417,7 @@ class Registry(Mapping):
 
     def signal_caches_change(self):
         """ Notifies other processes if caches have been invalidated. """
-        if self.cache_cleared and not self.in_test_mode():
+        if odoo.multi_process and self.cache_cleared:
             # signal it through the database to other processes
             _logger.info("At least one model cache has been invalidated, signaling through the database.")
             with closing(self.cursor()) as cr:

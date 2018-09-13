@@ -4,22 +4,20 @@
 # 
 # Translators:
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2016
-# Martin Trigaux, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # zbik2607 <darek@krokus.com.pl>, 2016
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2016
 # Judyta Kaźmierczak <judyta.kazmierczak@openglobe.pl>, 2016
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2016
 # Zdzisław Krajewski <zdzichucb@gmail.com>, 2016
 # Grażyna Grzelak <grazyna.grzelak@openglobe.pl>, 2016
-# Wiktor Kaźmierczak <wik92tor@wp.pl>, 2018
-# Maja Stawicka <mjstwck@wp.pl>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:56+0000\n"
 "PO-Revision-Date: 2016-09-07 08:56+0000\n"
-"Last-Translator: Maja Stawicka <mjstwck@wp.pl>, 2018\n"
+"Last-Translator: Grażyna Grzelak <grazyna.grzelak@openglobe.pl>, 2016\n"
 "Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -460,12 +458,12 @@ msgstr "Analiza problemu"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_blocked
 msgid "Kanban Blocked Explanation"
-msgstr "Zablokowane wyjaśnienie Kanban"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_normal
 msgid "Kanban Ongoing Explanation"
-msgstr "Trwające wyjaśnienie Kanban"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_kanban_state
@@ -475,7 +473,7 @@ msgstr "Stan Kanban"
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_legend_done
 msgid "Kanban Valid Explanation"
-msgstr "Poprawne wyjaśnienie Kanban"
+msgstr ""
 
 #. module: project_issue
 #: model:ir.model.fields,field_description:project_issue.field_project_issue_date_action_last
@@ -589,8 +587,6 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Zastąp domyślną wartość wyświetlaną dla stanu zablokowanego dla wyboru "
-"kanban, gdy zadanie lub problem jest na tym etapie."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_done
@@ -598,8 +594,6 @@ msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Zastąp domyślną wartość wyświetlaną dla stanu skończonego dla wyboru kanban,"
-" gdy zadanie lub problem jest na tym etapie."
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_legend_normal
@@ -607,8 +601,6 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection, when the task or issue is in that stage."
 msgstr ""
-"Zastąp domyślną wartość wyświetlaną dla stanu normalnego dla wyboru kanban, "
-"gdy zadanie lub problem jest na tym etapie."
 
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_res_partner
@@ -740,8 +732,6 @@ msgid ""
 "These email addresses will be added to the CC field of all inbound\n"
 "        and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
 msgstr ""
-"Te adresy e-mail zostaną dodane do pola DW wszystkich przychodzących\n"
-"i wychodzących wiadomości e-mail dla tego pisma zanim zostanie wysłane. Oddziel wiele adresów e-mail przecinkiem"
 
 #. module: project_issue
 #: model:ir.model.fields,help:project_issue.field_project_issue_email_from

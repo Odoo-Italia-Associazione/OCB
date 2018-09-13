@@ -3,9 +3,10 @@
 # * rating_project
 # 
 # Translators:
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
+# Kenny Kang <winterrise@gmail.com>, 2018
 # shilong.chang <shilong.chang@gmail.com>, 2018
 # jacques chang <jacques815@hotmail.com>, 2018
+# amos lin <seeing@edirect168.com>, 2018
 # Martin Trigaux, 2018
 msgid ""
 msgstr ""
@@ -101,17 +102,17 @@ msgstr ""
 #. module: rating_project
 #: model:mail.template,subject:rating_project.rating_project_request_email_template
 msgid "${object.project_id.company_id.name}: Service Rating Request"
-msgstr "${object.project_id.company_id.name}: 服务点评请求"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_form
 msgid "% On tasks"
-msgstr "% 任務"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_auto_validation_kanban_state
 msgid "Automatic kanban status"
-msgstr "自動看板狀態"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_auto_validation_kanban_state
@@ -120,9 +121,6 @@ msgid ""
 " * A good feedback from the customer will update the kanban state to 'ready for the new stage' (green bullet).\n"
 " * A medium or a bad feedback will set the kanban state to 'blocked' (red bullet).\n"
 msgstr ""
-"當客戶回覆此階段的回饋時自動修改看板狀態。\n"
-"  *客戶的良好回饋將更新看板狀態為“準備新階段”（綠色）。\n"
-"  *中度或錯誤的回饋會將看板狀態設置為“阻止”（紅色）。\n"
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_project
@@ -130,48 +128,48 @@ msgstr ""
 #: model:ir.ui.menu,name:rating_project.rating_rating_menu_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "Customer Ratings"
-msgstr "客戶評分"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,help:rating_project.rating_rating_action_task
 msgid ""
 "Customer ratings on tasks. If you have no rating, change your project "
 "Settings to activate it."
-msgstr "客戶對任務的評分。如果您沒有評分，請更改您的專案設置以將其開啟。"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,help:rating_project.rating_rating_action_project
 msgid ""
 "Customer ratings on tasks/issues. If you have no rating, change your project"
 " Settings to activate it."
-msgstr "客戶對任務/議題的評分。如果您沒有評分，請更改您的專案設置以將其開啟。"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status
 msgid "Customer(s) Ratings"
-msgstr "客戶評分"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Daily"
-msgstr "每天"
+msgstr "每日"
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_form
 msgid ""
 "Edit project's stages and set an email template\n"
 "                            on the stages on which you want to activate the rating."
-msgstr "編輯專案階段，並在要啟動評分的階段上設置郵件模板。"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_project
 msgid "Happy % on Project"
-msgstr "好 % 項目"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_task
 msgid "Happy % on Task"
-msgstr "好 % 任務"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_project_rating_status
@@ -182,100 +180,95 @@ msgid ""
 "\n"
 "Don't forget to set up the mail templates on the stages for which you want to get the customer's feedbacks."
 msgstr ""
-"如何獲得客戶的回饋？\n"
-" - 更改階段時評分：當任務/議題在另一個階段被拖拉時，郵件將被發送\n"
-" - 定期評級：評分郵件將定期發送\n"
-"\n"
-"不要忘記在您想要獲得客戶回饋的地方上設置郵件模板。"
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Higly Dissatisfied"
-msgstr "最近評分：高度不滿意"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Not Satisfied"
-msgstr "最近評分：不滿意"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Satisfied"
-msgstr "最近評分：滿意"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "No rating"
-msgstr "沒評分"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "No rating yet"
-msgstr "還沒評分"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Once a Month"
-msgstr "一個月一次"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid ""
 "Percentage of happy ratings over the past 30 days. Get rating details from "
 "the More menu."
-msgstr "過去30天內的滿意度百分比。從更多選單中獲取評分內容。"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Periodical Rating"
-msgstr "定期評分"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_project
 msgid "Project"
-msgstr "項目"
+msgstr "專案"
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Quarterly"
-msgstr "每季度"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_form_inherit_rating
 msgid "Rating"
-msgstr "評分"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_rating_template_id
 msgid "Rating Email Template"
-msgstr "評分信件模板"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status_period
 msgid "Rating Frequency"
-msgstr "評分頻率"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_request_deadline
 msgid "Rating request deadline"
-msgstr "評分需求截止日期"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Rating when changing stage"
-msgstr "在變更階段時評分"
+msgstr ""
 
 #. module: rating_project
 #: model:mail.message.subtype,description:rating_project.mt_task_rating
 msgid "Ratings"
-msgstr "評分"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_rating_template_id
 msgid ""
 "Select an email template. An email will be sent to the customer when the "
 "task reach this step."
-msgstr "選擇一個信件模板，當任務達到這一步時，會發送信件給客戶"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task
@@ -286,7 +279,7 @@ msgstr "任務"
 #: model:mail.message.subtype,name:rating_project.mt_project_task_rating
 #: model:mail.message.subtype,name:rating_project.mt_task_rating
 msgid "Task Rating"
-msgstr "任務評分"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task_type
@@ -296,7 +289,7 @@ msgstr "任務階段"
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Twice a Month"
-msgstr "一個月二次"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -306,4 +299,4 @@ msgstr "每週"
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Yearly"
-msgstr "每年"
+msgstr ""

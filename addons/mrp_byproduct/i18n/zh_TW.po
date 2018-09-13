@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 # amos lin <seeing@edirect168.com>, 2018
 msgid ""
 msgstr ""
@@ -28,33 +27,33 @@ msgstr "物料清單"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_bom_id
 msgid "BoM"
-msgstr "BoM"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_subproduct
 msgid "Byproduct"
-msgstr "副產品"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_bom_sub_products
 #: model:ir.ui.view,arch_db:mrp_byproduct.mrp_subproduct_view
 msgid "Byproducts"
-msgstr "副產品"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_change_production_qty
 msgid "Change Quantity of Products"
-msgstr "變更產品數量"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_create_uid
 msgid "Created by"
-msgstr "創建人"
+msgstr "建立者"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_create_date
 msgid "Created on"
-msgstr "創建時間"
+msgstr "建立於"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_display_name
@@ -64,27 +63,27 @@ msgstr "顯示名稱"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_id
 msgid "ID"
-msgstr "ID"
+msgstr "編號"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct___last_update
 msgid "Last Modified on"
-msgstr "最後修改日"
+msgstr "最後修改:"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_write_uid
 msgid "Last Updated by"
-msgstr "最後更新人"
+msgstr "最後更新："
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_write_date
 msgid "Last Updated on"
-msgstr "最後更新時間"
+msgstr "最後更新於"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_operation_id
 msgid "Produced at Operation"
-msgstr "生產的作業"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_id
@@ -94,7 +93,7 @@ msgstr "產品"
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_qty
 msgid "Product Qty"
-msgstr "產品數量"
+msgstr "貨品數量"
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_production
@@ -104,17 +103,17 @@ msgstr "生產"
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_stock_move
 msgid "Stock Move"
-msgstr "庫存移動"
+msgstr "庫存調動"
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_stock_move_subproduct_id
 msgid "Subproduct"
-msgstr "副產品"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,help:mrp_byproduct.field_stock_move_subproduct_id
 msgid "Subproduct line that generated the move in a manufacturing order"
-msgstr "副產品行，在製造訂單生成移動"
+msgstr ""
 
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/models/mrp_subproduct.py:32
@@ -122,12 +121,12 @@ msgstr "副產品行，在製造訂單生成移動"
 msgid ""
 "The Product Unit of Measure you chose has a different category than in the "
 "product form."
-msgstr "您選擇的計量單位跟產品表單的計量單位在不同的類別。"
+msgstr ""
 
 #. module: mrp_byproduct
 #: model:ir.model.fields,field_description:mrp_byproduct.field_mrp_subproduct_product_uom_id
 msgid "Unit of Measure"
-msgstr "計量單位"
+msgstr "量度單位"
 
 #. module: mrp_byproduct
 #: code:addons/mrp_byproduct/models/mrp_subproduct.py:31

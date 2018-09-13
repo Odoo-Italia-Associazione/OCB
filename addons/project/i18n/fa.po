@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: project
 #: model:mail.template,body_html:project.mail_template_data_module_install_project
@@ -174,7 +174,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_nbr
 msgid "# of Tasks"
-msgstr "تعداد کارها"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:240
@@ -236,8 +236,6 @@ msgstr ""
 msgid ""
 "<b>Invite coworkers</b> via email.<br/><i>Enter one email per line.</i>"
 msgstr ""
-"<b>دعوت از همکاران</b> از طریق ایمیل.<br/><i>هر ایمیل را در یک خط وارد "
-"کنید.</i>"
 
 #. module: project
 #. openerp-web
@@ -249,7 +247,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<i class=\"fa fa-user\"/> Person Responsible"
-msgstr "<i class=\"fa fa-user\"/> شخص مسئول"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:122
@@ -276,12 +274,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<span class=\"fa fa-arrow-circle-o-down\"/> Install now"
-msgstr "<span class=\"fa fa-arrow-circle-o-down\"/> اکنون نصب شود"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<span class=\"fa fa-comment-o\"/> Website Live Chat"
-msgstr "<span class=\"fa fa-comment-o\"/> چت زنده وبسایت"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -320,10 +318,6 @@ msgid ""
 "                                            <strong> Screen Customization</strong>\n"
 "                                        </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                            <span class=\"fa fa-laptop\"/>\n"
-"                                            <strong> سفارشی سازی صفحه نمایش</strong>\n"
-"                                        </span>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -342,10 +336,6 @@ msgid ""
 "                                            <strong> Create Custom Reports</strong>\n"
 "                                        </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                            <span class=\"fa fa-pencil-square-o\"/>\n"
-"                                            <strong> ایجاد گزارشهای سفارشی</strong>\n"
-"                                        </span>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -514,7 +504,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>About Employees:</strong>"
-msgstr "<strong>درباره کارکنان:</strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -533,7 +523,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Analyze reports</strong> (every a year)"
-msgstr "<strong>تحلیل گزارشات</strong> (هر یک سال)"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -576,7 +566,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Contact us now:</strong><br/>"
-msgstr "<strong>اکنون با ما تماس بگیرید:</strong><br/>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -600,7 +590,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Example: </strong>"
-msgstr "<strong>نمونه: </strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -710,7 +700,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Notes</strong>"
-msgstr "<strong>یاددشتها</strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -722,7 +712,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Recommended actions:</strong>"
-msgstr "<strong>اقدامات توصیه شده:</strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -741,7 +731,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Stages and Requirements</strong> for next stage:"
-msgstr "<strong>مراحل و نیازمندی‌ها</strong> برای مرحله بعد:"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -753,7 +743,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>There are two ways of managing your Kanban stages:</strong>"
-msgstr "<strong>دو را برای مدیریت مراحل کانبان شما وجود دارد:</strong>"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -761,8 +751,6 @@ msgid ""
 "<strong>To increase the efficiency of your Projects</strong>, you should "
 "have a look at some of our other apps:"
 msgstr ""
-"<strong>برای افزایش بهره‌وری پروژه هایتان</strong>, شما باید نگاهی به دیگر "
-"برنامه‌های ما بیاندازید:"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -788,12 +776,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>What Activities</strong> would you like to manage?"
-msgstr "<strong>چه فعالیتهایی</strong> را دوست دارید مدیریت کنید؟"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>What do you expect</strong> from using Odoo Project?"
-msgstr "<strong>چه انتظاری</strong> از استفاده از برنامه پروژه اودو دارید؟"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -822,8 +810,6 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"یک دیکشنری پایتون که برای فراهم کردن مقادیر پیشفرض هنگام ایجاد رکوردهای جدید"
-" برای این نام مستعار مورد  ارزیابی قرار می‌گیرد."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -857,14 +843,14 @@ msgstr "قبول ایمیل دریافتی از طرف"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Account Preferences"
-msgstr "ترجیحات حساب"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:38
 #, python-format
 msgid "Action has a clear description"
-msgstr "عمل یک توضیح واضح دارد"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -923,12 +909,12 @@ msgstr "پیشرفته"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_id
 msgid "Alias"
-msgstr "نام مستعار"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_contact
 msgid "Alias Contact Security"
-msgstr "مستعار تماس امنیتی"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model
@@ -938,17 +924,17 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_name
 msgid "Alias Name"
-msgstr "نام مستعار"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_domain
 msgid "Alias domain"
-msgstr "دامین مستعار"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model_id
 msgid "Aliased Model"
-msgstr "مدل استعاری"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -981,7 +967,7 @@ msgstr "حساب تحلیلی"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_line_ids
 msgid "Analytic Lines"
-msgstr "سطرهای تحلیلی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1033,7 +1019,7 @@ msgstr "محول شد به "
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_assign
 msgid "Assigning Date"
-msgstr "تاریخ محول کردن"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -1067,7 +1053,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Available on the Apple Store"
-msgstr "موجود در فروشگاه برنامه"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1093,7 +1079,7 @@ msgstr "تراز"
 #. module: project
 #: model:project.task.type,name:project.project_stage_data_1
 msgid "Basic"
-msgstr "ابتدایی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1162,7 +1148,7 @@ msgstr "لغو شد"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Change their Stages in the Project Stages tab"
-msgstr "وضعیت آنها را در برگه وضعیتهای پروژه تغییر دهید"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_account_analytic_account_use_tasks
@@ -1178,27 +1164,25 @@ msgid ""
 "Choose a <b>project name</b>. (e.g. Website Launch, Product Development, "
 "Office Party, etc.)"
 msgstr ""
-"یک <b>نام پروژه</b>. (برای مثال راه اندازی وبسایت، توسعه تولید، مهمانی کاری،"
-" غیره...)"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Choose a Project Email"
-msgstr "یک ایمیل پروژه انتخاب کنید"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:54
 #, python-format
 msgid "Clear description and purpose"
-msgstr "پاک کردن توضیح و هدف"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
-msgstr "بر روی یک کارت کلیک کنید تا جزئیات کار را ببینید."
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1207,20 +1191,18 @@ msgstr "بر روی یک کارت کلیک کنید تا جزئیات کار ر�
 msgid ""
 "Click on the card to <b>go to your project</b> and start organizing tasks."
 msgstr ""
-"بر روی کارت کلیک کنید تا <b>به پروژه بروید</b> و شروع به سازماندهی کارها "
-"کنید."
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:67
 #, python-format
 msgid "Click on this button to modify the task."
-msgstr "بر روی این دکمه کلیک کنید تا کار را تغییر دهید."
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.project_tags_action
 msgid "Click to add a new tag."
-msgstr "برای افزودن برچسب جدید کلیک کنید."
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_task_type_form
@@ -1247,7 +1229,7 @@ msgstr "رنگ پس زمینه"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Communication campaign"
-msgstr "کمپین ارتباطی"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_res_company
@@ -1281,7 +1263,7 @@ msgstr "پیکربندی"
 #: code:addons/project/static/src/js/tour.js:93
 #, python-format
 msgid "Configuration options are available in the Settings app."
-msgstr "گزینه‌های پیکربندی در تنظیمات برنامه در دسترس هستند."
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_config_settings
@@ -1315,19 +1297,19 @@ msgstr "تماس"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_analytic_account_id
 msgid "Contract/Analytic"
-msgstr "قرارداد/تحلیلی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Control projects quality and satisfaction"
-msgstr "کنترل کیفیت پروژه‌ها و رضایت‌مندی"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #, python-format
 msgid "Copywriting / Design"
-msgstr "کپی رایتینگ/طراحی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
@@ -1342,12 +1324,12 @@ msgstr ""
 #. module: project
 #: model:ir.actions.act_window,name:project.open_create_project
 msgid "Create a Project"
-msgstr "ایجاد یک پروژه"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all_config
 msgid "Create a new project."
-msgstr "ایجاد یک پروژه جدید."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1359,7 +1341,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Create at least 3 tasks"
-msgstr "ایجاد حداقل 3 کار"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1369,12 +1351,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_create_date
 msgid "Create date"
-msgstr "تاریخ ایجاد"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Create the Projects"
-msgstr "ایجاد پروژه‌ها"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_create_uid
@@ -1423,7 +1405,7 @@ msgstr "ارز"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Current Timesheet"
-msgstr "برگه زمانی کنونی"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:643
@@ -1443,45 +1425,45 @@ msgstr "ایمیل مشتری"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customer Service"
-msgstr "سرویس مشتری"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Customer feedback has been requested"
-msgstr "بازخورد مشتری درخواست شده است"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Customer has cancelled repair"
-msgstr "مشتری درخواست تعمیر را لغو کرده است"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer has reported new issue"
-msgstr "مشتری مشکل جدیدی گزارش کرده"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #, python-format
 msgid "Customer service has found new issue"
-msgstr "سرویس مشتری مشکل جدیدی یافته است"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customer support tickets"
-msgstr "تیکتهای پشتیبانی مشتری"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Customization"
-msgstr "سفارشی‌سازی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_projects
@@ -1529,14 +1511,14 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Deploy"
-msgstr "انتشار"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Deployment"
-msgstr "توزیع"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_description
@@ -1555,7 +1537,7 @@ msgstr "توسعه"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Development Process"
-msgstr "پروسه توسعه"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1578,21 +1560,21 @@ msgstr "نام نمایشی"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_displayed_image_id
 msgid "Displayed Image"
-msgstr "تصویر نمایشی"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Distribute"
-msgstr "گسترش دادن"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Distribution is completed"
-msgstr "گسترش دادن کامل است"
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,generate_project_alias:0
@@ -1604,7 +1586,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Documentation"
-msgstr "مستندات"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1617,8 +1599,6 @@ msgid ""
 "Don't create a Project for different locations (this could isolate teams "
 "that work at different locations)."
 msgstr ""
-"یک پروژه برای مکان‌های متفاوت ایجاد نکنید (این ممکن است باعث جدا ماندن "
-"تیمهایی شود که در مکان‌های مختلف کار می‌کنند)."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1635,7 +1615,7 @@ msgstr "تردید نکنید برای"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Don't hesitate to select only the events you are interested in!"
-msgstr "تردید نکنید که تنها رویدادهایی که به آن علاقه‌مندید را انتخاب کنید!"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1654,8 +1634,6 @@ msgid ""
 "During a meeting, a customer asks a manager for a few modifications to a "
 "project."
 msgstr ""
-"در طول جلسه، یک مشتری از مدید برای چند تغییر جزئی در یک پروژه درخواست "
-"می‌کند."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1663,23 +1641,21 @@ msgid ""
 "Each employee will have his own task, while the manager will be able to "
 "follow the global progress in the Kanban view of the project."
 msgstr ""
-"هر کارمند کار مخصوص به خود خواهد داشت، در حالی که مدیر می‌تواند پیشرفت عمومی"
-" پروژه در نمای کانبان پیگیری کند."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Edit Task"
-msgstr "ویرایش کار"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Email Alias"
-msgstr "مستعار ایمیل"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_mail_template_id
 msgid "Email Template"
-msgstr "قالب ایمیل"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1706,7 +1682,7 @@ msgstr ""
 #. module: project
 #: sql_constraint:project.project:0
 msgid "Error! project start-date must be lower than project end-date."
-msgstr "خطا! تاریخ شروع پروژه باید زودتر از تاریخ پایان پروژه باشد."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_planned_hours
@@ -1714,8 +1690,6 @@ msgid ""
 "Estimated time to do the task, usually set by the project manager when the "
 "task is in draft state."
 msgstr ""
-"زمانی تخمینی برای انجام کار، معمولا توسط مدیر پروژه هنگامی که کار در وضعیت "
-"پیش نویس است تعیین می‌شود."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1741,7 +1715,7 @@ msgstr "نمونه‌ها"
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Expert advice has been requested"
-msgstr "توصیه متخصص درخواست شده است"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_date
@@ -1768,21 +1742,21 @@ msgstr "اطلاعات بیشتر"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Extra useful for when you're with a customer or in a meeting."
-msgstr "بسیار مفید برای هنگامی که با یک مشتری یا در جلسه هستید"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Feedback from customer requested"
-msgstr "بازخورد از مشتری درخواست شده است"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Finally task is deployed"
-msgstr "نهایتا کار منتشر شد"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_fold
@@ -1799,7 +1773,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Followed by Me"
-msgstr "پیگیری شده توسط من"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1819,8 +1793,6 @@ msgid ""
 "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"برای تیم اودو,<br/>\n"
-"                            فابین پینکائرس، بنیانگذار"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1832,7 +1804,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
 msgid "Forecasts"
-msgstr "پیش بینی‌ها"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_project_forecast
@@ -1857,12 +1829,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get it on Google Play"
-msgstr "از گوگل پلی بگیرید"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get more apps"
-msgstr "برنامه‌های بیشتر بگیرید"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_label_tasks
@@ -1892,18 +1864,18 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Good luck!"
-msgstr "موفق باشید!"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Green: the Task is ready for next stage (the job for this stage is complete)"
-msgstr "سبز: کار برای مرحله بعدی آماده است (انجام کار در این مرحله کامل است)"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Grey: the Task is in progress (someone is working on it)"
-msgstr "خاکستری: کار در حال پیشرفت است (کسی دارد روی آن کار می‌کند)"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
@@ -1915,12 +1887,12 @@ msgstr "گروه‌بندی برمبنای"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Here are some of the <strong>available customizations</strong>"
-msgstr "این بعضی <strong>سفارشی سازی‌های در دسترس</strong> است"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.act_project_project_2_project_task_all
 msgid "Here, you can create new tasks"
-msgstr "اینجا می‌توانید یک کار جدید ایجاد کنید"
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -1974,12 +1946,12 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:102
 #, python-format
 msgid "Idea is fully explained"
-msgstr "ایده کاملا توضیح داده شده است"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Ideally, a person should only be responsible for one project."
-msgstr "به صورت ایده‌آل هر شخص باید مسئول یک پروژه باشد."
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1991,7 +1963,7 @@ msgstr "‌ایده‌ها"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Identify problems and blocking points more easily"
-msgstr "مسائل و موانع را راحت‌تر تشخیص بده"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type_mail_template_id
@@ -2032,17 +2004,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Implement"
-msgstr "پیاده‌سازی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Improve"
-msgstr "بهبود"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Improve collaboration with customers"
-msgstr "تعامل با مشتری را بهبود بده"
+msgstr ""
 
 #. module: project
 #: selection:project.task,kanban_state:0
@@ -2058,14 +2030,14 @@ msgstr "در حال پیشرفت"
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "In progress"
-msgstr "در حال پیشرفت"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:79
 #, python-format
 msgid "Incoming"
-msgstr "پیش رو"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -2075,7 +2047,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_planned_hours
 msgid "Initially Planned Hours"
-msgstr "ساعت‌های برنامه‌ریزی شده اولیه"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_id
@@ -2107,14 +2079,14 @@ msgstr "نسخه"
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Issue is being worked on"
-msgstr "بر روی مشکل دارد کار می‌شود"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Issue is resolved"
-msgstr "مشکل حل شد"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2179,12 +2151,12 @@ msgstr "کانبان توضیح در دست اقدام"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Kanban Stage"
-msgstr "وضعیت کانبان"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Kanban Stages"
-msgstr "وضعیت‌های کانبان"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_kanban_state
@@ -2201,12 +2173,12 @@ msgstr "کانبان توضیح معتبر"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Keep track of messages and conversations"
-msgstr "پیامها و گفتگوها را رهگیری کن"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Know what my employees are working on"
-msgstr "بدانم کارمندان من روی چه کار می‌کنند"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -2258,7 +2230,7 @@ msgstr ""
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
-msgstr "بیایید اولین پروژه‌تان را ایجاد کنیم."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_config_settings_module_pad
@@ -2278,7 +2250,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "List, plan and track things to do"
-msgstr "لیست کردن، برنامه‌ریزی و رهگیری چیزهایی که باید انجام شود"
+msgstr ""
 
 #. module: project
 #: selection:report.project.task.user,priority:0
@@ -2317,7 +2289,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Marketing Department"
-msgstr "بخش بازاریابی"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_favorite_user_ids
@@ -2337,12 +2309,12 @@ msgstr "اطلاعات بیشتر"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "More efficient communication between employees"
-msgstr "ارتباطات کارآتر بین کارمندان"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "My Favorites"
-msgstr "محبوبهای من"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -2393,7 +2365,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:86
 #, python-format
 msgid "New repair added"
-msgstr "تعمیر جدید اضافه شد"
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,module_rating_project:0
@@ -2447,12 +2419,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_doc_count
 msgid "Number of documents attached"
-msgstr "تعداد سندهای پیوست شده"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Objectives"
-msgstr "اودو - نمونه 1 برای سه ستون"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2481,7 +2453,7 @@ msgstr ""
 #: selection:project.project,privacy_visibility:0
 #, python-format
 msgid "On invitation only"
-msgstr "تنها در صورت دعوت"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2513,7 +2485,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Organize meetings"
-msgstr "سازمان دهی جلسات"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all_config
@@ -2576,7 +2548,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_model_id
 msgid "Parent Model"
-msgstr "مدل والد"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_thread_id
@@ -2599,7 +2571,7 @@ msgstr "همکار"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Plan your activities for the day"
-msgstr "برنامه ریزی فعالیتها برای روز"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_web_planner
@@ -2626,7 +2598,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Prepare"
-msgstr "آماده کردن"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_priority
@@ -2671,7 +2643,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_project_count
 #: model:ir.model.fields,field_description:project.field_project_project_project_count
 msgid "Project Count"
-msgstr "تعداد پروژه"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_config_settings
@@ -2703,13 +2675,13 @@ msgstr "تنظیمات پروژه"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Project Settings."
-msgstr "تنظیمات پروژه."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_task_graph
 #: model:ir.ui.view,arch_db:project.view_project_task_pivot
 msgid "Project Tasks"
-msgstr "کارهای پروژه"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_project_time_mode_id
@@ -2719,12 +2691,12 @@ msgstr ""
 #. module: project
 #: model:res.request.link,name:project.req_link_task
 msgid "Project task"
-msgstr "کار پروژه"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.dblc_proj
 msgid "Project's tasks"
-msgstr "کارهای مربوط به پروژه"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_view_project_all
@@ -2742,7 +2714,7 @@ msgstr "پروژه‌ها"
 #. module: project
 #: model:mail.channel,name:project.mail_channel_project_task
 msgid "Projects & Tasks"
-msgstr "پروژه‌ها و کارها"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_config_settings_module_rating_project
@@ -2767,21 +2739,21 @@ msgstr "آماده برای مرحله بعد"
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Ready for release"
-msgstr "آماده برای انتشار"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Ready for testing"
-msgstr "آماده برای آزمایش"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready to be displayed, published or sent"
-msgstr "آماده برای نمایش، انتشار یا ارسال"
+msgstr ""
 
 #. module: project
 #: model:project.task,legend_done:project.project_task_16
@@ -2811,7 +2783,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Red: the Task is blocked (there's a problem)"
-msgstr "قرمز: این کار به مانع خورده (مشکلاتی وجود دارد)"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
@@ -2823,38 +2795,38 @@ msgstr "مرجع‌"
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Release"
-msgstr "انتشار"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_remaining_hours
 msgid "Remaining Hours"
-msgstr "ساعتهای باقیمانده"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project.js:48
 #, python-format
 msgid "Remove Cover Image"
-msgstr "حذف تصویر رویی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Repair Workshop"
-msgstr "کارگاه تعمیر"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "Repair has started"
-msgstr "تعمیر شروع شده"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Repair is completed"
-msgstr "تعمیر تمام شده"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2871,7 +2843,7 @@ msgstr "گزارش‌ها"
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Request for parts has been sent"
-msgstr "درخواست برای قطعه ارسال شده"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2881,7 +2853,7 @@ msgstr "مسئولیت‌ها"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Responsibility"
-msgstr "مسئولیت"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2891,7 +2863,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Scrum Methodology"
-msgstr "روش اسکرام"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_management
@@ -2937,14 +2909,14 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Set Cover Image"
-msgstr "تعیین تصویر رویی"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project.js:45
 #, python-format
 msgid "Set a Cover Image"
-msgstr "تعیین یک تصویر رویی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_general_settings
@@ -2956,17 +2928,17 @@ msgstr "تنظیمات"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Severity"
-msgstr "شدت"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Share files and manage versions"
-msgstr "اشتراک فایلها و مدیریت نسخه‌ها"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_is_favorite
 msgid "Show Project on dashboard"
-msgstr "نمایش پروژه در داشبورد"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2978,28 +2950,28 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Software development"
-msgstr "توسعه نرم‌افزار"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:15
 #, python-format
 msgid "Specification"
-msgstr "خصوصیات"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification is validated"
-msgstr "خصوصیات ارزیابی شده"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:22
 #, python-format
 msgid "Specification of task is written"
-msgstr "خصوصیات کا نوشته شده"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3060,7 +3032,7 @@ msgstr "تاریخ آغاز"
 #. module: project
 #: sql_constraint:project.tags:0
 msgid "Tag name already exists !"
-msgstr "برچسب نام از قبل وجود دارد!"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_tags_action
@@ -3087,19 +3059,19 @@ msgstr "وظیفه"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_tasks
 msgid "Task Activities"
-msgstr "فعالیتهای کار"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_blocked
 #: model:mail.message.subtype,name:project.mt_task_blocked
 msgid "Task Blocked"
-msgstr "کار به مانع خورده"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_new
 #: model:mail.message.subtype,name:project.mt_task_new
 msgid "Task Opened"
-msgstr "کار باز شده"
+msgstr ""
 
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_task_pipe
@@ -3110,7 +3082,7 @@ msgstr ""
 #: model:mail.message.subtype,name:project.mt_project_task_ready
 #: model:mail.message.subtype,name:project.mt_task_ready
 msgid "Task Ready"
-msgstr "کار آمده شده"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_type
@@ -3122,23 +3094,23 @@ msgstr "مرحله وظیفه"
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_stage
 msgid "Task Stage Changed"
-msgstr "وضعیت کار لغو شده"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_name
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_name
 msgid "Task Title"
-msgstr "عنوان کار"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Task Title..."
-msgstr "عنوان کار ..."
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_blocked
 msgid "Task blocked"
-msgstr "کار به مانع خورده"
+msgstr ""
 
 #. module: project
 #: selection:project.config.settings,module_pad:0
@@ -3150,31 +3122,31 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Task is Developed"
-msgstr "کار توسعه داده شده"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Task is completed"
-msgstr "کار کامل شده"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is tested"
-msgstr "کار آزمایش شده"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_new
 msgid "Task opened"
-msgstr "کار باز شده"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_ready
 msgid "Task ready for Next Stage"
-msgstr "کار برای مرحله بعدی آماده است"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.act_project_project_2_project_task_all
@@ -3208,18 +3180,18 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_project_user_pivot
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Tasks Analysis"
-msgstr "تحلیل کارها"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_type_ids
 #: model:ir.ui.view,arch_db:project.task_type_search
 msgid "Tasks Stages"
-msgstr "مراحل کارها"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Tasks analysis"
-msgstr "تحلیل کارها"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3229,7 +3201,7 @@ msgstr ""
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr "کارها بر اساس کاربر و پروژه"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3243,14 +3215,14 @@ msgstr "آزمایش"
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Test is OK, need to document"
-msgstr "آزمایش اوکی است، نیاز است سند ثبت شود"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Testing"
-msgstr "در حال آزمایش"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3365,12 +3337,12 @@ msgstr ""
 #. module: project
 #: model:res.groups,name:project.group_time_work_estimation_tasks
 msgid "Time Estimation on Tasks"
-msgstr "تخمین زمانی برای کارها"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Time Scheduling"
-msgstr "برنامه ریزی زمانی"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_company_project_time_mode_id
@@ -3389,7 +3361,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Timesheets can be used for several purposes:"
-msgstr "برگه زمان بندی برای اهداف متعددی می‌تواند استفاده شود:"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3407,7 +3379,7 @@ msgstr ""
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
 msgid "To Do"
-msgstr "در دست اقدام"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3424,7 +3396,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "To use Timesheets, go to your"
-msgstr "برای استفاده از برگه زمان بندی بروید"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_remaining_hours
@@ -3459,12 +3431,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_label_tasks
 msgid "Use Tasks as"
-msgstr "استفاده از کار به عنوان "
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Use Timesheets"
-msgstr "استفاده از برگه زمان بندی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3523,26 +3495,26 @@ msgstr "معتبرسازی"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "View statistics (time spent, efficiency, etc.)"
-msgstr "نمایش آمار (زمان صرف شده، بهره‌وری، غیره ...)"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "View statistics for the week"
-msgstr "نمایش آمار برای هفته"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:204
 #: selection:project.project,privacy_visibility:0
 #, python-format
 msgid "Visible by all employees"
-msgstr "قابل دیدن برای همه کارمندان"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:205
 #: selection:project.project,privacy_visibility:0
 #, python-format
 msgid "Visible by following customers"
-msgstr "قابل دیدن توسط مشتری‌های زیر"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3550,7 +3522,7 @@ msgstr "قابل دیدن توسط مشتری‌های زیر"
 #: code:addons/project/static/src/js/web_planner_project.js:81
 #, python-format
 msgid "Wait. Customer"
-msgstr "انتظار. مشتری"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3558,7 +3530,7 @@ msgstr "انتظار. مشتری"
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
 msgid "Wait. Expert"
-msgstr "انتظار. کارشناس"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3646,7 +3618,7 @@ msgstr ""
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Work has started"
-msgstr "کار شروع شده"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_resource_calendar_id
@@ -3656,7 +3628,7 @@ msgstr "ساعت کاری"
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_workload
 msgid "Workload"
-msgstr "بار کاری"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_write_date
@@ -3721,7 +3693,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Your Activities"
-msgstr "فعالیتهای شما"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3731,22 +3703,22 @@ msgstr ""
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_module_install_project
 msgid "Your Odoo Project application is up and running"
-msgstr "برنامه پروژه اودو شما در حال اجرا است"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Your Projects"
-msgstr "پروژه‌های شما"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Your Projects:"
-msgstr "پروژه‌های شما:"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,help:project.open_view_project_all
 msgid "activate a sample project"
-msgstr "فعال سازی یک پروژه نمونه"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3756,12 +3728,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "e.g. Office Party"
-msgstr "برای مثال مهمانی کاری"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "etc.."
-msgstr "غیره ..."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3807,7 +3779,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "using the above recommendations"
-msgstr "با استفاده از توصیه‌های بالا"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3829,7 +3801,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "with Timesheet"
-msgstr "با برگه زمان بندی"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner

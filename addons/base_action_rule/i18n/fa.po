@@ -3,23 +3,22 @@
 # * base_action_rule
 # 
 # Translators:
-# Martin Trigaux, 2016
-# Hamid Darabi, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
+# Hamid Darabi <hamid.darabi@gmail.com>, 2016
 # Zahed Alfak <tamass4116@gmail.com>, 2016
-# Hamed Mohammadi <hamed@dehongi.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2018\n"
+"Last-Translator: Zahed Alfak <tamass4116@gmail.com>, 2016\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: base_action_rule
 #: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
@@ -35,12 +34,12 @@ msgstr ""
 #. module: base_action_rule
 #: model:ir.model,name:base_action_rule.model_base_action_rule_line_test
 msgid "Action Rule Line Test"
-msgstr "آزمایش سطر قاعده عمل"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model,name:base_action_rule.model_base_action_rule_lead_test
 msgid "Action Rule Test"
-msgstr "آزمایش قاعده عمل"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model,name:base_action_rule.model_base_action_rule
@@ -61,12 +60,12 @@ msgstr "فعال"
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_act_followers
 msgid "Add Followers"
-msgstr "اضافه کردن فالوور"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_is_assigned_to_admin
 msgid "Assigned to admin user"
-msgstr "محول شده به کاربر مدیر"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.actions.act_window,name:base_action_rule.base_action_rule_act
@@ -77,17 +76,17 @@ msgstr "عملیات خودکار"
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "Based on Form Modification"
-msgstr "بر اساس تغییرات فرم"
+msgstr ""
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "Based on Timed Condition"
-msgstr "بر اساس شرایط زمانی"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_filter_pre_domain
 msgid "Before Update Domain"
-msgstr "قبل از بروز کردن دامنه"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_filter_pre_id
@@ -164,12 +163,12 @@ msgstr ""
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_range
 msgid "Delay after trigger date"
-msgstr "تاخیر پس از روز راه‌اندازی"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_range_type
 msgid "Delay type"
-msgstr "نوع تاخیر"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_display_name
@@ -326,27 +325,27 @@ msgstr "جدید"
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_on_change_fields
 msgid "On Change Fields Trigger"
-msgstr "راه‌انداز در هنگام تغییر فبلدها"
+msgstr ""
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation"
-msgstr "هنگام ایجاد"
+msgstr ""
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation & Update"
-msgstr "هنگام ایجاد و بروزرسانی"
+msgstr ""
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Deletion"
-msgstr "هنگام پاک کردن"
+msgstr ""
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Update"
-msgstr "هنگام بروزرسانی"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_partner_id
@@ -454,7 +453,7 @@ msgstr "تاریخ رهاساز"
 #. module: base_action_rule
 #: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_calendar_id
 msgid "Use Calendar"
-msgstr "استفاده از گاهشمار"
+msgstr ""
 
 #. module: base_action_rule
 #: model:ir.actions.act_window,help:base_action_rule.base_action_rule_act

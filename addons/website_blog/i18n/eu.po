@@ -95,7 +95,7 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
-msgstr "<b>Egin klik Gorde botoian</b> zure aldaketak erregistratzeko. "
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
@@ -166,7 +166,7 @@ msgstr "Artxibatua"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_history
 msgid "Archives"
-msgstr "Artxiboak"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
@@ -216,12 +216,12 @@ msgstr "Beltza"
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 #: model:website.menu,name:website_blog.menu_news
 msgid "Blog"
-msgstr "Blog-a"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog_name
 msgid "Blog Name"
-msgstr "Blog-aren izena"
+msgstr ""
 
 #. module: website_blog
 #: code:addons/website_blog/models/website.py:23
@@ -275,7 +275,7 @@ msgstr ""
 #: model:ir.ui.menu,name:website_blog.menu_blog
 #: model:ir.ui.view,arch_db:website_blog.view_blog_blog_list
 msgid "Blogs"
-msgstr "Blog-ak"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -300,7 +300,7 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
-msgstr "Aukeratu irudi bat liburutegitik."
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
@@ -314,8 +314,6 @@ msgstr ""
 msgid ""
 "Click on \"New Page\" in the top-right corner to write your first blog post."
 msgstr ""
-"Egin klik \"Orrialde berria\" goiko eskuineko izkinan zure lehen blog posta "
-"idazteko."
 
 #. module: website_blog
 #. openerp-web
@@ -327,13 +325,13 @@ msgstr ""
 #. module: website_blog
 #: model:ir.actions.act_window,help:website_blog.action_blog_post
 msgid "Click to create a new blog post."
-msgstr "Egin klik blog posta berria sortzeko"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_content
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Content"
-msgstr "Edukia"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_cover_properties
@@ -422,7 +420,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Full Screen"
-msgstr "Pantaila osoa"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -588,7 +586,7 @@ msgstr "Izena"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Narrow"
-msgstr "Estua"
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
@@ -596,17 +594,17 @@ msgstr "Estua"
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
 msgid "New Blog Post"
-msgstr "Blog posta berria"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid "New Features Launched"
-msgstr "Ezaugarri berriak abiarazi dira"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.header_footer_custom
 msgid "News"
-msgstr "Berriak"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -616,7 +614,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "No blog post yet."
-msgstr "Oraindik ez dago blog postarik."
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -644,24 +642,24 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
 msgid "Odoo, email"
-msgstr "Odoo, eposta"
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
-msgstr "Mugikorrean edukia berrikusi ondoren, itxi aurrebista."
+msgstr ""
 
 #. module: website_blog
 #: model:blog.blog,name:website_blog.blog_blog_1
 msgid "Our Blog"
-msgstr "Gure blog-a"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_blogs
 msgid "Our Blogs"
-msgstr "Gure blog-ak"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
@@ -671,7 +669,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag_post_ids
 msgid "Posts"
-msgstr "Postak"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -727,7 +725,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_post_complete_read_next
 msgid "Read Next <span class=\"fa fa-long-arrow-right\"/>"
-msgstr "Hurrengoa irakurri <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -752,14 +750,14 @@ msgstr "Gorria"
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
-msgstr "Hautatu menu-elementu hau blog posta berri bat sortzeko."
+msgstr ""
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
-msgstr "Ezarri blog postaren <b>portada</b>."
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -780,7 +778,7 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
 msgid "Start writing here..."
-msgstr "Hasi hemen idazten... "
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_status
@@ -924,12 +922,12 @@ msgstr "Website"
 #. module: website_blog
 #: model:ir.actions.act_url,name:website_blog.action_open_website
 msgid "Website Blogs"
-msgstr "Webgune blog-ak"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_message_ids
 msgid "Website Messages"
-msgstr "Webgune mezuak  "
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post_website_message_ids
@@ -953,12 +951,12 @@ msgstr ""
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."
-msgstr "Titulu bat idatzi, azpititulua aukerakoa da. "
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Yellow"
-msgstr "Horia "
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -970,19 +968,19 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "blog. Click here to access the blog :"
-msgstr "blog-a. Egin klik hemen blog-era sartzeko: "
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "comment"
-msgstr "iruzkin "
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "comments"
-msgstr "iruzkinak"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_1
@@ -1003,7 +1001,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "unpublished"
-msgstr "argitaratu gabekoa"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short

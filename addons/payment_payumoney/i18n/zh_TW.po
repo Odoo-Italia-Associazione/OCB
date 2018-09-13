@@ -3,7 +3,6 @@
 # * payment_payumoney
 # 
 # Translators:
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 # Carson Tsai <Ra661tCat@gmail.com>, 2018
 msgid ""
 msgstr ""
@@ -22,36 +21,36 @@ msgstr ""
 #. module: payment_payumoney
 #: model:ir.model.fields,field_description:payment_payumoney.field_payment_acquirer_payumoney_merchant_key
 msgid "Merchant Key"
-msgstr "商家密鑰"
+msgstr ""
 
 #. module: payment_payumoney
 #: model:ir.model.fields,field_description:payment_payumoney.field_payment_acquirer_payumoney_merchant_salt
 msgid "Merchant Salt"
-msgstr "商家鹽"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:145
 #, python-format
 msgid "PayUmoney: feedback error"
-msgstr "PayUmoney：回饋出錯"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:107
 #, python-format
 msgid "PayUmoney: invalid shasign, received %s, computed %s, for data %s"
-msgstr "PayUmoney：無效的 shasign，已接收 %s，已計算 %s，針對數據 %s"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:101
 #, python-format
 msgid "PayUmoney: received data for reference %s; multiple orders found"
-msgstr "PayUmoney：已接收參考 %s 的數據；已找到多個訂單"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:98
 #, python-format
 msgid "PayUmoney: received data for reference %s; no order found"
-msgstr "PayUmoney：已接收參考 %s 的數據；未找到訂單"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:93
@@ -59,12 +58,12 @@ msgstr "PayUmoney：已接收參考 %s 的數據；未找到訂單"
 msgid ""
 "PayUmoney: received data with missing reference (%s) or pay_id (%s) or "
 "shashign (%s)"
-msgstr "PayUmoney：已接收缺少參考 (%s)、pay_id (%s) 或 shashign (%s) 的數據"
+msgstr ""
 
 #. module: payment_payumoney
 #: model:ir.model,name:payment_payumoney.model_payment_acquirer
 msgid "Payment Acquirer"
-msgstr "付款方式"
+msgstr "款項讓受方"
 
 #. module: payment_payumoney
 #: model:ir.model,name:payment_payumoney.model_payment_transaction

@@ -3,7 +3,7 @@
 # * payment
 # 
 # Translators:
-# Martin Trigaux, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # Murat Kaplan <muratk@projetgrup.com>, 2016
 # Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2016
 # Ediz Duman <neps1192@gmail.com>, 2016
@@ -14,14 +14,13 @@
 # Hüseyin Cem Aras <hcemaras@gmail.com>, 2016
 # Azar Huseynli <azerbay1984@gmail.com>, 2016
 # Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2016
-# Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
+"Last-Translator: Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2016\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -214,7 +213,7 @@ msgstr "Authorize.Net"
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Authorized"
-msgstr "Yetkili"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_buckaroo
@@ -235,7 +234,7 @@ msgstr "İptal Edildi"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Capture Transaction"
-msgstr "İşlem Yakala"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -246,7 +245,7 @@ msgstr "Semt/İlçe"
 #. module: payment
 #: model:ir.actions.act_window,help:payment.action_payment_acquirer
 msgid "Click to create a payment acquirer."
-msgstr "Ödeme alıcısı oluşturmak için tıklayınız."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_company_id
@@ -271,7 +270,7 @@ msgstr "Ödeme alma yöntemlerini yapılandırın"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_module_id
 msgid "Corresponding Module"
-msgstr "İlgili Modül"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_count
@@ -409,7 +408,7 @@ msgstr "Ücret"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_implemented
 msgid "Fees Computation Supported"
-msgstr "Ücret Hesaplama Desteği"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_fees
@@ -446,7 +445,7 @@ msgstr "Düğme Form Şablonu"
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Form with tokenization"
-msgstr "Fiş ile form"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_search
@@ -473,7 +472,7 @@ msgstr "Resim"
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_ogone
 msgid "Ingenico"
-msgstr "Ingenico"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -484,7 +483,7 @@ msgstr "Kur"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_module_state
 msgid "Installation State"
-msgstr "Yükleme Durumu"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_reference
@@ -520,7 +519,7 @@ msgstr "Son Güncelleme"
 #. module: payment
 #: selection:payment.acquirer,save_token:0
 msgid "Let the customer decide"
-msgstr "Müşteri kararına izin ver."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_website_published
@@ -608,7 +607,7 @@ msgstr "Adı"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token_name
 msgid "Name of the payment token"
-msgstr "Ödeme fişinin adı"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,save_token:0
@@ -636,13 +635,13 @@ msgstr "Ogone"
 #: code:addons/payment/models/payment_acquirer.py:619
 #, python-format
 msgid "Only transactions in the Authorized status can be captured."
-msgstr "Sadece Yetkili durumundaki işlemler yakalanabilir."
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:626
 #, python-format
 msgid "Only transactions in the Authorized status can be voided."
-msgstr "Sadece Yetkili durumundaki işlemler iptal edilebilir."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_auto_confirm
@@ -665,7 +664,7 @@ msgstr "İş Ortağı Adı"
 #: model:payment.acquirer,name:payment.payment_acquirer_payu
 #: selection:payment.acquirer,provider:0
 msgid "PayUmoney"
-msgstr "PayUmoney"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_acquirer
@@ -796,12 +795,12 @@ msgstr "Kaydedilen Ödeme Verisi"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_account_payment_payment_token_id
 msgid "Saved payment token"
-msgstr "Ödeme fişlerimi kaydet"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_token_implemented
 msgid "Saving Card Data supported"
-msgstr "Kaydedilen Kart Bilgisi desteklendi"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_sequence
@@ -816,13 +815,13 @@ msgstr "Sunucudan Sunucuya"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_short_name
 msgid "Short name"
-msgstr "Kısa ad"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_sips
 #: selection:payment.acquirer,provider:0
 msgid "Sips"
-msgstr "Sips"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image_small
@@ -854,7 +853,7 @@ msgstr ""
 #: model:payment.acquirer,name:payment.payment_acquirer_stripe
 #: selection:payment.acquirer,provider:0
 msgid "Stripe"
-msgstr "Stripe"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_registration_view_template_id
@@ -942,7 +941,7 @@ msgstr "Portalda / Wesitesinde görünür"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Void Transaction"
-msgstr "Geçersiz İşlem"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_transfer
@@ -961,7 +960,6 @@ msgid ""
 "You will be redirected to the Adyen website after clicking on the payment "
 "button."
 msgstr ""
-"Ödeme butonuna tıkladıktan sonra Adyen websitesine yönlendirileceksiniz."
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_authorize
@@ -969,8 +967,6 @@ msgid ""
 "You will be redirected to the Authorize website after clicking on the "
 "payment button."
 msgstr ""
-"Ödeme butonuna tıkladıktan sonra Yetkilendirme websiteye "
-"yönlendirileceksiniz."
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_buckaroo
@@ -978,7 +974,6 @@ msgid ""
 "You will be redirected to the Buckaroo website after clicking on the payment"
 " button."
 msgstr ""
-"Ödeme butonuna tıkladıktan sonra Buckaroo websitesine yönlendirileceksiniz"
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_ogone
@@ -986,7 +981,6 @@ msgid ""
 "You will be redirected to the Ingenico website after clicking on the payment"
 " button."
 msgstr ""
-"Ödeme butonuna tıkladıktan sonra Ingenico websitesine yönlendirileceksiniz."
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_payu
@@ -994,8 +988,6 @@ msgid ""
 "You will be redirected to the PayUmoney website after clicking on the "
 "payment button."
 msgstr ""
-"Ödeme butonuna taıkladıktan sonra PayUmoney websitesine "
-"yönlendirileceksiniz."
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_paypal
@@ -1003,14 +995,12 @@ msgid ""
 "You will be redirected to the Paypal website after clicking on the payment "
 "button."
 msgstr ""
-"Ödeme butonuna tıkladıktan sonra PayPal websitesine yönlendirileceksiniz."
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_sips
 msgid ""
 "You will be redirected to the Sips website after clicking on payment button."
 msgstr ""
-"Ödeme butonuna tıkladıktan sonra Sips websitesine yönlendirileceksiniz."
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form

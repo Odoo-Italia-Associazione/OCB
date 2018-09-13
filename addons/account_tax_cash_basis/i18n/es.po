@@ -3,10 +3,12 @@
 # * account_tax_cash_basis
 # 
 # Translators:
-# Pedro M. Baeza <pedro.baeza@gmail.com>, 2016
-# Martin Trigaux, 2016
+# Gustavo Valverde <g.valverde02@gmail.com>, 2016
+# Luis M. Triana <luis.triana@jarsa.com.mx>, 2016
+# Martin Trigaux <mat@odoo.com>, 2016
 # José Vicente <txusev@gmail.com>, 2016
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2016
+# Gelo Joga Landoo <gj@landoo.es>, 2017
 # RGB Consulting <odoo@rgbconsulting.com>, 2017
 msgid ""
 msgstr ""
@@ -25,12 +27,12 @@ msgstr ""
 #. module: account_tax_cash_basis
 #: model:ir.model,name:account_tax_cash_basis.model_account_move
 msgid "Account Entry"
-msgstr "Asiento contable"
+msgstr "Asiento Contable"
 
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,help:account_tax_cash_basis.field_account_tax_cash_basis_account
 msgid "Account use when creating entry for tax cash basis"
-msgstr "Cuenta usada al crear un asiento de criterio de caja"
+msgstr "Uso de la cuenta al crear un asiento de bases imponibles"
 
 #. module: account_tax_cash_basis
 #: model:ir.model,name:account_tax_cash_basis.model_res_company
@@ -45,7 +47,7 @@ msgstr "Apunte contable"
 #. module: account_tax_cash_basis
 #: model:ir.model,name:account_tax_cash_basis.model_account_partial_reconcile
 msgid "Partial Reconcile"
-msgstr "Conciliación parcial"
+msgstr "Conciliación Parcial"
 
 #. module: account_tax_cash_basis
 #: code:addons/account_tax_cash_basis/models/account_partial_reconcile.py:39
@@ -59,9 +61,9 @@ msgid ""
 "Select this if the tax should use cash basis,which will create an entry for "
 "this tax on a given account during reconciliation"
 msgstr ""
-"Marque esta casilla si el impuesto se utiliza para criterio de caja, el cual"
-" creará, durante la conciliación, un asiento contable para este impuesto en "
-"la cuenta establecida"
+"Seleccionar éste si el impuesto se debería usar en el pago en efectivo, el "
+"cual creará, durante la conciliación, un registro contable para este "
+"impuesto en una cuenta ya establecida"
 
 #. module: account_tax_cash_basis
 #: model:ir.model,name:account_tax_cash_basis.model_account_tax
@@ -71,18 +73,18 @@ msgstr "Impuesto"
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,field_description:account_tax_cash_basis.field_account_move_tax_cash_basis_rec_id
 msgid "Tax Cash Basis Entry of"
-msgstr "Asiento de criterio de caja de"
+msgstr "Entrada Impuesto Base de Efectivo"
 
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,field_description:account_tax_cash_basis.field_account_config_settings_tax_cash_basis_journal_id
 #: model:ir.model.fields,field_description:account_tax_cash_basis.field_res_company_tax_cash_basis_journal_id
 msgid "Tax Cash Basis Journal"
-msgstr "Diario para criterio de caja"
+msgstr "Diario Impuesto Base de Efectivo"
 
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,field_description:account_tax_cash_basis.field_account_tax_cash_basis_account
 msgid "Tax Received Account"
-msgstr "Cuenta impuestos recibidos"
+msgstr "Cuenta Impuestos Recibidos"
 
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,help:account_tax_cash_basis.field_account_move_tax_cash_basis_rec_id
@@ -91,9 +93,9 @@ msgid ""
 " is needed when cancelling the source: it will post the inverse journal "
 "entry to cancel that part too."
 msgstr ""
-"Campo técnico usado para  hacer un seguimiento de la conciliación del "
-"criterio de caja. Se necesita cuando se cancela el origen: publicará el "
-"asiento inverso para cancelar también esa parte."
+"Campo técnico usado para  hacer un seguimiento de la conciliación de bases "
+"de efectivode impuestos. Se necesitan cuando se cancela el origen: publicará"
+" el asiento inverso para cancelar también esa parte."
 
 #. module: account_tax_cash_basis
 #: code:addons/account_tax_cash_basis/models/account_partial_reconcile.py:80
@@ -102,13 +104,13 @@ msgid ""
 "There is no tax cash basis journal defined for this company: \"%s\" \n"
 "Configure it in Accounting/Configuration/Settings"
 msgstr ""
-"No hay ningún diario para criterio de caja definido para esta compañía:\"%s\" \n"
-"Configúrelo en Contabilidad / Configuración / Configuración"
+"No hay un diario de impuesto base de efectivo definido para esta empresa :\"%s\" \n"
+"Configúrelo en Contabilidad / Ajustes / Configuración"
 
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,field_description:account_tax_cash_basis.field_account_tax_use_cash_basis
 msgid "Use Cash Basis"
-msgstr "Usar criterio de caja"
+msgstr "Usar Base de Efectivo"
 
 #. module: account_tax_cash_basis
 #: model:ir.model,name:account_tax_cash_basis.model_account_config_settings
