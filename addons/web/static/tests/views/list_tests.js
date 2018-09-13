@@ -616,45 +616,6 @@ QUnit.module('Views', {
         list.destroy();
     });
 
-    QUnit.test('selection is kept on render without reload', function (assert) {
-        assert.expect(5);
-
-        var list = createView({
-            View: ListView,
-            model: 'foo',
-            data: this.data,
-            groupBy: ['foo'],
-            viewOptions: {sidebar: true},
-            arch: '<tree>' +
-                    '<field name="foo"/>' +
-                    '<field name="int_field" sum="Sum"/>' +
-                '</tree>',
-        });
-
-        // open blip grouping and check all lines
-        list.$('.o_group_header:contains("blip (2)")').click();
-        list.$('.o_data_row input').click();
-        assert.strictEqual(true, list.sidebar.$el.is(':visible'),
-            "element checked so sidebar")
-
-        // open yop grouping and verify blip are still checked
-        list.$('.o_group_header:contains("yop (1)")').click()
-        assert.strictEqual(2, list.$('.o_data_row input:checked').length,
-            "opening a grouping does not uncheck others");
-        assert.strictEqual(true, list.sidebar.$el.is(':visible'),
-            "element checked so sidebar")
-
-        // close and open blip grouping and verify blip are unchecked
-        list.$('.o_group_header:contains("blip (2)")').click();
-        list.$('.o_group_header:contains("blip (2)")').click();
-        assert.strictEqual(0, list.$('.o_data_row input:checked').length,
-            "opening and closing a grouping uncheck its elements");
-        assert.strictEqual(false, list.sidebar.$el.is(':visible'),
-            "no element checked so no sidebar")
-
-        list.destroy();
-    });
-
     QUnit.test('aggregates are computed correctly', function (assert) {
         assert.expect(4);
 
@@ -3019,118 +2980,20 @@ QUnit.module('Views', {
         list.destroy();
     });
 
-    QUnit.test('result of consecutive resequences is correctly sorted', function (assert) {
-        assert.expect(9);
-        this.data = { // we want the data to be minimal to have a minimal test
-            foo: {
-                fields: {int_field: {string: "int_field", type: "integer", sortable: true}},
-                records: [
-                    {id: 1, int_field: 0},
-                    {id: 2, int_field: 1},
-                    {id: 3, int_field: 2},
-                    {id: 4, int_field: 3},
-                ]
-            }
-        };
-        var moves = 0;
-        var list = createView({
-            View: ListView,
-            model: 'foo',
-            data: this.data,
-            arch: '<tree>' +
-                    '<field name="int_field" widget="handle"/>' +
-                    '<field name="id"/>' +
-                  '</tree>',
-            mockRPC: function (route, args) {
-                if (route === '/web/dataset/resequence') {
-                    if (moves === 0) {
-                        assert.deepEqual(args, {
-                            model: "foo",
-                            ids: [4, 3],
-                            offset: 2,
-                            field: "int_field",
-                        });
-                    }
-                    if (moves === 1) {
-                        assert.deepEqual(args, {
-                            model: "foo",
-                            ids: [1, 4, 2, 3],
-                            field: "int_field",
-                        });
-                    }
-                    if (moves === 2) {
-                        assert.deepEqual(args, {
-                            model: "foo",
-                            ids: [2, 4],
-                            offset: 1,
-                            field: "int_field",
-                        });
-                    }
-                    if (moves === 3) {
-                        assert.deepEqual(args, {
-                            model: "foo",
-                            ids: [1, 4, 2, 3],
-                            field: "int_field",
-                        });
-                    }
-                    moves += 1;
-                }
-                return this._super.apply(this, arguments);
-            },
-        });
-        assert.strictEqual(list.$('tbody tr td').text(), '1234',
-            "default should be sorted by id");
-        testUtils.dragAndDrop(
-            list.$('.ui-sortable-handle').eq(3),
-            list.$('tbody tr').eq(2),
-            {position: 'top'}
-        );
-        assert.strictEqual(list.$('tbody tr td').text(), '1243',
-            "the int_field (sequence) should have been correctly updated");
-        testUtils.dragAndDrop(
-            list.$('.ui-sortable-handle').eq(2),
-            list.$('tbody tr').eq(1),
-            {position: 'top'}
-        );
-        assert.deepEqual(list.$('tbody tr td').text(), '1423',
-            "the int_field (sequence) should have been correctly updated");
-        testUtils.dragAndDrop(
-            list.$('.ui-sortable-handle').eq(1),
-            list.$('tbody tr').eq(3),
-            {position: 'top'}
-        );
-        assert.deepEqual(list.$('tbody tr td').text(), '1243',
-            "the int_field (sequence) should have been correctly updated");
-        testUtils.dragAndDrop(
-            list.$('.ui-sortable-handle').eq(2),
-            list.$('tbody tr').eq(1),
-            {position: 'top'}
-        );
-        assert.deepEqual(list.$('tbody tr td').text(), '1423',
-            "the int_field (sequence) should have been correctly updated");
-        list.destroy();
-    });
-
     QUnit.test('editable list with handle widget', function (assert) {
         assert.expect(12);
 
-        // resequence makes sense on a sequence field, not on arbitrary fields
-        this.data.foo.records[0].int_field = 0;
-        this.data.foo.records[1].int_field = 1;
-        this.data.foo.records[2].int_field = 2;
-        this.data.foo.records[3].int_field = 3;
-
         var list = createView({
             View: ListView,
             model: 'foo',
             data: this.data,
-            arch: '<tree editable="top" default_order="int_field">' +
+            arch: '<tree editable="top">' +
                     '<field name="int_field" widget="handle"/>' +
                     '<field name="amount" widget="float" digits="[5,0]"/>' +
                   '</tree>',
             mockRPC: function (route, args) {
                 if (route === '/web/dataset/resequence') {
-                    assert.strictEqual(args.offset, 1,
+                    assert.strictEqual(args.offset, -4,
                         "should write the sequence starting from the lowest current one");
                     assert.strictEqual(args.field, 'int_field',
                         "should write the right field as sequence");
@@ -3178,12 +3041,6 @@ QUnit.module('Views', {
     QUnit.test('editable list with handle widget with slow network', function (assert) {
         assert.expect(15);
 
-        // resequence makes sense on a sequence field, not on arbitrary fields
-        this.data.foo.records[0].int_field = 0;
-        this.data.foo.records[1].int_field = 1;
-        this.data.foo.records[2].int_field = 2;
-        this.data.foo.records[3].int_field = 3;
-
         var def = $.Deferred();
 
         var list = createView({
@@ -3196,7 +3053,7 @@ QUnit.module('Views', {
                   '</tree>',
             mockRPC: function (route, args) {
                 if (route === '/web/dataset/resequence') {
-                    assert.strictEqual(args.offset, 1,
+                    assert.strictEqual(args.offset, -4,
                         "should write the sequence starting from the lowest current one");
                     assert.strictEqual(args.field, 'int_field',
                         "should write the right field as sequence");
@@ -3453,6 +3310,7 @@ QUnit.module('Views', {
         list.destroy();
     });
 
+
     QUnit.test('basic support for widgets', function (assert) {
         assert.expect(1);
 
@@ -3558,46 +3416,6 @@ QUnit.module('Views', {
         testUtils.unpatch(mixins.ParentedMixin);
     });
 
-    QUnit.test('concurrent reloads finishing in inverse order', function (assert) {
-        assert.expect(3);
-
-        var blockSearchRead = false;
-        var def = $.Deferred();
-        var list = createView({
-            View: ListView,
-            model: 'foo',
-            data: this.data,
-            arch: '<tree><field name="foo"/></tree>',
-            mockRPC: function (route) {
-                var result = this._super.apply(this, arguments);
-                if (route === '/web/dataset/search_read' && blockSearchRead) {
-                    return $.when(def).then(_.constant(result));
-                }
-                return result;
-            },
-        });
-
-        assert.strictEqual(list.$('.o_list_view .o_data_row').length, 4,
-            "list view should contain 4 records");
-
-        // reload with a domain (this request is blocked)
-        blockSearchRead = true;
-        list.reload({domain: [['foo', '=', 'yop']]});
-
-        assert.strictEqual(list.$('.o_list_view .o_data_row').length, 4,
-            "list view should still contain 4 records (search_read being blocked)");
-
-        // reload without the domain
-        blockSearchRead = false;
-        list.reload({domain: []});
-
-        // unblock the RPC
-        def.resolve();
-        assert.strictEqual(list.$('.o_list_view .o_data_row').length, 4,
-            "list view should still contain 4 records");
-
-        list.destroy();
-    });
 });
 
 });

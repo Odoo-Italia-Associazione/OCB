@@ -195,7 +195,7 @@ class Holidays(models.Model):
         states={'draft': [('readonly', False)], 'confirm': [('readonly', False)]},
         help="Choose 'Leave Request' if someone wants to take an off-day. "
              "\nChoose 'Allocation Request' if you want to increase the number of leaves available for someone")
-    parent_id = fields.Many2one('hr.holidays', string='Parent', copy=False)
+    parent_id = fields.Many2one('hr.holidays', string='Parent')
     linked_request_ids = fields.One2many('hr.holidays', 'parent_id', string='Linked Requests')
     department_id = fields.Many2one('hr.department', string='Department', readonly=True)
     category_id = fields.Many2one('hr.employee.category', string='Employee Tag', readonly=True,
@@ -212,6 +212,11 @@ class Holidays(models.Model):
         help='This area is automaticly filled by the user who validate the leave with second level (If Leave type need second validation)')
     double_validation = fields.Boolean('Apply Double Validation', related='holiday_status_id.double_validation')
     can_reset = fields.Boolean('Can reset', compute='_compute_can_reset')
+
+    @api.onchange('employee_id')
+    def _onchange_employee_id(self):
+        self.manager_id = self.employee_id and self.employee_id.parent_id
+        self.department_id = self.employee_id.department_id
 
     @api.multi
     @api.depends('number_of_days_temp', 'type')
@@ -248,7 +253,7 @@ class Holidays(models.Model):
             if nholidays:
                 raise ValidationError(_('You can not have 2 leaves that overlaps on same day!'))
 
-    @api.constrains('state', 'number_of_days_temp', 'holiday_status_id')
+    @api.constrains('state', 'number_of_days_temp')
     def _check_holidays(self):
         for holiday in self:
             if holiday.holiday_type != 'employee' or holiday.type != 'remove' or not holiday.employee_id or holiday.holiday_status_id.limit:
@@ -274,8 +279,7 @@ class Holidays(models.Model):
             self.employee_id = None
 
     @api.onchange('employee_id')
-    def _onchange_employee_id(self):
-        self.manager_id = self.employee_id and self.employee_id.parent_id
+    def _onchange_employee(self):
         self.department_id = self.employee_id.department_id
 
     def _get_number_of_days(self, date_from, date_to, employee_id):

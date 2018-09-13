@@ -122,7 +122,7 @@ var MessagingMenu = Widget.extend({
         if (channelID === 'channel_inbox') {
             var resID = $(event.currentTarget).data('res_id');
             var resModel = $(event.currentTarget).data('res_model');
-            if (resModel && resModel !== 'mail.channel' && resID) {
+            if (resModel && resID) {
                 this.do_action({
                     type: 'ir.actions.act_window',
                     res_model: resModel,
@@ -130,11 +130,7 @@ var MessagingMenu = Widget.extend({
                     res_id: resID
                 });
             } else {
-                var clientChatOptions = {clear_breadcrumbs: true};
-                if (resModel && resModel === 'mail.channel' && resID) {
-                    clientChatOptions.active_id = resID;
-                }
-                this.do_action('mail.mail_channel_action_client_chat', clientChatOptions)
+                this.do_action('mail.mail_channel_action_client_chat', {clear_breadcrumbs: true})
                     .then(function () {
                         self.trigger_up('hide_app_switcher');
                         core.bus.trigger('change_menu_section', chat_manager.get_discuss_menu_id());

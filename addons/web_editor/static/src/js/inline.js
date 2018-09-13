@@ -41,7 +41,6 @@ snippet_editor.Class.include({
     start: function () {
         _.defer(function () {
             var $editable = $('#editable_area');
-            transcoder.linkImgToAttachmentThumbnail($editable);
             transcoder.imgToFont($editable);
             transcoder.styleToClass($editable);
 
@@ -54,7 +53,7 @@ snippet_editor.Class.include({
         this._super.apply(this, arguments);
 
         var $editable = $('#editable_area');
-        transcoder.attachmentThumbnailToLinkImg($editable);
+        transcoder.linkImgToAttachmentThumbnail($editable);
         transcoder.fontToImg($editable);
         transcoder.classToStyle($editable);
 

@@ -18,14 +18,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:535
 #, python-format
 msgid "(%d more)"
-msgstr "(%d بیشتر)"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -35,8 +35,6 @@ msgid ""
 "A single column was found in the file, this often means the file separator "
 "is incorrect"
 msgstr ""
-"یک ستون فقط در فایل یافت شد، که معمولا به این معنی است که جداکننده فایل "
-"نادرست است."
 
 #. module: base_import
 #. openerp-web
@@ -49,7 +47,7 @@ msgstr "لغو"
 #: code:addons/base_import/models/base_import.py:596
 #, python-format
 msgid "Column %s contains incorrect values (value: %s)"
-msgstr "ستون %s حاوی مقادیر نادرست است (مقدار: %s)"
+msgstr ""
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:618
@@ -108,28 +106,28 @@ msgstr "ایجاد شده در"
 #: code:addons/base_import/models/base_import.py:150
 #, python-format
 msgid "Database ID"
-msgstr "شناسه پایگاه داده"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:55
 #, python-format
 msgid "Date Format:"
-msgstr "قالب تاریخ:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:56
 #, python-format
 msgid "Datetime Format:"
-msgstr "قالب تاریخ-زمان:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:58
 #, python-format
 msgid "Decimal Separator:"
-msgstr "جداکننده عدد:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -161,7 +159,7 @@ msgstr "نام نشان داده شده"
 #: code:addons/base_import/static/src/js/import_action.js:353
 #, python-format
 msgid "Don't import"
-msgstr "از فایل وارد نکن"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -202,7 +200,7 @@ msgstr ""
 #: code:addons/base_import/models/base_import.py:144
 #, python-format
 msgid "External ID"
-msgstr "آیدی خارجی"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import_file
@@ -217,7 +215,7 @@ msgstr "نام فایل"
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import_file_type
 msgid "File Type"
-msgstr "نوع فایل"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,help:base_import.field_base_import_import_file
@@ -236,7 +234,7 @@ msgstr ""
 #: code:addons/base_import/static/src/js/import_action.js:559
 #, python-format
 msgid "Get all possible values"
-msgstr "گرفتن همه مقادیر ممکن"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -250,14 +248,14 @@ msgstr "راهنما"
 #: code:addons/base_import/static/src/js/import_action.js:546
 #, python-format
 msgid "Here are the possible values:"
-msgstr "این مقادیر ممکن است:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/base_import.xml:116
 #, python-format
 msgid "Here is the start of the file we could not import:"
-msgstr "این ابتدای فایلی است که ما نتوانستیم وارد کنیم:"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import_id
@@ -321,7 +319,7 @@ msgstr "درونش"
 #: code:addons/base_import/static/src/js/import_action.js:111
 #, python-format
 msgid "Import a File"
-msgstr "ورود از یک فایل"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -389,7 +387,7 @@ msgstr "آخرین به روز رسانی در"
 #: code:addons/base_import/static/src/xml/base_import.xml:19
 #, python-format
 msgid "Load File"
-msgstr "بارگزاری فایل"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -413,26 +411,26 @@ msgstr "نام"
 #: code:addons/base_import/static/src/xml/base_import.xml:15
 #, python-format
 msgid "No file chosen..."
-msgstr "هیچ فایلی انتخاب نشده..."
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:418
 #, python-format
 msgid "Normal Fields"
-msgstr "فیلدهای معمول"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/base_import.xml:30
 #, python-format
 msgid "Options…"
-msgstr "گزینه‌ها..."
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview_othervalue
 msgid "Other Variable"
-msgstr "دیگر متغیرها"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_o2m_child_parent_id
@@ -444,21 +442,21 @@ msgstr "مادر"
 #: code:addons/base_import/static/src/js/import_action.js:419
 #, python-format
 msgid "Relation Fields"
-msgstr "فیلدهای رابطه‌ای"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/base_import.xml:24
 #, python-format
 msgid "Reload File"
-msgstr "بارگزاری دوباره فایل"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Select a CSV or Excel file to import."
-msgstr "یک فایل CSV یا Excel برای ورود انتخاب کنید."
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -484,28 +482,28 @@ msgstr ""
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_preview_somevalue
 msgid "Some Value"
-msgstr "یک مقدار"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:179
 #, python-format
 msgid "Space"
-msgstr "فضا"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:178
 #, python-format
 msgid "Tab"
-msgstr "تب"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/xml/base_import.xml:86
 #, python-format
 msgid "Test Import"
-msgstr "آزمایش ورود فایل"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -528,7 +526,7 @@ msgstr ""
 #: code:addons/base_import/static/src/js/import_action.js:57
 #, python-format
 msgid "Thousands Separator:"
-msgstr "جداکننده هزارگان:"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
@@ -577,81 +575,81 @@ msgstr ""
 #: code:addons/base_import/static/src/js/import_action.js:529
 #, python-format
 msgid "at row %d"
-msgstr "در ردیف %d"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_import
 msgid "base_import.import"
-msgstr "base_import.import"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char
 msgid "base_import.tests.models.char"
-msgstr "base_import.tests.models.char"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char_noreadonly
 msgid "base_import.tests.models.char.noreadonly"
-msgstr "base_import.tests.models.char.noreadonly"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char_readonly
 msgid "base_import.tests.models.char.readonly"
-msgstr "base_import.tests.models.char.readonly"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char_required
 msgid "base_import.tests.models.char.required"
-msgstr "base_import.tests.models.char.required"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char_states
 msgid "base_import.tests.models.char.states"
-msgstr "base_import.tests.models.char.states"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_char_stillreadonly
 msgid "base_import.tests.models.char.stillreadonly"
-msgstr "base_import.tests.models.char.stillreadonly"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_m2o
 msgid "base_import.tests.models.m2o"
-msgstr "base_import.tests.models.m2o"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_m2o_related
 msgid "base_import.tests.models.m2o.related"
-msgstr "base_import.tests.models.m2o.related"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_m2o_required
 msgid "base_import.tests.models.m2o.required"
-msgstr "base_import.tests.models.m2o.required"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_m2o_required_related
 msgid "base_import.tests.models.m2o.required.related"
-msgstr "base_import.tests.models.m2o.required.related"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_o2m
 msgid "base_import.tests.models.o2m"
-msgstr "base_import.tests.models.o2m"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_o2m_child
 msgid "base_import.tests.models.o2m.child"
-msgstr "base_import.tests.models.o2m.child"
+msgstr ""
 
 #. module: base_import
 #: model:ir.model,name:base_import.model_base_import_tests_models_preview
 msgid "base_import.tests.models.preview"
-msgstr "base_import.tests.models.preview"
+msgstr ""
 
 #. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:531
 #, python-format
 msgid "between rows %d and %d"
-msgstr "بین ردیفهای %d و %d"
+msgstr ""

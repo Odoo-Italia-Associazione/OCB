@@ -6,52 +6,52 @@
 # ТАрас <tratatuta@i.ua>, 2017
 # Bohdan Lisnenko, 2017
 # Martin Trigaux, 2017
-# Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017
 # Анатолій Пономаренко <aponomarenko020@gmail.com>, 2017
 # zhanna shewchuk <zhanna_shewchuk@rambler.ru>, 2017
+# Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: zhanna shewchuk <zhanna_shewchuk@rambler.ru>, 2017\n"
+"Last-Translator: Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017\n"
 "Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "(e.g. expenses@mycompany.odoo.com)"
-msgstr "(напр. expenses@mycompany.odoo.com)"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "(if the expense has been paid by the employee directly);"
-msgstr "(якщо витрати було сплачено безпосередньо працівником);"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "(only such email addresses are authorized)"
-msgstr "(дозволено лише такі адреси електронної пошти)"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "(used for reimbursement)"
-msgstr "(використовується для компенсації)"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ". Here are some advises to avoid conflictual situations:"
-msgstr ". Ось кілька рекомендацій, щоб уникнути конфліктних ситуацій:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "2 ways to record expenses:"
-msgstr "2 способи запису витрат:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
@@ -59,8 +59,6 @@ msgid ""
 "<i class=\"text-muted oe_edit_only\">Use [Reference] as a subject prefix for"
 " incoming receipts</i>"
 msgstr ""
-"<i class=\"text-muted oe_edit_only\">Використовуйте [Reference] як "
-"предметний префікс для вхідних чеків</i>"
 
 #. module: hr_expense
 #. openerp-web
@@ -70,8 +68,6 @@ msgid ""
 "<p>Approve the sheet here.</p><p>Tip: if you refuse, don’t forget to give "
 "the reason thanks to the hereunder message tool</p>"
 msgstr ""
-"<p>Затвердити лист тут.</p><p>Порада. Якщо ви відмовитесь, не забудьте "
-"навести причину завдяки інструментам повідомлення нижче</p>"
 
 #. module: hr_expense
 #. openerp-web
@@ -79,7 +75,6 @@ msgstr ""
 #, python-format
 msgid "<p>Click here to create your first expense and add it under here.</p>"
 msgstr ""
-"<p>Натисніть тут, щоб створити свій перший рахунок і додати його нижче.</p>"
 
 #. module: hr_expense
 #. openerp-web
@@ -89,22 +84,20 @@ msgid ""
 "<p>Click on <b> Action Submit To Manager </b> to submit selected expenses to"
 " your manager</p>"
 msgstr ""
-"<p>Натисніть на <b> Дію надіслати менеджеру </b> щоби надати відібрані "
-"витрати своєму менеджеру</p>"
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:31
 #, python-format
 msgid "<p>Once your Expense is ready, you can save it.</p>"
-msgstr "<p>Коли ваші витрати будуть готові, ви можете зберегти це.</p>"
+msgstr ""
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
-msgstr "<p>Виберіть витрати, щоб надіслати їх вашому менеджеру</p>"
+msgstr ""
 
 #. module: hr_expense
 #. openerp-web
@@ -114,9 +107,6 @@ msgid ""
 "<p>The accountant receive approved expense reports.</p><p>He can post "
 "journal entries in one click if taxes and accounts are right.</p>"
 msgstr ""
-"<p>Бухгалтер отримує затверджені звіти про витрати.</p><p>Він може "
-"опублікувати записи журналу в один клік, якщо податки та рахунки є "
-"правильними.</p>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -126,10 +116,6 @@ msgid ""
 "                                        <span class=\"small\">Send a snapshot whenever you get an expense</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <strong>По електронній пошті (за порадою)</strong><br/>\n"
-"                                        <span class=\"small\">Надсилайте знімок кожного разу, коли ви отримуєте витрати</span>\n"
-"                                    </span>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -139,10 +125,6 @@ msgid ""
 "                                        <span class=\"small\">HR officer, manager</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <strong>Централізовано</strong><br/>\n"
-"                                        <span class=\"small\">HR-менеджер, керівник</span>\n"
-"                                    </span>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -152,10 +134,6 @@ msgid ""
 "                                        <span class=\"small\">Log in in the system</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <strong>Класичне кодування</strong><br/>\n"
-"                                        <span class=\"small\">Зайти в систему</span>\n"
-"                                    </span>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -165,10 +143,6 @@ msgid ""
 "                                        <span class=\"small\">Employee’s team manager</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <strong>Не централізовано</strong><br/>\n"
-"                                        <span class=\"small\">Менеджер команди співробітників</span>\n"
-"                                    </span>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -178,10 +152,6 @@ msgid ""
 "                                        <span class=\"small\">Advised if lots of expenses</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <strong>У партії (один звіт)</strong><br/>\n"
-"                                        <span class=\"small\">Порада, якщо багато витрат</span>\n"
-"                                    </span>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -191,10 +161,6 @@ msgid ""
 "                                        <span class=\"small\">Advised if few expenses</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <strong>По одному</strong><br/>\n"
-"                                        <span class=\"small\">Порадив, чи мало витрат</span>\n"
-"                                    </span>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -212,8 +178,6 @@ msgid ""
 "<strong>Employee(s) record expenses, </strong>and send expense reports to "
 "their manager;"
 msgstr ""
-"<strong>Співробітник (и) фіксують витрати, </strong>і надсилає звіти про "
-"витрати своєму менеджеру;"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -226,15 +190,11 @@ msgid ""
 "<strong>Hotel</strong><br/>\n"
 "                                    Cost: 0.00 <i>(the cost of the ticket will be recorded on every expense)</i>"
 msgstr ""
-"<strong>Готель</strong><br/>\n"
-"                                    Вартість: 0.00 <i>(вартість квитка буде фіксуватися на кожен рахунок)</i>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "<strong>Manager(s) approve or refuse expense reports;</strong>"
 msgstr ""
-"<strong>Менеджер (и) затверджує або відмовляється від звітності про "
-"витрати;</strong>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -242,13 +202,11 @@ msgid ""
 "<strong>Others</strong><br/>\n"
 "                                    Cost: 0.00"
 msgstr ""
-"<strong>Інше</strong><br/>\n"
-"                                    Вартість: 0.00"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Payment By:</strong>"
-msgstr "<strong>Оплата:</strong>"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -256,8 +214,6 @@ msgid ""
 "<strong>Restaurant</strong><br/>\n"
 "                                    Cost: 0.00 <i>(the cost of the ticket will be recorded on every expense)</i>"
 msgstr ""
-"<strong>Ресторан</strong><br/>\n"
-"                                    Вартість: 0.00 <i>(вартість квитка буде фіксуватися на кожен рахунок)</i>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -265,8 +221,6 @@ msgid ""
 "<strong>The accounting department posts journal entries and reimburses "
 "employees </strong>"
 msgstr ""
-"<strong>Бухгалтерія публікує журнальні записи та відшкодовує працівникам "
-"</strong>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -279,8 +233,6 @@ msgid ""
 "<strong>Travel with Personal Car</strong><br/>\n"
 "                                    Cost: 0.30 <i>(the price per mile reimbursed by the company is fixed)</i>"
 msgstr ""
-"<strong>Подорож на своїй автівці</strong><br/>\n"
-"                                    Вартість: 0.30 <i>(фіксується ціна за милю, відшкодована компанією)</i>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -294,8 +246,6 @@ msgid ""
 "A payment of %s %s with the reference <a href='/mail/view?%s'>%s</a> related"
 " to your expense %s has been made."
 msgstr ""
-"Платіж %s %s з посиланням <a href='/mail/view?%s'>%s</a>, пов'язани з вашими"
-" витратами,%sбуло зроблено."
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_account_id
@@ -315,17 +265,17 @@ msgstr "Бухоблік"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Accounting: Accountant or Adviser"
-msgstr "Бухгалтерський облік: бухгалтер або радник"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Actual expense sheets, not the refused ones"
-msgstr "Фактичні витратні матеріали, а не відмовлені"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Agree in advance with the customer:"
-msgstr "Погодьте заздалегідь з клієнтом:"
+msgstr ""
 
 #. module: hr_expense
 #: model:product.product,name:hr_expense.air_ticket
@@ -336,17 +286,17 @@ msgstr "Авіапереліт"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_all
 msgid "All Expense Reports"
-msgstr "Усі звіти про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_all
 msgid "All Expenses"
-msgstr "Усі витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_account_id
 msgid "An expense account is expected"
-msgstr "Обліковий рахунок витрат очікується"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_analytic_account_id
@@ -368,26 +318,24 @@ msgstr "Затверджено"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Approved Expenses"
-msgstr "Затверджені витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "As employees, there are"
-msgstr "Як працівники, є"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Ask your expert accountant what tax must be claimed to your customer"
 msgstr ""
-"Попросіть свого спеціаліста-бухгалтера подати заявку на отримання податку "
-"для свого клієнта"
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
-msgstr "Прикріпіть свою квитанцію тут."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_bank_journal_id
@@ -407,7 +355,7 @@ msgstr "Оплата постачальникам"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Business trip"
-msgstr "Бізнес-подорож"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_product_product_can_be_expensed
@@ -439,7 +387,7 @@ msgstr "Звіт складено вірно,<br/>(дата і підпис).<br
 #: model:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_to_post
 #: model:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_all
 msgid "Click here to create a new expense report."
-msgstr "Натисніть тут, щоб створити звіт про витрати."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.action_request_approve_expense_sheet
@@ -452,7 +400,7 @@ msgstr "Натисніть тут, щоб створити нові витрат
 #: code:addons/hr_expense/models/hr_expense.py:343
 #, python-format
 msgid "Click to add a new expense,"
-msgstr "Натисніть, щоб додати нові витрати,"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_product
@@ -482,7 +430,7 @@ msgstr "Налаштування"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Configure expense types"
-msgstr "Налаштувати типи витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -498,12 +446,12 @@ msgstr "Вітаємо, ви все завершили!"
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "Create a new expense.<br>"
-msgstr "Створити нові витрати.<br>"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Create employees with a Work Email"
-msgstr "Створіть співробітників за допомогою робочого Email"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_create_uid
@@ -531,7 +479,7 @@ msgstr "Валюта"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings_module_sale_management
 msgid "Customer Billing"
-msgstr "Виставлення рахунку клієнта"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_accounting_date
@@ -542,7 +490,7 @@ msgstr "Дата"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings_expense_alias_prefix
 msgid "Default Alias Name for Expenses"
-msgstr "Псевдонім витрат за замовчуванням"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_department_id
@@ -553,7 +501,7 @@ msgstr "Відділ"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Depending on your company structure, the"
-msgstr "Залежно від структури вашої компанії"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_description
@@ -582,7 +530,7 @@ msgstr "Не вагайтесь"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_register_payment_view_form
 msgid "Draft Payment"
-msgstr "Чорновий платіж"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -610,7 +558,7 @@ msgstr "Співробітник (до відшкодування)"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_address_id
 msgid "Employee Home Address"
-msgstr "Домашня адреса працівника"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -633,7 +581,7 @@ msgstr "Витрати"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_date
 msgid "Expense Date"
-msgstr "Дата витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_name
@@ -643,7 +591,7 @@ msgstr "Опис витрат"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Expense Flow"
-msgstr "Потік витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_journal_id
@@ -654,7 +602,7 @@ msgstr "Журнал витрат"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_expense_line_ids
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Expense Lines"
-msgstr "Рядки витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_product
@@ -667,22 +615,22 @@ msgstr "Товари витрат"
 #: model:ir.model,name:hr_expense.model_hr_expense_sheet
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_id
 msgid "Expense Report"
-msgstr "Звіт про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_sheet_register_payment_wizard
 msgid "Expense Report Register Payment wizard"
-msgstr "Майстер реєстрації звітів про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_state
 msgid "Expense Report State"
-msgstr "Стан звіту про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_name
 msgid "Expense Report Summary"
-msgstr "Опис звіту про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports
@@ -690,50 +638,50 @@ msgstr "Опис звіту про витрати"
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Expense Reports"
-msgstr "Звіти про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_filtered
 msgid "Expense Reports Analysis"
-msgstr "Аналіз звітів про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_approve
 msgid "Expense Reports To Approve"
-msgstr "Звіти про витрати до затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_pay
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_pay
 msgid "Expense Reports To Pay"
-msgstr "Звіти про витрати на оплату"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_post
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_post
 msgid "Expense Reports To Post"
-msgstr "Звіти про витрати на публікування"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_approve
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_to_approve
 msgid "Expense Reports to Approve"
-msgstr "Звіти про витрати на затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Expense Sheet"
-msgstr "Лист витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Expense Types"
-msgstr "Типи витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_refuse_wizard
 msgid "Expense refuse Reason wizard"
-msgstr "Майстер причин відмов витрати "
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
@@ -743,32 +691,32 @@ msgstr "Причина відхилення витрат"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense report approved"
-msgstr "Затверджений звіт про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_paid
 msgid "Expense report paid"
-msgstr "Оплачений звіт про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense report refused"
-msgstr "Відхилений звіт про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_confirmed
 msgid "Expense report submitted, waiting approval"
-msgstr "Звіт про витрати подано, очікування схвалення"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_account_move_line_expense_id
 msgid "Expense where the move line come from"
-msgstr "Витрати, на які походить рядок переходу"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.server,name:hr_expense.hr_expense_submit_action_server
 msgid "Expense: Submit To Manager"
-msgstr "Витрати: надіслати менеджеру"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_root
@@ -803,17 +751,17 @@ msgstr "Місяць витрат"
 #: model:ir.actions.report,name:hr_expense.action_report_hr_expense_sheet
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Expenses Report"
-msgstr "Звіт про витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_all
 msgid "Expenses Reports Analysis"
-msgstr "Аналіз звітів витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_department_expense_sheets_to_approve_count
 msgid "Expenses Reports to Approve"
-msgstr "Звіти про витрати на затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_department_expense_confirmed
@@ -829,7 +777,7 @@ msgstr "Витрати по місяцях"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Expenses follow this flow:"
-msgstr "Витрати йдуть за цим потоком:"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:438
@@ -852,8 +800,6 @@ msgstr ""
 #, python-format
 msgid "Expenses must have been paid by the same entity (Company or employee)"
 msgstr ""
-"Витрати повинні бути сплачені тим самим суб'єктом (Компанією або "
-"працівником)"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -869,22 +815,22 @@ msgstr "Витрати до включення в рахунок"
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_my_expenses_to_submit
 msgid "Expenses to Submit"
-msgstr "Витрати на подання"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "Expenses will go through these steps:"
-msgstr "Витрати будуть виконані за допомогою таких кроків:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Expenses: Manager"
-msgstr "Витрати: менеджер"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_is_refused
 msgid "Explicitely Refused by manager or acccountant"
-msgstr "Явно відмовлено менеджером або бухгалтером"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -920,22 +866,22 @@ msgstr "Загальна інформація"
 #: code:addons/hr_expense/static/src/js/tour.js:16
 #, python-format
 msgid "Go to the expense to attach a receipt."
-msgstr "Перейдіть на рахунок, щоб прикріпити квитанцію."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Grant such accountants with following access rights:"
-msgstr "Надайте такі обліки з наступними правами доступу:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Grant such users with “Officer” rights for Expense app"
-msgstr "Надайте таким користувачам права \"Менеджер\" для програми Витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Grant this user with “Manager” rights for Expense app"
-msgstr "Надайте цьому користувачу права \"Менеджер\" для додатку Витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -951,12 +897,12 @@ msgstr "Віділ"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Have a wonderful day,<br/>- The Odoo Team"
-msgstr "Гарного дня,<br/>- Команда Odoo"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
 msgid "Hide Payment Method"
-msgstr "Приховує метод оплати"
+msgstr ""
 
 #. module: hr_expense
 #: model:product.product,name:hr_expense.hotel_rent
@@ -967,12 +913,12 @@ msgstr "Проживання в готелі"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_hr_expense_ids
 msgid "Hr Expense"
-msgstr "Витрати відділу кадрів"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_hr_expense_sheet_id
 msgid "Hr Expense Sheet"
-msgstr "Листок витрат відділу кадрів"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_id
@@ -980,34 +926,32 @@ msgstr "Листок витрат відділу кадрів"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_id_7700
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_id
 msgid "ID"
-msgstr "ID"
+msgstr "ІД"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "If you track expenses on customer projects, you can charge them"
 msgstr ""
-"Якщо ви відстежуєте витрати на проекти клієнтів, ви можете стягувати плату "
-"за них"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Install Analytic Accounting add-on"
-msgstr "Встановити додатковий аналітичний облік"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Install Sales app"
-msgstr "Встановіть додаток продажі"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Invoice Customers"
-msgstr "Виставте рахунок клієнтам"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Invoicing at cost vs. at negotiated price"
-msgstr "Виставлення рахунків за вартістю та за узгодженою ціною"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_account_move_id
@@ -1047,7 +991,7 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings_use_mailgateway
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Let your employees record expenses by email"
-msgstr "Нехай ваші співробітники записують витрати по електронній пошті"
+msgstr ""
 
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_manager
@@ -1059,7 +1003,7 @@ msgstr "Керівник"
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
-msgstr "Менеджери можуть отримувати всі звіти для підтвердження з цього меню."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_communication
@@ -1075,18 +1019,18 @@ msgstr "Мої витрати"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "My Expenses to Submit"
-msgstr "Мої витрати на подання"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_my_refused
 msgid "My Refused Reports"
-msgstr "Мої відмовлені звіти"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_my_all
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "My Reports"
-msgstr "Мої звіти"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -1096,7 +1040,7 @@ msgstr "Витрати моєї команди"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "My Team Reports"
-msgstr "Мої звіти команди"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1121,8 +1065,6 @@ msgid ""
 "No Expense account found for the product %s (or for its category), please "
 "configure one."
 msgstr ""
-"Немає обліку витрат для товару %s (або для цієї категорії), будь-ласка, "
-"налаштуйте його."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:231
@@ -1136,17 +1078,17 @@ msgstr ""
 #, python-format
 msgid "No credit account found for the %s journal, please configure one."
 msgstr ""
-"Не вказано кредитний рахунок для журналу %s, будь ласка, вкажіть його."
+"Не вказано кредитовий рахунок для журналу %s, будь ласка, вкажіть його."
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_refused
 msgid "No refused reports to display."
-msgstr "Відсутні відхилені повідомлення для показу."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Not Refused"
-msgstr "Не відхилено"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
@@ -1167,21 +1109,17 @@ msgstr "Начальник"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Once a month"
-msgstr "Раз на місяць"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "Once approved, your expense report, goes to the accounting,"
 msgstr ""
-"Після затвердження ваш звіт про витрати переходить до бухгалтерського "
-"обліку,"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "Once approved, your expenses report goes to the accounting,"
 msgstr ""
-"Після затвердження ваш звіт про витрати переходить до бухгалтерського "
-"обліку,"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1189,8 +1127,6 @@ msgid ""
 "Once expense reports approved by managers, the accounting department checks "
 "accounts, products and taxes used. Then they"
 msgstr ""
-"Після того, як звіти про витрати, затверджені керівниками, бухгалтерія "
-"перевіряє використані рахунки, товари та податки. Потім вони"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1198,8 +1134,6 @@ msgid ""
 "Once setup, you get an efficient expenses tracking process for all your "
 "employees."
 msgstr ""
-"Після налаштування ви отримаєте ефективний процес відстеження витрат для "
-"всіх ваших співробітників."
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_all
@@ -1221,13 +1155,13 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:543
 #, python-format
 msgid "Only HR Officers can approve expenses"
-msgstr "Тільки співробітники відділу кадрів можуть затвердити витрати"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:534
 #, python-format
 msgid "Only HR Officers can refuse expenses"
-msgstr "Тільки співробітники відділу кадрів можуть відмовитись від витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1235,7 +1169,6 @@ msgid ""
 "Optionally, <strong>expenses are invoiced to the customer "
 "afterwards.</strong>"
 msgstr ""
-"Необов'язково, <strong>витрати нараховуються клієнту після цього.</strong>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
@@ -1283,7 +1216,7 @@ msgstr "Тип оплати"
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "Periodically, you submit expenses report to your manager,"
-msgstr "Періодично ви надсилаєте витрати до вашого менеджера,"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_web_planner
@@ -1303,7 +1236,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Populate your list of employees"
-msgstr "Заповніть свій список співробітників"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
@@ -1340,7 +1273,7 @@ msgstr "Шаблон товару"
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
 "Provide your customer with detailed reports (along with copies of receipts)"
-msgstr "Надайте своєму клієнту докладні звіти (разом з копіями квитанцій)"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1355,7 +1288,7 @@ msgstr "Кількість"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Quicker to get reimbursed"
-msgstr "Швидше отримати відшкодування"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_reason
@@ -1365,27 +1298,27 @@ msgstr "Причина"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Reason :"
-msgstr "Причина :"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Reason to refuse Expense"
-msgstr "Причина відхилення витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Record a first expense"
-msgstr "Запишіть перші витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Recording"
-msgstr "Запис"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Recording Mode"
-msgstr "Режим запису"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1413,12 +1346,12 @@ msgstr "Відхилено"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Refused Expenses"
-msgstr "Відхилені витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports_refused
 msgid "Refused Reports"
-msgstr "Відхилені звіти"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_sheet_register_payment_wizard_action
@@ -1430,7 +1363,7 @@ msgstr "Зареєструвати платіж"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Reimbursement"
-msgstr "Відшкодування"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
@@ -1442,7 +1375,7 @@ msgstr "Звіт"
 #: selection:hr.expense,state:0
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Reported"
-msgstr "Відзвітовано"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_reports
@@ -1452,37 +1385,37 @@ msgstr "Звітування"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_request_approve_expense_sheet
 msgid "Reports to Approve"
-msgstr "Звіти на підтвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_request_to_pay_expense_sheet
 msgid "Reports to Pay"
-msgstr "Звіти на оплату"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_request_to_post_expense_sheet
 msgid "Reports to Post"
-msgstr "Звіти на публікування"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Resubmit"
-msgstr "Подати повторно"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Review expenses to approve"
-msgstr "Перевірити витрати на затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "See how to invoice expenses"
-msgstr "Подивіться, як виставити рахунок на витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "See how to manage payables"
-msgstr "Дізнайтеся, як керувати кредиторськими зобов'язаннями"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:93
@@ -1497,38 +1430,37 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Sell services and invoice expenses to customer"
-msgstr "Продаж послуг та витрати на оплату рахунків-фактур замовнику"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Send an expense by email"
-msgstr "Відправте рахунок електронною поштою"
+msgstr ""
 
 #. module: hr_expense
 #: model:web.planner,tooltip_planner:hr_expense.planner_hr_expense
 msgid "Send receipts by email to create expenses efficiently."
 msgstr ""
-"Надсилайте квитанції електронною поштою, щоб ефективно створювати витрати."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Set Home Address to employees"
-msgstr "Встановіть домашню адресу працівникам"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Set a manager in the employee form"
-msgstr "Встановіть менеджера у формі співробітника"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Set an email alias"
-msgstr "Встановіть псевдонім електронної пошти"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Set invoicing method on expense products"
-msgstr "Встановіть метод виставлення рахунків на витратні товари"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_configuration
@@ -1562,12 +1494,12 @@ msgstr "Статус"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_state
 msgid "Status of the expense."
-msgstr "Статус витрат."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Submit for Approval"
-msgstr "Надіслати на затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
@@ -1607,23 +1539,21 @@ msgstr ""
 msgid ""
 "The accountant can register a payment to reimburse the employee directly."
 msgstr ""
-"Бухгалтер може зареєструвати платіж, щоби відшкодувати працівнику "
-"безпосередньо."
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "The accountant validates entries and reimburse you."
-msgstr "Бухгалтер перевіряє записи і відшкодовує вам."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "The accountant validates journal entries and reimburse you."
-msgstr "Бухгалтер перевіряє записи журналу та відшкодовує вам."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "The first step if to"
-msgstr "Перший крок, якщо"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_journal_id
@@ -1633,7 +1563,7 @@ msgstr "Журнал для бухгалтерських проведень об
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "The next step is to settle an internal policy to"
-msgstr "Наступним кроком є врегулювання внутрішньої політики"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/wizard/hr_expense_sheet_register_payment.py:35
@@ -1649,12 +1579,12 @@ msgstr "Спосіб оплати, коли витрати понесені ін
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "The steps to process expenses are:"
-msgstr "Порядок обробки витрат:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "This guide helps you start with Odoo Expenses."
-msgstr "Цей помічник допоможе вам розпочати з витрат Odoo."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -1662,8 +1592,6 @@ msgid ""
 "This installs the Sales Management app.                             Expenses"
 " can be invoiced to customers from sales orders."
 msgstr ""
-"Це встановить додаток Управління продажами. Витрати можуть бути виставлені "
-"клієнтам із замовлень на продаж."
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_to_approve
@@ -1679,7 +1607,7 @@ msgstr "До сплати"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "To Post"
-msgstr "Публікувати"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense,state:0
@@ -1690,7 +1618,7 @@ msgstr "До розгляду"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "To do:"
-msgstr "Зробити:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_total_amount
@@ -1718,7 +1646,7 @@ msgstr "Одиниця виміру"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_approved_expense
 msgid "Unreported Expenses"
-msgstr "Неопубліковані витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1728,11 +1656,6 @@ msgid ""
 "sent to the company for payment, it’s better to use Vendor Bills instead of "
 "expenses in the Accounting app."
 msgstr ""
-"Використовуйте цей додаток, щоб відслідковувати витрати, зроблені "
-"співробітниками та відшкодовані компанією, або оплачені безпосередньо "
-"кредитними картками компанії. Якщо рахунок постачальника надсилається "
-"компанії для оплати, краще скористатися рахунками постачальників, а не "
-"витратами в програмі бухгалтерського обліку."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_register_payment_view_form
@@ -1742,28 +1665,27 @@ msgstr "Підтвердити"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_responsible_id
 msgid "Validation By"
-msgstr "Перевірка по"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_expenses_tree
 msgid "View Attached Documents"
-msgstr "Переглянути прикріплені документи"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "View Attachments"
-msgstr "Переглянути прикріплення"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
 msgid "View Report"
-msgstr "Переглянути звіт"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "We hope this feature helped you manage your expenses efficiently."
 msgstr ""
-"Ми сподіваємось, що ця функція допомогла вам ефективно управляти витратами."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1773,19 +1695,19 @@ msgstr "Вітання"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "What it covers and what are the limits"
-msgstr "Що це охоплює і які межі"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "When you charge"
-msgstr "Коли ви заряджаєте"
+msgstr ""
 
 #. module: hr_expense
 #. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:26
 #, python-format
 msgid "Write the name of the product, or select an existing one."
-msgstr "Напишіть назву товару або виберіть існуючу."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:563
@@ -1802,66 +1724,57 @@ msgid ""
 "between brackets, the product will be set automatically. Type the expense "
 "amount in the mail subject to set it on the expense too."
 msgstr ""
-"Ви можете налаштувати загальний псевдонім електронної пошти, щоб легко "
-"створювати вхідні витрати. Напишіть електронний лист із квитанцією в "
-"додатку, щоб створити рядок витрат в один клік. Якщо тема повідомлення "
-"містить внутрішню довідку товару у дужках, товар буде встановлений "
-"автоматично. Введіть суму витрат у поштовій темі, щоби встановити її за "
-"рахунок теж."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:598
 #, python-format
 msgid "You cannot add expense lines of another employee."
-msgstr "Ви не можете додати рядки витрат іншого працівника."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:315
 #, python-format
 msgid "You cannot delete a posted expense."
-msgstr "Ви не можете видалити розміщені витрати."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:469
 #, python-format
 msgid "You cannot delete a posted or paid expense."
-msgstr "Ви не можете видалити опубліковані або оплачені витрати."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:111
 #, python-format
 msgid "You cannot report expenses for different employees in the same report!"
 msgstr ""
-"Ви не можете повідомити про витрати для різних співробітників в одному "
-"звіті!"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:602
 #, python-format
 msgid "You cannot report expenses with different payment modes."
 msgstr ""
-"Ви не можете повідомити про витрати за допомогою різних режимів оплати."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:109
 #, python-format
 msgid "You cannot report twice the same line!"
-msgstr "Ви не можете звітувати двічі той же рядок!"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "You record expenses"
-msgstr "Ви фіксуєте витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid "You record expenses,"
-msgstr "Ви фіксуєте витрати,"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Your Expense"
-msgstr "Ваші витрати"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1871,58 +1784,58 @@ msgstr "і"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "approval process"
-msgstr "процес затвердження"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "back to your customers automatically"
-msgstr "повернутися до ваших клієнтів автоматично"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "can be:"
-msgstr "може бути:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "configure the expense types"
-msgstr "налаштувати типи витрат"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "e.g. Lunch"
-msgstr "наприклад, обід"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
 msgid "e.g. Lunch with Customer"
-msgstr "наприклад, обід з клієнтом"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "e.g. Trip to NY"
-msgstr "наприклад, подорож до Нью-Йорку"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "has been refused"
-msgstr "було відхилено"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:344
 #, python-format
 msgid "or send receipts by email to %s."
-msgstr "або надіслати квитанцію електронною поштою до %s."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "post them into the books"
-msgstr "опублікуйте їх у книги"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "proceed with the employee reimbursement"
-msgstr "продовжувати відшкодування працівнику"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_res_config_settings
@@ -1937,12 +1850,12 @@ msgstr "напишіть нам"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "submit expenses to managers"
-msgstr "відправляти витрати керівникам"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "that your company allows. Here are some examples:"
-msgstr "що дозволяє ваша компанія. Ось кілька прикладів:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner

@@ -8,6 +8,9 @@ var Widget = require('web.Widget');
 var weContext = require('web_editor.context');
 require('web_editor.editor');
 var translate = require('web_editor.translate');
+var websiteNavbarData = require('website.navbar');
+
+var WebsiteNavbar = websiteNavbarData.WebsiteNavbar;
 
 var qweb = core.qweb;
 var _t = core._t;
@@ -80,7 +83,7 @@ translate.Class.include({
                         'lang': weContext.get().lang,
                     }).then(function () {
                         ajax.jsonRpc('/website/post_gengo_jobs', 'call', {});
-                        self._save();
+                        self.save_and_reload();
                     }).fail(function () {
                         Dialog.alert(null, _t("Could not Post translation"));
                     });
@@ -110,12 +113,12 @@ translate.Class.include({
 });
 
 var GengoTranslatorPostDialog = Widget.extend({
-    events: {
+    events: _.extend({}, WebsiteNavbar.prototype.events, {
         'hidden.bs.modal': 'destroy',
         'click button[data-action=service_level]': function () {
             this.trigger('service_level');
         },
-    },
+    }),
     template: 'website.GengoTranslatorPostDialog',
     init: function (new_words){
         this.new_words = new_words;
@@ -127,9 +130,9 @@ var GengoTranslatorPostDialog = Widget.extend({
 });
 
 var GengoTranslatorStatisticDialog = Widget.extend({
-    events: {
+    events: _.extend({}, WebsiteNavbar.prototype.events, {
         'hidden.bs.modal': 'destroy',
-    },
+    }),
     template: 'website.GengoTranslatorStatisticDialog',
     init: function (res) {
         var self = this;
@@ -151,10 +154,10 @@ var GengoTranslatorStatisticDialog = Widget.extend({
 });
 
 var GengoApiConfigDialog = Widget.extend({
-    events: {
+    events: _.extend({}, WebsiteNavbar.prototype.events, {
         'hidden.bs.modal': 'destroy',
         'click button[data-action=set_config]': 'set_config'
-    },
+    }),
     template: 'website.GengoApiConfigDialog',
     init:function (company_id){
         this.company_id =  company_id;

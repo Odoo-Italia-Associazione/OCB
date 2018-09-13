@@ -20,7 +20,7 @@ FormView.include({
      */
     init: function (viewInfo) {
         this._super.apply(this, arguments);
-        this.controllerParams.customViewID = viewInfo.custom_view_id;
+        this.controllerParams.viewID = viewInfo.view_id;
     },
 });
 
@@ -33,7 +33,7 @@ FormController.include({
     }),
     init: function (parent, model, renderer, params) {
         this._super.apply(this, arguments);
-        this.customViewID = params.customViewID;
+        this.viewID = params.viewID;
     },
 
     //--------------------------------------------------------------------------
@@ -63,9 +63,9 @@ FormController.include({
         var board = this.renderer.getBoard();
         var arch = QWeb.render('DashBoard.xml', _.extend({}, board));
         return this._rpc({
-                route: '/web/view/edit_custom',
+                route: '/web/view/add_custom',
                 params: {
-                    custom_id: this.customViewID,
+                    view_id: this.viewID,
                     arch: arch,
                 }
             }).then(dataManager.invalidate.bind(dataManager));
@@ -117,9 +117,10 @@ FormController.include({
         this.do_action({
             type: 'ir.actions.act_window',
             res_model: event.data.model,
-            views: [[event.data.formViewID || false, 'form']],
+            views: [[false, 'form']],
             res_id: event.data.res_id,
         });
+
     },
 
 });
@@ -130,9 +131,6 @@ FormRenderer.include({
         'click .oe_dashboard_link_change_layout': '_onChangeLayout',
         'click .oe_dashboard_column .oe_close': '_onCloseAction',
     }),
-    custom_events: _.extend({}, FormRenderer.prototype.custom_events, {
-        switch_view: '_onSwitchView',
-    }),
 
     /**
      * @override
@@ -141,32 +139,6 @@ FormRenderer.include({
         this._super.apply(this, arguments);
         this.noContentHelp = params.noContentHelp;
         this.actionsDescr = {};
-        this._boardSubcontrollers = []; // for board: controllers of subviews
-        this._boardFormViewIDs = {}; // for board: mapping subview controller to form view id
-    },
-    /**
-     * Call `on_attach_callback` for each subview
-     *
-     * @override
-     */
-    on_attach_callback: function () {
-        _.each(this._boardSubcontrollers, function (controller) {
-            if ('on_attach_callback' in controller) {
-                controller.on_attach_callback();
-            }
-        });
-    },
-    /**
-     * Call `on_detach_callback` for each subview
-     *
-     * @override
-     */
-    on_detach_callback: function () {
-        _.each(this._boardSubcontrollers, function (controller) {
-            if ('on_detach_callback' in controller) {
-                controller.on_detach_callback();
-            }
-        });
     },
 
     //--------------------------------------------------------------------------
@@ -255,7 +227,7 @@ FormRenderer.include({
                 }
                 var view = _.find(action.views, function (descr) {
                     return descr[1] === params.viewType;
-                }) || [false, params.viewType];
+                });
                 return self.loadViews(action.res_model, params.context, [view])
                            .then(function (viewsInfo) {
                     var viewInfo = viewsInfo[params.viewType];
@@ -269,12 +241,6 @@ FormRenderer.include({
                         hasSelectors: false,
                     });
                     return view.getController(self).then(function (controller) {
-                        self._boardFormViewIDs[controller.handle] = _.first(
-                            _.find(action.views, function (descr) {
-                                return descr[1] === 'form';
-                            })
-                        );
-                        self._boardSubcontrollers.push(controller);
                         return controller.appendTo(params.$node);
                     });
                 });
@@ -391,16 +357,6 @@ FormRenderer.include({
         $e.toggleClass('oe_minimize oe_maximize');
         $action.find('.oe_content').toggle();
         this.trigger_up('save_dashboard');
-    },
-    /**
-     * Let FormController know which form view it should display based on the
-     * window action of the sub controller that is switching view
-     *
-     * @private
-     * @param {OdooEvent} event
-     */
-    _onSwitchView: function (event) {
-        event.data.formViewID = this._boardFormViewIDs[event.target.handle];
     },
 });
 

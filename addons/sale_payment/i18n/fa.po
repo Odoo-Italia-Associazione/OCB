@@ -4,21 +4,20 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
-# Faraz Sadri Alamdari <ifarazir@gmail.com>, 2018
-# Hamed Mohammadi <hamed@dehongi.com>, 2018
+# ifaraz ir <ifarazir@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2018\n"
+"Last-Translator: ifaraz ir <ifarazir@gmail.com>, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.payment_confirmation_status
@@ -46,7 +45,7 @@ msgstr ""
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.portal_my_orders_payment
 msgid "<i class=\"fa fa-arrow-circle-right\"/> Pay Now"
-msgstr "<i class=\"fa fa-arrow-circle-right\"/> اکنون بپرداز"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.portal_my_orders_payment
@@ -59,8 +58,6 @@ msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
 msgstr ""
-"<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
-" fa-clock-o\"/> در انتظار</span>"
 
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.portal_my_orders_payment
@@ -68,19 +65,17 @@ msgid ""
 "<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
 "fa-fw fa-check\"/> Done</span>"
 msgstr ""
-"<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
-"fa-fw fa-check\"/> انجام شده</span>"
 
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.portal_my_orders_payment
 msgid "<strong>Transactions</strong>"
-msgstr "<strong>تراکنشها</strong>"
+msgstr ""
 
 #. module: sale_payment
 #: code:addons/sale_payment/models/payment.py:54
 #, python-format
 msgid "Amount Mismatch (%s)"
-msgstr "مقدار اختلاف (%s)"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.model.fields,field_description:sale_payment.field_crm_team_pending_payment_transactions_amount
@@ -118,12 +113,12 @@ msgstr ""
 #. module: sale_payment
 #: model:ir.model.fields,field_description:sale_payment.field_sale_order_payment_tx_id
 msgid "Last Transaction"
-msgstr "آخرین تراکنش"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.model.fields,field_description:sale_payment.field_sale_order_payment_transaction_count
 msgid "Number of payment transactions"
-msgstr "تعداد تراکنشهای پرداخت"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.model.fields,field_description:sale_payment.field_crm_team_pending_payment_transactions_count
@@ -145,17 +140,17 @@ msgstr ""
 #: code:addons/sale_payment/models/payment.py:200
 #, python-format
 msgid "Pay Now"
-msgstr "اکنون بپرداز"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.portal_my_orders_payment
 msgid "Pay with"
-msgstr "پرداخت با"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.model.fields,field_description:sale_payment.field_sale_order_payment_acquirer_id
 msgid "Payment Acquirer"
-msgstr "دریافت کننده پرداخت"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.model,name:sale_payment.model_payment_transaction
@@ -190,7 +185,7 @@ msgstr ""
 #. module: sale_payment
 #: model:ir.model,name:sale_payment.model_crm_team
 msgid "Sales Channel"
-msgstr "کانال فروش"
+msgstr ""
 
 #. module: sale_payment
 #: model:ir.model.fields,field_description:sale_payment.field_payment_transaction_sale_order_id
@@ -258,4 +253,4 @@ msgstr "تراکنش ها"
 #. module: sale_payment
 #: model:ir.ui.view,arch_db:sale_payment.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "این پرداخت مجاز است."
+msgstr ""

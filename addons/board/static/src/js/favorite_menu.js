@@ -94,10 +94,7 @@ FavoriteMenu.include({
             })
             .then(function (r) {
                 if (r) {
-                    self.do_notify(
-                        _.str.sprintf(_t("'%s' added to dashboard"), name),
-                        _t('Please refresh your browser for the changes to take effect.')
-                    );
+                    self.do_notify(_.str.sprintf(_t("'%s' added to dashboard"), name), '');
                 } else {
                     self.do_warn(_t("Could not add filter to dashboard"));
                 }

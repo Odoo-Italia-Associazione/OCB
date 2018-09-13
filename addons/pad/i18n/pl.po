@@ -4,9 +4,8 @@
 # 
 # Translators:
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2017
-# Martin Trigaux, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2017
-# Wiktor Kaźmierczak <wik92tor@wp.pl>, 2017
 # zbik2607 <darek@krokus.com.pl>, 2017
 msgid ""
 msgstr ""
@@ -41,7 +40,7 @@ msgstr "Nazwa wyświetlana"
 #: model:ir.model.fields,help:pad.field_res_company_pad_key
 #: model:ir.model.fields,help:pad.field_res_config_settings_pad_key
 msgid "Etherpad lite api key."
-msgstr "Klucz Etherpad lite API."
+msgstr "Etherpad lite API klucz."
 
 #. module: pad
 #: model:ir.model.fields,help:pad.field_res_company_pad_server
@@ -69,7 +68,7 @@ msgstr "Pobieranie"
 #. module: pad
 #: model:ir.model.fields,field_description:pad.field_res_company_pad_key
 msgid "Pad Api Key"
-msgstr "Klucz Pad Api "
+msgstr "Pad Api Key"
 
 #. module: pad
 #: model:ir.model.fields,field_description:pad.field_res_config_settings_pad_key
@@ -79,7 +78,7 @@ msgstr ""
 #. module: pad
 #: model:ir.model.fields,field_description:pad.field_res_company_pad_server
 msgid "Pad Server"
-msgstr "Serwer Pad"
+msgstr "Pad Serwer"
 
 #. module: pad
 #: model:ir.model.fields,field_description:pad.field_res_config_settings_pad_server

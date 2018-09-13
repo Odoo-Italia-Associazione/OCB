@@ -14,13 +14,11 @@ from operator import itemgetter
 from odoo import api, fields, models, _
 from odoo.addons.base.res.res_partner import _tz_get
 from odoo.exceptions import ValidationError
-from odoo.tools.float_utils import float_compare, float_round
+from odoo.tools.float_utils import float_compare
 
 
 def float_to_time(float_hour):
-    if float_hour == 24.0:
-        return datetime.time.max
-    return datetime.time(int(math.modf(float_hour)[1]), int(float_round(60 * math.modf(float_hour)[0], precision_digits=0)), 0)
+    return datetime.time(int(math.modf(float_hour)[1]), int(60 * math.modf(float_hour)[0]), 0)
 
 
 def to_naive_user_tz(datetime, record):
@@ -645,9 +643,7 @@ class ResourceCalendarAttendance(models.Model):
         ], 'Day of Week', required=True, index=True, default='0')
     date_from = fields.Date(string='Starting Date')
     date_to = fields.Date(string='End Date')
-    hour_from = fields.Float(string='Work from', required=True, index=True,
-        help="Start and End time of working.\n"
-             "A specific value of 24:00 is interpreted as 23:59:59.999999.")
+    hour_from = fields.Float(string='Work from', required=True, index=True, help="Start and End time of working.")
     hour_to = fields.Float(string='Work to', required=True)
     calendar_id = fields.Many2one("resource.calendar", string="Resource's Calendar", required=True, ondelete='cascade')
 

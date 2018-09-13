@@ -78,7 +78,7 @@ class MailActivity(models.Model):
     summary = fields.Char('Summary')
     note = fields.Html('Note')
     feedback = fields.Html('Feedback')
-    date_deadline = fields.Date('Due Date', index=True, required=True, default=fields.Date.context_today)
+    date_deadline = fields.Date('Due Date', index=True, required=True, default=fields.Date.today)
     # description
     user_id = fields.Many2one(
         'res.users', 'Assigned to',
@@ -113,10 +113,9 @@ class MailActivity(models.Model):
 
         for record in self.filtered(lambda activity: activity.date_deadline):
             today = today_default
-            tz = record.user_id.sudo().tz
-            if tz:
+            if record.user_id.tz:
                 today_utc = pytz.UTC.localize(datetime.utcnow())
-                today_tz = today_utc.astimezone(pytz.timezone(tz))
+                today_tz = today_utc.astimezone(pytz.timezone(record.user_id.tz))
                 today = date(year=today_tz.year, month=today_tz.month, day=today_tz.day)
 
             date_deadline = fields.Date.from_string(record.date_deadline)
@@ -141,8 +140,7 @@ class MailActivity(models.Model):
 
     @api.onchange('recommended_activity_type_id')
     def _onchange_recommended_activity_type_id(self):
-        if self.recommended_activity_type_id:
-            self.activity_type_id = self.recommended_activity_type_id
+        self.activity_type_id = self.recommended_activity_type_id
 
     @api.multi
     def _check_access(self, operation):

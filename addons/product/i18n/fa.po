@@ -6,7 +6,7 @@
 # Hamid Darabi, 2017
 # Martin Trigaux, 2017
 # Hamed Mohammadi <hamed@dehongi.com>, 2017
-# Faraz Sadri Alamdari <ifarazir@gmail.com>, 2017
+# ifaraz ir <ifarazir@gmail.com>, 2017
 # Morovat Guivi <tarjomac@gmail.com>, 2017
 # Zahed Alfak <tamass4116@gmail.com>, 2017
 # hamid hvbnet <hvbnet@yahoo.com>, 2017
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: product
 #: selection:product.pricelist.item,applied_on:0
@@ -36,12 +36,12 @@ msgstr "طبقه کالا"
 #: model:ir.model.fields,field_description:product.field_product_product_product_variant_count
 #: model:ir.model.fields,field_description:product.field_product_template_product_variant_count
 msgid "# Product Variants"
-msgstr "تعداد انواع محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_product_count
 msgid "# Products"
-msgstr "تعداد محصولات"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:446
@@ -64,7 +64,7 @@ msgstr "%s (کپی)"
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_1
 msgid "16 GB"
-msgstr "16 GB"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_3
@@ -73,8 +73,6 @@ msgid ""
 "17\" LCD Monitor\n"
 "Processor AMD 8-Core"
 msgstr ""
-"17\" LCD Monitor\n"
-"Processor AMD 8-Core"
 
 #. module: product
 #: model:product.product,description:product.product_product_25
@@ -83,8 +81,6 @@ msgid ""
 "17\" Monitor, 4GB RAM\n"
 "Standard-1294P Processor"
 msgstr ""
-"17\" Monitor, 4GB RAM\n"
-"Standard-1294P Processor"
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -136,44 +132,41 @@ msgid ""
 "                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Cost  -  </span>\n"
 "                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Other Pricelist  -  </span>"
 msgstr ""
-"<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">قیمت عمومی  -  </span>\n"
-"                            <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">هزینه  -  </span>\n"
-"                            <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">دیگر لیست قیمتها  -  </span>"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "<span class=\"o_stat_text\"> Products</span>"
-msgstr "<span class=\"o_stat_text\"> محصولات</span>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "<span>kg</span>"
-msgstr "<span>kg</span>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "<span>m³</span>"
-msgstr "<span>m³</span>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Currency</strong>:<br/>"
-msgstr "<strong>ارز</strong>:<br/>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Description</strong>"
-msgstr "<strong>توضیحات</strong>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Price List Name</strong>:<br/>"
-msgstr "<strong>نام لیست قیمت</strong>:<br/>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Print date</strong>:<br/>"
-msgstr "<strong>تاریخ چاپ</strong>:<br/>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_only_form_view
@@ -351,7 +344,7 @@ msgstr "مشخصه"
 #: model:ir.ui.view,arch_db:product.product_attribute_line_form
 #: model:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Attribute Name"
-msgstr "نام ویژگی"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_price_extra
@@ -436,13 +429,13 @@ msgstr "بر پایه"
 #: model:product.product,name:product.consu_delivery_03
 #: model:product.template,name:product.consu_delivery_03_product_template
 msgid "Basic Computer"
-msgstr "رایانه پایه"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.membership_2
 #: model:product.template,name:product.membership_2_product_template
 msgid "Basic Membership"
-msgstr "عضویت پایه"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -459,12 +452,12 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image
 msgid "Big-sized image"
-msgstr "تصویر با اندازه بزرگ"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_factor_inv
 msgid "Bigger Ratio"
-msgstr "نسبت بزرگتر"
+msgstr ""
 
 #. module: product
 #: selection:product.uom,uom_type:0
@@ -556,19 +549,19 @@ msgstr "دسته‌بندی"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "Category name"
-msgstr "نام طبقه‌بندی"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:435
 #, python-format
 msgid "Category: %s"
-msgstr "طبقه بندی: %s"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Characteristics"
-msgstr "خصوصیات"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -603,17 +596,17 @@ msgstr ""
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_categ_form_action
 msgid "Click to add a new unit of measure category."
-msgstr "برای ایجاد طبقه بندی جدید واحد اندازه‌گیری کلیک کنید."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_form_action
 msgid "Click to add a new unit of measure."
-msgstr "برای ایجاد یک واحد اندازه گیری جدید کلیک کنید."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_pricelist_action2
 msgid "Click to create a pricelist."
-msgstr "برای ایجاد لیست قیمت کلیک کنید."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
@@ -622,12 +615,12 @@ msgstr "برای ایجاد لیست قیمت کلیک کنید."
 #: model:ir.actions.act_window,help:product.product_template_action_all
 #: model:ir.actions.act_window,help:product.product_variant_action
 msgid "Click to define a new product."
-msgstr "برای ایجاد محصول جدید کلیک کنید."
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Codes"
-msgstr "کدها"
+msgstr ""
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_2
@@ -657,7 +650,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Common Product Catalog"
-msgstr "کاتالوگ عمومی محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
@@ -683,19 +676,19 @@ msgstr "نام کامل"
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_compute_price
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Compute Price"
-msgstr "محاسبه قیمت"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_16
 #: model:product.template,name:product.product_product_16_product_template
 msgid "Computer Case"
-msgstr "کیس کامپیوتر"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_3
 #: model:product.template,name:product.product_product_3_product_template
 msgid "Computer SC234"
-msgstr "کامپیوتر SC234"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_template.py:50
@@ -762,7 +755,7 @@ msgstr "گروه کشور"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_country_group_ids
 msgid "Country Groups"
-msgstr "گروه‌های کشور"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_variant
@@ -853,7 +846,7 @@ msgstr ""
 #: model:product.product,name:product.product_delivery_02
 #: model:product.template,name:product.product_delivery_02_product_template
 msgid "Datacard"
-msgstr "کارت دیتا"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_price_history_datetime
@@ -875,7 +868,7 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product_uom_id
 #: model:ir.model.fields,help:product.field_product_template_uom_id
 msgid "Default Unit of Measure used for all stock operation."
-msgstr "واحد اندازه‌گیری پیشفرض برای تمام عملیات موجودی."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_uom_po_id
@@ -899,7 +892,7 @@ msgstr "توصیف"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Description for Customers"
-msgstr "توضیحات برای مشتری‌ها"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -982,7 +975,7 @@ msgstr ""
 #: code:addons/product/models/product.py:53
 #, python-format
 msgid "Error ! You cannot create recursive categories."
-msgstr "خطا! شما نمی‌توانید طبقه بندی بازگشتی ایجاد کنید."
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:101
@@ -1102,12 +1095,12 @@ msgstr ""
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Fix Price"
-msgstr "قیمت ثابت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_fixed_price
 msgid "Fixed Price"
-msgstr "قیمت مقطوع"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_min_quantity
@@ -1138,12 +1131,12 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Friendly to the environment."
-msgstr "دوستدار محیط زیست."
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Future Activities"
-msgstr "فعالیتهای آینده"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_1
@@ -1191,13 +1184,13 @@ msgstr ""
 #: model:product.product,name:product.membership_0
 #: model:product.template,name:product.membership_0_product_template
 msgid "Gold Membership"
-msgstr "عضویت طلایی"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_24
 #: model:product.template,name:product.product_product_24_product_template
 msgid "Graphics Card"
-msgstr "کارتهای گرافیک"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_search_view
@@ -1208,7 +1201,7 @@ msgstr "گروه‌بندی برمبنای"
 #: model:product.product,name:product.product_product_17
 #: model:product.template,name:product.product_product_17_product_template
 msgid "HDD SH-1"
-msgstr "HDD SH-1"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1240,7 +1233,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Highly rated designs."
-msgstr "طراحی با رتبه بالا."
+msgstr ""
 
 #. module: product
 #: model:product.uom,name:product.product_uom_hour
@@ -1360,7 +1353,7 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_product_supplierinfo
 msgid "Information about a product vendor"
-msgstr "اطلاعات درباره‌ی فروشنده یک محصول"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
@@ -1403,19 +1396,19 @@ msgstr "انبار"
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
 msgid "Keep it clean."
-msgstr "تمیز نگهش دار."
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Key Features"
-msgstr "خصوصیات کلیدی."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_27
 #: model:product.template,name:product.product_product_27_product_template
 msgid "Laptop Customized"
-msgstr "لب تاب سفارشی شده"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_25
@@ -1484,7 +1477,7 @@ msgstr "آخرین به روز رسانی در"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Late Activities"
-msgstr "فعالیتهای اخیر"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_delay
@@ -1497,7 +1490,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_left
 msgid "Left Parent"
-msgstr "گره پدر سمت چپ"
+msgstr ""
 
 #. module: product
 #: model:product.uom.categ,name:product.uom_categ_length
@@ -1518,7 +1511,7 @@ msgstr "لیتر"
 #: model:product.product,name:product.consu_delivery_02
 #: model:product.template,name:product.consu_delivery_02_product_template
 msgid "Little server"
-msgstr "سرور کوچک"
+msgstr ""
 
 #. module: product
 #: model:res.groups,name:product.group_uom
@@ -1528,7 +1521,7 @@ msgstr ""
 #. module: product
 #: model:res.groups,name:product.group_pricelist_item
 msgid "Manage Pricelist Items"
-msgstr "مدیریت آیتمهای لیست قیمت"
+msgstr ""
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -1543,12 +1536,12 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Max. Margin"
-msgstr "حاشیه بیشینه"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_price_max_margin
 msgid "Max. Price Margin"
-msgstr "بیشینه حاشیه قیمت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image_medium
@@ -1572,12 +1565,12 @@ msgstr "حافظه"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Min. Margin"
-msgstr "کمینه حاشیه"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_price_min_margin
 msgid "Min. Price Margin"
-msgstr "کمینه حاشیه قیمت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_min_quantity
@@ -1587,7 +1580,7 @@ msgstr "تعداد کمینه"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_min_qty
 msgid "Minimal Quantity"
-msgstr "کمترین کیفیت"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -1599,7 +1592,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "More features."
-msgstr "خصوصیات بیشتر."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_20
@@ -1611,13 +1604,13 @@ msgstr ""
 #: model:product.product,name:product.product_product_10
 #: model:product.template,name:product.product_product_10_product_template
 msgid "Mouse, Optical"
-msgstr "موس، نوری"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_12
 #: model:product.template,name:product.product_product_12_product_template
 msgid "Mouse, Wireless"
-msgstr "موس، وایرلس"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1656,18 +1649,18 @@ msgstr "دیگر اطلاعات"
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_base_pricelist_id
 #: selection:product.pricelist.item,base:0
 msgid "Other Pricelist"
-msgstr "دیگر لیست قیمتها"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Over 375,000 apps."
-msgstr "بیش از 375,000 برنامه."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging_name
 msgid "Package Type"
-msgstr "نوع بسته‌بندی"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_packaging
@@ -1685,22 +1678,22 @@ msgstr "دسته‌بندی مادر"
 #: model:product.product,name:product.product_product_5c
 #: model:product.template,name:product.product_product_5c_product_template
 msgid "Parts Replacement"
-msgstr "جایگزینی قطعات"
+msgstr ""
 
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Percentage (discount)"
-msgstr "درصد (تخفیف)"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_percent_price
 msgid "Percentage Price"
-msgstr "درصد قیمت"
+msgstr ""
 
 #. module: product
 #: model:product.category,name:product.product_category_5
 msgid "Physical"
-msgstr "فیزیکی"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1714,7 +1707,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Plays where you play"
-msgstr "هر جا شما بازی کنید بازی می‌کند"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -1746,17 +1739,17 @@ msgstr "قیمت"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Price Computation"
-msgstr "محاسبه قیمت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_price_discount
 msgid "Price Discount"
-msgstr "تخفیف قیمت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_price_price_extra
 msgid "Price Extra"
-msgstr "قیمت اضافی"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value_price_extra
@@ -1808,7 +1801,7 @@ msgstr "لیست قیمت"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_pricelist_item_ids
 msgid "Pricelist Item"
-msgstr "آیتم لیست قیمت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_applied_on
@@ -1825,7 +1818,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Pricelist Items"
-msgstr "آیتمهای لیست قیمت"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_name
@@ -1857,7 +1850,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Pricing"
-msgstr "قیمت گذاری"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_product_price_list
@@ -1937,12 +1930,12 @@ msgstr "نام محصول"
 #: model:ir.model.fields,field_description:product.field_res_config_settings_group_stock_packaging
 #: model:ir.ui.view,arch_db:product.product_packaging_tree_view
 msgid "Product Packages"
-msgstr "بسته‌بندی‌های محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_packaging_form_view
 msgid "Product Packaging"
-msgstr "بسته بندی محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_template
@@ -2011,12 +2004,12 @@ msgstr "قیمت محصول"
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_tree
 msgid "Products Price List"
-msgstr "لیست قیمت محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_search
 msgid "Products Price Search"
-msgstr "جستجوی قیمت محصول"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product.py:448
@@ -2028,12 +2021,12 @@ msgstr "محصولات "
 #: model:ir.model.fields,field_description:product.field_product_template_lst_price
 #: selection:product.pricelist.item,base:0
 msgid "Public Price"
-msgstr "قیمت عمومی"
+msgstr ""
 
 #. module: product
 #: model:product.pricelist,name:product.list0
 msgid "Public Pricelist"
-msgstr "لیست قیمت عمومی"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_description_purchase
@@ -2108,12 +2101,12 @@ msgstr ""
 #: model:product.product,name:product.product_product_6c
 #: model:product.template,name:product.product_product_6c_product_template
 msgid "Repair"
-msgstr "تعمیر"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_parent_right
 msgid "Right Parent"
-msgstr "والد راست"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -2177,7 +2170,7 @@ msgstr "قیمت فروش"
 #: model:ir.model.fields,field_description:product.field_res_partner_property_product_pricelist
 #: model:ir.model.fields,field_description:product.field_res_users_property_product_pricelist
 msgid "Sale Pricelist"
-msgstr "لیست قیمت فروش"
+msgstr ""
 
 #. module: product
 #: model:product.category,name:product.product_category_1
@@ -2193,12 +2186,12 @@ msgstr "فروش"
 #: model:ir.model.fields,field_description:product.field_product_product_list_price
 #: model:ir.model.fields,field_description:product.field_product_template_list_price
 msgid "Sales Price"
-msgstr "قیمت فروش"
+msgstr ""
 
 #. module: product
 #: model:res.groups,name:product.group_sale_pricelist
 msgid "Sales Pricelists"
-msgstr "لیستهای قیمت فروش"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -2218,7 +2211,7 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product_categ_id
 #: model:ir.model.fields,help:product.field_product_template_categ_id
 msgid "Select category for the current product"
-msgstr "طبقه بندی برای این محصول انتخاب کنید"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_sequence
@@ -2257,14 +2250,11 @@ msgid ""
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, set rounding 10, surcharge -0.01"
 msgstr ""
-"قیمت را تعیین می‌کند، به صورتی که ضریبی از این مقدار است.\n"
-"رند کردن قبل بعد از تخفیفات و پس از اضافه بها اعمال می‌شود.\n"
-"برای داشتن قیمتهایی که در آخر 9.99 دارند, رند کردن روی 10 تعیین, اضافه بها روی -0.01"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings_company_share_product
 msgid "Share product to all companies"
-msgstr "اشتراک محصول به همه شرکتها"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_config_settings_company_share_product
@@ -2277,7 +2267,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Show all records which has next action date is before today"
-msgstr "تمام رکوردهایی که تاریخ اعمال بعدی قبل از امروز است را نشان بده"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings_group_product_pricelist
@@ -2293,7 +2283,7 @@ msgstr "نمایش لیست قیمت برای مشتری"
 #: model:product.product,name:product.membership_1
 #: model:product.template,name:product.membership_1_product_template
 msgid "Silver Membership"
-msgstr "عضویت نقره‌ای"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -2346,8 +2336,6 @@ msgid ""
 "Specify a product if this rule only applies to one product. Keep empty "
 "otherwise."
 msgstr ""
-"اگر این قاعده تنها در مورد یک محصول است مشخص کنید. در غیر اینصورت خالی "
-"بگذارید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_product_tmpl_id
@@ -2355,8 +2343,6 @@ msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
 msgstr ""
-"اگر این قاعده تنها در مورد یک قالب محصول است مشخص کنید. در غیر اینصورت خالی "
-"بگذارید."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_sale_ok
@@ -2390,12 +2376,12 @@ msgstr "تاریخ آغاز"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_date_start
 msgid "Start date for this vendor price"
-msgstr "تاریخ شروع برای این قیمت فروشنده"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_date_start
 msgid "Starting date for the pricelist item validation"
-msgstr "تاریخ شروع برای اعتبار لیست قیمت آیتم"
+msgstr ""
 
 #. module: product
 #: selection:product.template,type:0
@@ -2502,7 +2488,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging_sequence
 msgid "The first in the sequence is the default one."
-msgstr "اولین در دنباله پیشفرض است."
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -2553,7 +2539,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_price
 msgid "The price to purchase a product"
-msgstr "قیمت خرید محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
@@ -2584,7 +2570,7 @@ msgstr ""
 #. module: product
 #: sql_constraint:product.uom:0
 msgid "The rounding precision must be greater than 0!"
-msgstr "دقت گرد کردن باید بیشتر از 0 باشد!"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_lst_price
@@ -2615,7 +2601,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging_qty
 msgid "The total number of products you can have per pallet or box."
-msgstr "تعداد کل محصول که شما می‌توانید در یک پالت یا جعبه داشته باشید."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_volume
@@ -2627,7 +2613,7 @@ msgstr "حجم به متر مکعب"
 #: model:ir.model.fields,help:product.field_product_product_weight
 #: model:ir.model.fields,help:product.field_product_template_weight
 msgid "The weight of the contents in Kg, not including any packaging, etc."
-msgstr "وزن محتویات به کیلوگرم، بدون بسته بندی و غیره."
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -2667,7 +2653,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_uom
 msgid "This comes from the product form."
-msgstr "این از فرم محصول می‌آید."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_variant
@@ -2691,7 +2677,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note will show up on sales orders."
-msgstr "این یادداشت در سفارشات فروش نشان داده می‌شود."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_partner_property_product_pricelist
@@ -2718,13 +2704,13 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Today Activities"
-msgstr "فعالیتها امروز"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
 msgid "Two is better than one."
-msgstr "دو تا بهتر از یکی است."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_uom_type
@@ -2743,13 +2729,13 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Ultrafast wireless."
-msgstr "وایرلس فوق‌العاده سریع"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Ultrathin design"
-msgstr "طراحی خیلی باریک"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_active
@@ -2827,7 +2813,7 @@ msgstr "از لیست قیمت ها برای منطبق سازی قیمت به �
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "Validity"
-msgstr "معتبر بودن"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_name
@@ -2897,38 +2883,38 @@ msgstr "تامین کننده"
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_tree_view
 msgid "Vendor Information"
-msgstr "اطلاعات فروشنده"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_supplierinfo_type_action
 msgid "Vendor Pricelists"
-msgstr "لیستهای قیمت فروشنده"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_code
 msgid "Vendor Product Code"
-msgstr "کد محصول فروشنده"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_name
 msgid "Vendor Product Name"
-msgstr "نام محصول فروشنده"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_uom
 msgid "Vendor Unit of Measure"
-msgstr "واحد اندازه گیری فروشنده"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_name
 msgid "Vendor of this product"
-msgstr "فروشنده این محصول"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_seller_ids
 #: model:ir.model.fields,field_description:product.field_product_template_seller_ids
 msgid "Vendors"
-msgstr "فروشندگاه"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_volume
@@ -2960,7 +2946,7 @@ msgstr "وزن"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Weights"
-msgstr "وزنها"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -2968,7 +2954,7 @@ msgstr "وزنها"
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "When one playlist isn’t enough."
-msgstr "وقتی یک لیست اجرا کافی نیست."
+msgstr ""
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_3
@@ -2992,7 +2978,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute,name:product.product_attribute_3
 msgid "Wi-Fi"
-msgstr "وای فای"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -3022,13 +3008,13 @@ msgstr ""
 #: code:addons/product/wizard/product_price_list.py:26
 #, python-format
 msgid "You have to set a logo or a layout for your company."
-msgstr "شما باید یک لوگو یا یک طرح بندی شرکت خود تعیین کنید."
+msgstr ""
 
 #. module: product
 #: code:addons/product/wizard/product_price_list.py:28
 #, python-format
 msgid "You have to set your reports's header and footer layout."
-msgstr "شما باید سر صفحه و پاورقی گزارش خود را تعیین کنید."
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_uom_form_action
@@ -3036,8 +3022,6 @@ msgid ""
 "You must define a conversion rate between several Units of\n"
 "            Measure within the same category."
 msgstr ""
-"شما باید ضریب تبدیل بین چند واحد\n"
-"اندازه گیری در یک طبقه بندی یکسان را تعیین کنید."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
@@ -3048,9 +3032,6 @@ msgid ""
 "                a physical product, a consumable or a service you offer to\n"
 "                customers."
 msgstr ""
-"شما باید برای هر چیزی که می‌فروشید یک محصول تعریف کنید، چه این\n"
-"محصول فیزیکی باشد، یک کالای مصرفی یا خدمتی که شما به مشتری\n"
-"ارائه می‌دهید."
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_template_action
@@ -3058,8 +3039,6 @@ msgid ""
 "You must define a product for everything you sell, whether it's a physical "
 "product, a consumable or a service you offer to customers."
 msgstr ""
-"شما باید برای هر چیزی که می‌فروشید یک محصول تعریف کنید، چه این محصول فیزیکی "
-"باشد، یک کالای مصرفی یا خدمتی که شما به مشتری ارائه می‌دهید."
 
 #. module: product
 #: code:addons/product/models/product_template.py:29
@@ -3068,8 +3047,6 @@ msgid ""
 "You must define at least one product category in order to be able to create "
 "products."
 msgstr ""
-"شما باید حداقل یک طبقه بندی محصول تعریف کنید تا بتوانید محصولات را ایجاد "
-"کنید."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -3108,12 +3085,12 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "e.g. Lamps"
-msgstr "برای مثال لامپها"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "e.g. Odoo Enterprise Subscription"
-msgstr "برای مثال عضویت اودو سازمانی"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view

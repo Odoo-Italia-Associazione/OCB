@@ -628,9 +628,9 @@ define([
       }
 
       var anchors = [];
-      // ODOO: adding this branch to modify existing anchor if it fully contains the range
+      // ODOO: adding this branch to modify existing anchor
       var ancestor_anchor = dom.ancestor(rng.sc, dom.isAnchor);
-      if(ancestor_anchor && ancestor_anchor === dom.ancestor(rng.ec, dom.isAnchor)) {
+      if(ancestor_anchor) {
           anchors.push($(ancestor_anchor).html(linkText).get(0));
       } else if (isTextChanged) {
         // Create a new link when text changed.

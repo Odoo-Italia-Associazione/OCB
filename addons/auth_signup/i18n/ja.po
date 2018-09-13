@@ -8,10 +8,10 @@
 # Martin Trigaux, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 11:56+0000\n"
-"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"POT-Creation-Date: 2017-10-02 11:26+0000\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Martin Trigaux, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -165,6 +165,7 @@ msgid ""
 "    <p>\n"
 "        Your login: ${object.email}\n"
 "        <br/>\n"
+"        Your password: ${ctx['password']}\n"
 "    </p>\n"
 "    <p>\n"
 "        To gain access to your account, you can use the following link:\n"
@@ -199,22 +200,22 @@ msgstr "<strong>次のサブスクリプションリンクを含む招待メー�
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.signup
 msgid "Already have an account?"
-msgstr "既にアカウントをお持ちですか？"
+msgstr ""
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:79
+#: code:addons/auth_signup/controllers/main.py:78
 #, python-format
 msgid "An email has been sent with credentials to reset your password"
 msgstr "パスワード再設定のためのEメールが認証キーとともに送信されました"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:51
+#: code:addons/auth_signup/controllers/main.py:52
 #, python-format
 msgid "Another user is already registered using this email address."
 msgstr "別のユーザーが既にこのメールアドレスを使用して登録されています。"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:136
+#: code:addons/auth_signup/controllers/main.py:133
 #, python-format
 msgid "Authentication Failed."
 msgstr "認証は失敗しました"
@@ -251,13 +252,18 @@ msgid "Contact"
 msgstr "連絡先"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:54
+#: model:ir.ui.view,arch_db:auth_signup.res_config_settings_view_form
+msgid "Copy access rights from"
+msgstr ""
+
+#. module: auth_signup
+#: code:addons/auth_signup/controllers/main.py:55
 #, python-format
 msgid "Could not create a new account."
 msgstr "新しいアカウントを作成できません"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:83
+#: code:addons/auth_signup/controllers/main.py:80
 #, python-format
 msgid "Could not reset your password"
 msgstr "パスワードが再設定できませんでした"
@@ -284,11 +290,6 @@ msgid "Enable password reset from Login page"
 msgstr "ログインページでのパスワード再設定を有効化"
 
 #. module: auth_signup
-#: model:ir.model,name:auth_signup.model_ir_model_fields
-msgid "Fields"
-msgstr "項目"
-
-#. module: auth_signup
 #: selection:res.config.settings,auth_signup_uninvited:0
 msgid "Free sign up (B2C)"
 msgstr "自由にサインアップ(B2C)"
@@ -304,7 +305,7 @@ msgid "If unchecked, only invited users may sign up."
 msgstr "チェックしない場合は、招待ユーザーのみががサインアップできます。"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:114
+#: code:addons/auth_signup/controllers/main.py:111
 #, python-format
 msgid "Invalid signup token"
 msgstr "サインアップトークンは無効です。"
@@ -320,7 +321,7 @@ msgid "Never Connected"
 msgstr "接続履歴なし"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:74
+#: code:addons/auth_signup/controllers/main.py:73
 #, python-format
 msgid "No login provided."
 msgstr ""
@@ -346,7 +347,7 @@ msgid "Password reset"
 msgstr "パスワード再設定"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:124
+#: code:addons/auth_signup/controllers/main.py:121
 #, python-format
 msgid "Passwords do not match; please retype them."
 msgstr ""
@@ -414,13 +415,13 @@ msgid "Signup is not allowed for uninvited users"
 msgstr ""
 
 #. module: auth_signup
-#: code:addons/auth_signup/models/res_partner.py:147
+#: code:addons/auth_signup/models/res_partner.py:146
 #, python-format
 msgid "Signup token '%s' is no longer valid"
 msgstr ""
 
 #. module: auth_signup
-#: code:addons/auth_signup/models/res_partner.py:143
+#: code:addons/auth_signup/models/res_partner.py:142
 #, python-format
 msgid "Signup token '%s' is not valid"
 msgstr ""
@@ -436,7 +437,7 @@ msgid "Template user for new users created through signup"
 msgstr "サインアップで作成されるユーザのテンプレートユーザ"
 
 #. module: auth_signup
-#: code:addons/auth_signup/controllers/main.py:122
+#: code:addons/auth_signup/controllers/main.py:119
 #, python-format
 msgid "The form was not properly filled in."
 msgstr ""

@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Marek Pontus, 2017\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
@@ -297,7 +297,7 @@ msgstr "Loonud"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_create_date
 #: model:ir.model.fields,field_description:hr.field_hr_job_create_date
 msgid "Created on"
-msgstr "Loomise kuupäev"
+msgstr "Loodud"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_no_of_employee
@@ -427,13 +427,13 @@ msgid ""
 msgstr "Sisesta töötaja kodune aadress."
 
 #. module: hr
-#: code:addons/hr/models/hr.py:310
+#: code:addons/hr/models/hr.py:303
 #, python-format
 msgid "Error! You cannot create recursive departments."
 msgstr "Viga! Osakondade puhul ei saa sama reeglit korduvalt rakendada."
 
 #. module: hr
-#: code:addons/hr/models/hr.py:187
+#: code:addons/hr/models/hr.py:184
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Employee(s)."
 msgstr ""
@@ -713,11 +713,6 @@ msgid "Launch new products, marketing campaigns and offers"
 msgstr ""
 
 #. module: hr
-#: selection:hr.employee,marital:0
-msgid "Legal Cohabitant"
-msgstr ""
-
-#. module: hr
 #: selection:hr.employee,gender:0
 msgid "Male"
 msgstr "Mees"
@@ -742,8 +737,8 @@ msgstr "Turundus- ja kommunikatsioonijuht"
 
 #. module: hr
 #: selection:hr.employee,marital:0
-msgid "Married"
-msgstr ""
+msgid "Married (or similar)"
+msgstr "Abielus (või midagi sarnast)"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto

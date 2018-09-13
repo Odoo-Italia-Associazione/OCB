@@ -6,29 +6,27 @@
 # ТАрас <tratatuta@i.ua>, 2017
 # Bohdan Lisnenko, 2017
 # Анатолій Пономаренко <aponomarenko020@gmail.com>, 2017
-# Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017
 # Martin Trigaux, 2017
+# Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Martin Trigaux, 2017\n"
+"Last-Translator: Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017\n"
 "Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
 "<strong>Save</strong> this page and come back here to set up the feature."
 msgstr ""
-"<strong>Зберегти</strong> цю сторінку та повернутися сюди для налаштування "
-"функцій."
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -54,7 +52,7 @@ msgstr "Дозволяє працювати в мультивалютному с
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_voip
 msgid "Asterisk (VoIP)"
-msgstr "Asterisk (VoIP)"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_google_drive
@@ -64,46 +62,44 @@ msgstr "Долучати Google документи до буль-якого за
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Automate inter-company transactions"
-msgstr "Автоматичні внутрішні переміщення компанії"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Business Documents"
-msgstr "Ділові документи"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
 "By default, new users get highest access rights for all installed apps."
 msgstr ""
-"За замовчуванням нові користувачі отримують найвищі права доступу для всіх "
-"встановлених додатків."
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Change Document Template"
-msgstr "Змінити шаблон документа"
+msgstr ""
 
 #. module: base_setup
 #: code:addons/base_setup/models/res_config_settings.py:100
 #, python-format
 msgid "Choose Your Document Layout"
-msgstr "Оберіть нижні колонтитул вашого документу"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Choose your document's header and footer layout"
-msgstr "Виберіть формат заголовка та нижнього колонтитула вашого документу"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_pad
 msgid "Collaborative Pads"
-msgstr "Колаборативні планшети"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Common Contact Book"
-msgstr "Загальна контактна книга"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -121,25 +117,23 @@ msgid ""
 "Configure company rules to automatically create SO/PO when one of your "
 "company sells/buys to another of your company."
 msgstr ""
-"Налаштуйте правила компанії, щоб автоматично створювати SO/PO, коли одна з "
-"вашої компанії продає/купує в іншої вашої компанію."
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Create and attach Google Drive documents to any record"
-msgstr "Створюйте та додавайте документи Google Drive в будь-який запис"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_default_custom_report_footer
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_report_footer
 msgid "Custom Report Footer"
-msgstr "Спеціальний нижній колонтитул звіту"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_default_user_rights
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Default Access Rights"
-msgstr "Права доступу за замовчуванням"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_external_report_layout
@@ -150,17 +144,17 @@ msgstr "Шаблон документа"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Edit Header"
-msgstr "Редагувати верхній колонтитул"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_default_external_email_server
 msgid "External Email Servers"
-msgstr "Зовнішні сервери електронної пошти"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Витягуйте та аналізуйте дані Odoo з Google Spreadsheet"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings_report_footer
@@ -181,7 +175,7 @@ msgstr "Загальні налаштування"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Gengo Translations"
-msgstr "Перекладач Gengo"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -201,23 +195,23 @@ msgstr "Google Таблиці"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Import & Export"
-msgstr "Імпорт та експорт"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrations"
-msgstr "Інтеграції"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Inter-Company Transactions"
-msgstr "Операції між компаніями"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_auth_ldap
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "LDAP Authentication"
-msgstr "Аутентифікація LDAP "
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_inter_company_rules
@@ -227,12 +221,12 @@ msgstr "Управляти концерном"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_group_multi_company
 msgid "Manage multiple companies"
-msgstr "Управляти кількома компаніями"
+msgstr "Управляти багатьма компаніями"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage multiple legal entities with separate accounting"
-msgstr "Керувати кількома юридичними особами з окремим обліком"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_group_multi_currency
@@ -242,12 +236,12 @@ msgstr "Мультивалютніть"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Multi-company"
-msgstr "Кілька компаній"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "OAuth Authentication"
-msgstr "Аутентифікація OAuth"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_paperformat_id
@@ -257,17 +251,17 @@ msgstr "Формат сторінки"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Preview Document"
-msgstr "Попередній перегляд документу"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Set custom access rights for new users"
-msgstr "Встановити спеціальні права доступу для нових користувачів"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Set the paper format of printed documents"
-msgstr "Встановіть паперовий формат друкованих документів"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.actions.act_window,name:base_setup.action_general_configuration
@@ -293,7 +287,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Synchronize your calendar with Google Calendar"
-msgstr "Синхронізуйте свій календар із календарем Google"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -303,23 +297,22 @@ msgstr "Шаблон "
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_base_gengo
 msgid "Translate Your Website with Gengo"
-msgstr "Перекладіть ваш веб-сайт з Gengo"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Translate your website with Gengo"
-msgstr "Перекладіть ваш веб-сайт з Gengo"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use LDAP credentials to log in"
-msgstr "Використовувати облікові дані LDAP для входу"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use external accounts to log in (Google, Facebook, etc.)"
 msgstr ""
-"Використовувати зовнішні облікові записи для входу (Google, Facebook тощо)."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings_module_auth_oauth
@@ -329,7 +322,7 @@ msgstr "Використовуйте зовнішні постачальники
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use external pads in Odoo Notes"
-msgstr "Використовуйте зовнішні закладки в Odoo Notes"
+msgstr ""
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

@@ -10,7 +10,6 @@ import subprocess
 from distutils.version import LooseVersion
 import os
 from os.path import join
-import sys
 
 from odoo.tests.common import TransactionCase
 from odoo import tools
@@ -24,10 +23,9 @@ _logger = logging.getLogger(__name__)
 class TestPyLint(TransactionCase):
 
     ENABLED_CODES = [
-        'used-before-assignment',
-        'undefined-variable',
-        'eval-used',
-        'unreachable',
+        'E0601',  # using variable before assignment
+        'W0123',  # eval used
+        'W0101',  # unreachable code
 
         'mixed-indentation',
 
@@ -116,11 +114,8 @@ class TestPyLint(TransactionCase):
     def test_pylint(self):
         if pylint is None:
             self._skip_test('please install pylint')
-        required_pylint_version = LooseVersion('1.6.4')
-        if sys.version_info >= (3, 6):
-            required_pylint_version = LooseVersion('1.7.0')
-        if LooseVersion(getattr(pylint, '__version__', '0.0.1')) < required_pylint_version:
-            self._skip_test('please upgrade pylint to >= %s' % required_pylint_version)
+        if LooseVersion(getattr(pylint, '__version__', '0.0.1')) < LooseVersion('1.6.4'):
+            self._skip_test('please upgrade pylint to >= 1.6.4')
 
         paths = [tools.config['root_path']]
         for module in get_modules():

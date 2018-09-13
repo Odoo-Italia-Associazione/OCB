@@ -166,7 +166,7 @@ class Lead(models.Model):
     @api.depends('date_open')
     def _compute_day_open(self):
         """ Compute difference between create date and open date """
-        for lead in self.filtered(lambda l: l.date_open and l.create_date):
+        for lead in self.filtered(lambda l: l.date_open):
             date_create = fields.Datetime.from_string(lead.create_date)
             date_open = fields.Datetime.from_string(lead.date_open)
             lead.day_open = abs((date_open - date_create).days)
@@ -174,7 +174,7 @@ class Lead(models.Model):
     @api.depends('date_closed')
     def _compute_day_close(self):
         """ Compute difference between current date and log date """
-        for lead in self.filtered(lambda l: l.date_closed and l.create_date):
+        for lead in self.filtered(lambda l: l.date_closed):
             date_create = fields.Datetime.from_string(lead.create_date)
             date_close = fields.Datetime.from_string(lead.date_closed)
             lead.day_close = abs((date_close - date_create).days)
@@ -236,8 +236,6 @@ class Lead(models.Model):
     @api.model
     def _onchange_user_values(self, user_id):
         """ returns new values when user_id has changed """
-        if not user_id:
-            return {}
         if user_id and self._context.get('team_id'):
             team = self.env['crm.team'].browse(self._context['team_id'])
             if user_id in team.member_ids.ids:
@@ -442,8 +440,7 @@ class Lead(models.Model):
             'res_id': self.id,
             'views': [(form_view.id, 'form'),],
             'type': 'ir.actions.act_window',
-            'target': 'inline',
-            'context': {'default_type': 'opportunity'}
+            'target': 'inline'
         }
 
     # ----------------------------------------
@@ -545,8 +542,7 @@ class Lead(models.Model):
         for field in fields:
             value = getattr(self, field.name, False)
             if field.ttype == 'selection':
-                selections = self.fields_get()[field.name]['selection']
-                value = next((v[1] for v in selections if v[0] == value), value)
+                value = dict(field.get_values(self.env)).get(value, value)
             elif field.ttype == 'many2one':
                 if value:
                     value = value.sudo().name_get()[0][1]
@@ -699,8 +695,6 @@ class Lead(models.Model):
     @api.model
     def _get_duplicated_leads_by_emails(self, partner_id, email, include_lost=False):
         """ Search for opportunities that have the same partner and that arent done or cancelled """
-        if not email:
-            return self.env['crm.lead']
         partner_match_domain = []
         for email in set(email_split(email) + [email]):
             partner_match_domain.append(('email_from', '=ilike', email))
@@ -708,7 +702,7 @@ class Lead(models.Model):
             partner_match_domain.append(('partner_id', '=', partner_id))
         partner_match_domain = ['|'] * (len(partner_match_domain) - 1) + partner_match_domain
         if not partner_match_domain:
-            return self.env['crm.lead']
+            return []
         domain = partner_match_domain
         if not include_lost:
             domain += ['&', ('active', '=', True), ('probability', '<', 100)]

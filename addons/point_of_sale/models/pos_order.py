@@ -46,11 +46,9 @@ class PosOrder(models.Model):
         }
 
     def _payment_fields(self, ui_paymentline):
-        payment_date = ui_paymentline['name']
-        payment_date = fields.Date.context_today(self, fields.Datetime.from_string(payment_date))
         return {
             'amount':       ui_paymentline['amount'] or 0.0,
-            'payment_date': payment_date,
+            'payment_date': ui_paymentline['name'],
             'statement_id': ui_paymentline['statement_id'],
             'payment_name': ui_paymentline.get('note', False),
             'journal':      ui_paymentline['journal_id'],
@@ -143,7 +141,7 @@ class PosOrder(models.Model):
                 cash_journal_id = cash_journal[0].id
             order.add_payment({
                 'amount': -pos_order['amount_return'],
-                'payment_date': fields.Date.context_today(self),
+                'payment_date': fields.Datetime.now(),
                 'payment_name': _('return'),
                 'journal': cash_journal_id,
             })
@@ -175,11 +173,11 @@ class PosOrder(models.Model):
             'comment': self.note or '',
             # considering partner's sale pricelist's currency
             'currency_id': self.pricelist_id.currency_id.id,
-            'user_id': self.user_id.id,
+            'user_id': self.env.uid,
         }
 
     @api.model
-    def _get_account_move_line_group_data_type_key(self, data_type, values, options={}):
+    def _get_account_move_line_group_data_type_key(self, data_type, values):
         """
         Return a tuple which will be used as a key for grouping account
         move lines in _create_account_move_line method.
@@ -194,16 +192,10 @@ class PosOrder(models.Model):
                     values['analytic_account_id'],
                     values['debit'] > 0)
         elif data_type == 'tax':
-            order_id = values.pop('order_id', False)
-            tax_key = ('tax',
-                       values['partner_id'],
-                       values['tax_line_id'],
-                       values['debit'] > 0)
-            if options.get('rounding_method') == 'round_globally':
-                tax_key = ('tax',
-                           values['tax_line_id'],
-                           order_id)
-            return tax_key
+            return ('tax',
+                    values['partner_id'],
+                    values['tax_line_id'],
+                    values['debit'] > 0)
         elif data_type == 'counter_part':
             return ('counter_part',
                     values['partner_id'],
@@ -313,7 +305,7 @@ class PosOrder(models.Model):
                     'move_id': move.id,
                 })
 
-                key = self._get_account_move_line_group_data_type_key(data_type, values, {'rounding_method': rounding_method})
+                key = self._get_account_move_line_group_data_type_key(data_type, values)
                 if not key:
                     return
 
@@ -327,14 +319,6 @@ class PosOrder(models.Model):
                         current_value['quantity'] = current_value.get('quantity', 0.0) + values.get('quantity', 0.0)
                         current_value['credit'] = current_value.get('credit', 0.0) + values.get('credit', 0.0)
                         current_value['debit'] = current_value.get('debit', 0.0) + values.get('debit', 0.0)
-                        if key[0] == 'tax' and rounding_method == 'round_globally':
-                            if current_value['debit'] - current_value['credit'] > 0:
-                                current_value['debit'] = current_value['debit'] - current_value['credit']
-                                current_value['credit'] = 0
-                            else:
-                                current_value['credit'] = current_value['credit'] - current_value['debit']
-                                current_value['debit'] = 0
-
                 else:
                     grouped_data[key].append(values)
 
@@ -394,8 +378,7 @@ class PosOrder(models.Model):
                         'credit': ((tax['amount'] > 0) and tax['amount']) or 0.0,
                         'debit': ((tax['amount'] < 0) and -tax['amount']) or 0.0,
                         'tax_line_id': tax['id'],
-                        'partner_id': partner_id,
-                        'order_id': order.id
+                        'partner_id': partner_id
                     })
 
             # round tax lines per order
@@ -430,16 +413,14 @@ class PosOrder(models.Model):
         return True
 
     def _get_pos_anglo_saxon_price_unit(self, product, partner_id, quantity):
-        price_unit = product._get_anglo_saxon_price_unit()
-        if product._get_invoice_policy() == "delivery":
-            moves = self.filtered(lambda o: o.partner_id.id == partner_id)\
-                .mapped('picking_id.move_lines')\
-                .filtered(lambda m: m.product_id.id == product.id)\
-                .sorted(lambda x: x.date)
-            average_price_unit = product._compute_average_price(0, quantity, moves)
-            price_unit = average_price_unit or price_unit
         # In the SO part, the entries will be inverted by function compute_invoice_totals
-        return - price_unit
+        price_unit = - product._get_anglo_saxon_price_unit()
+        if product._get_invoice_policy() == "delivery":
+            moves = self.filtered(lambda o: o.partner_id.id == partner_id).mapped('picking_id.move_lines').filtered(lambda m: m.product_id.id == product.id)
+            moves.sorted(lambda x: x.date)
+            average_price_unit = product._compute_average_price(quantity, quantity, moves)
+            price_unit = average_price_unit or price_unit
+        return price_unit
 
     def _reconcile_payments(self):
         for order in self:
@@ -830,7 +811,7 @@ class PosOrder(models.Model):
         """Create a new payment for the order"""
         args = {
             'amount': data['amount'],
-            'date': data.get('payment_date', fields.Date.context_today(self)),
+            'date': data.get('payment_date', fields.Date.today()),
             'name': self.name + ': ' + (data.get('payment_name', '') or ''),
             'partner_id': self.env["res.partner"]._find_accounting_partner(self.partner_id).id or False,
         }

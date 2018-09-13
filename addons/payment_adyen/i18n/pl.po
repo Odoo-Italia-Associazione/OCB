@@ -4,8 +4,7 @@
 # 
 # Translators:
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2017
-# Martin Trigaux, 2017
-# Maja Stawicka <mjstwck@wp.pl>, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
 # zbik2607 <darek@krokus.com.pl>, 2017
 msgid ""
 msgstr ""
@@ -37,7 +36,7 @@ msgstr "; nie znaleziono zamówienia"
 #: code:addons/payment_adyen/models/payment.py:234
 #, python-format
 msgid "Adyen: feedback error"
-msgstr "Adyen: błąd informacji zwrotnych"
+msgstr "Adyen: feedback błąd"
 
 #. module: payment_adyen
 #: code:addons/payment_adyen/models/payment.py:196

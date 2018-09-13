@@ -5,24 +5,23 @@
 # Translators:
 # Martin Trigaux, 2017
 # mohammad azarbara <mohammadazarbara98@gmail.com>, 2017
-# Faraz Sadri Alamdari <ifarazir@gmail.com>, 2017
+# ifaraz ir <ifarazir@gmail.com>, 2017
 # Hamid Darabi, 2017
 # arya sadeghy <aryasadeghy@gmail.com>, 2017
 # Arash Sardari <arashss77@gmail.com>, 2018
-# Hamed Mohammadi <hamed@dehongi.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2018-07-27 11:55+0000\n"
-"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2018\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: Arash Sardari <arashss77@gmail.com>, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: hr
 #: code:addons/hr/models/hr.py:75
@@ -130,7 +129,7 @@ msgstr "فعال"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Analyse needs, write specification documents and quotation"
-msgstr "تحلیل نیازها، نوشن اسناد مشخصات و پیش فاکتورها"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_department_filter
@@ -431,13 +430,13 @@ msgid ""
 msgstr "آدرس خصوصی کارمند را که مرتبط با شرکت نیست در این قسمت وارد کنید"
 
 #. module: hr
-#: code:addons/hr/models/hr.py:310
+#: code:addons/hr/models/hr.py:303
 #, python-format
 msgid "Error! You cannot create recursive departments."
 msgstr "خطا! شما نمی‌توانید دپارتمان‌های بازگشتی ایجاد کنید"
 
 #. module: hr
-#: code:addons/hr/models/hr.py:187
+#: code:addons/hr/models/hr.py:184
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Employee(s)."
 msgstr "خطا! شما نمی‌توانید برای کارمند(ها) یک سلسله مراتب بازگشتی ایجاد کنید"
@@ -626,7 +625,7 @@ msgstr "افزایش فرصت‌های تجاری"
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "Increase the visibility of the product"
-msgstr "افزایش در دید بودن کالا"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
@@ -717,11 +716,6 @@ msgid "Launch new products, marketing campaigns and offers"
 msgstr "راه‌اندازی محصولات جدید، کمپین‌های بازاریابی و پیشنهادات"
 
 #. module: hr
-#: selection:hr.employee,marital:0
-msgid "Legal Cohabitant"
-msgstr ""
-
-#. module: hr
 #: selection:hr.employee,gender:0
 msgid "Male"
 msgstr "مرد"
@@ -746,8 +740,8 @@ msgstr "مدیریت ارتباطات و بازاریابی"
 
 #. module: hr
 #: selection:hr.employee,marital:0
-msgid "Married"
-msgstr "متاهل"
+msgid "Married (or similar)"
+msgstr "متاهل (یا مشابه آن)"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -1031,17 +1025,17 @@ msgstr "تنظیمات"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings_module_hr_org_chart
 msgid "Show Organizational Chart"
-msgstr "نمایش چارت سازمانی"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Show organizational chart on employee form"
-msgstr "نمایش چارت سازمانی در فرم کارمند"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Show organizational chart on employee form."
-msgstr "نمایش چارت سازمانی در فرم کارمند"
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,marital:0
@@ -1057,12 +1051,12 @@ msgstr "مجرد"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Skills"
-msgstr "مهارتها"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_image_small
 msgid "Small-sized photo"
-msgstr "عکس اندازه کوچک"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_image_small
@@ -1092,22 +1086,22 @@ msgstr "وضعیت"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "Stop Recruitment"
-msgstr "توقف استخدام"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_employee_action_subordinate_hierachy
 msgid "Subordinate Hierarchy"
-msgstr "سلسله مراتب وابسته"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_child_ids
 msgid "Subordinates"
-msgstr "وابسته‌ها"
+msgstr ""
 
 #. module: hr
 #: sql_constraint:hr.employee.category:0
 msgid "Tag name already exists !"
-msgstr "برچسب نام از قبل وجود دارد!"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category_ids
@@ -1117,22 +1111,22 @@ msgstr "برچسب‌ها"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Take part in the consulting services"
-msgstr "مشارکت در سرویسهای مشاوره‌ای"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
 msgid "Team spirit and good communication"
-msgstr "روحیه تیمی و ارتباطات خوب"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_is_address_home_a_company
 msgid "The employee adress has a company linked"
-msgstr "نشانی کارمند یک شرکت لینک شده دارد"
+msgstr ""
 
 #. module: hr
 #: sql_constraint:hr.job:0
 msgid "The name of the job position must be unique per department in company!"
-msgstr "نام موقعیت شغلی باید در هر بخش در شرکت یکتا باشد!"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_image
@@ -1144,12 +1138,12 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_expected_employees
 msgid "Total Forecasted Employees"
-msgstr "کل کارمندان پیش بینی شده"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,name:hr.job_trainee
 msgid "Trainee"
-msgstr "تحت تعلیم"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_marketing
@@ -1185,7 +1179,7 @@ msgstr "کاربران"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_job_view_kanban
 msgid "Vacancies :"
-msgstr "موقعیتهای شغلی :"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_visa_expire
@@ -1242,7 +1236,7 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "What we offer"
-msgstr "چیزی که ما پیشنهاد می‌کنیم"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1253,12 +1247,12 @@ msgstr "چیزی که ما پیشنهاد می‌کنیم"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "What you will do ..."
-msgstr "کاری که شما خواهید کرد ..."
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Widower"
-msgstr "بیوه"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -1291,7 +1285,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_address_id
 msgid "Work Address"
-msgstr "آدرس کاری"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_work_email
@@ -1301,12 +1295,12 @@ msgstr "پست الکترونیکی کاری"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Information"
-msgstr "اطلاعات کاری"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_work_location
 msgid "Work Location"
-msgstr "مکان کاری"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_mobile_phone
@@ -1316,12 +1310,12 @@ msgstr "تلفن همراه کاری"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Work Organization"
-msgstr "سازمانی کاری"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Permit"
-msgstr "مجوز کار"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_permit_no
@@ -1336,7 +1330,7 @@ msgstr "تلفن محل کار"
 #. module: hr
 #: model:hr.job,website_description:hr.job_marketing
 msgid "Write attractive content"
-msgstr "نوشتن محتوای جذاب"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_hrm
@@ -1346,17 +1340,17 @@ msgstr ""
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 msgid "Write attractive content and build up executive materials"
-msgstr "محتوای جذاب بنویس و مواد اجرایی بساز"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You are a quick and autonomous learner"
-msgstr "شما آموزنده سریع و مستقل هستید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You are an excellent communicator and negotiator"
-msgstr "شما دارای ارتباطات عالی و مذاکره کننده خوب هستید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1368,26 +1362,26 @@ msgstr ""
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You are available immediately"
-msgstr "شما فورا در دسترس هستید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "You are creative"
-msgstr "شما خلاق هستید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You are ready to travel in US"
-msgstr "شما آماده مسافرت هستید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "You are ready to work in a dynamic company"
-msgstr "شما آماده کار در یک شرکت پویا هستید"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
@@ -1400,40 +1394,40 @@ msgstr ""
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You have 2 or 3 years of experience"
-msgstr "شما ‌2 تا 3سال سابقه مکاری دارید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You have a Master degree in Business Management"
-msgstr "شما یک مدرک کارشناسی ارشد در مدیریت بازرگانی دارید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 #: model:hr.job,website_description:hr.job_marketing
 msgid "You have an affinity with the IT world"
-msgstr "شما با دنیای IT آشنایی دارید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "You have an affinity with the product"
-msgstr "شما با محصول آشنایی دارید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You have good knowledge in accounting"
-msgstr "شما دانش خوبی در حسابداری دارید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You speak a third language"
-msgstr "شما به زبان سوم صحبت می‌کنید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "You speak fluently French and English"
-msgstr "شما به روانی فرانسوی و انگلیسی صحبت می‌کنید"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -1470,7 +1464,7 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will become a technical expert of the product."
-msgstr "شما یک متخصص فنی محصول خواهید شد"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
@@ -1507,12 +1501,12 @@ msgstr ""
 #. module: hr
 #: model:hr.job,website_description:hr.job_trainee
 msgid "You will work closely with all trainees"
-msgstr "شما به صورت نزدیک با همه کارآموزان کار خواهید کرد"
+msgstr ""
 
 #. module: hr
 #: model:mail.template,subject:hr.mail_template_data_unknown_employee_email_address
 msgid "Your document has not been created"
-msgstr "سند شما ایجاد نشده است"
+msgstr ""
 
 #. module: hr
 #: model:mail.template,body_html:hr.mail_template_data_unknown_employee_email_address
@@ -1530,17 +1524,17 @@ msgstr "اداره"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "e.g. Part Time"
-msgstr "برای مثال پاره وقت"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "e.g. Sales Manager"
-msgstr "برای مثال مدیر فروش"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias_mixin
 msgid "mail.alias.mixin"
-msgstr "mail.alias.mixin"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_config_settings
@@ -1550,7 +1544,7 @@ msgstr "res.config.settings"
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_user
 msgid "the user will be able to approve document created by employees."
-msgstr "کاربر مجاز خواهد بود با اسناد ایجاد شده توسط کارمندان موافقت کند."
+msgstr ""
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager

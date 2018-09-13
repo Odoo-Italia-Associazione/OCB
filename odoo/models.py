@@ -65,7 +65,7 @@ _unlink = logging.getLogger(__name__ + '.unlink')
 regex_order = re.compile('^(\s*([a-z0-9:_]+|"[a-z0-9:_]+")(\s+(desc|asc))?\s*(,|$))+(?<!,)$', re.I)
 regex_object_name = re.compile(r'^[a-z0-9_.]+$')
 regex_pg_name = re.compile(r'^[a-z_][a-z0-9_$]*$', re.I)
-onchange_v7 = re.compile(r"^([a-zA-Z]\w+)\((.*)\)$")
+onchange_v7 = re.compile(r"^(\w+)\((.*)\)$")
 
 AUTOINIT_RECALCULATE_STORED_FIELDS = 1000
 
@@ -647,18 +647,9 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             res_id: (module, name)
             for res_id, module, name in cr.fetchall()
         }
-        def to_xid(record_id):
-            (module, name) = xids[record_id]
-            return ('%s.%s' % (module, name)) if module else name
 
         # create missing xml ids
         missing = self.filtered(lambda r: r.id not in xids)
-        if not missing:
-            return (
-                (record, to_xid(record.id))
-                for record in self
-            )
-
         xids.update(
             (r.id, (modname, '%s_%s_%s' % (
                 r._table,
@@ -667,7 +658,6 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             )))
             for r in missing
         )
-        fields = ['module', 'model', 'name', 'res_id']
         cr.copy_from(io.StringIO(
             u'\n'.join(
                 u"%s\t%s\t%s\t%d" % (
@@ -679,22 +669,21 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
                 for record in missing
             )),
             table='ir_model_data',
-            columns=fields,
+            columns=['module', 'model', 'name', 'res_id'],
         )
-        self.env['ir.model.data'].invalidate_cache(fnames=fields)
+
+        self.invalidate_cache()
 
         return (
-            (record, to_xid(record.id))
+            (record, '%s.%s' % xids[record.id])
             for record in self
         )
 
     @api.multi
-    def _export_rows(self, fields, batch_invalidate=True):
+    def _export_rows(self, fields):
         """ Export fields of the records in ``self``.
 
             :param fields: list of lists of fields to traverse
-            :param batch_invalidate:
-                whether to clear the cache for the top-level object every so often (avoids huge memory consumption when exporting large numbers of records)
             :return: list of lists of corresponding values
         """
         import_compatible = self.env.context.get('import_compat', True)
@@ -710,8 +699,6 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
                 for rec in sub:
                     yield rec
                 rs.invalidate_cache(ids=sub.ids)
-        if not batch_invalidate:
-            splittor = lambda rs: rs
 
         # both _ensure_xml_id and the splitter want to work on recordsets but
         # neither returns one, so can't really be composed...
@@ -762,7 +749,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
                         # 'display_name' where no subfield is exported
                         fields2 = [(p[1:] or ['display_name'] if p and p[0] == name else [])
                                    for p in fields]
-                        lines2 = value._export_rows(fields2, batch_invalidate=False)
+                        lines2 = value._export_rows(fields2)
                         if lines2:
                             # merge first line with record's main line
                             for j, val in enumerate(lines2[0]):
@@ -1391,9 +1378,6 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             resaction = [action
                          for action in bindings['action']
                          if view_type == 'tree' or not action.get('multi')]
-            resrelate = []
-            if view_type == 'form':
-                resrelate = bindings['action_form_only']
 
             for res in itertools.chain(resreport, resaction):
                 res['string'] = res['name']
@@ -1401,7 +1385,6 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             result['toolbar'] = {
                 'print': resreport,
                 'action': resaction,
-                'relate': resrelate,
             }
         return result
 
@@ -1705,38 +1688,31 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         """
         orderby_terms = []
         groupby_terms = [gb['qualified_field'] for gb in annotated_groupbys]
+        groupby_fields = [gb['groupby'] for gb in annotated_groupbys]
         if not orderby:
             return groupby_terms, orderby_terms
 
         self._check_qorder(orderby)
-
-        # when a field is grouped as 'foo:bar', both orderby='foo' and
-        # orderby='foo:bar' generate the clause 'ORDER BY "foo:bar"'
-        groupby_fields = {
-            gb[key]: gb['groupby']
-            for gb in annotated_groupbys
-            for key in ('field', 'groupby')
-        }
         for order_part in orderby.split(','):
             order_split = order_part.split()
             order_field = order_split[0]
             if order_field == 'id' or order_field in groupby_fields:
+
                 if self._fields[order_field.split(':')[0]].type == 'many2one':
                     order_clause = self._generate_order_by(order_part, query).replace('ORDER BY ', '')
                     if order_clause:
                         orderby_terms.append(order_clause)
                         groupby_terms += [order_term.split()[0] for order_term in order_clause.split(',')]
                 else:
-                    order_split[0] = '"%s"' % groupby_fields.get(order_field, order_field)
-                    orderby_terms.append(' '.join(order_split))
+                    order = '"%s" %s' % (order_field, '' if len(order_split) == 1 else order_split[1])
+                    orderby_terms.append(order)
             elif order_field in aggregated_fields:
-                order_split[0] = '"%s"' % order_field
+                order_split[0] = '"' + order_field + '"'
                 orderby_terms.append(' '.join(order_split))
             else:
                 # Cannot order by a field that will not appear in the results (needs to be grouped or aggregated)
                 _logger.warn('%s: read_group order by `%s` ignored, cannot sort on empty columns (not grouped/aggregated)',
                              self._name, order_part)
-
         return groupby_terms, orderby_terms
 
     @api.model
@@ -2021,7 +1997,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         for field in many2onefields:
             ids_set = {d[field] for d in data if d[field]}
             m2o_records = self.env[self._fields[field].comodel_name].browse(ids_set)
-            data_dict = dict(m2o_records.sudo().name_get())
+            data_dict = dict(m2o_records.name_get())
             for d in data:
                 d[field] = (d[field], data_dict[d[field]]) if d[field] else False
 
@@ -2306,7 +2282,6 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
                 #  - copy inherited fields iff their original field is copied
                 fields[name] = field.new(
                     inherited=True,
-                    inherited_field=field,
                     related=(parent_field, name),
                     related_sudo=False,
                     copy=field.copy,
@@ -2424,7 +2399,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             try:
                 field.setup_full(self)
             except Exception:
-                if not self.pool.loaded and field.base_field.manual:
+                if not self.pool.loaded and field.manual:
                     # Something goes wrong when setup a manual field.
                     # This can happen with related fields using another manual many2one field
                     # that hasn't been loaded because the comodel does not exist yet.
@@ -2645,7 +2620,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         try:
             result = records.read([f.name for f in fs], load='_classic_write')
         except AccessError:
-            # not all prefetched records may be accessible, try with only the current recordset
+            # not all records may be accessible, try with only current record
             result = self.read([f.name for f in fs], load='_classic_write')
 
         # check the cache, and update it if necessary
@@ -2922,8 +2897,9 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
 
         # Delete the records' properties.
         with self.env.norecompute():
+            self.env['ir.property'].search([('res_id', 'in', refs)]).unlink()
+
             self.check_access_rule('unlink')
-            self.env['ir.property'].search([('res_id', 'in', refs)]).sudo().unlink()
 
             cr = self._cr
             Data = self.env['ir.model.data'].sudo().with_context({})
@@ -3610,15 +3586,6 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
                     if table not in query.tables:
                         query.tables.append(table)
 
-        if self._transient:
-            # One single implicit access rule for transient models: owner only!
-            # This is ok because we assert that TransientModels always have
-            # log_access enabled, so that 'create_uid' is always there.
-            domain = [('create_uid', '=', self._uid)]
-            tquery = self._where_calc(domain, active_test=False)
-            apply_rule(tquery.where_clause, tquery.where_clause_params, tquery.tables)
-            return
-
         # apply main rules on the object
         Rule = self.env['ir.rule']
         where_clause, where_params, tables = Rule.domain_get(self._name, mode)
@@ -3765,6 +3732,10 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         :return: a list of record ids or an integer (if count is True)
         """
         self.sudo(access_rights_uid or self._uid).check_access_rights('read')
+
+        # For transient models, restrict access to the current user, except for the super-user
+        if self.is_transient() and self._log_access and self._uid != SUPERUSER_ID:
+            args = expression.AND(([('create_uid', '=', self._uid)], args or []))
 
         if expression.is_false(self, args):
             # optimization: no need to query, as no record satisfies the domain
@@ -3944,7 +3915,7 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
         vals = self.copy_data(default)[0]
         # To avoid to create a translation in the lang of the user, copy_translation will do it
         new = self.with_context(lang=None).create(vals)
-        self.with_context(from_copy_translation=True).copy_translations(new)
+        self.copy_translations(new)
         return new
 
     @api.multi
@@ -4781,16 +4752,12 @@ class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
             (:class:`Field` instance), including ``self``.
             Return at most ``limit`` records.
         """
-        recs = self.browse(self._prefetch[self._name])
-        ids = [self.id]
-        for record_id in self.env.cache.get_missing_ids(recs - self, field):
-            if not record_id:
-                # Do not prefetch `NewId`
-                continue
-            ids.append(record_id)
-            if limit and limit <= len(ids):
-                break
-        return self.browse(ids)
+        ids0 = self._prefetch[self._name]
+        ids1 = set(self.env.cache.get_records(self, field)._ids)
+        recs = self.browse([it for it in ids0 if it and it not in ids1])
+        if limit and len(recs) > limit:
+            recs = self + (recs - self)[:(limit - len(self))]
+        return recs
 
     @api.model
     def refresh(self):

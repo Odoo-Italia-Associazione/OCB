@@ -29,12 +29,12 @@ msgstr "&amp;nbsp;"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
 msgid "/shop/cart"
-msgstr "/shop/cart"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment
 msgid "/shop/payment"
-msgstr "/shop/payment"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -44,7 +44,7 @@ msgid ""
 "                              Buy now, get in 2 days"
 msgstr ""
 "30 de zile drept de retur<br/>\n"
-"                              Livrare gratuită <br/>\n"
+"                              Livrare gratuită in U.S.<br/>\n"
 "                              Cumpără acum și il ai în 2 zile."
 
 #. module: website_sale
@@ -139,8 +139,6 @@ msgid ""
 "<i class=\"fa fa-shopping-cart\"/>\n"
 "                    My Cart"
 msgstr ""
-"<i class=\"fa fa-shopping-cart\"/>\n"
-"                    Coșul meu"
 
 #. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:58
@@ -412,7 +410,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.wizard_checkout
 msgid "<span>Billing</span>"
-msgstr "<span>Facturare</span>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -432,7 +430,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.wizard_checkout
 msgid "<span>Review Order</span>"
-msgstr "<span>Revizuire comandă </span>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
@@ -440,8 +438,6 @@ msgid ""
 "<span>Sort by</span>\n"
 "                        <span class=\"caret\"/>"
 msgstr ""
-"<span>Ordonează după</span>\n"
-"<span class=\"caret\"/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.suggested_products_list
@@ -518,7 +514,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Next actions:</strong>"
-msgstr "<strong>Următoarele acțiuni:</strong>"
+msgstr "<strong>Următoarele acţiuni:</strong>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -695,7 +691,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_is_abandoned_cart
 msgid "Abandoned Cart"
-msgstr "Coș abandonat"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:45
@@ -703,7 +699,7 @@ msgstr "Coș abandonat"
 #: model:ir.ui.menu,name:website_sale.menu_orders_abandoned_orders
 #, python-format
 msgid "Abandoned Carts"
-msgstr "Coșuri abandonate"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -760,7 +756,7 @@ msgstr "Adaugă în Coș"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Add to Cart button"
-msgstr "Buton Adaugă în Coș"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -985,7 +981,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:84
 #, python-format
 msgid "Carts"
-msgstr "Coșuri"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -996,7 +992,7 @@ msgstr ""
 #: model:ir.ui.menu,name:website_sale.menu_catalog
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Catalog"
-msgstr "Catalog"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
@@ -1351,7 +1347,7 @@ msgstr ""
 #: model:ir.model.fields,help:website_sale.field_product_product_website_sequence
 #: model:ir.model.fields,help:website_sale.field_product_template_website_sequence
 msgid "Determine the display order in the Website E-commerce"
-msgstr "Determină ordinea de afișare în website"
+msgstr "Determină ordinea de afişare în website"
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.devices
@@ -2055,7 +2051,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team_abandoned_carts_count
 msgid "Number of Abandoned Carts"
-msgstr "Număr de coșuri abandonate"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2919,7 +2915,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Sort by price"
-msgstr "Ordonare după preț"
+msgstr "Sortare după preț"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
@@ -3043,7 +3039,7 @@ msgstr "Taxe:"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "Terms &amp; Conditions"
-msgstr "Termeni și condiții"
+msgstr "Termeni &amp; condiții"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.terms
@@ -3215,7 +3211,7 @@ msgstr "Tip"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "UPS"
-msgstr "UPS"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -3372,7 +3368,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "Favorite"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_1
@@ -3507,7 +3503,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.search count
 msgid "found)"
-msgstr "găsite)"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form

@@ -3,8 +3,8 @@
 # * website_customer
 # 
 # Translators:
-# Martin Trigaux, 2017
-# Hamid Darabi, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
+# Hamid Darabi <hamid.darabi@gmail.com>, 2017
 # Hamed Mohammadi <hamed@dehongi.com>, 2017
 msgid ""
 msgstr ""
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.opt_tag_list
 msgid "<span class=\"fa fa-1x fa-tags\"/> All"
-msgstr "<span class=\"fa fa-1x fa-tags\"/> همه"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_active
@@ -34,13 +34,13 @@ msgstr "فعال"
 #: code:addons/website_customer/controllers/main.py:80
 #, python-format
 msgid "All Countries"
-msgstr "تمام کشورها"
+msgstr ""
 
 #. module: website_customer
 #: code:addons/website_customer/controllers/main.py:61
 #, python-format
 msgid "All Sectors of Activity"
-msgstr "همه بخشهای فعالیت"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,help:website_customer.field_res_partner_tag_classname
@@ -55,12 +55,12 @@ msgstr "نام دسته‌بندی"
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_classname
 msgid "Class"
-msgstr "کلاس"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.actions.act_window,help:website_customer.action_partner_tag_form
 msgid "Click to create a new partner tag."
-msgstr "برای ایجاد یک برچسب همکار کلیک کنید."
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model,name:website_customer.model_res_partner
@@ -90,7 +90,7 @@ msgstr "شناسه"
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.implemented_by_block
 msgid "Implemented By"
-msgstr "پیاده‌سازی شده توسط"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag___last_update
@@ -117,14 +117,14 @@ msgstr ""
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.index
 msgid "No result found"
-msgstr "نتیجه‌ای یافت نشد"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.details
 #: model:ir.ui.view,arch_db:website_customer.footer_custom
 #: model:ir.ui.view,arch_db:website_customer.index
 msgid "Our References"
-msgstr "مراجع ما"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.view_partner_tag_form
@@ -151,7 +151,7 @@ msgstr "مراجع"
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.opt_country_list
 msgid "References by Country"
-msgstr "مراجع بر اساس کشور"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.opt_industry_list
@@ -176,7 +176,7 @@ msgstr ""
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag_website_published
 msgid "Visible in Website"
-msgstr "قابل دید در وبسایت"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.actions.act_window,name:website_customer.action_partner_tag_form
@@ -184,7 +184,7 @@ msgstr "قابل دید در وبسایت"
 #: model:ir.ui.view,arch_db:website_customer.view_partner_tag_list
 #: model:ir.ui.view,arch_db:website_customer.view_partners_form_website
 msgid "Website Tags"
-msgstr "برچسبهای وبسایت"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_website_tag_ids
@@ -195,7 +195,7 @@ msgstr ""
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.opt_country
 msgid "World Map"
-msgstr "نقشه جهان"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.ui.view,arch_db:website_customer.implemented_by_block

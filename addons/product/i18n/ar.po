@@ -6,7 +6,6 @@
 # Shaima Safar <shaima.safar@open-inside.com>, 2017
 # Martin Trigaux, 2017
 # Osama Ahmaro <osamaahmaro@gmail.com>, 2017
-# Osoul <baruni@osoul.ly>, 2017
 # Ahmed AL-Haddad <ahmed@utech-sa.com>, 2017
 # Mustafa Rawi <mustafa@cubexco.com>, 2017
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
@@ -16,19 +15,19 @@
 # Mohammed Albasha <m.albasha.ma@gmail.com>, 2017
 # Yihya Hugirat <hugirat@gmail.com>, 2017
 # amrnegm <amrnegm.01@gmail.com>, 2017
+# aymen rahmani <aymen.isims@gmail.com>, 2017
 # Sadig Adam <sadig41@gmail.com>, 2017
 # ThaniAldawood <taldawood@hotmail.com>, 2017
 # Akram Alfusayal <akram_ma@hotmail.com>, 2017
 # Islam Eldeeb <islameldeb@gmail.com>, 2017
 # Zuhair Hammadi <zuhair12@gmail.com>, 2017
-# Mahmood Al Halwachi <mahmood.alhalwachi@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Mahmood Al Halwachi <mahmood.alhalwachi@gmail.com>, 2018\n"
+"Last-Translator: Zuhair Hammadi <zuhair12@gmail.com>, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +44,7 @@ msgstr "تصنيف المنتج"
 #: model:ir.model.fields,field_description:product.field_product_product_product_variant_count
 #: model:ir.model.fields,field_description:product.field_product_template_product_variant_count
 msgid "# Product Variants"
-msgstr "# تنوعات المنتج"
+msgstr "متغيرات المنتج"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category_product_count
@@ -347,30 +346,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_attribute_id
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_attribute_id
 msgid "Attribute"
-msgstr "الصفة"
+msgstr "الخاصية"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_attribute_line_form
 #: model:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Attribute Name"
-msgstr "اسم الصفة"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_price_extra
 msgid "Attribute Price Extra"
-msgstr "الزيادة في سعر الصفة"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_price_ids
 msgid "Attribute Prices"
-msgstr "أسعار الصفات"
+msgstr "صفة الأسعار"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.variants_action
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_value_ids
 #: model:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Attribute Values"
-msgstr "قيم الصفات"
+msgstr "قيم الصفة"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.attribute_action
@@ -384,7 +383,7 @@ msgstr "الصفات"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings_group_product_variant
 msgid "Attributes and Variants"
-msgstr "الصفات والتنوعات"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -624,7 +623,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:product.product_template_action_all
 #: model:ir.actions.act_window,help:product.product_variant_action
 msgid "Click to define a new product."
-msgstr "أنقر هنا لإضافة منتج جديد."
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -769,7 +768,7 @@ msgstr "مجموعة الدولة"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_variant
 msgid "Create Variant"
-msgstr "إنشاء تنوع"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_uid
@@ -1340,8 +1339,6 @@ msgid ""
 " It is automatically resized as a 1024x1024px image, with aspect ratio "
 "preserved."
 msgstr ""
-"صورة لمتغير المنتج (صورة كبيرة الحجم من قالب المنتج إذا خاطئة). يتم تغيير "
-"الحجم تلقائيا كصورة 1024x1024px، مع المحافظة على نسبة الارتفاع."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_medium
@@ -1899,23 +1896,23 @@ msgstr "المنتج"
 #: model:ir.model,name:product.model_product_attribute
 #: model:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Product Attribute"
-msgstr "صفة المنتج"
+msgstr "سمة المنتج"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_price_value_id
 msgid "Product Attribute Value"
-msgstr "قيمة صفة المنتج"
+msgstr "قيمة سمة المنتج"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_attribute_line_form
 msgid "Product Attribute and Values"
-msgstr "الصفات والتنوعات"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_line_ids
 msgid "Product Attributes"
-msgstr "صفات المنتج"
+msgstr "سمات المنتج"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_category_action_form
@@ -1983,7 +1980,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 #: selection:product.pricelist.item,applied_on:0
 msgid "Product Variant"
-msgstr "تنوع للمنتج"
+msgstr "المنتج البديل"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_normal_action
@@ -1991,7 +1988,7 @@ msgstr "تنوع للمنتج"
 #: model:ir.actions.act_window,name:product.product_variant_action
 #: model:ir.ui.view,arch_db:product.product_product_tree_view
 msgid "Product Variants"
-msgstr "تنوعات المنتج"
+msgstr "موديلات المنتج"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_template_action
@@ -2662,7 +2659,7 @@ msgstr ""
 #. module: product
 #: sql_constraint:product.attribute.value:0
 msgid "This attribute value already exists !"
-msgstr "الصفة موجودة بالفعل!"
+msgstr "قيمة السمة موجودة بالفعل!"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_uom
@@ -2686,7 +2683,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_price_extra
 msgid "This is the sum of the extra price of all attributes"
-msgstr "هذا هو مجموع الأسعار المضافة لكافة الصفات."
+msgstr "هذا هو مجموع الأسعار المضافة لكافة السمات."
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -2718,7 +2715,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Today Activities"
-msgstr "نشاطات اليوم"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
@@ -2844,27 +2841,27 @@ msgstr "قيم"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_variant_count
 msgid "Variant Count"
-msgstr "عدد التنوعات"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image_variant
 msgid "Variant Image"
-msgstr "صورة التنوع"
+msgstr "صورة الموديل"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Variant Information"
-msgstr "معلومات عن التنوع"
+msgstr "معلومات عن الفرينت"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_price_extra
 msgid "Variant Price Extra"
-msgstr "الزيادة في سعر التنوع"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Variant Prices"
-msgstr "أسعار التنوعات"
+msgstr "أسعار الموديلات"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_variant_seller_ids
@@ -2877,14 +2874,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:product.attribute_tree_view
 #: model:ir.ui.view,arch_db:product.variants_tree_view
 msgid "Variant Values"
-msgstr "قيم التنوعات"
+msgstr "قيم الموديل"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_product_ids
 #: model:ir.ui.view,arch_db:product.product_template_kanban_view
 #: model:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Variants"
-msgstr "التنوعات"
+msgstr "تنوعات"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_name
@@ -2902,7 +2899,7 @@ msgstr ""
 #. module: product
 #: model:ir.actions.act_window,name:product.product_supplierinfo_type_action
 msgid "Vendor Pricelists"
-msgstr "قوائم أسعار الموردين"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_code

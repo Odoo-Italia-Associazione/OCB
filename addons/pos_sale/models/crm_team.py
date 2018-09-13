@@ -3,7 +3,6 @@
 
 from odoo import api, fields, models, _
 from datetime import datetime
-import pytz
 
 
 class CrmTeam(models.Model):
@@ -42,16 +41,13 @@ class CrmTeam(models.Model):
         """ If the type of the sales team is point of sale ('pos'), the graph will display the sales data.
             The override here is to get data from pos.order instead of sale.order.
         """
-        offset = datetime.now(pytz.timezone(self.env.user.tz or 'UTC')).utcoffset()
-        min_date = fields.Datetime.to_string(datetime.combine(start_date, datetime.min.time()) - offset)
-        max_date = fields.Datetime.to_string(datetime.combine(end_date, datetime.max.time()) - offset)
         if self.team_type == 'pos':
             result = []
             if self.dashboard_graph_group_pos == 'pos':
                 order_data = self.env['report.pos.order'].read_group(
                     domain=[
-                        ('date', '>=', min_date),
-                        ('date', '<=', max_date),
+                        ('date', '>=', fields.Date.to_string(start_date)),
+                        ('date', '<=', fields.Datetime.to_string(datetime.combine(end_date, datetime.max.time()))),
                         ('config_id', 'in', self.pos_config_ids.ids),
                         ('state', 'in', ['paid', 'done', 'invoiced'])],
                     fields=['config_id', 'price_total'],
@@ -67,8 +63,8 @@ class CrmTeam(models.Model):
             elif self.dashboard_graph_group_pos == 'user':
                 order_data = self.env['report.pos.order'].read_group(
                     domain=[
-                        ('date', '>=', min_date),
-                        ('date', '<=', max_date),
+                        ('date', '>=', fields.Date.to_string(start_date)),
+                        ('date', '<=', fields.Datetime.to_string(datetime.combine(end_date, datetime.max.time()))),
                         ('config_id', 'in', self.pos_config_ids.ids),
                         ('state', 'in', ['paid', 'done', 'invoiced'])],
                     fields=['user_id', 'price_total'],
@@ -82,8 +78,8 @@ class CrmTeam(models.Model):
                 # /!\ do not use en_US as it's not ISO-standard and does not match datetime's library
                 order_data = self.env['report.pos.order'].with_context(lang='en_GB').read_group(
                     domain=[
-                        ('date', '>=', min_date),
-                        ('date', '<=', max_date),
+                        ('date', '>=', fields.Date.to_string(start_date)),
+                        ('date', '<=', fields.Datetime.to_string(datetime.combine(end_date, datetime.max.time()))),
                         ('config_id', 'in', self.pos_config_ids.ids),
                         ('state', 'in', ['paid', 'done', 'invoiced'])],
                     fields=['date', 'price_total'],

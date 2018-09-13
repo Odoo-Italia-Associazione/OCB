@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2017
 # Hamid Darabi, 2017
-# Faraz Sadri Alamdari <ifarazir@gmail.com>, 2017
+# ifaraz ir <ifarazir@gmail.com>, 2017
 # mehdi samadi <mehsamadi@gmail.com>, 2017
 # Hamed Mohammadi <hamed@dehongi.com>, 2017
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_editor
 #. openerp-web
@@ -156,7 +156,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_ir_attachment_local_url
 msgid "Attachment URL"
-msgstr "پیوست URL"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -361,7 +361,7 @@ msgstr "دلخواه"
 #: code:addons/web_editor/static/src/xml/snippets.xml:19
 #, python-format
 msgid "Customize"
-msgstr "سفارشی سازی"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -553,14 +553,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/ace.xml:37
 #, python-format
 msgid "Format"
-msgstr "قالب"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:948
 #, python-format
 msgid "Full Screen"
-msgstr "تمام صفحه"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -843,7 +843,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:260
 #, python-format
 msgid "Large"
-msgstr "زرگ"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub___last_update
@@ -908,7 +908,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:259
 #, python-format
 msgid "Medium"
-msgstr "متوسط"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1278,7 +1278,7 @@ msgstr "اندازه"
 #: code:addons/web_editor/static/src/xml/editor.xml:258
 #, python-format
 msgid "Small"
-msgstr "کوچک"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1325,7 +1325,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:925
 #, python-format
 msgid "Table"
-msgstr "میز"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1519,7 +1519,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:53
 #, python-format
 msgid "Video"
-msgstr "ویدئو"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1634,82 +1634,82 @@ msgstr "ir.attachment"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb
 msgid "ir.qweb"
-msgstr "ir.qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field
 msgid "ir.qweb.field"
-msgstr "ir.qweb.field"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_contact
 msgid "ir.qweb.field.contact"
-msgstr "ir.qweb.field.contact"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_date
 msgid "ir.qweb.field.date"
-msgstr "ir.qweb.field.date"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_datetime
 msgid "ir.qweb.field.datetime"
-msgstr "ir.qweb.field.datetime"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_duration
 msgid "ir.qweb.field.duration"
-msgstr "ir.qweb.field.duration"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_float
 msgid "ir.qweb.field.float"
-msgstr "ir.qweb.field.float"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_html
 msgid "ir.qweb.field.html"
-msgstr "ir.qweb.field.html"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_image
 msgid "ir.qweb.field.image"
-msgstr "ir.qweb.field.image"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_integer
 msgid "ir.qweb.field.integer"
-msgstr "ir.qweb.field.integer"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_many2one
 msgid "ir.qweb.field.many2one"
-msgstr "ir.qweb.field.many2one"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_monetary
 msgid "ir.qweb.field.monetary"
-msgstr "ir.qweb.field.monetary"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_qweb
 msgid "ir.qweb.field.qweb"
-msgstr "ir.qweb.field.qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_relative
 msgid "ir.qweb.field.relative"
-msgstr "ir.qweb.field.relative"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_selection
 msgid "ir.qweb.field.selection"
-msgstr "ir.qweb.field.selection"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_text
 msgid "ir.qweb.field.text"
-msgstr "ir.qweb.field.text"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_translation

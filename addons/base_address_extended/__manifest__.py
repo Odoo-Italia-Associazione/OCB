@@ -16,8 +16,7 @@ For example, in legal reports, some countries need to split the street into seve
 with the street name, the house number, and room number.
         """,
     'data': [
-        'views/base_address_extended.xml',
-        'data/base_address_extended_data.xml',
+        'views/base_address_extended.xml'
     ],
     'depends': ['base'],
 }

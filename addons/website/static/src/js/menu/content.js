@@ -145,7 +145,6 @@ var PagePropertiesDialog = widget.Dialog.extend({
               horizontal: 'auto',
               vertical: 'top',
            },
-             widgetParent: 'body',
          };
          if (self.page.date_publish) {
             datepickersOptions.defaultDate = time.str_to_datetime(self.page.date_publish);
