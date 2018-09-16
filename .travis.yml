@@ -55,11 +55,7 @@ before_install:
 
 install:
   - travis_install_env
-  # - sed -i "s/'phantomjs'/'disable_phantomjs'/g" ${TRAVIS_BUILD_DIR}/odoo/tests/common.py
-  # - sed -i "s/'installable': True/'installable': False/g" ${TRAVIS_BUILD_DIR}/odoo/addons/test_assetsbundle/__manifest__.py
   - export EXCLUDE=hw_scanner,hw_escpos,theme_bootswatch
-  # - export INCLUDE=$(getaddons.py -m ${HOME}/build/${ODOO_REPO}/openerp/addons ${HOME}/build/${ODOO_REPO}/addons)
-  # - export INCLUDE=$(getaddons.py -m --only-localization ${TRAVIS_BUILD_DIR}/odoo/addons ${TRAVIS_BUILD_DIR}/addons);
 
 env:
   global:
@@ -67,10 +63,11 @@ env:
 
   matrix:
   - LINT_CHECK="0"
-  - TESTS="1" ODOO_TEST_SELECT="NO-CORE" ODOO_REPO="zeroincombenze/OCB"
+  - TESTS="1" ODOO_TEST_SELECT="NO-CORE" ODOO_REPO="Odoo-Italia-Associazione/OCB"
 
 script:
   - travis_run_tests
 
 after_success:
   - travis_after_tests_success
+
