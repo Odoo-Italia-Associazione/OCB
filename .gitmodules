@@ -1,0 +1,3 @@
+[submodule "l10n-italy"]
+	path = l10n-italy
+	url = https://github.com/Odoo-Italia-Associazione/l10n-italy
