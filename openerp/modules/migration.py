@@ -119,8 +119,7 @@ class MigrationManager(object):
             lst.sort()
             return lst
 
-        installed_version = getattr(pkg, 'load_version', pkg.installed_version) or ''
-        parsed_installed_version = parse_version(installed_version)
+        parsed_installed_version = parse_version(getattr(pkg, 'load_version', pkg.installed_version) or '')
         current_version = parse_version(convert_version(pkg.data['version']))
 
         versions = _get_migration_versions(pkg)
@@ -157,7 +156,7 @@ class MigrationManager(object):
                         except AttributeError:
                             _logger.error('module %(addon)s: Each %(stage)s-migration file must have a "migrate(cr, installed_version)" function' % strfmt)
                         else:
-                            migrate(self.cr, installed_version)
+                            migrate(self.cr, pkg.installed_version)
                     finally:
                         if fp:
                             fp.close()

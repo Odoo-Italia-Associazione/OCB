@@ -21,38 +21,38 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
 msgid "<strong>Company:</strong>"
-msgstr "კომპანია"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
 msgid "<strong>Date from :</strong>"
-msgstr "თარიღი"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
 msgid "<strong>Date to :</strong>"
-msgstr "თარიღი -მდე:"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 msgid "<strong>Entries Sorted By:</strong>"
-msgstr "სორტირება :"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 msgid "<strong>Journal:</strong>"
-msgstr "ჟურნალი:"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
 msgid "<strong>Target Moves:</strong>"
-msgstr "სამიზნე მოვლენები:"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 msgid "<strong>Total</strong>"
-msgstr "სულ :"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
@@ -63,17 +63,17 @@ msgstr "ანგარიში"
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_account_common_journal_report
 msgid "Account Common Journal Report"
-msgstr "გენერალური ჟურნალის ანგარიში"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_account_report_partner_ledger
 msgid "Account Partner Ledger"
-msgstr "კლიენტებისათვის განკუთვნილი ანგარიშის ლიდერი"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_account_print_journal
 msgid "Account Print Journal"
-msgstr "ანგარიშების ჟურნალი"
+msgstr ""
 
 #. module: account_extra_reports
 #: selection:account.common.journal.report,target_move:0
@@ -82,7 +82,7 @@ msgstr "ანგარიშების ჟურნალი"
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
 msgid "All Entries"
-msgstr "ყველა ჩანაწერი"
+msgstr ""
 
 #. module: account_extra_reports
 #: selection:account.common.journal.report,target_move:0
@@ -310,7 +310,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_print_journal_date_from
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_report_partner_ledger_date_from
 msgid "Start Date"
-msgstr "დაწყების თარიღი"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_common_journal_report_target_move

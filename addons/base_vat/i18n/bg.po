@@ -3,14 +3,13 @@
 # * base_vat
 # 
 # Translators:
-# Boris Stefanov <borkata@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2018-05-28 14:22+0000\n"
-"Last-Translator: Boris Stefanov <borkata@gmail.com>\n"
+"PO-Revision-Date: 2015-09-07 16:40+0000\n"
+"Last-Translator: Martin Trigaux\n"
 "Language-Team: Bulgarian (http://www.transifex.com/odoo/odoo-9/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,13 +27,13 @@ msgstr "Компании"
 msgid ""
 "If checked, Partners VAT numbers will be fully validated against EU's VIES "
 "service rather than via a simple format validation (checksum)."
-msgstr "Ако е маркирано, Партньорските ДДС номера ще бъдат проверявани чрез VIES услугата на ЕС, а не само чрез контролна сума."
+msgstr ""
 
 #. module: base_vat
 #: code:addons/base_vat/base_vat.py:111
 #, python-format
 msgid "Importing VAT Number [%s] is not valid !"
-msgstr "Импортираният ДДС Номер [%s] е невалиден !"
+msgstr ""
 
 #. module: base_vat
 #: model:ir.model,name:base_vat.model_res_partner
@@ -47,7 +46,7 @@ msgstr "Партньор"
 msgid ""
 "The VAT number [%s] for partner [%s] does not seem to be valid. \n"
 "Note: the expected format is %s"
-msgstr "ДДС номера [%s] за партньор [%s] не изглежда валиден.\nЗабележка: очакваният формат е %s"
+msgstr ""
 
 #. module: base_vat
 #: code:addons/base_vat/base_vat.py:127
@@ -55,14 +54,14 @@ msgstr "ДДС номера [%s] за партньор [%s] не изглежд�
 msgid ""
 "The VAT number [%s] for partner [%s] either failed the VIES VAT validation "
 "check or did not respect the expected format %s."
-msgstr "ДДС номера [%s] за партньор [%s] или не е преминал проверката за ДДС за VIES, или не е спазил очаквания формат %s."
+msgstr ""
 
 #. module: base_vat
 #: model:ir.model.fields,field_description:base_vat.field_res_company_vat_check_vies
 msgid "VIES VAT Check"
-msgstr "VIES ДДС проверка"
+msgstr ""
 
 #. module: base_vat
 #: model:ir.ui.view,arch_db:base_vat.view_partner_form
 msgid "e.g. BE0477472701"
-msgstr "напр. BG123456789"
+msgstr ""

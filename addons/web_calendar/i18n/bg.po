@@ -3,14 +3,13 @@
 # * web_calendar
 # 
 # Translators:
-# Boris Stefanov <borkata@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2018-05-30 19:42+0000\n"
-"Last-Translator: Boris Stefanov <borkata@gmail.com>\n"
+"PO-Revision-Date: 2015-09-08 09:24+0000\n"
+"Last-Translator: Martin Trigaux\n"
 "Language-Team: Bulgarian (http://www.transifex.com/odoo/odoo-9/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +22,7 @@ msgstr ""
 #: code:addons/web_calendar/static/src/js/web_calendar.js:33
 #, python-format
 msgid "All day"
-msgstr "Цял ден"
+msgstr ""
 
 #. module: web_calendar
 #. openerp-web
@@ -44,7 +43,7 @@ msgstr "Календар"
 #: code:addons/web_calendar/static/src/js/web_calendar.js:115
 #, python-format
 msgid "Calendar view has not defined 'date_start' attribute."
-msgstr "Календарният изглед няма дефинира атрибут 'date_start'  (начална дата)."
+msgstr ""
 
 #. module: web_calendar
 #. openerp-web
@@ -109,7 +108,7 @@ msgstr "Месец"
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:56
 #, python-format
 msgid "Summary:"
-msgstr "Обобщение:"
+msgstr ""
 
 #. module: web_calendar
 #. openerp-web
@@ -130,4 +129,4 @@ msgstr "Седмица"
 #: code:addons/web_calendar/static/src/js/web_calendar.js:288
 #, python-format
 msgid "Week "
-msgstr "Седмица"
+msgstr ""

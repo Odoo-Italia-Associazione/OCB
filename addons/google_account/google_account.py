@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import openerp
-from openerp.exceptions import UserError
 from openerp.http import request
 from openerp.osv import osv
 from openerp import SUPERUSER_ID
@@ -105,9 +104,6 @@ class google_service(osv.osv_memory):
         client_id = self.get_client_id(cr, uid, service, context)
         client_secret = self.get_client_secret(cr, uid, service, context)
 
-        if not client_id or not client_secret:
-            raise UserError(_("The account for the Google service '%s' is not configured") % service)
-
         params = {
             'refresh_token': refresh_token,
             'client_id': client_id,
@@ -127,11 +123,7 @@ class google_service(osv.osv_memory):
                 registry = openerp.modules.registry.RegistryManager.get(request.session.db)
                 with registry.cursor() as cur:
                     self.pool['res.users'].write(cur, uid, [uid], {'google_%s_rtoken' % service: False}, context=context)
-            try:
-                error_file = e.read()
-                error_key = json.loads(error_file).get("error", "nc")
-            except:
-                error_key = e
+            error_key = json.loads(e.read()).get("error", "nc")
             _logger.exception("Bad google request : %s !" % error_key)
             error_msg = _("Something went wrong during your token generation. Maybe your Authorization Code is invalid or already expired [%s]") % error_key
             raise self.pool.get('res.config.settings').get_config_warning(cr, error_msg, context=context)

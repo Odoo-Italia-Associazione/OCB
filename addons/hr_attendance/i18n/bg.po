@@ -3,14 +3,13 @@
 # * hr_attendance
 # 
 # Translators:
-# Boris Stefanov <borkata@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2018-06-18 16:45+0000\n"
-"Last-Translator: Boris Stefanov <borkata@gmail.com>\n"
+"PO-Revision-Date: 2017-05-23 04:46+0000\n"
+"Last-Translator: Martin Trigaux\n"
 "Language-Team: Bulgarian (http://www.transifex.com/odoo/odoo-9/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,12 +22,12 @@ msgstr ""
 msgid ""
 "(*) A positive delay means that the employee worked less than recorded.<br/>\n"
 "(*) A negative delay means that the employee worked more than encoded."
-msgstr "(*) Положително отлагане значи че служителят е работил по-малко от отчетеното.<br/>\n(*) Отрицателно отлагане значи че служителят е работил повече от отчетеното."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "<strong>Total period</strong>"
-msgstr "<strong>Total period</strong>"
+msgstr ""
 
 #. module: hr_attendance
 #: selection:hr.employee,state:0
@@ -45,7 +44,7 @@ msgstr "Действие"
 #: model:ir.model,name:hr_attendance.model_hr_action_reason
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_action_desc
 msgid "Action Reason"
-msgstr "Причина за Действие"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_action_type
@@ -62,7 +61,7 @@ msgstr ""
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
 msgid "Analysis Information"
-msgstr "Аналитична Информация"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_attendance
@@ -76,7 +75,7 @@ msgstr "Присъствие"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_attendance_access
 msgid "Attendance Access"
-msgstr "Присъствия - Достъп"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_graph
@@ -88,22 +87,22 @@ msgstr "Анализ на Присъствия"
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_error
 #: model:ir.actions.report.xml,name:hr_attendance.action_report_hrattendanceerror
 msgid "Attendance Error Report"
-msgstr "Присъствия - Отчет на Грешки"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Attendance Errors:"
-msgstr "Присъствия - Грешки"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.open_view_attendance_reason
 msgid "Attendance Reasons"
-msgstr "Присъствия - Причини"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_attendance_reason
 msgid "Attendance reasons"
-msgstr "Присъствия - причини"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.open_view_attendance
@@ -131,7 +130,7 @@ msgstr "Откажи"
 #: code:addons/hr_attendance/static/src/js/attendance.js:41
 #, python-format
 msgid "Click to Sign In at %s."
-msgstr "Впишете се в%s."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_config
@@ -165,7 +164,7 @@ msgstr "Дата"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
 msgid "Date Recorded"
-msgstr "Дата"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
@@ -175,7 +174,7 @@ msgstr "Дата на подписване"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.edit_attendance_reason
 msgid "Define attendance reason"
-msgstr "Дефинирайте Причина за Присъствие"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
@@ -217,7 +216,7 @@ msgstr "Крайна дата"
 #. module: hr_attendance
 #: constraint:hr.attendance:0
 msgid "Error ! Sign in (resp. Sign out) must follow Sign out (resp. Sign in)"
-msgstr "Грешка ! Вписване (съотв. Изписване) трябва да следва Изписване (съотв. Вписване)"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
@@ -248,7 +247,7 @@ msgstr "Последно променено на"
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee_last_sign
 msgid "Last Sign"
-msgstr "Последно Вписване"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_write_uid
@@ -269,12 +268,12 @@ msgstr "Последно обновено на"
 #: code:addons/hr_attendance/static/src/js/attendance.js:39
 #, python-format
 msgid "Last sign in: %s,<br />%s.<br />Click to sign out."
-msgstr "Последно Вписване: %s,<br />%s.<br />Кликнете за отписване."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_max_delay
 msgid "Maximum Tolerance (in minutes)"
-msgstr "Максимално Отклонение (в минути)"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
@@ -289,13 +288,13 @@ msgstr "Месец"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter
 msgid "My Attendance"
-msgstr "Мои Присъствия"
+msgstr ""
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/wizard/hr_attendance_error.py:34
 #, python-format
 msgid "No records are found for your selection!"
-msgstr "Не са намерени записи за Вашият избор!"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.report_attendanceerrors
@@ -315,12 +314,12 @@ msgstr "Печат"
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_error
 msgid "Print Attendance Report Error"
-msgstr "Печат на Присъствия - Отчет Грешки"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_attendance_error
 msgid "Print Error Attendance Report"
-msgstr "Печат на  Отчет Грешки - Присъствия"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_name
@@ -360,12 +359,12 @@ msgstr "Изход"
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance_action_desc
 msgid ""
 "Specifies the reason for Signing In/Signing Out in case of extra hours."
-msgstr "Описва причината за Вписване/Отписване в случай на извънредни часове."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_action_reason_name
 msgid "Specifies the reason for Signing In/Signing Out."
-msgstr "Описва основанието за Вписване/Отписване."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_init_date
@@ -378,12 +377,12 @@ msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
 "device using Odoo's web service features."
-msgstr "Функционалността Следене на Време цели да управлява присъствието на служителите чрез действия Вписване/Отписване. Може също да свържете тази опция с устройство за присъствие чрез Odoo уеб услугите."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_time_tracking
 msgid "Time Tracking"
-msgstr "Отчитане на Време"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.timesheet_menu_root
@@ -406,9 +405,9 @@ msgstr "Работни часове"
 msgid ""
 "You tried to %s with a date anterior to another event !\n"
 "Try to contact the HR Manager to correct attendances."
-msgstr "Вие се опитахте да %s с дата предхождаа на друго събитие !\nСвържете се с мениджър ЧР за корекция на присъствията."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_report_hr_attendance_report_attendanceerrors
 msgid "report.hr_attendance.report_attendanceerrors"
-msgstr "report.hr_attendance.report_attendanceerrors"
+msgstr ""

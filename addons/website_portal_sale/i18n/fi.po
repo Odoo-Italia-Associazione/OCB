@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:27+0000\n"
-"PO-Revision-Date: 2018-07-10 08:27+0000\n"
+"PO-Revision-Date: 2017-03-24 19:22+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/odoo/odoo-9/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -27,28 +27,28 @@ msgstr "<i class=\"fa fa-arrow-circle-right\"/> Maksa"
 msgid ""
 "<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> "
 "Problem</span>"
-msgstr "<span class=\"label label-danger\"><i class=\"fa fa-fw fa-warning\"/> Virhe/ongelma</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Done</span>"
-msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> Valmis</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> "
 "Paid</span>"
-msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-check\"/> Maksettu</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid ""
 "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Expired</span>"
-msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-clock-o\"/> Vanhentunut</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -63,28 +63,28 @@ msgstr "<span class=\"label label-default\"><i class=\"fa fa-fw fa-remove\"/> Pe
 msgid ""
 "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw"
 " fa-clock-o\"/> Waiting</span>"
-msgstr "<span class=\"label label-info orders_label_text_align\"><i class=\"fa fa-fw fa-clock-o\"/> Odottaa</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> "
 "Invoiced</span>"
-msgstr "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Laskutettu</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid ""
 "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Waiting "
 "for Payment</span>"
-msgstr "<span class=\"label label-info\"><i class=\"fa fa-fw fa-clock-o\"/> Odottaa maksua</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid ""
 "<span class=\"label label-success orders_label_text_align\"><i class=\"fa "
 "fa-fw fa-check\"/> Paid</span>"
-msgstr "<span class=\"label label-success orders_label_text_align\"><i class=\"fa fa-fw fa-check\"/> Maksettu</span>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -96,7 +96,7 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Contact</strong>"
-msgstr "<strong>Yhteyshenkilö</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -106,12 +106,12 @@ msgstr "<strong>Pvm:</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoices</strong>"
-msgstr "<strong>Laskut</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Invoicing Address</strong>"
-msgstr "<strong>Laskutusosoite</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -126,7 +126,7 @@ msgstr "<strong>Määrä</strong>"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "<strong>Shipping Address</strong>"
-msgstr "<strong>Toimitusosoite</strong>"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
@@ -163,7 +163,7 @@ msgstr ""
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Invoice #"
-msgstr "Lasku#"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -183,7 +183,7 @@ msgstr "Tilaus"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "Order Date"
-msgstr "Tilauksen pvm"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -203,7 +203,7 @@ msgstr "Tarjous #"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "Sale Order #"
-msgstr "Myyntitilaus#"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.model,name:website_portal_sale.model_sale_order
@@ -218,17 +218,17 @@ msgstr "Verot"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "There are currently no invoices for your account."
-msgstr "Laskuja ei löytynyt."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "There are currently no orders for your account."
-msgstr "Tilauksia ei löytynyt."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid "There are currently no quotes for your account."
-msgstr "Tarjouksia ei löytynyt."
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
@@ -240,7 +240,7 @@ msgstr "Yhteensä"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.orders_followup
 msgid "Untaxed Amount:"
-msgstr "Veroton summa:"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
@@ -250,17 +250,17 @@ msgstr "Voimassaolo"
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.invoices
 msgid "Your Invoices and Payments"
-msgstr "Omat laskut ja maksusuoritukset"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sale_orders
 msgid "Your Orders"
-msgstr "Omat tilaukset"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.quotations
 msgid "Your Quotes"
-msgstr "Omat tarjoukset"
+msgstr ""
 
 #. module: website_portal_sale
 #: model:ir.ui.view,arch_db:website_portal_sale.sales_backend_access

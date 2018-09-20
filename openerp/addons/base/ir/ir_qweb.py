@@ -686,7 +686,7 @@ class IntegerConverter(osv.AbstractModel):
             context = {}
 
         lang_code = context.get('lang') or 'en_US'
-        return self.pool['res.lang'].format(cr, uid, [lang_code], '%d', value, grouping=True).replace(r'-', u'-\N{ZERO WIDTH NO-BREAK SPACE}')
+        return self.pool['res.lang'].format(cr, uid, [lang_code], '%d', value, grouping=True).replace(r'-', u'\u2011')
 
 class FloatConverter(osv.AbstractModel):
     _name = 'ir.qweb.field.float'
@@ -704,7 +704,7 @@ class FloatConverter(osv.AbstractModel):
 
         lang_code = context.get('lang') or 'en_US'
         lang = self.pool['res.lang']
-        formatted = lang.format(cr, uid, [lang_code], fmt.format(precision=precision), value, grouping=True).replace(r'-', u'-\N{ZERO WIDTH NO-BREAK SPACE}')
+        formatted = lang.format(cr, uid, [lang_code], fmt.format(precision=precision), value, grouping=True).replace(r'-', u'\u2011')
 
         # %f does not strip trailing zeroes. %g does but its precision causes
         # it to switch to scientific notation starting at a million *and* to
@@ -889,7 +889,7 @@ class MonetaryConverter(osv.AbstractModel):
         lang = self.pool['res.lang']
         formatted_amount = lang.format(cr, uid, [lang_code],
             fmt, Currency.round(cr, uid, display_currency, from_amount),
-            grouping=True, monetary=True).replace(r' ', u'\N{NO-BREAK SPACE}').replace(r'-', u'-\N{ZERO WIDTH NO-BREAK SPACE}')
+            grouping=True, monetary=True).replace(r' ', u'\N{NO-BREAK SPACE}').replace(r'-', u'\u2011')
 
         pre = post = u''
         if display_currency.position == 'before':
@@ -1051,11 +1051,12 @@ class QwebWidgetMonetary(osv.AbstractModel):
     def _format(self, inner, options, qwebcontext):
         inner = self.pool['ir.qweb'].eval(inner, qwebcontext)
         display = self.pool['ir.qweb'].eval_object(options['display_currency'], qwebcontext)
-        fmt = "%.{0}f".format(display.decimal_places)
+        precision = int(round(math.log10(display.rounding)))
+        fmt = "%.{0}f".format(-precision if precision < 0 else 0)
         lang_code = qwebcontext.context.get('lang') or 'en_US'
         formatted_amount = self.pool['res.lang'].format(
             qwebcontext.cr, qwebcontext.uid, [lang_code], fmt, inner, grouping=True, monetary=True
-        ).replace(r' ', u'\N{NO-BREAK SPACE}').replace(r'-', u'-\N{ZERO WIDTH NO-BREAK SPACE}')
+        ).replace(r' ', u'\N{NO-BREAK SPACE}').replace(r'-', u'\u2011')
         pre = post = u''
         if display.position == 'before':
             pre = u'{symbol}\N{NO-BREAK SPACE}'
@@ -1259,10 +1260,7 @@ class AssetsBundle(object):
 
     def get_attachments(self, type, inc=None):
         ira = self.registry['ir.attachment']
-        domain = [
-            ('url', '=like', '/web/content/%%-%s/%s%s.%s' % (self.version, self.xmlid, ('%%' if inc is None else '.%s' % inc), type)),
-            ('create_uid', '=', openerp.SUPERUSER_ID),
-        ]
+        domain = [('url', '=like', '/web/content/%%-%s/%s%s.%s' % (self.version, self.xmlid, ('%%' if inc is None else '.%s' % inc), type))]
         attachment_ids = ira.search(self.cr, openerp.SUPERUSER_ID, domain, order='name asc', context=self.context)
         return ira.browse(self.cr, openerp.SUPERUSER_ID, attachment_ids, context=self.context)
 

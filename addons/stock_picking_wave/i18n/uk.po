@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2018-02-22 18:11+0000\n"
+"PO-Revision-Date: 2016-07-04 09:20+0000\n"
 "Last-Translator: Bohdan Lisnenko\n"
 "Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-9/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -26,19 +26,19 @@ msgstr "Необхідна дія"
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_to_wave
 msgid "Add pickings to a picking wave"
-msgstr "Додайте збірки до хвилі збору"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Add pickings to wave"
-msgstr "Додати відбори до групи"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_to_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.picking_to_wave_act
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Add to Wave"
-msgstr "Додати до групи"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
@@ -49,7 +49,7 @@ msgstr "Скасувати"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Cancel picking"
-msgstr "Закрити відбір"
+msgstr ""
 
 #. module: stock_picking_wave
 #: selection:stock.picking.wave,state:0
@@ -69,7 +69,7 @@ msgstr "Підтвердити"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 msgid "Confirm picking"
-msgstr "Підтвердьте відбір"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_to_wave_create_uid
@@ -140,7 +140,7 @@ msgstr "ID"
 #: model:product.product,name:stock_picking_wave.product_product_ice_cream_choco
 #: model:product.template,name:stock_picking_wave.product_product_ice_cream_choco_product_template
 msgid "Ice Cream Chocolate"
-msgstr "Морозиво шоколадне"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:product.product,description_sale:stock_picking_wave.product_product_ice_cream_choco
@@ -154,7 +154,7 @@ msgstr ""
 #: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_vani_product_template
 #: model:product.template,name:stock_picking_wave.product_product_ice_cream_vani_product_template
 msgid "Ice Cream Vanilla"
-msgstr "Ванільне морозиво"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_message_unread
@@ -202,7 +202,7 @@ msgstr "Останнє оновлення"
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_picking_ids
 msgid "List of picking associated to this wave"
-msgstr "Список відборів, пов'язаних із цією групою"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_ids
@@ -217,13 +217,13 @@ msgstr "Повідомлення та історія бесіди"
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_name
 msgid "Name of the picking wave"
-msgstr "Назва хвилі вибору"
+msgstr ""
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:42
 #, python-format
 msgid "Nothing to print."
-msgstr "Немає нічого до друку."
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_needaction_counter
@@ -243,7 +243,7 @@ msgstr "Кількість непрочитаних повідомлень"
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_user_id
 msgid "Person responsible for this wave"
-msgstr "Особа, відповідальна за цю групу"
+msgstr ""
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:60
@@ -253,12 +253,12 @@ msgstr "Особа, відповідальна за цю групу"
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 #, python-format
 msgid "Picking Wave"
-msgstr "Груповий відбір"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_name
 msgid "Picking Wave Name"
-msgstr "Назва групового відбору"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_wave
@@ -269,12 +269,12 @@ msgstr "Хвилі відбору"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Picking Waves not finished"
-msgstr "Групові відбори не завершені"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,help:stock_picking_wave.field_stock_picking_wave_id_9563
 msgid "Picking wave associated to this picking"
-msgstr "Груповий відбір, пов'язаний із цим відбором"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_picking_ids
@@ -300,12 +300,12 @@ msgstr "Діючий"
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_filter
 msgid "Search Picking Waves"
-msgstr "Знайти групові відбори"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.ui.view,arch_db:stock_picking_wave.picking_to_wave_form
 msgid "Select a wave"
-msgstr "Обрати групу"
+msgstr ""
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:59
@@ -313,19 +313,19 @@ msgstr "Обрати групу"
 msgid ""
 "Some pickings are still waiting for goods. Please check or force their "
 "availability before setting this wave to done."
-msgstr "Деякі відбори все ще чекають на товари. Будь ласка, перевірте або примусьте їх наявність, перш ніж встановити групу на завершення."
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:product.product,name:stock_picking_wave.product_product_dry_specu
 #: model:product.template,name:stock_picking_wave.product_product_dry_specu_product_template
 msgid "Speculoos"
-msgstr "Speculoos"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:product.product,description_sale:stock_picking_wave.product_product_dry_specu
 #: model:product.template,description_sale:stock_picking_wave.product_product_dry_specu_product_template
 msgid "Speculoos - A belgian speciality"
-msgstr "Speculoos - Бельгійська спеціальність"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:mail.message.subtype,description:stock_picking_wave.mt_wave_state
@@ -343,7 +343,7 @@ msgstr "Стан"
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_form
 #: model:ir.ui.view,arch_db:stock_picking_wave.view_picking_wave_tree
 msgid "Stock Picking Waves"
-msgstr "Груповий відбір складу"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,help:stock_picking_wave.action_picking_wave
@@ -363,7 +363,7 @@ msgstr "Перемістити"
 #: code:addons/stock_picking_wave/stock_picking_wave.py:60
 #, python-format
 msgid "Transferred by"
-msgstr "Передано"
+msgstr ""
 
 #. module: stock_picking_wave
 #: model:ir.model.fields,field_description:stock_picking_wave.field_stock_picking_wave_message_unread

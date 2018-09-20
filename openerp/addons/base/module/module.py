@@ -166,7 +166,6 @@ class module(osv.osv):
                     'doctitle_xform': False,
                     'output_encoding': 'unicode',
                     'xml_declaration': False,
-                    'file_insertion_enabled': False,
                 }
                 output = publish_string(source=module.description or '', settings_overrides=overrides, writer=MyWriter())
                 res[module.id] = html_sanitize(output)
@@ -563,7 +562,7 @@ class module(osv.osv):
         return dict(ACTION_DICT, name=_('Uninstall'))
 
     def button_uninstall_cancel(self, cr, uid, ids, context=None):
-        self.write(cr, uid, ids, {'state': 'installed'}, context=context)
+        self.write(cr, uid, ids, {'state': 'installed'})
         return True
 
     def button_immediate_upgrade(self, cr, uid, ids, context=None):
@@ -606,7 +605,7 @@ class module(osv.osv):
         return dict(ACTION_DICT, name=_('Apply Schedule Upgrade'))
 
     def button_upgrade_cancel(self, cr, uid, ids, context=None):
-        self.write(cr, uid, ids, {'state': 'installed'}, context=context)
+        self.write(cr, uid, ids, {'state': 'installed'})
         return True
 
     @staticmethod

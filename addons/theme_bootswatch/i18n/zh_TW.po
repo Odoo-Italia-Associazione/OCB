@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-21 14:56+0000\n"
-"PO-Revision-Date: 2018-04-20 00:08+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>\n"
+"PO-Revision-Date: 2015-09-08 09:11+0000\n"
+"Last-Translator: Martin Trigaux\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-9/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,37 +20,37 @@ msgstr ""
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Amelia"
-msgstr "阿米莉婭"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Cerulean"
-msgstr "天藍色"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Cosmo"
-msgstr "Cosmo"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Customize your theme"
-msgstr "定制您的主題"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Cyborg"
-msgstr "Cyborg"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Default Theme"
-msgstr "預設主題"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Flatly"
-msgstr "斷然"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
@@ -60,29 +60,29 @@ msgstr "帳簿"
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Readable"
-msgstr "可讀的"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Simplex"
-msgstr "單一的"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Slate"
-msgstr "石板"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "Spacelab"
-msgstr "太空實驗室"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "United"
-msgstr "聯合的"
+msgstr ""
 
 #. module: theme_bootswatch
 #: model:ir.ui.view,arch_db:theme_bootswatch.theme_customize
 msgid "×"
-msgstr "x"
+msgstr ""

@@ -4,14 +4,13 @@
 # 
 # Translators:
 # Anton Vassilev, 2016
-# Boris Stefanov <borkata@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-22 13:12+0000\n"
-"PO-Revision-Date: 2018-05-28 14:42+0000\n"
-"Last-Translator: Boris Stefanov <borkata@gmail.com>\n"
+"PO-Revision-Date: 2016-07-17 03:54+0000\n"
+"Last-Translator: Anton Vassilev\n"
 "Language-Team: Bulgarian (http://www.transifex.com/odoo/odoo-9/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +37,7 @@ msgstr "<strong>До дата :</strong>"
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 msgid "<strong>Entries Sorted By:</strong>"
-msgstr "<strong>Сортирано по:</strong>"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
@@ -70,7 +69,7 @@ msgstr "Справка по сметка от Журнала"
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_account_report_partner_ledger
 msgid "Account Partner Ledger"
-msgstr "Партньорски Сметкоплан"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_account_print_journal
@@ -170,7 +169,7 @@ msgstr "Крайна дата"
 #. module: account_extra_reports
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_print_journal_sort_selection
 msgid "Entries Sorted by"
-msgstr "Записите Сортирани по"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_common_journal_report_id
@@ -186,7 +185,7 @@ msgstr "ID"
 msgid ""
 "It adds the currency column on report if the currency differs from the "
 "company currency."
-msgstr "Добавя колона Валута в отчетите, в които валутата се различава от основната ни."
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
@@ -202,7 +201,7 @@ msgstr "Журнал"
 #: selection:account.print.journal,sort_selection:0
 #: model:ir.ui.view,arch_db:account_extra_reports.report_journal
 msgid "Journal Entry Number"
-msgstr "Номер на Контировка"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_common_journal_report_journal_ids
@@ -278,7 +277,7 @@ msgstr "Разплащателни сметки"
 msgid ""
 "Print Report with the currency column if the currency differs from the "
 "company currency."
-msgstr "Отпечатва Отчет с колона Валута, ако валутата е различна от основната ни."
+msgstr ""
 
 #. module: account_extra_reports
 #: selection:account.report.partner.ledger,result_selection:0
@@ -293,7 +292,7 @@ msgstr "Сметки за получаване и плащане"
 #. module: account_extra_reports
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_report_partner_ledger_reconciled
 msgid "Reconciled Entries"
-msgstr "Съгласувани Записи"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.ui.view,arch_db:account_extra_reports.report_partnerledger
@@ -305,7 +304,7 @@ msgstr "Референт"
 #: model:ir.actions.report.xml,name:account_extra_reports.action_report_journal
 #: model:ir.ui.menu,name:account_extra_reports.menu_print_journal
 msgid "Sale/Purchase Journal"
-msgstr "Дневник на Продажбите/Покупките"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model.fields,field_description:account_extra_reports.field_account_common_journal_report_date_from
@@ -341,9 +340,9 @@ msgstr "С валута"
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_report_account_extra_reports_report_journal
 msgid "report.account_extra_reports.report_journal"
-msgstr "report.account_extra_reports.report_journal"
+msgstr ""
 
 #. module: account_extra_reports
 #: model:ir.model,name:account_extra_reports.model_report_account_extra_reports_report_partnerledger
 msgid "report.account_extra_reports.report_partnerledger"
-msgstr "report.account_extra_reports.report_partnerledger"
+msgstr ""

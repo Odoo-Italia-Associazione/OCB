@@ -26,7 +26,6 @@ this event.
         'event_sale_data.xml',
         'report/event_event_templates.xml',
         'security/ir.model.access.csv',
-        'security/event_security.xml',
         'wizard/event_edit_registration.xml',
     ],
     'demo': ['event_demo.xml'],

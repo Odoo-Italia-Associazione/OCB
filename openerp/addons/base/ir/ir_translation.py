@@ -51,8 +51,7 @@ class ir_translation_import_cursor(object):
         # of ir_translation, so this copy will be much faster.
         cr.execute('''CREATE TEMP TABLE %s(
             imd_model VARCHAR(64),
-            imd_name VARCHAR(128),
-            noupdate BOOLEAN
+            imd_name VARCHAR(128)
             ) INHERITS (%s) ''' % (self._table_name, self._parent_table))
 
     def push(self, trans_dict):
@@ -110,8 +109,7 @@ class ir_translation_import_cursor(object):
 
         # Step 1: resolve ir.model.data references to res_ids
         cr.execute("""UPDATE %s AS ti
-            SET res_id = imd.res_id,
-                noupdate = imd.noupdate
+            SET res_id = imd.res_id
             FROM ir_model_data AS imd
             WHERE ti.res_id IS NULL
                 AND ti.module IS NOT NULL AND ti.imd_name IS NOT NULL
@@ -157,10 +155,7 @@ class ir_translation_import_cursor(object):
                     src = ti.src,
                     state = 'translated'
                 FROM %s AS ti
-                WHERE %s
-                AND ti.value IS NOT NULL
-                AND ti.value != ''
-                AND noupdate IS NOT TRUE
+                WHERE %s AND ti.value IS NOT NULL AND ti.value != ''
                 """ % (self._parent_table, self._table_name, find_expr),
                        (tuple(src_relevant_fields), tuple(src_relevant_fields)))
 
@@ -479,19 +474,13 @@ class ir_translation(osv.osv):
                 continue
 
             # remap existing translations on terms when possible
-            trans_src = record_trans.mapped('src')
             for trans in record_trans:
                 if trans.src == trans.value:
                     discarded += trans
                 elif trans.src not in terms:
                     matches = get_close_matches(trans.src, terms, 1, 0.9)
                     if matches:
-                        if matches[0] in trans_src:
-                            # there is already a translation for this term; discard this one
-                            discarded += trans
-                        else:
-                            trans.write({'src': matches[0], 'state': trans.state})
-                            trans_src.append(matches[0])  # avoid reuse of term
+                        trans.write({'src': matches[0], 'state': trans.state})
                     else:
                         outdated += trans
 

@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
-"PO-Revision-Date: 2018-05-25 06:21+0000\n"
-"Last-Translator: Rivo Zängov <eraser@eraser.ee>\n"
+"PO-Revision-Date: 2017-04-18 11:56+0000\n"
+"Last-Translator: Arma Gedonsky <armagedonsky@hot.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/odoo/odoo-9/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. module: product
 #: selection:product.pricelist.item,applied_on:0
 msgid " Product Category"
-msgstr "Toote kategooria"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_product_variant_count
@@ -34,7 +34,7 @@ msgstr ""
 #: code:addons/product/pricelist.py:288
 #, python-format
 msgid "%s %% discount"
-msgstr "%s %% allahindlus"
+msgstr ""
 
 #. module: product
 #: code:addons/product/pricelist.py:290
@@ -51,7 +51,7 @@ msgstr "%s (koopia)"
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_1
 msgid "16 GB"
-msgstr "16 GB"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_3
@@ -86,7 +86,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
 msgid "2.4 GHz"
-msgstr "2.4 GHz"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_8
@@ -109,7 +109,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
 msgid "32 GB"
-msgstr "32 GB"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_4
@@ -148,27 +148,27 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "<span>kg</span>"
-msgstr "<span>kg</span>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Currency</strong>:<br/>"
-msgstr "<strong>Valuuta</strong>:<br/>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Description</strong>"
-msgstr "<strong>Kirjeldus</strong>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Price List Name</strong>:<br/>"
-msgstr "<strong>Hinnakirja nimi</strong>:<br/>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
 msgid "<strong>Print date</strong>:<br/>"
-msgstr "<strong>Printimise kuupäev</strong>:<br/>"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_only_form_view
@@ -221,7 +221,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_9
 #: model:product.template,website_description:product.product_product_9_product_template
 msgid "A great Keyboard. Cordless."
-msgstr "Suurepärane klaviatuus. Ilma juhtmeta."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description
@@ -278,7 +278,7 @@ msgstr "Kõik"
 #: code:addons/product/pricelist.py:283
 #, python-format
 msgid "All Products"
-msgstr "Kõik tooted"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -315,18 +315,18 @@ msgstr ""
 #: model:product.product,name:product.product_product_7
 #: model:product.template,name:product.product_product_7_product_template
 msgid "Apple In-Ear Headphones"
-msgstr "Apple kõrva-sees kõrvaklapid"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_9
 #: model:product.template,name:product.product_product_9_product_template
 msgid "Apple Wireless Keyboard"
-msgstr "Apple juhtmevaba klaviatuur"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "Applicable On"
-msgstr "Kohaldatav"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_applied_on
@@ -371,7 +371,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_attribute_line_value_ids
 #: model:ir.ui.menu,name:product.menu_variants_action
 msgid "Attribute Values"
-msgstr "Atribuudi väärtused"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,name:product.attribute_action
@@ -484,7 +484,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_5b
 #: model:product.template,name:product.product_product_5b_product_template
 msgid "Bose Mini Bluetooth Speaker"
-msgstr "Bose Mini Bluetooth Speaker"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -531,7 +531,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product_rental
 #: model:ir.model.fields,field_description:product.field_product_template_rental
 msgid "Can be Rent"
-msgstr "Saab rentida"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_sale_ok
@@ -554,19 +554,19 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "Category name"
-msgstr "Kategooria nimi"
+msgstr ""
 
 #. module: product
 #: code:addons/product/pricelist.py:277
 #, python-format
 msgid "Category: %s"
-msgstr "Kategooria: %s"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "Characteristics"
-msgstr "Omadused"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_5b
@@ -609,23 +609,23 @@ msgstr ""
 #: model:ir.actions.act_window,help:product.product_template_action_product
 #: model:ir.actions.act_window,help:product.product_variant_action
 msgid "Click to define a new product."
-msgstr "Loo uus toode."
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Codes"
-msgstr "oodid"
+msgstr ""
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_2
 msgid "Color"
-msgstr "Värv"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_color
 #: model:ir.model.fields,field_description:product.field_product_template_color
 msgid "Color Index"
-msgstr "Värvi index"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_6
@@ -658,19 +658,19 @@ msgstr "Koostisosad"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Compute Price"
-msgstr "Arvuti hind"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_16
 #: model:product.template,name:product.product_product_16_product_template
 msgid "Computer Case"
-msgstr "Arvutikorpus"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_3
 #: model:product.template,name:product.product_product_3_product_template
 msgid "Computer SC234"
-msgstr "Arvuti SC234"
+msgstr ""
 
 #. module: product
 #: model:product.public.category,name:product.Computer_all_in_one
@@ -686,7 +686,7 @@ msgstr "Arvutid"
 #: code:addons/product/product.py:460
 #, python-format
 msgid "Consumable"
-msgstr "Tarbitav toode"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_uom_category_id
@@ -825,7 +825,7 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_day
 msgid "Day(s)"
-msgstr "Päev(i)"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_uom_id
@@ -866,7 +866,7 @@ msgstr "Kirjeldus pakkumistele"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Description for Vendors"
-msgstr "Tarnijatele kirjeldus"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -1121,13 +1121,13 @@ msgstr "Jälgijad"
 #: model:ir.model.fields,field_description:product.field_product_product_message_channel_ids
 #: model:ir.model.fields,field_description:product.field_product_template_message_channel_ids
 msgid "Followers (Channels)"
-msgstr "Jälgijad (kanalid)"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_message_partner_ids
 #: model:ir.model.fields,field_description:product.field_product_template_message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Jälgijad (partnerid)"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_min_quantity
@@ -1158,7 +1158,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Friendly to the environment."
-msgstr "Keskkonnasõbralik."
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_44
@@ -1227,7 +1227,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_24
 #: model:product.template,name:product.product_product_24_product_template
 msgid "Graphics Card"
-msgstr "Graafikakaart"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_weight
@@ -1239,7 +1239,7 @@ msgstr "Brutokaal"
 #: model:product.product,name:product.product_product_17
 #: model:product.template,name:product.product_product_17_product_template
 msgid "HDD SH-1"
-msgstr "HDD SH-1"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_18
@@ -1318,7 +1318,7 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_hour
 msgid "Hour(s)"
-msgstr "tund(i)"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -1414,7 +1414,7 @@ msgid ""
 "Image of the product variant (Big-sized image of product template if false)."
 " It is automatically resized as a 1024x1024px image, with aspect ratio "
 "preserved."
-msgstr "Toote variatsiooni pilt (kui pole määratud siis suur baastoote pilt). See muudetakse automaatselt suurusele 1024x1024 nii, et esialgne kõrguse ja laiuse suhe jääb paika."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_image_medium
@@ -1523,7 +1523,7 @@ msgstr "Klaviatuur / hiir"
 #: model:product.product,name:product.product_product_27
 #: model:product.template,name:product.product_product_27_product_template
 msgid "Laptop Customized"
-msgstr "Kohandatud sülearvuti"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_25
@@ -1644,7 +1644,7 @@ msgstr "Liiter(id)"
 #: model:product.product,name:product.product_product_58
 #: model:product.template,name:product.product_product_58_product_template
 msgid "Little server"
-msgstr "Väike server"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_packaging_ids
@@ -1710,7 +1710,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute,name:product.product_attribute_1
 msgid "Memory"
-msgstr "Mälu"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_message_ids
@@ -1754,7 +1754,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_5b
 #: model:product.template,website_description:product.product_product_5b_product_template
 msgid "More features."
-msgstr "Rohkem funktsioone."
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_21
@@ -1766,13 +1766,13 @@ msgstr ""
 #: model:product.product,name:product.product_product_20
 #: model:product.template,name:product.product_product_20_product_template
 msgid "Motherboard I9P57"
-msgstr "Emaplaat I9P57"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_10
 #: model:product.template,name:product.product_product_10_product_template
 msgid "Mouse, Optical"
-msgstr "Hiir, optiline"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_12
@@ -1883,7 +1883,7 @@ msgstr "Muu hinnakiri"
 #: model:product.product,website_description:product.product_product_6
 #: model:product.template,website_description:product.product_product_6_product_template
 msgid "Over 375,000 apps."
-msgstr "Üle 375,000 rakenduse."
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_packaging
@@ -1933,7 +1933,7 @@ msgstr ""
 #. module: product
 #: selection:product.pricelist.item,compute_price:0
 msgid "Percentage (discount)"
-msgstr "Protsent (allahindlus)"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item_percent_price
@@ -2030,7 +2030,7 @@ msgstr "Hinna lisamaks"
 #: model:ir.ui.view,arch_db:product.product_kanban_view
 #: model:ir.ui.view,arch_db:product.product_template_kanban_view
 msgid "Price:"
-msgstr "Hind:"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_price_list_price_list
@@ -2104,7 +2104,7 @@ msgstr "Prindi"
 #. module: product
 #: model:product.public.category,name:product.printer
 msgid "Printer"
-msgstr "Printer"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_37
@@ -2144,12 +2144,12 @@ msgstr "Toode"
 #. module: product
 #: model:ir.model,name:product.model_product_attribute
 msgid "Product Attribute"
-msgstr "Soode on saadaval"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_price_value_id
 msgid "Product Attribute Value"
-msgstr "Toote atribuudi väärtused"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_attribute_line_ids
@@ -2256,7 +2256,7 @@ msgstr "Toodete hinnakiri"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_search
 msgid "Products Price Search"
-msgstr "Toote hinna otsing"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_search_view
@@ -2343,12 +2343,12 @@ msgstr ""
 #: model:product.product,name:product.product_product_13
 #: model:product.template,name:product.product_product_13_product_template
 msgid "RAM SR5"
-msgstr "RAM SR5"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_factor
 msgid "Ratio"
-msgstr "Suhe"
+msgstr ""
 
 #. module: product
 #: selection:product.uom,uom_type:0
@@ -2445,7 +2445,7 @@ msgstr "Müügi hinnakiri"
 #. module: product
 #: model:product.category,name:product.product_category_1
 msgid "Saleable"
-msgstr "Müüdav"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -2455,7 +2455,7 @@ msgstr "Müük"
 #. module: product
 #: model:res.groups,name:product.group_sale_pricelist
 msgid "Sales Pricelists"
-msgstr "Müügi hinnakirjad"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -2480,7 +2480,7 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product_categ_id
 #: model:ir.model.fields,help:product.field_product_template_categ_id
 msgid "Select category for the current product"
-msgstr "Vali selle toote kategooria"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_sequence
@@ -2525,7 +2525,7 @@ msgstr "Määrab hinna nii, et see on selle väärtuse kordne.\nÜmardmine raken
 #. module: product
 #: model:ir.model.fields,field_description:product.field_base_config_settings_company_share_product
 msgid "Share product to all companies"
-msgstr "Jaga toodet kõigi ettevõtetega"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_base_config_settings_company_share_product
@@ -2545,7 +2545,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product_image_small
 #: model:ir.model.fields,field_description:product.field_product_template_image_small
 msgid "Small-sized image"
-msgstr "Väike pilt"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_image_small
@@ -2792,7 +2792,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_price
 msgid "The price to purchase a product"
-msgstr "Toote ostuhind"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_normal_action
@@ -2961,7 +2961,7 @@ msgstr ""
 #: model:product.product,website_description:product.product_product_7
 #: model:product.template,website_description:product.product_product_7_product_template
 msgid "Two is better than one."
-msgstr "Kaks on parem kui üks."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_uom_uom_type
@@ -2998,7 +2998,7 @@ msgstr "Ülikiire raadioside"
 #: model:product.product,website_description:product.product_product_8
 #: model:product.template,website_description:product.product_product_8_product_template
 msgid "Ultrathin design"
-msgstr "Üliõhuke disain"
+msgstr ""
 
 #. module: product
 #: model:product.uom.categ,name:product.product_uom_categ_unit
@@ -3104,24 +3104,24 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_image_variant
 msgid "Variant Image"
-msgstr "Variandi pilt"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Variant Information"
-msgstr "Variandi info"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Variant Prices"
-msgstr "Variantide hinnad"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_attribute_value_action
 #: model:ir.ui.view,arch_db:product.attribute_tree_view
 #: model:ir.ui.view,arch_db:product.variants_tree_view
 msgid "Variant Values"
-msgstr "Variandi väärtused"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value_product_ids
@@ -3142,27 +3142,27 @@ msgstr "Tarnija"
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_tree_view
 msgid "Vendor Information"
-msgstr "Edasimüüja info"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_code
 msgid "Vendor Product Code"
-msgstr "Edasimüüja tootekood"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_name
 msgid "Vendor Product Name"
-msgstr "Etasimüüja tootenimi"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo_product_uom
 msgid "Vendor Unit of Measure"
-msgstr "Edasimüüja mõõtphik"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_name
 msgid "Vendor of this product"
-msgstr "Selle toote edasimüüja"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -3223,7 +3223,7 @@ msgstr "Kaalud"
 #: model:product.template,website_description:product.product_product_11_product_template
 #: model:product.template,website_description:product.product_product_11b_product_template
 msgid "When one playlist isn’t enough."
-msgstr "Kui ühest esitusloendist ei piisa."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo_product_id
@@ -3235,7 +3235,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_3
 msgid "White"
-msgstr "Valge"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -3254,7 +3254,7 @@ msgstr ""
 #. module: product
 #: model:product.attribute,name:product.product_attribute_3
 msgid "Wi-Fi"
-msgstr "Wi-Fi"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_40
@@ -3332,7 +3332,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_43
 #: model:product.template,name:product.product_product_43_product_template
 msgid "Zed+ Antivirus"
-msgstr "Zed+ Antivirus"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_base_config_settings
@@ -3342,7 +3342,7 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_cm
 msgid "cm"
-msgstr "cm"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -3357,7 +3357,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_category_form_view
 msgid "e.g. Lamps"
-msgstr "nt. lambid"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
@@ -3398,13 +3398,13 @@ msgstr ""
 #: model:product.product,name:product.product_product_8
 #: model:product.template,name:product.product_product_8_product_template
 msgid "iMac"
-msgstr "iMac"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_6
 #: model:product.template,name:product.product_product_6_product_template
 msgid "iPad Mini"
-msgstr "iPad Mini"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_4
@@ -3424,7 +3424,7 @@ msgstr ""
 #: model:product.template,name:product.product_product_11_product_template
 #: model:product.template,name:product.product_product_11b_product_template
 msgid "iPod"
-msgstr "iPod"
+msgstr ""
 
 #. module: product
 #: model:product.product,website_description:product.product_product_11
@@ -3440,27 +3440,27 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_inch
 msgid "inch(es)"
-msgstr "toll(i)"
+msgstr ""
 
 #. module: product
 #: model:product.uom,name:product.product_uom_kgm
 msgid "kg"
-msgstr "kg"
+msgstr ""
 
 #. module: product
 #: model:product.uom,name:product.product_uom_km
 msgid "km"
-msgstr "km"
+msgstr ""
 
 #. module: product
 #: model:product.uom,name:product.product_uom_lb
 msgid "lb(s)"
-msgstr "nael(a)"
+msgstr ""
 
 #. module: product
 #: model:product.uom,name:product.product_uom_mile
 msgid "mile(s)"
-msgstr "miil(i)"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
@@ -3470,7 +3470,7 @@ msgstr "kuud"
 #. module: product
 #: model:product.uom,name:product.product_uom_oz
 msgid "oz(s)"
-msgstr "unts(i)"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_line
@@ -3495,7 +3495,7 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_qt
 msgid "qt"
-msgstr "gus"
+msgstr ""
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_58
@@ -3521,7 +3521,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_partner_property_form
 msgid "the parent company"
-msgstr "emaettevõte"
+msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view

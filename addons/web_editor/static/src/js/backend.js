@@ -183,11 +183,6 @@ var FieldTextHtml = widget.extend({
     template: 'web_editor.FieldTextHtml',
     willStart: function () {
         var self = this;
-
-        if (this.field.translate === false) {
-            this.languages = [];
-            return $.when();
-        }
         return new Model('res.lang').call("search_read", [[['code', '!=', 'en_US']], ["name", "code"]]).then(function (res) {
             self.languages = res;
         });
@@ -289,32 +284,10 @@ var FieldTextHtml = widget.extend({
         src += "&datarecord="+ encodeURIComponent(JSON.stringify(datarecord));
         return src;
     },
-    _toggleFormButtons: function(enable) {
-        if (this.$formButtons) {
-            if (enable) {
-                this.$formButtons.find('button').removeClass('o_disabled').attr('disabled', false);
-            } else {
-                this.$formButtons.find('button').addClass('o_disabled').attr('disabled', true);
-            }
-        }
-    },
     initialize_content: function() {
         var self = this;
-
-        // Do not Forward port in >= 10.0
-        function getModalButtons() {
-            var $modal = self.getParent().getParent();
-            if ($modal && $modal.$footer) {
-                return $modal.$footer;
-            }
-        }
-
-        this.$formButtons = this.getParent().$buttons || getModalButtons();
         this.$el.closest('.modal-body').css('max-height', 'none');
         this.$iframe = this.$el.find('iframe');
-        // deactivate any button to avoid saving a not ready iframe
-        // Do not Forward port in >= 10.0
-        this._toggleFormButtons(false);
         this.document = null;
         this.$body = $();
         this.$content = $();
@@ -340,9 +313,6 @@ var FieldTextHtml = widget.extend({
         this.lang = this.lang ? this.lang[1] : this.view.dataset.context.lang;
         this._dirty_flag = false;
         this.render_value();
-        // reactivate all the buttons when the field's content (the iframe) is loaded
-        // Do not Forward port in >= 10.0
-        this._toggleFormButtons(true);
         setTimeout(function () {
             self.add_button();
             setTimeout(self.resize,0);
@@ -428,25 +398,11 @@ var FieldTextHtml = widget.extend({
                 var layoutInfo = this.editor.rte.editable().data('layoutInfo');
                 $.summernote.pluginEvents.codeview(undefined, undefined, layoutInfo, false);
             }
-            var $ancestors = this.$iframe.filter(':not(:visible)').parentsUntil(':visible').addBack();
-            var ancestorsStyle = [];
-            // temporarily force displaying iframe (needed for firefox)
-            _.each($ancestors, function (el) {
-                var $el = $(el);
-                ancestorsStyle.unshift($el.attr('style') || null);
-                $el.css({display: 'initial', visibility: 'hidden', height: 1});
-            });
             this.editor.buildingBlock.clean_for_save();
-            _.each($ancestors, function (el) {
-                var $el = $(el);
-                $el.attr('style', ancestorsStyle.pop());
-            });
             this.internal_set_value( this.$content.html() );
         }
     },
     destroy: function () {
-        // Do not Forward port in >= 10.0
-        this._toggleFormButtons(true);
         $(window).off('resize', this.resize);
         delete window.odoo[this.callback+"_editor"];
         delete window.odoo[this.callback+"_content"];

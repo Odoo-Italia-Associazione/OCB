@@ -234,22 +234,22 @@ class MailTemplate(models.Model):
     def unlink_action(self):
         for template in self:
             if template.ref_ir_act_window:
-                template.ref_ir_act_window.unlink()
+                template.ref_ir_act_window.sudo().unlink()
             if template.ref_ir_value:
-                template.ref_ir_value.unlink()
+                template.ref_ir_value.sudo().unlink()
         return True
 
     @api.multi
     def create_action(self):
-        ActWindow = self.env['ir.actions.act_window']
-        IrValues = self.env['ir.values']
+        ActWindowSudo = self.env['ir.actions.act_window'].sudo()
+        IrValuesSudo = self.env['ir.values'].sudo()
         view = self.env.ref('mail.email_compose_message_wizard_form')
 
         for template in self:
             src_obj = template.model_id.model
 
             button_name = _('Send Mail (%s)') % template.name
-            action = ActWindow.create({
+            action = ActWindowSudo.create({
                 'name': button_name,
                 'type': 'ir.actions.act_window',
                 'res_model': 'mail.compose.message',
@@ -260,7 +260,7 @@ class MailTemplate(models.Model):
                 'view_id': view.id,
                 'target': 'new',
                 'auto_refresh': 1})
-            ir_value = IrValues.create({
+            ir_value = IrValuesSudo.create({
                 'name': button_name,
                 'model': src_obj,
                 'key2': 'client_action_multi',
@@ -549,7 +549,6 @@ class MailTemplate(models.Model):
                 'name': attachment[0],
                 'datas_fname': attachment[0],
                 'datas': attachment[1],
-                'type': 'binary',
                 'res_model': 'mail.message',
                 'res_id': mail.mail_message_id.id,
             }

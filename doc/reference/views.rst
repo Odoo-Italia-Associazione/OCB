@@ -225,7 +225,8 @@ Possible children elements of the list view are:
         context of the current row's record, if ``True`` the corresponding
         attribute is set on the cell.
 
-        Possible attribute is ``invisible`` (hides the button).
+        Possible attributes are ``invisible`` (hides the button) and
+        ``readonly`` (disables the button but still shows it)
     ``states``
         shorthand for ``invisible`` ``attrs``: a list of states, comma separated,
         requires that the model has a ``state`` field and that it is
@@ -233,11 +234,6 @@ Possible children elements of the list view are:
 
         Makes the button ``invisible`` if the record is *not* in one of the
         listed states
-
-        .. danger::
-
-            Using ``states`` in combination with ``attrs`` may lead to
-            unexpected results as domains are combined with a logical AND.
     ``context``
         merged into the view's context when performing the button's Odoo call
     ``confirm``
@@ -830,13 +826,17 @@ attributes:
 Possible children of the view element are:
 
 ``field``
-  declares fields to use in kanban *logic*. If the field is simply displayed in
-  the kanban view, it does not need to be pre-declared.
+  declares fields to aggregate or to use in kanban *logic*. If the field is
+  simply displayed in the kanban view, it does not need to be pre-declared.
 
   Possible attributes are:
 
   ``name`` (required)
     the name of the field to fetch
+  ``sum``, ``avg``, ``min``, ``max``, ``count``
+    displays the corresponding aggregation at the top of a kanban column, the
+    field's value is the label of the aggregation (a string). Only one
+    aggregate operation per field is supported.
 
 ``templates``
   defines a list of :ref:`reference/qweb` templates. Cards definition may be

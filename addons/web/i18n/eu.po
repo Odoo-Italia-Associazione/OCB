@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-18 04:43+0000\n"
-"PO-Revision-Date: 2018-05-22 10:02+0000\n"
-"Last-Translator: Naomi Hidalgo <naomihid96@gmail.com>\n"
+"PO-Revision-Date: 2017-02-22 11:53+0000\n"
+"Last-Translator: Martin Trigaux\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-9/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,14 +22,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_common.js:870
 #, python-format
 msgid " & Close"
-msgstr "Itxi"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:442
 #, python-format
 msgid " selected records"
-msgstr "Aukeratutako erregistroak"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -37,14 +37,14 @@ msgstr "Aukeratutako erregistroak"
 #: code:addons/web/static/src/js/views/search_filters.js:290
 #, python-format
 msgid "%(field)s %(operator)s"
-msgstr "%(field)s%(operator)s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:116
 #, python-format
 msgid "%(field)s %(operator)s \"%(value)s\""
-msgstr "%(field)s %(operator)s \"%(value)s\""
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -58,7 +58,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_manager.js:66
 #, python-format
 msgid "%(view_type)s view"
-msgstr "%(view_type)s ikusi"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -72,35 +72,35 @@ msgstr "%d / %d"
 #: code:addons/web/static/src/js/framework/core.js:134
 #, python-format
 msgid "%d days ago"
-msgstr "Duela %d egun"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:132
 #, python-format
 msgid "%d hours ago"
-msgstr "Duela %d hordu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:130
 #, python-format
 msgid "%d minutes ago"
-msgstr "Duela %d minutu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:136
 #, python-format
 msgid "%d months ago"
-msgstr "Duela %d hilabete"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:138
 #, python-format
 msgid "%d years ago"
-msgstr "Duela %d urte"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -137,14 +137,14 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/formats.js:171
 #, python-format
 msgid "'%s' is not a correct date"
-msgstr "'%s' ez da data zuzena"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/time.js:193
 #, python-format
 msgid "'%s' is not a correct date, datetime nor time"
-msgstr "'%s' ez da data edo ordu zuzena "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -165,14 +165,14 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/formats.js:134
 #, python-format
 msgid "'%s' is not a correct integer"
-msgstr "'%s' ez da zenbaki oso zuzena"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/formats.js:176
 #, python-format
 msgid "'%s' is not a correct time"
-msgstr "'%s' ez da ordu zuzena"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -186,14 +186,14 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/formats.js:77
 #, python-format
 msgid "(%d records)"
-msgstr "(%d erregistroak)"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:106
 #, python-format
 msgid "(Community Edition)"
-msgstr "(Komunitatearen edizioa)"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -207,7 +207,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base_common.xml:34
 #, python-format
 msgid "(nolabel)"
-msgstr "(etiketarik ez)"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -221,17 +221,17 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1012
 #, python-format
 msgid "...Upload in progress..."
-msgstr "...Igotzen..."
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
 msgid "<span class=\"oe_logo_edit\">Edit Company data</span>"
-msgstr "<span class=\"oe_logo_edit\">Konpainia data editatu</span>"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
 msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -246,35 +246,35 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/crash_manager.js:25
 #, python-format
 msgid "Access Denied"
-msgstr "Sarbidea ukatua"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:21
 #, python-format
 msgid "Access Error"
-msgstr "Sarbide errorea"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1503
 #, python-format
 msgid "Access to all Enterprise Apps"
-msgstr "Konpainiaren aplikazioetarako sarbidea"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/sidebar.js:24
 #, python-format
 msgid "Action"
-msgstr "Ekintza"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1106
 #, python-format
 msgid "Action Button"
-msgstr "Ekintza botoia"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -288,7 +288,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:660
 #, python-format
 msgid "Activate"
-msgstr "Aktibatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -318,49 +318,49 @@ msgstr "Gehitu"
 #: code:addons/web/static/src/xml/base.xml:1216
 #, python-format
 msgid "Add Custom Filter"
-msgstr "Gehitu iragazki pertsonalizatua"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1217
 #, python-format
 msgid "Add a condition"
-msgstr "Gehitu baldintza"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1016
 #, python-format
 msgid "Add an item"
-msgstr "Artikulu bat gehitu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1227
 #, python-format
 msgid "Add custom group"
-msgstr "Talde pertsonalizatua gehitu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:323
 #, python-format
 msgid "Add..."
-msgstr "Gehitu.."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:1308
 #, python-format
 msgid "Add: "
-msgstr "Gehitu:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1123
 #, python-format
 msgid "Advanced Search..."
-msgstr "Bilaketa aurreratua..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -374,7 +374,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:564
 #, python-format
 msgid "All users"
-msgstr "Erabiltzaile guztiak"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -397,7 +397,7 @@ msgstr "Aplikatu"
 #: code:addons/web/static/src/js/views/list_view.js:308
 #, python-format
 msgid "Archive"
-msgstr "Artxibo"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -418,21 +418,21 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:295
 #, python-format
 msgid "Attachment :"
-msgstr "Eranskina:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1327
 #, python-format
 msgid "Available fields"
-msgstr "Eremu eskugarriak"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:616
 #, python-format
 msgid "Bar Chart"
-msgstr "Diagrama grafikoa"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -467,14 +467,14 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/utils.js:285
 #, python-format
 msgid "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
-msgstr "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_common.js:134
 #, python-format
 msgid "Can't convert value %s to context"
-msgstr "Ezin da %s balioa testuingurura bihurtu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -512,14 +512,14 @@ msgstr "Pasahitza Aldatu"
 #: code:addons/web/static/src/xml/base_common.xml:71
 #, python-format
 msgid "Change default:"
-msgstr "Lehenetsitakoak aldatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:447
 #, python-format
 msgid "Change selection "
-msgstr "Aldatu aukeraketa"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -552,7 +552,7 @@ msgstr "Irten"
 #: code:addons/web/static/src/xml/base.xml:487
 #, python-format
 msgid "Condition:"
-msgstr "Baldintza:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -573,7 +573,7 @@ msgstr "Baieztapena"
 #: code:addons/web/static/src/xml/base_common.xml:59
 #, python-format
 msgid "Context:"
-msgstr "Testuingurua:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -587,14 +587,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:1347
 #, python-format
 msgid "Could not display the selected image."
-msgstr "Aukeratutako irudia ezin izan da bistaratu."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view.js:1110
 #, python-format
 msgid "Could not find id in dataset"
-msgstr "Datu-multzoan ezin izan da id -a aurkitu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -619,28 +619,28 @@ msgstr "Sortu"
 #: code:addons/web/static/src/js/views/form_common.js:223
 #, python-format
 msgid "Create \"<strong>%s</strong>\""
-msgstr "Sortu \"<strong>%s</strong>\""
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:27
 #, python-format
 msgid "Create a %s"
-msgstr "%s sortu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_common.js:234
 #, python-format
 msgid "Create and Edit..."
-msgstr "Sortu eta editatu..."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:40
 #, python-format
 msgid "Create and edit"
-msgstr "Sortu eta editatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -655,21 +655,21 @@ msgstr "Sortu:"
 #: code:addons/web/static/src/xml/base.xml:249
 #, python-format
 msgid "Created by :"
-msgstr "Nork sortua:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:200
 #, python-format
 msgid "Creation Date:"
-msgstr "Sortze data:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:196
 #, python-format
 msgid "Creation User:"
-msgstr "Sortze erabiltzailea:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -677,7 +677,7 @@ msgstr "Sortze erabiltzailea:"
 #: code:addons/web/static/src/js/views/search_menus.js:175
 #, python-format
 msgid "Custom Filter"
-msgstr "Pertsonalizatutako iragazkia"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -689,7 +689,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:110
 #, python-format
 msgid "Database expiration:"
-msgstr "Datu-basea iraungitzea:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -703,14 +703,14 @@ msgstr "Eguna"
 #: code:addons/web/static/src/js/views/form_widgets.js:658
 #, python-format
 msgid "Deactivate"
-msgstr "Desaktibatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:521
 #, python-format
 msgid "Default:"
-msgstr "Lehenetsia:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -726,14 +726,14 @@ msgstr "Ezabatu"
 #: code:addons/web/static/src/xml/base.xml:260
 #, python-format
 msgid "Delete this attachment"
-msgstr "Eranskin hau ezabatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1019
 #, python-format
 msgid "Delete this file"
-msgstr "Fitxategi hau ezabatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -742,49 +742,49 @@ msgstr "Fitxategi hau ezabatu"
 #: code:addons/web/static/src/xml/base.xml:457
 #, python-format
 msgid "Discard"
-msgstr "Baztertu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/sidebar.js:205
 #, python-format
 msgid "Do you really want to delete this attachment ?"
-msgstr "Ziur eranskin hau ezabatu nahi duzula?"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:780
 #, python-format
 msgid "Do you really want to delete this record?"
-msgstr "Ziur erregistro hau ezabatu nahi duzula?"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view.js:630
 #, python-format
 msgid "Do you really want to remove these records?"
-msgstr "Ziur erregistro hauek ezabatu nahi duzula?"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:82
 #, python-format
 msgid "Documentation"
-msgstr "Dokumentazioa"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:63
 #, python-format
 msgid "Domain:"
-msgstr "Domeinua:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/misc.js:17
 #, python-format
 msgid "Don't leave yet,<br />it's still loading..."
-msgstr "Ez utzi orain, <br /> oraindik kargatzen ari da..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -792,14 +792,14 @@ msgstr "Ez utzi orain, <br /> oraindik kargatzen ari da..."
 #: code:addons/web/static/src/js/views/list_view.js:1946
 #, python-format
 msgid "Download"
-msgstr "Deskargatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view.js:1962
 #, python-format
 msgid "Download \"%s\""
-msgstr "Deskargatu \"%s\""
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -836,7 +836,7 @@ msgstr "Editatu"
 #: code:addons/web/static/src/xml/base.xml:173
 #, python-format
 msgid "Edit Action"
-msgstr "Ekintza editatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -874,31 +874,24 @@ msgid "Error"
 msgstr "Errorea!"
 
 #. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/form_widgets.js:458
-#, python-format
-msgid "Error: Bad domain"
-msgstr ""
-
-#. module: web
 #: code:addons/web/controllers/main.py:838
 #, python-format
 msgid "Error, password not changed !"
-msgstr "Errorea, pasahitza ez da aldatu!"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/pyeval.js:981
 #, python-format
 msgid "Evaluation Error"
-msgstr "Ebaluazio errorea"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:599
 #, python-format
 msgid "Expand all"
-msgstr "Zabaldu dena"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -941,7 +934,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1274
 #, python-format
 msgid "Export all Data"
-msgstr "Datu guztiak esportatu "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -962,14 +955,14 @@ msgstr "Gustukoenak"
 #: code:addons/web/static/src/js/views/form_view.js:1292
 #, python-format
 msgid "Field '%s' specified in view could not be found."
-msgstr "Ikuspegian zehaztutako eremua ' %s ' ezin izan da aurkitu."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:39
 #, python-format
 msgid "Field:"
-msgstr "Eremua:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -984,21 +977,21 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1285
 #, python-format
 msgid "Fields to export"
-msgstr "Esportatzeko eremuak"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1193
 #, python-format
 msgid "File Upload"
-msgstr "Fitxategi igoera"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1173
 #, python-format
 msgid "File upload"
-msgstr "Fitxategi igoera"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1012,21 +1005,21 @@ msgstr "Iragazki"
 #: code:addons/web/static/src/js/views/search_menus.js:83
 #, python-format
 msgid "Filter name is required."
-msgstr "Iragazkiaren izena behar da."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_inputs.js:484
 #, python-format
 msgid "Filter on: %s"
-msgstr "Iragazkia: %s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_menus.js:90
 #, python-format
 msgid "Filter with same name already exists."
-msgstr "Izen bereko iragazkia existitzen da jada."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1040,7 +1033,7 @@ msgstr "Iragazkiak"
 #: code:addons/web/static/src/xml/base.xml:649
 #, python-format
 msgid "Flip axis"
-msgstr "Irauli ardatza"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1148,16 +1141,7 @@ msgstr "Ez-aktibo"
 #: code:addons/web/static/src/js/views/graph_widget.js:197
 #, python-format
 msgid "Invalid data"
-msgstr "Baliogabeko data"
-
-#. module: web
-#: code:addons/web/controllers/main.py:655
-#: code:addons/web/controllers/main.py:669
-#, python-format
-msgid ""
-"Invalid database name. Only alphanumerical characters, underscore, hyphen "
-"and dot are allowed."
-msgstr "Datu-basearen izena baliogabea da. Karaktere alfanumerikoak, azpi-marra, marratxoa eta puntua soilik onartzen dira."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1165,7 +1149,7 @@ msgstr "Datu-basearen izena baliogabea da. Karaktere alfanumerikoak, azpi-marra,
 #: code:addons/web/static/src/xml/base.xml:211
 #, python-format
 msgid "JS Tests"
-msgstr "JS probak"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:769
@@ -1206,14 +1190,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:617
 #, python-format
 msgid "Line Chart"
-msgstr "Lerrodun grafikoa"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view.js:39
 #, python-format
 msgid "List"
-msgstr "Zerrenda"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1221,7 +1205,7 @@ msgstr "Zerrenda"
 #: code:addons/web/static/src/js/widgets/loading.js:46
 #, python-format
 msgid "Loading"
-msgstr "Kargatzen"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1236,7 +1220,7 @@ msgstr "Kargatzen (%d)"
 #: code:addons/web/static/src/xml/base.xml:5
 #, python-format
 msgid "Loading..."
-msgstr "Kargatzen..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1247,19 +1231,19 @@ msgid ""
 "%s\n"
 "\n"
 "%s"
-msgstr "Tokiko ebaluazio hutsegitea\n%s\n\n%s"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
 msgid "Log in"
-msgstr "Hasi saioa"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:84
 #, python-format
 msgid "Log out"
-msgstr "Amaitu saioa"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1286,7 +1270,7 @@ msgstr "Datubaseak kudeatu"
 #: code:addons/web/static/src/xml/base.xml:168
 #, python-format
 msgid "Manage Filters"
-msgstr "Iragazkiak kudeatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1307,28 +1291,28 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:602
 #, python-format
 msgid "Measures"
-msgstr "Neurriak"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/debug_manager.js:89
 #, python-format
 msgid "Metadata (%s)"
-msgstr "Metadatuak ( %s )"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:116
 #, python-format
 msgid "Method:"
-msgstr "Metodoa:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:22
 #, python-format
 msgid "Missing Record"
-msgstr "Erregistro falta"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1349,7 +1333,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:254
 #, python-format
 msgid "Modified by :"
-msgstr "Nork aldatua:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1370,26 +1354,26 @@ msgstr "Hilabetea"
 #: code:addons/web/static/src/xml/base.xml:900
 #, python-format
 msgid "More"
-msgstr "Gehiago"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu
 msgid "More <b class=\"caret\"/>"
-msgstr "<b class=\"caret\"/> gehiago"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1303
 #, python-format
 msgid "Move Down"
-msgstr "Mugitu behera"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1302
 #, python-format
 msgid "Move Up"
-msgstr "Mugitu gora"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1410,7 +1394,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:83
 #, python-format
 msgid "My Odoo.com account"
-msgstr "Nire Odoo.com kontua"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1445,21 +1429,21 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1504
 #, python-format
 msgid "New design"
-msgstr "Diseinu berria"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_inputs.js:330
 #, python-format
 msgid "No"
-msgstr "Ez"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:192
 #, python-format
 msgid "No Update:"
-msgstr "Ez eguneratua:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1491,34 +1475,34 @@ msgstr ""
 #: code:addons/web/static/src/js/views/graph_widget.js:88
 #, python-format
 msgid "No data to display"
-msgstr "Ez dago bistaratzeko daturik"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:641
 #, python-format
 msgid "No data to display."
-msgstr "Ez dago bistaratzeko daturik."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_common.js:243
 #, python-format
 msgid "No results to show..."
-msgstr "Ez dago emaitzarik erakusteko..."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:456
 #, python-format
 msgid "No selected record"
-msgstr "Ez dago hautatutako erregistroa"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:328
 #, python-format
-msgid "No value found for the field %s for value %s"
+msgid "No value found for the field  for value "
 msgstr ""
 
 #. module: web
@@ -1547,14 +1531,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/graph_widget.js:226
 #, python-format
 msgid "Not enough data points"
-msgstr "Ez daude datu puntu nahikorik"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:838
 #, python-format
 msgid "Not shown in kanban"
-msgstr "Kanban ez da agertzen"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1583,14 +1567,14 @@ msgstr ""
 #: code:addons/web/static/src/js/apps.js:189
 #, python-format
 msgid "Odoo Apps will be available soon"
-msgstr "Odoo-ko aplikazioak laster erabilgarri egongo dira"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1675
 #, python-format
 msgid "Odoo Enterprise"
-msgstr "Odoo enpresa"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1647,14 +1631,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:675
 #, python-format
 msgid "On"
-msgstr "Piztu "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:75
 #, python-format
 msgid "On change:"
-msgstr "Aldaketak:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1668,7 +1652,7 @@ msgstr "Bakarrik zenbaki osoko baloreak balioko dute."
 #: code:addons/web/static/src/xml/base.xml:557
 #, python-format
 msgid "Only you"
-msgstr "Zuk bakarrik"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1706,7 +1690,7 @@ msgstr ""
 msgid ""
 "Pie chart cannot display all zero numbers.. Try to change your domain to "
 "display positive results"
-msgstr "Grafiko biribilean ezin dira zero zenbakiak bistaratu. Saiatu zure domeinua aldatzen emaitza positiboak erakusteko."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1715,7 +1699,7 @@ msgstr "Grafiko biribilean ezin dira zero zenbakiak bistaratu. Saiatu zure domei
 msgid ""
 "Pie chart cannot mix positive and negative numbers. Try to change your "
 "domain to only display positive results"
-msgstr "Grafiko biribilean ezin dira zenbaki positiboak eta negatiboak nahastu. Saiatu zure domeinua aldatzen emaitza positiboak bakarrik erakusteko. "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1736,7 +1720,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1316
 #, python-format
 msgid "Please note that only the selected ids will be exported."
-msgstr "Kontuan izan hautatutako id-ak bakarrik esportatuko direla."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1752,14 +1736,14 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/data_export.js:414
 #, python-format
 msgid "Please select fields to export..."
-msgstr "Mesedez, esportatzeko fitxategiak aukeratu..."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/data_export.js:401
 #, python-format
 msgid "Please select fields to save export list..."
-msgstr "Mesedez, esportazioen zerrendan gordetzeko fitxategiak aukeratu..."
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
@@ -1799,22 +1783,22 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:578
 #: code:addons/web/static/src/xml/base.xml:610
 #, python-format
-msgid "Count"
-msgstr "Kontatu"
+msgid "Quantity"
+msgstr "Kopurua"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:627
 #, python-format
 msgid "Quarter"
-msgstr "Hiruhileko "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:79
 #, python-format
 msgid "Relation:"
-msgstr "Erlazioa: "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1874,49 +1858,49 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:1204
 #, python-format
 msgid "Save As..."
-msgstr "Gorde honela..."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1398
 #, python-format
 msgid "Save as:"
-msgstr "Gorde honela:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1245
 #, python-format
 msgid "Save current search"
-msgstr "Gorde oraingo bilaketa "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:1134
 #, python-format
 msgid "Save default"
-msgstr "Gorde lehenetsia "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1331
 #, python-format
 msgid "Save fields list"
-msgstr "Gorde eremuen zerrenda"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1404
 #, python-format
 msgid "Saved exports:"
-msgstr "Gordetako esportazioak: "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_inputs.js:349
 #, python-format
 msgid "Search %(field)s at: %(value)s"
-msgstr "Bilatu %(field)s hemen: %(value)s"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1939,21 +1923,21 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_common.js:209
 #, python-format
 msgid "Search More..."
-msgstr "Bilatu gehiago..."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_common.js:279
 #, python-format
 msgid "Search: "
-msgstr "Bilatu:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:444
 #, python-format
 msgid "See selection "
-msgstr "Ikusi aukeraketa"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1961,12 +1945,12 @@ msgstr "Ikusi aukeraketa"
 #: code:addons/web/static/src/xml/base.xml:1008
 #, python-format
 msgid "Select"
-msgstr "Aukeratu "
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
 msgid "Select <i class=\"fa fa-database\"/>"
-msgstr "Aukeratu <i class=\"fa fa-database\"/>"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1980,49 +1964,49 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_common.js:1078
 #, python-format
 msgid "Selected domain"
-msgstr "Aukeratu domeinua"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:468
 #, python-format
 msgid "Selected records"
-msgstr "Aukeratutako erregistroak"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:83
 #, python-format
 msgid "Selection:"
-msgstr "Aukeratu:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:1126
 #, python-format
 msgid "Set Default"
-msgstr "Ezarri lehenetsia"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:163
 #, python-format
 msgid "Set Defaults"
-msgstr "Ezarri lehenetsiak "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list_view.js:1013
 #, python-format
 msgid "Setting 'id' attribute on existing record %s"
-msgstr "Ezarri 'id' atributua existitzen den erregistroan %s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1207
 #, python-format
 msgid "Share with all users"
-msgstr "Erabiltzaile guztiekin partekatu "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2036,13 +2020,13 @@ msgstr ""
 #: code:addons/web/static/src/xml/base_common.xml:55
 #, python-format
 msgid "Size:"
-msgstr "Tamaina: "
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:1067
 #, python-format
 msgid "Something horrible happened"
-msgstr "Zerbait ikaragarria gertatu da"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2056,42 +2040,42 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/misc.js:15
 #, python-format
 msgid "Still loading..."
-msgstr "Kargatzen oraindik..."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/misc.js:16
 #, python-format
 msgid "Still loading...<br />Please be patient."
-msgstr "Kargatzen oraindik... <br /> Mesedez, pazientzia eduki. "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:83
 #, python-format
 msgid "Support"
-msgstr "Laguntza"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:670
 #, python-format
 msgid "Switch Off"
-msgstr "Itzali "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:672
 #, python-format
 msgid "Switch On"
-msgstr "Piztu "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/misc.js:19
 #, python-format
 msgid "Take a minute to get a coffee,<br />because it's loading..."
-msgstr "Hartu minutu bat kafe bat edateko, <br /> kargatzen ari da oraindik..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2102,17 +2086,10 @@ msgstr "Itzulpen teknikoa"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/form_widgets.js:458
-#, python-format
-msgid "The domain is wrong."
-msgstr "Domeinua ez da zuzena."
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1208
 #, python-format
 msgid "The field is empty, there's nothing to save !"
-msgstr "Eremua hutsik dago, ez dago ezer gordetzeko!"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2128,13 +2105,13 @@ msgstr ""
 msgid ""
 "The line has been modified, your changes will be discarded. Are you sure you"
 " want to discard the changes ?"
-msgstr "Lerroa aldatu egin da, zure aldaketak baztertu egingo dira. Ziur al zaude aldaketak baztertu nahi dituzula?"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:831
 #, python-format
 msgid "The new password and its confirmation must be identical."
-msgstr "Pasahitz berria eta baieztapena berdinak izan behar dira."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2148,14 +2125,14 @@ msgstr ""
 #, python-format
 msgid ""
 "The old password you provided is incorrect, your password was not changed."
-msgstr "Idatzitako pasahitz zaharra okerra da, pasahitza ez da aldatu."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_view.js:357
 #, python-format
 msgid "The record could not be found in the database."
-msgstr "Erregistroa ezin da datu-basean aurkitu."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2164,14 +2141,14 @@ msgstr "Erregistroa ezin da datu-basean aurkitu."
 msgid ""
 "The record has been modified, your changes will be discarded. Are you sure "
 "you want to leave this page ?"
-msgstr "Erregistroa aldatu egin da, zure aldaketak baztertu egingo dira. Ziur al zaude orri hau utzi nahi duzula?"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1172
 #, python-format
 msgid "The selected file exceed the maximum file size of %s."
-msgstr "Hautatutako fitxategiak gehienezko fitxategien tamaina gainditzen du %s."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2187,7 +2164,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_widgets.js:1193
 #, python-format
 msgid "There was a problem while uploading your file"
-msgstr "Arazo bat egon da zure fitxategia kargatzean"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2195,7 +2172,7 @@ msgstr "Arazo bat egon da zure fitxategia kargatzean"
 #, python-format
 msgid ""
 "This filter is global and will be removed for everybody if you continue."
-msgstr "Iragazki hau globala da eta guztiontzat ezabatuko da jarraitzen baduzu."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2262,7 +2239,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base_common.xml:47
 #, python-format
 msgid "Type:"
-msgstr "Mota:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2270,7 +2247,7 @@ msgstr "Mota:"
 #: code:addons/web/static/src/js/views/list_view.js:309
 #, python-format
 msgid "Unarchive"
-msgstr "Desartxibatu "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2281,7 +2258,7 @@ msgstr "Desartxibatu "
 #: code:addons/web/static/src/js/views/pivot_view.js:494
 #, python-format
 msgid "Undefined"
-msgstr "Definitu gabea"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:958
@@ -2308,7 +2285,7 @@ msgstr "Ezezaguna"
 #: code:addons/web/static/src/js/framework/data.js:1075
 #, python-format
 msgid "Unknown field %s in domain %s"
-msgstr "%s eremu ezezaguna %s domeinuan."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2329,7 +2306,7 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/data.js:1067
 #, python-format
 msgid "Unknown operator %s in domain %s"
-msgstr "Operadore ezezaguna %s domeinuan %s"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2343,21 +2320,21 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/data.js:1120
 #, python-format
 msgid "Unsupported operator %s in domain %s"
-msgstr "Operadorea ez da onartzen %s domeinuan %s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1658
 #, python-format
 msgid "Upgrade now"
-msgstr "Berritu orain"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1506
 #, python-format
 msgid "Upgrade to future versions"
-msgstr "Etorkizuneko bertsioetara eguneratu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2373,7 +2350,7 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/sidebar.js:168
 #, python-format
 msgid "Uploading Error"
-msgstr "Errorea igotzean"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2394,7 +2371,7 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/crash_manager.js:23
 #, python-format
 msgid "Validation Error"
-msgstr "Balidazio errorea"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2416,14 +2393,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:171
 #, python-format
 msgid "View"
-msgstr "Ikusi"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:166
 #, python-format
 msgid "View Fields"
-msgstr "Fitxategiak ikusi"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2463,14 +2440,14 @@ msgstr "Astea"
 #: code:addons/web/static/src/js/views/form_view.js:1296
 #, python-format
 msgid "Widget type '%s' is not implemented"
-msgstr "Widget mota '%s' ez dago inplementatuta"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base_common.xml:51
 #, python-format
 msgid "Widget:"
-msgstr "Tresna:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2484,13 +2461,7 @@ msgstr "Balore okerra sartua!"
 #: code:addons/web/static/src/xml/base.xml:188
 #, python-format
 msgid "XML ID:"
-msgstr "XML ID:"
-
-#. module: web
-#: code:addons/web/controllers/main.py:513
-#, python-format
-msgid "Wrong login/password"
-msgstr "Saio/pasahitz okerra"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2505,7 +2476,7 @@ msgstr "Urtea"
 #: code:addons/web/static/src/xml/base_common.xml:71
 #, python-format
 msgid "Yes"
-msgstr "Bai"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2519,13 +2490,13 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:49
 #, python-format
 msgid "You are creating a new %s, are you sure it does not exist yet?"
-msgstr "%s berri bat sortzen ari zara, ziur al zaude oraindik ez dela existitzen?"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:829
 #, python-format
 msgid "You cannot leave any password empty."
-msgstr "Ezin duzu pasahitza hutsik utzi."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2540,7 +2511,7 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/sidebar.js:126
 #, python-format
 msgid "You must choose at least one record."
-msgstr "Gutxienez erregistro bat aukeratu behar duzu."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2561,42 +2532,42 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/core.js:133
 #, python-format
 msgid "a day ago"
-msgstr "Duela egun bat"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:129
 #, python-format
 msgid "about a minute ago"
-msgstr "Duela minutu bat"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:135
 #, python-format
 msgid "about a month ago"
-msgstr "Duela hilabete bat inguru"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:137
 #, python-format
 msgid "about a year ago"
-msgstr "Duela urte bat inguru"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/framework/core.js:131
 #, python-format
 msgid "about an hour ago"
-msgstr "Duela ordu bat inguru"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:160
 #, python-format
 msgid "contains"
-msgstr "dauka"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2629,7 +2600,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search_filters.js:267
 #, python-format
 msgid "is"
-msgstr "da"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2639,21 +2610,21 @@ msgstr "da"
 #: code:addons/web/static/src/js/views/search_filters.js:238
 #, python-format
 msgid "is equal to"
-msgstr "berdina da"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:286
 #, python-format
 msgid "is false"
-msgstr "faltsua da"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:268
 #, python-format
 msgid "is not"
-msgstr "ez da"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2663,7 +2634,7 @@ msgstr "ez da"
 #: code:addons/web/static/src/js/views/search_filters.js:239
 #, python-format
 msgid "is not equal to"
-msgstr "ez da berdina"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2685,14 +2656,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search_filters.js:269
 #, python-format
 msgid "is set"
-msgstr "ezarri da"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search_filters.js:285
 #, python-format
 msgid "is true"
-msgstr "egia da"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2708,7 +2679,7 @@ msgstr ""
 #: code:addons/web/static/src/js/framework/core.js:128
 #, python-format
 msgid "less than a minute ago"
-msgstr "duela minutu bat baino gutxiago"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2717,7 +2688,7 @@ msgstr "duela minutu bat baino gutxiago"
 #: code:addons/web/static/src/js/views/search_filters.js:243
 #, python-format
 msgid "less than or equal to"
-msgstr "gutxiago edo berdin"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2731,7 +2702,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search_inputs.js:244
 #, python-format
 msgid "not a valid number"
-msgstr "ez da baliozko zenbakia "
+msgstr ""
 
 #. module: web
 #. openerp-web

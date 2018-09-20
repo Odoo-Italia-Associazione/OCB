@@ -203,7 +203,7 @@ exports.PosModel = Backbone.Model.extend({
     },{
         model:  'account.tax',
         fields: ['name','amount', 'price_include', 'include_base_amount', 'amount_type', 'children_tax_ids'],
-        domain: function(self) {return [['company_id', '=', self.company && self.company.id || false]]},
+        domain: null,
         loaded: function(self, taxes){
             self.taxes = taxes;
             self.taxes_by_id = {};
@@ -240,7 +240,6 @@ exports.PosModel = Backbone.Model.extend({
             }
 
             self.db.set_uuid(self.config.uuid);
-            self.cashier = self.get_cashier();
 
             var orders = self.db.get_orders();
             for (var i = 0; i < orders.length; i++) {
@@ -515,7 +514,7 @@ exports.PosModel = Backbone.Model.extend({
                                     .then(function(){ load_model(index + 1); },
                                           function(err){ loaded.reject(err); });
                             }catch(err){
-                                console.error(err.message, err.stack);
+                                console.error(err.stack);
                                 loaded.reject(err);
                             }
                         },function(err){
@@ -580,12 +579,11 @@ exports.PosModel = Backbone.Model.extend({
 
     // returns the user who is currently the cashier for this point of sale
     get_cashier: function(){
-        return this.db.get_cashier() || this.cashier || this.user;
+        return this.cashier || this.user;
     },
     // changes the current cashier
     set_cashier: function(user){
         this.cashier = user;
-        this.db.set_cashier(this.cashier);
     },
     //creates a new empty order and sets it as the current order
     add_new_order: function(){
@@ -1110,7 +1108,6 @@ exports.Orderline = Backbone.Model.extend({
         orderline.quantity = this.quantity;
         orderline.quantityStr = this.quantityStr;
         orderline.discount = this.discount;
-        orderline.price = this.price;
         orderline.type = this.type;
         orderline.selected = false;
         return orderline;
@@ -1361,9 +1358,6 @@ exports.Orderline = Backbone.Model.extend({
         _(taxes).each(function(tax) {
             if (!no_map_tax){
                 tax = self._map_tax_fiscal_position(tax);
-            }
-            if (!tax){
-                return;
             }
             if (tax.amount_type === 'group'){
                 var ret = self.compute_all(tax.children_tax_ids, price_unit, quantity, currency_rounding);

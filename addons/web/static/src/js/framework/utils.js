@@ -288,7 +288,7 @@ function human_size (size) {
         size /= 1024;
         ++i;
     }
-    return size.toFixed(2) + ' ' + units[i].trim();
+    return size.toFixed(2) + ' ' + units[i];
 }
 
 /**
@@ -418,16 +418,6 @@ function swap(array, elem1, elem2) {
     array[i1] = elem2;
 }
 
-function is_email(value, allow_mailto) {
-    // http://stackoverflow.com/questions/46155/validate-email-address-in-javascript
-    var re;
-    if (allow_mailto) {
-        re = /^(mailto:)?(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    } else {
-        re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    }
-    return re.test(value);
-}
 
 return {
     divmod: divmod,
@@ -455,7 +445,6 @@ return {
     xor: xor,
     DropMisordered: DropMisordered,
     swap: swap,
-    is_email: is_email,
 };
 
 });
