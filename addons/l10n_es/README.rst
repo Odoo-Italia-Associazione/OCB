@@ -1,118 +1,209 @@
-[![Build Status](https://travis-ci.org/Odoo-Italia-Associazione/OCB.svg?branch=8.0)](https://travis-ci.org/Odoo-Italia-Associazione/OCB)
-[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
-[![Coverage Status](https://coveralls.io/repos/github/Odoo-Italia-Associazione/OCB/badge.svg?branch=8.0)](https://coveralls.io/github/Odoo-Italia-Associazione/OCB?branch=8.0)
-[![codecov](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/8.0/graph/badge.svg)](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/8.0)
-[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-8.svg)](https://github.com/OCA/OCB/tree/8.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/dev)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-8.svg)](http://wiki.zeroincombenze.org/en/Odoo/8.0/man/)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](https://erp8.zeroincombenze.it)
+|Maturity| |Build Status| |license gpl| |Coverage Status| |Codecov Status| |OCA project| |Tech Doc| |Help| |Try Me|
+
+.. |icon| image:: https://raw.githubusercontent.com/Odoo-Italia-Associazione/addons/8.0/l10n_es/static/description/icon.png
+
+=============================================
+|icon| Spanish Charts of Accounts (PGCE 2008)
+=============================================
+
+.. contents::
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+|en|
 
-.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
-   :alt: License
 
-===============================================
-Plan contable e impuestos de España (PGCE 2008)
-===============================================
 
-* Define las siguientes plantillas de cuentas:
+|it|
 
-  * Plan general de cuentas español 2008.
-  * Plan general de cuentas español 2008 para pequeñas y medianas empresas.
-  * Plan general de cuentas español 2008 para asociaciones.
-* Define plantillas de impuestos para compra y venta.
-* Define plantillas de códigos de impuestos.
-* Define posiciones fiscales para la legislación fiscal española.
 
-**IMPORTANTE:** Ésta es una versión mejorada con respecto al módulo que se
-encuentra en la versión estándar de Odoo, por lo que es conveniente instalar
-ésta para disponer de los últimos datos actualizados.
 
-Historial
 
-* v5.3: Añadido "IVA soportado no sujeto".
-* v5.2: Añadida retención 19,5% arrendamientos.
-* v5.1: Renombrado todo lo relacionado con arrendamientos para no incluir la
-  palabra "IRPF", ya que no es como tal IRPF.
-* v5.0: Se ha rehecho toda la parte de impuestos para dar mayor facilidad de
-  consulta de los datos para las declaraciones de la AEAT y para cubrir todas
-  las casuísticas fiscales españolas actuales. Éstas son las características
-  más destacadas:
 
-  * Desdoblamiento de los impuestos principales para bienes y para servicios.
-  * Nuevo árbol de códigos de impuestos orientado a cada modelo de la AEAT.
-  * Nuevos códigos para los códigos de impuestos para facilitar su
-    actualización.
-  * La casilla del modelo viene ahora en la descripción, no en el código.
-  * Posiciones fiscales ajustadas para el desdoblamiento.
-  * Nuevo impuesto y posición fiscal para retención IRPF 19%.
-  * Nuevo impuesto para revendedores con recargo de equivalencia.
-  * Nuevas posiciones fiscales para retenciones de arrendamientos.
-  * Pequeños ajustes en cuentas contables.
-* v4.1: Cambio en el método que obtiene el nombre del impuesto e intercambiados
-  los campos descripción/nombre para que no aparezca los códigos en documentos
-  impresos ni en pantalla.
-* v4.0: Refactorización completa de los planes de cuentas, con las siguientes
-  caracteristicas:
 
-  * Creacion de un plan común a los tres planes existentes, que reúne las
-    cuentas repetidas entre ellos.
-  * Eliminación de la triplicidad de impuestos y de códigos de impuestos.
-  * Asignación de códigos a los impuestos para facilitar su actualización.
-  * Eliminación de duplicidad de tipos de cuentas.
+|en|
 
-Instalación
 
-Si en la base de datos a aplicar ya se encuentra instalado el plan contable de
-la compañía, será necesario actualizarlo con el módulo *account_chart_update*,
-disponible en https://github.com/OCA/account-financial-tools. **AVISO:**
-Después de actualizar de una version <5.0, será necesario cambiar el impuesto
-de venta por defecto en la pestaña Configuración > Contabilidad, y además
-sustituir en los productos el mismo por "x% IVA (servicios)" o
-"x% IVA (bienes)" según corresponda en cada caso. Se puede utilizar para ello
-el módulo *mass_editing* del repositorio https://github.com/OCA/server-tools.
+Installation / Installazione
+=============================
 
-Por último, si se procede del l10n_es v3.0, serán necesarios ajustes manuales
-al actualizar el plan de cuentas, como crear a mano la cuenta 472000.
++---------------------------------+------------------------------------------+
+| |en|                            | |it|                                     |
++---------------------------------+------------------------------------------+
+| These instruction are just an   | Istruzioni di esempio valide solo per    |
+| example to remember what        | distribuzioni Linux CentOS 7, Ubuntu 14+ |
+| you have to do on Linux.        | e Debian 8+                              |
+|                                 |                                          |
+| Installation is based on:       | L'installazione è basata su:             |
++---------------------------------+------------------------------------------+
+| `Zeroincombenze Tools <https://github.com/zeroincombenze/tools>`__         |
++---------------------------------+------------------------------------------+
+| Suggested deployment is         | Posizione suggerita per l'installazione: |
++---------------------------------+------------------------------------------+
+| /opt/odoo/8.0/addons/l10n_es                               |
++----------------------------------------------------------------------------+
 
-Créditos
+|
 
-Contribuidores
-* Jordi Esteve <jesteve@zikzakmedia.com>
-* Dpto. Consultoría Grupo Opentia <consultoria@opentia.es>
-* Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>
-* Carlos Liébana <carlos.liebana@factorlibre.com>
-* Hugo Santos <hugo.santos@factorlibre.com>
-* Albert Cabedo <albert@gafic.com>
+::
 
-[//]: # (copyright)
+    cd $HOME
+    git clone https://github.com/zeroincombenze/tools.git
+    cd ./tools
+    ./install_tools.sh -p
+    export PATH=$HOME/dev:$PATH
+    odoo_install_repository addons -b 8.0 -O oia
 
-----
 
-**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+From UI: go to:
 
-**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+|menu| Setting > Modules > Update Modules List
 
-**Odoo Italia Associazione**, or the [Associazione Odoo Italia](https://www.odoo-italia.org/)
+|menu| Setting > Local Modules |right_do| Select **l10n_es** > Install
+
+|warning| If your Odoo instance crashes, you can do following instruction
+to recover installation status:
+
+``run_odoo_debug 8.0 -um l10n_es -s -d MYDB``
+
+
+
+
+
+
+
+
+Known issues / Roadmap
+=======================
+
+|warning| Questo modulo rimpiazza il modulo OCA. Leggete attentamente il
+paragrafo relativo alle funzionalità e differenze.
+
+
+
+
+
+Issue Tracker
+==============
+
+Bug reports are welcome! You can use the issue tracker to report bugs,
+and/or submit pull requests on `GitHub Issues
+<https://github.com/Odoo-Italia-Associazione/addons/issues>`_.
+
+In case of trouble, please check there if your issue has already been reported.
+
+
+Proposals for enhancement
+--------------------------
+
+If you have a proposal to change this module, you may want to send an email to
+<moderatore@odoo-italia.org> for initial feedback.
+An Enhancement Proposal may be submitted if your idea gains ground.
+
+
+
+
+
+
+Credits
+========
+
+Authors
+--------
+
+* `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+
+Contributors
+-------------
+
+* Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
+
+Maintainers
+------------
+
+|Odoo Italia Associazione|
+
+This module is maintained by the Odoo Italia Associazione.
+
+To contribute to this module, please visit https://odoo-italia.org/.
+
+
+
+
+----------------
+
+**Odoo** is a trademark of `Odoo S.A. <https://www.odoo.com/>`__
+(formerly OpenERP)
+
+**OCA**, or the `Odoo Community Association <http://odoo-community.org/>`__,
+is a nonprofit organization whose mission is to support
+the collaborative development of Odoo features and promote its widespread use.
+
+**Odoo Italia Associazione**, or the `Associazione Odoo Italia <https://www.odoo-italia.org/>`__
 is the nonprofit Italian Community Association whose mission
 is to support the collaborative development of Odoo designed for Italian law and markeplace.
 Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
 or available only with Odoo Proprietary License.
-Odoo Italia Associazione distributes code under [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or [LGPL](https://www.gnu.org/licenses/lgpl.html) free license.
+Odoo Italia Associazione distributes code under `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+or `LGPL <https://www.gnu.org/licenses/lgpl.html>`__ free license.
 
-[Odoo Italia Associazione](https://www.odoo-italia.org/) è un'Associazione senza fine di lucro
+`Odoo Italia Associazione <https://www.odoo-italia.org/>`__ è un'Associazione senza fine di lucro
 che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
-o che disponibili solo con Odoo Proprietary License.
+o disponibili solo con `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
 
-Odoo Italia Associazione distribuisce il codice esclusivamente con licenza [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) o [LGPL](https://www.gnu.org/licenses/lgpl.html)
-
-[//]: # (end copyright)
-
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenza `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+o `LGPL <https://www.gnu.org/licenses/lgpl.html>`__
 
 
-[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
+
+|
+
+Last Update / Ultimo aggiornamento: 2018-10-19
+
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
+    :target: https://odoo-community.org/page/development-status
+    :alt: Alfa
+.. |Build Status| image:: https://travis-ci.org/Odoo-Italia-Associazione/addons.svg?branch=8.0
+    :target: https://travis-ci.org/Odoo-Italia-Associazione/addons
+    :alt: github.com
+.. |license gpl| image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+    :alt: License: AGPL-3
+.. |Coverage Status| image:: https://coveralls.io/repos/github/Odoo-Italia-Associazione/addons/badge.svg?branch=8.0
+    :target: https://coveralls.io/github/Odoo-Italia-Associazione/addons?branch=8.0
+    :alt: Coverage
+.. |Codecov Status| image:: https://codecov.io/gh/Odoo-Italia-Associazione/addons/branch/8.0/graph/badge.svg
+    :target: https://codecov.io/gh/Odoo-Italia-Associazione/addons/branch/8.0
+    :alt: Codecov
+.. |OCA project| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-8.svg
+    :target: https://github.com/OCA/addons/tree/8.0
+    :alt: OCA
+.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-8.svg
+    :target: https://wiki.zeroincombenze.org/en/Odoo/8.0/dev
+    :alt: Technical Documentation
+.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-8.svg
+    :target: https://wiki.zeroincombenze.org/it/Odoo/8.0/man
+    :alt: Technical Documentation
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg
+    :target: https://odoo8.odoo-italia.org
+    :alt: Try Me
+.. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
+   :target: https://odoo-italia.org
+   :alt: Odoo Italia Associazione
+.. |en| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |it| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/check.png
+.. |no_check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/no_check.png
+.. |menu| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/menu.png
+.. |right_do| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/right_do.png
+.. |exclamation| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/exclamation.png
+.. |warning| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/warning.png
+.. |xml_schema| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/iso/icons/xml-schema.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/iso/scope/xml-schema.md
+.. |DesktopTelematico| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/DesktopTelematico.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/DesktopTelematico.md
+.. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/fatturapa.md
+   
+

@@ -354,7 +354,7 @@ Odoo Italia Associazione distributes code under [AGPL](https://www.gnu.org/licen
 
 [Odoo Italia Associazione](https://www.odoo-italia.org/) è un'Associazione senza fine di lucro
 che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
-o che disponibili solo con Odoo Proprietary License.
+o disponibili solo con [Odoo Proprietary License](https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html).
 
 Odoo Italia Associazione distribuisce il codice esclusivamente con licenza [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) o [LGPL](https://www.gnu.org/licenses/lgpl.html)
 
