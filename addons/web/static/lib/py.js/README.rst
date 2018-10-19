@@ -1,234 +1,211 @@
-[![Build Status](https://travis-ci.org/Odoo-Italia-Associazione/OCB.svg?branch=9.0)](https://travis-ci.org/Odoo-Italia-Associazione/OCB)
-[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
-[![Coverage Status](https://coveralls.io/repos/github/Odoo-Italia-Associazione/OCB/badge.svg?branch=9.0)](https://coveralls.io/github/Odoo-Italia-Associazione/OCB?branch=9.0)
-[![codecov](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/9.0/graph/badge.svg)](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/9.0)
-[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-9.svg)](https://github.com/OCA/OCB/tree/9.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/dev)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/man/)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](https://erp9.zeroincombenze.it)
+|Maturity| |Build Status| |license gpl| |Coverage Status| |Codecov Status| |OCA project| |Tech Doc| |Help| |Try Me|
+
+.. |icon| image:: https://raw.githubusercontent.com/Odoo-Italia-Associazione/lib/9.0/py.js/static/description/icon.png
+
+============
+|icon| py.js
+============
+
+.. contents::
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
-
-What
-====
-====
+|en|
 
 
 
-Syntax
+|it|
 
-* Lambdas and ternaries should be parsed but are not implemented (in
-  the evaluator)
-* Only floats are implemented, ``int`` literals are parsed as floats.
-* Octal and hexadecimal literals are not implemented
-* Srings are backed by JavaScript strings and probably behave like
-  ``unicode`` more than like ``str``
-* Slices don't work
 
-Builtins
 
-``py.js`` currently implements the following builtins:
 
-``type``
-    Restricted to creating new types, can't be used to get an object's
-    type (yet)
 
-``None``
 
-``True``
+|en|
 
-``False``
 
-``NotImplemented``
-    Returned from rich comparison methods when the comparison is not
-    implemented for this combination of operands. In ``py.js``, this
-    is also the default implementation for all rich comparison methods.
+Installation / Installazione
+=============================
 
-``issubclass``
++---------------------------------+------------------------------------------+
+| |en|                            | |it|                                     |
++---------------------------------+------------------------------------------+
+| These instruction are just an   | Istruzioni di esempio valide solo per    |
+| example to remember what        | distribuzioni Linux CentOS 7, Ubuntu 14+ |
+| you have to do on Linux.        | e Debian 8+                              |
+|                                 |                                          |
+| Installation is based on:       | L'installazione è basata su:             |
++---------------------------------+------------------------------------------+
+| `Zeroincombenze Tools <https://github.com/zeroincombenze/tools>`__         |
++---------------------------------+------------------------------------------+
+| Suggested deployment is         | Posizione suggerita per l'installazione: |
++---------------------------------+------------------------------------------+
+| /opt/odoo/9.0/lib/py.js                               |
++----------------------------------------------------------------------------+
 
-``object``
+|
 
-``bool``
-    Does not inherit from ``int``, since ``int`` is not currently
-    implemented.
+::
 
-``float``
+    cd $HOME
+    git clone https://github.com/zeroincombenze/tools.git
+    cd ./tools
+    ./install_tools.sh -p
+    export PATH=$HOME/dev:$PATH
+    odoo_install_repository lib -b 9.0 -O oia
 
-``str``
 
-``tuple``
-    Constructor/coercer is not implemented, only handles literals
+From UI: go to:
 
-``list``
-    Same as tuple (``list`` is currently an alias for ``tuple``)
+|menu| admin > About > Activate Developer mode
 
-``dict``
-    Implements trivial getting, setting and len, nothing beyond that.
+|menu| Setting > Modules > Update Modules List
 
-Note that most methods are probably missing from all of these.
+|menu| Setting > Local Modules |right_do| Select **py.js** > Install
 
-Data model protocols
+|warning| If your Odoo instance crashes, you can do following instruction
+to recover installation status:
 
-``py.js`` currently implements the following protocols (or
-sub-protocols) of the `Python 2.7 data model
-<>`_:
+``run_odoo_debug 9.0 -um py.js -s -d MYDB``
 
-Rich comparisons
-    Pretty much complete (including operator fallbacks), although the
-    behavior is currently undefined if an operation does not return
-    either a ``py.bool`` or ``NotImplemented``.
 
-    ``__hash__`` is supported (and used), but it should return **a
-    javascript string**. ``py.js``'s dict build on javascript objects,
-    reimplementing numeral hashing is worthless complexity at this
-    point.
 
-Boolean conversion
-    Implementing ``__nonzero__`` should work.
 
-Customizing attribute access
-    Protocols for getting and setting attributes (including new-style
-    extension) fully implemented but for ``__delattr__`` (since
-    ``del`` is a statement)
 
-Descriptor protocol
-    As with attributes, ``__delete__`` is not implemented.
 
-Callable objects
-    Work, although the handling of arguments isn't exactly nailed
-    down. For now, callables get two (javascript) arguments ``args``
-    and ``kwargs``, holding (respectively) positional and keyword
-    arguments.
 
-    Conflicts are *not* handled at this point.
 
-Collections Abstract Base Classes
-    Container is the only implemented ABC protocol (ABCs themselves
-    are not currently implemented) (well technically Callable and
-    Hashable are kind-of implemented as well)
+Known issues / Roadmap
+=======================
 
-Numeric type emulation
-    Operators are implemented (but not tested), ``abs``, ``divmod``
-    and ``pow`` builtins are not implemented yet. Neither are ``oct``
-    and ``hex`` but I'm not sure we care (I'm not sure we care about
-    ``pow`` or even ``divmod`` either, for that matter)
+|warning| Questo modulo rimpiazza il modulo OCA. Leggete attentamente il
+paragrafo relativo alle funzionalità e differenze.
 
-Utilities
 
-``py.js`` also provides (and exposes) a few utilities for "userland"
-implementation:
 
-``def``
-    Wraps a native javascript function into a ``py.js`` function, so
-    that it can be called from native expressions.
 
-    Does not ensure the return types are type-compatible with
-    ``py.js`` types.
 
-    When accessing instance methods, ``py.js`` automatically wraps
-    these in a variant of ``py.def``, to behave as Python's (bound)
-    methods.
+Issue Tracker
+==============
 
-Why
-===
+Bug reports are welcome! You can use the issue tracker to report bugs,
+and/or submit pull requests on `GitHub Issues
+<https://github.com/Odoo-Italia-Associazione/lib/issues>`_.
 
-Originally, to learn about Pratt parsers (which are very, very good at
-parsing expressions with lots of infix or mixfix symbols). The
-evaluator part came because "why not" and because I work on a product
-with the "feature" of transmitting Python expressions (over the wire)
-which the client is supposed to evaluate.
+In case of trouble, please check there if your issue has already been reported.
 
-How
-===
 
-At this point, only three steps exist in ``py.js``: tokenizing,
-parsing and evaluation. It is possible that a compilation step be
-added later (for performance reasons).
+Proposals for enhancement
+--------------------------
 
-To evaluate a Python expression, the caller merely needs to call
-`py.eval`_. `py.eval`_ takes a mandatory Python
-expression to evaluate (as a string) and an optional context, for the
-substitution of the free variables in the expression::
+If you have a proposal to change this module, you may want to send an email to
+<moderatore@odoo-italia.org> for initial feedback.
+An Enhancement Proposal may be submitted if your idea gains ground.
 
-    > py.eval("type in ('a', 'b', 'c') and foo", {type: 'c', foo: true});
-    true
 
-This is great for one-shot evaluation of expressions. If the
-expression will need to be repeatedly evaluated with the same
-parameters, the various parsing and evaluation steps can be performed
-separately: `py.eval`_ is really a shortcut for sequentially calling
-`py.tokenize`_, `py.parse`_ and `py.evaluate`_.
 
-API
-===
 
-.. _py.eval:
 
-``py.eval(expr[, context])``
-    "Do everything" function, to use for one-shot evaluation of a
-    Python expression: it will internally handle the tokenizing,
-    parsing and actual evaluation of the Python expression without
-    having to perform these separately.
 
-    ``expr``
-        Python expression to evaluate
-    ``context``
-        context dictionary holding the substitutions for the free
-        variables in the expression
+Credits
+========
 
-.. _py.tokenize:
+Authors
+--------
 
-``py.tokenize(expr)``
-    ``expr``
-        Python expression to tokenize
+* `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
-.. _py.parse:
+Contributors
+-------------
 
-``py.parse(tokens)``
-    Parses a token stream and returns an abstract syntax tree of the
-    expression (if the token stream represents a valid Python
-    expression).
+* Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
 
-    A parse tree is stateless and can be memoized and used multiple
-    times in separate evaluations.
+Maintainers
+------------
 
-    ``tokens``
-         stream of tokens returned by `py.tokenize`_
+|Odoo Italia Associazione|
 
-.. _py.evaluate:
+This module is maintained by the Odoo Italia Associazione.
 
-``py.evaluate(ast[, context])``
-    ``ast``
-        The output of `py.parse`_
-    ``context``
-        The evaluation context for the Python expression.
+To contribute to this module, please visit https://odoo-italia.org/.
 
-[//]: # (copyright)
 
-----
 
-**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
 
-**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+----------------
 
-**Odoo Italia Associazione**, or the [Associazione Odoo Italia](https://www.odoo-italia.org/)
+**Odoo** is a trademark of `Odoo S.A. <https://www.odoo.com/>`__
+(formerly OpenERP)
+
+**OCA**, or the `Odoo Community Association <http://odoo-community.org/>`__,
+is a nonprofit organization whose mission is to support
+the collaborative development of Odoo features and promote its widespread use.
+
+**Odoo Italia Associazione**, or the `Associazione Odoo Italia <https://www.odoo-italia.org/>`__
 is the nonprofit Italian Community Association whose mission
 is to support the collaborative development of Odoo designed for Italian law and markeplace.
 Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
 or available only with Odoo Proprietary License.
-Odoo Italia Associazione distributes code under [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or [LGPL](https://www.gnu.org/licenses/lgpl.html) free license.
+Odoo Italia Associazione distributes code under `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+or `LGPL <https://www.gnu.org/licenses/lgpl.html>`__ free license.
 
-[Odoo Italia Associazione](https://www.odoo-italia.org/) è un'Associazione senza fine di lucro
+`Odoo Italia Associazione <https://www.odoo-italia.org/>`__ è un'Associazione senza fine di lucro
 che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
-o disponibili solo con [Odoo Proprietary License](https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html).
+o disponibili solo con `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
 
-Odoo Italia Associazione distribuisce il codice esclusivamente con licenza [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) o [LGPL](https://www.gnu.org/licenses/lgpl.html)
-
-[//]: # (end copyright)
-
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenza `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+o `LGPL <https://www.gnu.org/licenses/lgpl.html>`__
 
 
-[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
+
+|
+
+Last Update / Ultimo aggiornamento: 2018-10-19
+
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
+    :target: https://odoo-community.org/page/development-status
+    :alt: Alfa
+.. |Build Status| image:: https://travis-ci.org/Odoo-Italia-Associazione/lib.svg?branch=9.0
+    :target: https://travis-ci.org/Odoo-Italia-Associazione/lib
+    :alt: github.com
+.. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
+    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
+    :alt: License: LGPL-3
+.. |Coverage Status| image:: https://coveralls.io/repos/github/Odoo-Italia-Associazione/lib/badge.svg?branch=9.0
+    :target: https://coveralls.io/github/Odoo-Italia-Associazione/lib?branch=9.0
+    :alt: Coverage
+.. |Codecov Status| image:: https://codecov.io/gh/Odoo-Italia-Associazione/lib/branch/9.0/graph/badge.svg
+    :target: https://codecov.io/gh/Odoo-Italia-Associazione/lib/branch/9.0
+    :alt: Codecov
+.. |OCA project| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-9.svg
+    :target: https://github.com/OCA/lib/tree/9.0
+    :alt: OCA
+.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg
+    :target: https://wiki.zeroincombenze.org/en/Odoo/9.0/dev
+    :alt: Technical Documentation
+.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg
+    :target: https://wiki.zeroincombenze.org/it/Odoo/9.0/man
+    :alt: Technical Documentation
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg
+    :target: https://odoo9.odoo-italia.org
+    :alt: Try Me
+.. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
+   :target: https://odoo-italia.org
+   :alt: Odoo Italia Associazione
+.. |en| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |it| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/check.png
+.. |no_check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/no_check.png
+.. |menu| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/menu.png
+.. |right_do| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/right_do.png
+.. |exclamation| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/exclamation.png
+.. |warning| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/warning.png
+.. |xml_schema| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/iso/icons/xml-schema.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/iso/scope/xml-schema.md
+.. |DesktopTelematico| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/DesktopTelematico.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/DesktopTelematico.md
+.. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/fatturapa.md
+   
+

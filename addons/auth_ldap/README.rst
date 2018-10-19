@@ -1,107 +1,216 @@
-[![Build Status](https://travis-ci.org/Odoo-Italia-Associazione/OCB.svg?branch=9.0)](https://travis-ci.org/Odoo-Italia-Associazione/OCB)
-[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
-[![Coverage Status](https://coveralls.io/repos/github/Odoo-Italia-Associazione/OCB/badge.svg?branch=9.0)](https://coveralls.io/github/Odoo-Italia-Associazione/OCB?branch=9.0)
-[![codecov](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/9.0/graph/badge.svg)](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/9.0)
-[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-9.svg)](https://github.com/OCA/OCB/tree/9.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/dev)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/man/)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](https://erp9.zeroincombenze.it)
+|Maturity| |Build Status| |license gpl| |Coverage Status| |Codecov Status| |OCA project| |Tech Doc| |Help| |Try Me|
+
+.. |icon| image:: https://raw.githubusercontent.com/Odoo-Italia-Associazione/addons/9.0/auth_ldap/static/description/icon.png
+
+==============================
+|icon| Authentication via LDAP
+==============================
+
+.. contents::
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+|en|
 
-Adds support for authentication by LDAP server.
-===============================================
-This module allows users to login with their LDAP username and password, and
-will automatically create Odoo users for them on the fly.
 
-**Note:** This module only work on servers who have Python's ``ldap`` module installed.
 
-Installation
+|it|
+
+
+
+
+
+
+|en|
+
+
+Installation / Installazione
+=============================
+
++---------------------------------+------------------------------------------+
+| |en|                            | |it|                                     |
++---------------------------------+------------------------------------------+
+| These instruction are just an   | Istruzioni di esempio valide solo per    |
+| example to remember what        | distribuzioni Linux CentOS 7, Ubuntu 14+ |
+| you have to do on Linux.        | e Debian 8+                              |
+|                                 |                                          |
+| Installation is based on:       | L'installazione è basata su:             |
++---------------------------------+------------------------------------------+
+| `Zeroincombenze Tools <https://github.com/zeroincombenze/tools>`__         |
++---------------------------------+------------------------------------------+
+| Suggested deployment is         | Posizione suggerita per l'installazione: |
++---------------------------------+------------------------------------------+
+| /opt/odoo/9.0/addons/auth_ldap                               |
++----------------------------------------------------------------------------+
+
+|
+
+::
+
+    pip install serial
+    pip install python-ldap
+    pip install qrcode
+    pip install evdev
+    pip install pyusb>=1.0.0b1
+    cd $HOME
+    git clone https://github.com/zeroincombenze/tools.git
+    cd ./tools
+    ./install_tools.sh -p
+    export PATH=$HOME/dev:$PATH
+    odoo_install_repository addons -b 9.0 -O oia
+
+
+From UI: go to:
+
+|menu| admin > About > Activate Developer mode
+
+|menu| Setting > Modules > Update Modules List
+
+|menu| Setting > Local Modules |right_do| Select **auth_ldap** > Install
+
+|warning| If your Odoo instance crashes, you can do following instruction
+to recover installation status:
+
+``run_odoo_debug 9.0 -um auth_ldap -s -d MYDB``
+
+
+
+
+
+
+
+
+Known issues / Roadmap
+=======================
+
+|warning| Questo modulo rimpiazza il modulo OCA. Leggete attentamente il
+paragrafo relativo alle funzionalità e differenze.
+
+
+
+
+
+Issue Tracker
+==============
+
+Bug reports are welcome! You can use the issue tracker to report bugs,
+and/or submit pull requests on `GitHub Issues
+<https://github.com/Odoo-Italia-Associazione/addons/issues>`_.
+
+In case of trouble, please check there if your issue has already been reported.
+
+
+Proposals for enhancement
+--------------------------
+
+If you have a proposal to change this module, you may want to send an email to
+<moderatore@odoo-italia.org> for initial feedback.
+An Enhancement Proposal may be submitted if your idea gains ground.
+
+
+
+
+
+
+Credits
+========
+
+Authors
+--------
+
+* `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+
+Contributors
+-------------
+
+* Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
+
+Maintainers
 ------------
 
-Configuration
--------------
-After installing this module, you need to configure the LDAP parameters in the
+|Odoo Italia Associazione|
 
-LDAP servers, as long as they have unique usernames (usernames need to be unique
-in Odoo, even across multiple companies).
+This module is maintained by the Odoo Italia Associazione.
 
-Anonymous LDAP binding is also supported (for LDAP servers that allow it), by
-simply keeping the LDAP user and password empty in the LDAP configuration.
-This does not allow anonymous authentication for users, it is only for the master
-LDAP account that is used to verify if a user exists before attempting to
-authenticate it.
+To contribute to this module, please visit https://odoo-italia.org/.
 
-Securing the connection with STARTTLS is available for LDAP servers supporting
-it, by enabling the TLS option in the LDAP configuration.
 
-For further options configuring the LDAP settings, refer to the ldap.conf
-manpage: manpage:`ldap.conf(5)`.
 
-Security Considerations:
-Users' LDAP passwords are never stored in the Odoo database, the LDAP server
-is queried whenever a user needs to be authenticated. No duplication of the
-password occurs, and passwords are managed in one place only.
 
-Odoo does not manage password changes in the LDAP, so any change of password
-should be conducted by other means in the LDAP directory directly (for LDAP users).
+----------------
 
-It is also possible to have local Odoo users in the database along with
-LDAP-authenticated users (the Administrator account is one obvious example).
+**Odoo** is a trademark of `Odoo S.A. <https://www.odoo.com/>`__
+(formerly OpenERP)
 
-Here is how it works:
-    * The system first attempts to authenticate users against the local Odoo
-      database;
-    * if this authentication fails (for example because the user has no local
-      password), the system then attempts to authenticate against LDAP;
+**OCA**, or the `Odoo Community Association <http://odoo-community.org/>`__,
+is a nonprofit organization whose mission is to support
+the collaborative development of Odoo features and promote its widespread use.
 
-As LDAP users have blank passwords by default in the local Odoo database
-(which means no access), the first step always fails and the LDAP server is
-queried to do the authentication.
-
-Enabling STARTTLS ensures that the authentication query to the LDAP server is
-encrypted.
-
-User Template:
-In the LDAP configuration on the Company form, it is possible to select a *User
-Template*. If set, this user will be used as template to create the local users
-whenever someone authenticates for the first time via LDAP authentication. This
-allows pre-setting the default groups and menus of the first-time users.
-
-**Warning:** if you set a password for the user template, this password will be
-         assigned as local password for each new LDAP user, effectively setting
-         a *master password* for these users (until manually changed). You
-         usually do not want this. One easy way to setup a template user is to
-         login once with a valid LDAP user, let Odoo create a blank local
-         user with the same login (and a blank password), then rename this new
-         user to a username that does not exist in LDAP, and setup its groups
-
-[//]: # (copyright)
-
-----
-
-**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
-
-**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
-
-**Odoo Italia Associazione**, or the [Associazione Odoo Italia](https://www.odoo-italia.org/)
+**Odoo Italia Associazione**, or the `Associazione Odoo Italia <https://www.odoo-italia.org/>`__
 is the nonprofit Italian Community Association whose mission
 is to support the collaborative development of Odoo designed for Italian law and markeplace.
 Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
 or available only with Odoo Proprietary License.
-Odoo Italia Associazione distributes code under [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or [LGPL](https://www.gnu.org/licenses/lgpl.html) free license.
+Odoo Italia Associazione distributes code under `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+or `LGPL <https://www.gnu.org/licenses/lgpl.html>`__ free license.
 
-[Odoo Italia Associazione](https://www.odoo-italia.org/) è un'Associazione senza fine di lucro
+`Odoo Italia Associazione <https://www.odoo-italia.org/>`__ è un'Associazione senza fine di lucro
 che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
-o disponibili solo con [Odoo Proprietary License](https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html).
+o disponibili solo con `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
 
-Odoo Italia Associazione distribuisce il codice esclusivamente con licenza [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) o [LGPL](https://www.gnu.org/licenses/lgpl.html)
-
-[//]: # (end copyright)
-
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenza `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+o `LGPL <https://www.gnu.org/licenses/lgpl.html>`__
 
 
-[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
+
+|
+
+Last Update / Ultimo aggiornamento: 2018-10-19
+
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
+    :target: https://odoo-community.org/page/development-status
+    :alt: Alfa
+.. |Build Status| image:: https://travis-ci.org/Odoo-Italia-Associazione/addons.svg?branch=9.0
+    :target: https://travis-ci.org/Odoo-Italia-Associazione/addons
+    :alt: github.com
+.. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
+    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
+    :alt: License: LGPL-3
+.. |Coverage Status| image:: https://coveralls.io/repos/github/Odoo-Italia-Associazione/addons/badge.svg?branch=9.0
+    :target: https://coveralls.io/github/Odoo-Italia-Associazione/addons?branch=9.0
+    :alt: Coverage
+.. |Codecov Status| image:: https://codecov.io/gh/Odoo-Italia-Associazione/addons/branch/9.0/graph/badge.svg
+    :target: https://codecov.io/gh/Odoo-Italia-Associazione/addons/branch/9.0
+    :alt: Codecov
+.. |OCA project| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-9.svg
+    :target: https://github.com/OCA/addons/tree/9.0
+    :alt: OCA
+.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg
+    :target: https://wiki.zeroincombenze.org/en/Odoo/9.0/dev
+    :alt: Technical Documentation
+.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg
+    :target: https://wiki.zeroincombenze.org/it/Odoo/9.0/man
+    :alt: Technical Documentation
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg
+    :target: https://odoo9.odoo-italia.org
+    :alt: Try Me
+.. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
+   :target: https://odoo-italia.org
+   :alt: Odoo Italia Associazione
+.. |en| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |it| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/check.png
+.. |no_check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/no_check.png
+.. |menu| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/menu.png
+.. |right_do| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/right_do.png
+.. |exclamation| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/exclamation.png
+.. |warning| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/warning.png
+.. |xml_schema| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/iso/icons/xml-schema.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/iso/scope/xml-schema.md
+.. |DesktopTelematico| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/DesktopTelematico.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/DesktopTelematico.md
+.. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/fatturapa.md
+   
+
