@@ -5,10 +5,10 @@
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/OCB/tree/10.0)
 [![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
 [![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](https://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 # PDF.js
 
@@ -35,16 +35,21 @@ promote its widespread use.
 **Odoo Italia Associazione**, or the [Associazione Odoo Italia](https://www.odoo-italia.org/)
 is the nonprofit Italian Community Association whose mission
 is to support the collaborative development of Odoo designed for Italian law and markeplace.
-Since 2017, Odoo Italia Associazione replaces OCA members of Italy are developping code under Odoo Proprietary License.
-Odoo Italia Associazione distributes only code under AGPL free license.
+Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
+or available only with Odoo Proprietary License.
+Odoo Italia Associazione distributes code under [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or [LGPL](https://www.gnu.org/licenses/lgpl.html) free license.
 
 [Odoo Italia Associazione](https://www.odoo-italia.org/) è un'Associazione senza fine di lucro
-che dal 2017 sostituisce gli sviluppatori italiani di OCA che sviluppano
-con Odoo Proprietary License a pagamento.
+che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
+o disponibili solo con [Odoo Proprietary License](https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html).
 
 Odoo Italia Associazione distribuisce il codice esclusivamente con licenza [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) o [LGPL](https://www.gnu.org/licenses/lgpl.html)
 
 [//]: # (end copyright)
+
+
+
+
 
 
 

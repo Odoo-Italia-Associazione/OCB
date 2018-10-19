@@ -1,5 +1,17 @@
+[![Build Status](https://travis-ci.org/Odoo-Italia-Associazione/OCB.svg?branch=10.0)](https://travis-ci.org/Odoo-Italia-Associazione/OCB)
+[![license lgpl](https://img.shields.io/badge/licence-LGPL--3-7379c3.svg)](https://www.gnu.org/licenses/lgpl.html)
+[![Coverage Status](https://coveralls.io/repos/github/Odoo-Italia-Associazione/OCB/badge.svg?branch=10.0)](https://coveralls.io/github/Odoo-Italia-Associazione/OCB?branch=10.0)
+[![codecov](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/10.0/graph/badge.svg)](https://codecov.io/gh/Odoo-Italia-Associazione/OCB/branch/10.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/OCB/tree/10.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](https://erp10.zeroincombenze.it)
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
 Odoo Point of Sale
------------------------------
+==================
 
 Odoo's <a href="https://www.odoo.com/page/point-of-sale">Point of Sale</a>
 introduces a super clean interface with no installation required that runs
@@ -10,7 +22,6 @@ time statistics and consolidations amongst all shops without the hassle of
 integrating several applications.
 
 Work with the hardware you already have
----------------------------------------
 
 ### In your web browser
 
@@ -30,7 +41,6 @@ required. Scales, cashboxes, and other peripherals can be used with the proxy
 API.
 
 Online and Offline
-------------------
 
 ### Odoo's POS stays reliable even if your connection isn't
 
@@ -43,7 +53,6 @@ stay operational even after a complete disconnection.
 
 
 A super clean user interface
-----------------------------
 
 ### Simple and beautifull
 
@@ -61,7 +70,6 @@ Scan products, browse through hierarchical categories, or get quick information
 about products with the blasting fast filter accross all your products.
 
 Integrated Inventory Management
--------------------------------
 
 Consolidate all your sales channels in real time: stores, ecommerce, sales
 teams. Get real time control of the inventory and accurate forecasts to manage
@@ -71,14 +79,12 @@ A full warehouse management system at your fingertips: get information about
 products availabilities, trigger procurement requests, etc.
 
 Deliver in-store customer services
-----------------------------------
 
 Give your shopper a strong experience by integrating in-store customer
 services. Handle reparations, track warantees, follow customer claims, plan
 delivery orders, etc.
 
 Invoicing & Accounting Integration
-----------------------------------
 
 Produce customer invoices in just a few clicks. Control sales and cash in real
 time and use Odoo's powerful reporting to make smarter decisions to improve
@@ -88,7 +94,6 @@ No more hassle of having to integrate softwares: get all your sales and
 inventory operations automatically posted in your G/L.
 
 Unified Data Amongst All Shops
-------------------------------
 
 Get new products, pricing strategies and promotions applied automatically to
 selected stores. Work on a unified customer base. No complex interface is
@@ -98,7 +103,6 @@ With Odoo as a backend, you have a system proven to be perfectly suitable for
 small stores or large multinationals.
 
 Know your customers - in store and out
---------------------------------------
 
 Successful brands integrates all their customer relationship accross all their
 channels to develop accurate customer profile and communicate with shoppers as
@@ -107,3 +111,31 @@ they make buying decisions, in store or online.
 With Odoo, you get a 360° customer view, including cross-channel sales,
 interaction history, profiles, and more.
 
+[//]: # (copyright)
+
+----
+
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+
+**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+**Odoo Italia Associazione**, or the [Associazione Odoo Italia](https://www.odoo-italia.org/)
+is the nonprofit Italian Community Association whose mission
+is to support the collaborative development of Odoo designed for Italian law and markeplace.
+Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
+or available only with Odoo Proprietary License.
+Odoo Italia Associazione distributes code under [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or [LGPL](https://www.gnu.org/licenses/lgpl.html) free license.
+
+[Odoo Italia Associazione](https://www.odoo-italia.org/) è un'Associazione senza fine di lucro
+che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
+o disponibili solo con [Odoo Proprietary License](https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html).
+
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenza [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) o [LGPL](https://www.gnu.org/licenses/lgpl.html)
+
+[//]: # (end copyright)
+
+
+
+[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
