@@ -1,40 +1,211 @@
-Fichier d'Échange Informatisé (FEC) pour la France
-==================================================
+|Maturity| |Build Status| |license gpl| |Coverage Status| |Codecov Status| |OCA project| |Tech Doc| |Help| |Try Me|
 
-Ce module permet de générer le fichier FEC tel que définit par `l'arrêté du 29
-Juillet 2013 <http://legifrance.gouv.fr/eli/arrete/2013/7/29/BUDE1315492A/jo/texte>`
-portant modification des dispositions de l'article A. 47 A-1 du
-livre des procédures fiscales.
+.. |icon| image:: https://raw.githubusercontent.com/Odoo-Italia-Associazione/addons/11.0/l10n_fr_fec/static/description/icon.png
 
-Cet arrêté prévoit l'obligation pour les sociétés ayant une comptabilité
-informatisée de pouvoir fournir à l'administration fiscale un fichier
-regroupant l'ensemble des écritures comptables de l'exercice. Le format de ce
-fichier, appelé *FEC*, est définit dans l'arrêté.
+===================
+|icon| France - FEC
+===================
 
-Le détail du format du FEC est spécifié dans le bulletin officiel des finances publiques `BOI-CF-IOR-60-40-20-20131213 <http://bofip.impots.gouv.fr/bofip/ext/pdf/createPdfWithAnnexePermalien/BOI-CF-IOR-60-40-20-20131213.pdf?doc=9028-PGP&identifiant=BOI-CF-IOR-60-40-20-20131213>` du 13 Décembre 2013. Ce module implémente le fichier
-FEC au format texte et non au format XML, car le format texte sera facilement
-lisible et vérifiable par le comptable en utilisant un tableur.
+.. contents::
 
-La structure du fichier FEC généré par ce module a été vérifiée avec le logiciel
-*Test Compta Demat* version 1_00_05 disponible sur
-`le site de la direction générale des finances publiques <http://www.economie.gouv.fr/dgfip/outil-test-des-fichiers-des-ecritures-comptables-fec>`
-en utilisant une base de donnée Odoo réelle.
 
-Configuration
-=============
+|en|
 
-Aucune configuration n'est nécessaire.
 
-Utilisation
-===========
 
-Pour générer le *FEC*, allez dans le menu *Accounting > Reporting > French Statements > FEC* qui va démarrer l'assistant de génération du FEC.
+|it|
+
+
+
+
+
+
+|en|
+
+
+Installation / Installazione
+=============================
+
++---------------------------------+------------------------------------------+
+| |en|                            | |it|                                     |
++---------------------------------+------------------------------------------+
+| These instruction are just an   | Istruzioni di esempio valide solo per    |
+| example to remember what        | distribuzioni Linux CentOS 7, Ubuntu 14+ |
+| you have to do on Linux.        | e Debian 8+                              |
+|                                 |                                          |
+| Installation is based on:       | L'installazione è basata su:             |
++---------------------------------+------------------------------------------+
+| `Zeroincombenze Tools <https://github.com/zeroincombenze/tools>`__         |
++---------------------------------+------------------------------------------+
+| Suggested deployment is         | Posizione suggerita per l'installazione: |
++---------------------------------+------------------------------------------+
+| /opt/odoo/11.0/addons/l10n_fr_fec                               |
++----------------------------------------------------------------------------+
+
+|
+
+::
+
+    cd $HOME
+    git clone https://github.com/zeroincombenze/tools.git
+    cd ./tools
+    ./install_tools.sh -p
+    export PATH=$HOME/dev:$PATH
+    odoo_install_repository addons -b 11.0 -O oia
+
+
+From UI: go to:
+
+|menu| Setting > Activate Developer mode 
+
+|menu| Apps > Update Apps List
+
+|menu| Setting > Apps |right_do| Select **l10n_fr_fec** > Install
+
+|warning| If your Odoo instance crashes, you can do following instruction
+to recover installation status:
+
+``run_odoo_debug 11.0 -um l10n_fr_fec -s -d MYDB``
+
+
+
+
+
+
+
+
+Known issues / Roadmap
+=======================
+
+|warning| Questo modulo rimpiazza il modulo OCA. Leggete attentamente il
+paragrafo relativo alle funzionalità e differenze.
+
+
+
+
+
+Issue Tracker
+==============
+
+Bug reports are welcome! You can use the issue tracker to report bugs,
+and/or submit pull requests on `GitHub Issues
+<https://github.com/Odoo-Italia-Associazione/addons/issues>`_.
+
+In case of trouble, please check there if your issue has already been reported.
+
+
+Proposals for enhancement
+--------------------------
+
+If you have a proposal to change this module, you may want to send an email to
+<moderatore@odoo-italia.org> for initial feedback.
+An Enhancement Proposal may be submitted if your idea gains ground.
+
+
+
+
+
 
 Credits
-=======
+========
+
+Authors
+--------
+
+* `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 Contributors
+-------------
+
+* Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
+
+Maintainers
 ------------
 
-* Alexis de Lattre <alexis.delattre@akretion.com>
+|Odoo Italia Associazione|
+
+This module is maintained by the Odoo Italia Associazione.
+
+To contribute to this module, please visit https://odoo-italia.org/.
+
+
+
+
+----------------
+
+**Odoo** is a trademark of `Odoo S.A. <https://www.odoo.com/>`__
+(formerly OpenERP)
+
+**OCA**, or the `Odoo Community Association <http://odoo-community.org/>`__,
+is a nonprofit organization whose mission is to support
+the collaborative development of Odoo features and promote its widespread use.
+
+**Odoo Italia Associazione**, or the `Associazione Odoo Italia <https://www.odoo-italia.org/>`__
+is the nonprofit Italian Community Association whose mission
+is to support the collaborative development of Odoo designed for Italian law and markeplace.
+Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
+or available only with Odoo Proprietary License.
+Odoo Italia Associazione distributes code under `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+or `LGPL <https://www.gnu.org/licenses/lgpl.html>`__ free license.
+
+`Odoo Italia Associazione <https://www.odoo-italia.org/>`__ è un'Associazione senza fine di lucro
+che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
+o disponibili solo con `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
+
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenza `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+o `LGPL <https://www.gnu.org/licenses/lgpl.html>`__
+
+
+
+|
+
+Last Update / Ultimo aggiornamento: 2018-10-19
+
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
+    :target: https://odoo-community.org/page/development-status
+    :alt: Alfa
+.. |Build Status| image:: https://travis-ci.org/Odoo-Italia-Associazione/addons.svg?branch=11.0
+    :target: https://travis-ci.org/Odoo-Italia-Associazione/addons
+    :alt: github.com
+.. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
+    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
+    :alt: License: LGPL-3
+.. |Coverage Status| image:: https://coveralls.io/repos/github/Odoo-Italia-Associazione/addons/badge.svg?branch=11.0
+    :target: https://coveralls.io/github/Odoo-Italia-Associazione/addons?branch=11.0
+    :alt: Coverage
+.. |Codecov Status| image:: https://codecov.io/gh/Odoo-Italia-Associazione/addons/branch/11.0/graph/badge.svg
+    :target: https://codecov.io/gh/Odoo-Italia-Associazione/addons/branch/11.0
+    :alt: Codecov
+.. |OCA project| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-11.svg
+    :target: https://github.com/OCA/addons/tree/11.0
+    :alt: OCA
+.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-11.svg
+    :target: https://wiki.zeroincombenze.org/en/Odoo/11.0/dev
+    :alt: Technical Documentation
+.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-11.svg
+    :target: https://wiki.zeroincombenze.org/it/Odoo/11.0/man
+    :alt: Technical Documentation
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-11.svg
+    :target: https://odoo11.odoo-italia.org
+    :alt: Try Me
+.. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
+   :target: https://odoo-italia.org
+   :alt: Odoo Italia Associazione
+.. |en| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |it| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/check.png
+.. |no_check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/no_check.png
+.. |menu| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/menu.png
+.. |right_do| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/right_do.png
+.. |exclamation| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/exclamation.png
+.. |warning| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/warning.png
+.. |xml_schema| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/iso/icons/xml-schema.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/iso/scope/xml-schema.md
+.. |DesktopTelematico| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/DesktopTelematico.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/DesktopTelematico.md
+.. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/fatturapa.md
+   
 

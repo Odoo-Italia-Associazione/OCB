@@ -63,7 +63,7 @@ env:
 
   matrix:
   - LINT_CHECK="0"
-  - TESTS="1" ODOO_TEST_SELECT="NO-CORE" ODOO_REPO="Odoo-Italia-Associazione/OCB"
+  - TESTS="1" ODOO_TEST_SELECT="NO-CORE" ODOO_REPO="zeroincombenze/OCB"
 
 script:
   - travis_run_tests

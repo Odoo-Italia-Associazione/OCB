@@ -1,87 +1,211 @@
-:orphan:
+|Maturity| |Build Status| |license gpl| |Coverage Status| |Codecov Status| |OCA project| |Tech Doc| |Help| |Try Me|
 
-======================================
-JSDoc parser/Sphinx extension for Odoo
-======================================
+.. |icon| image:: https://raw.githubusercontent.com/Odoo-Italia-Associazione/_extensions/11.0/autojsdoc/static/description/icon.png
 
-Why?
-====
+================
+|icon| autojsdoc
+================
 
-Spent about a week trying to coerce "standard" javascript tools (jsdoc_ with
-the hope of using sphinx-js_ for integration or `documentation.js`_) and
-failed to ever get a sensible result: failed to get any result with the
-current state of the documentation, significant changes/additions/fixes to
-docstrings brought this up to "garbage output" level.
+.. contents::
 
-Bug reports and mailing list posts didn't show any path to improvement on the
-ES5 codebase (if we ever go whole-hog on ES6 modules and classes things could
-be different, in fact most of JSDoc's current effort seem focused on
-ES6/ES2015 features) but both experience and looking at the mailing lists
-told me that spending more time would be wasted.
 
-Even more so as I was writing visitors/rewriters to generate documentation
-from our existing structure, which broadly speaking is relatively strict, and
-thus
+|en|
 
-What?
-=====
 
-If it were possible to generate JSDoc annotations from our relatively
-well-defined code structures, it was obviously possible to extract documentary
-information directly from it, hence this Odoo-specific package/extension
-trying to do exactly that.
 
-This package should eventually provide:
+|it|
 
-* a command-line interface which can be invoked via ``-m autojsdoc`` (assuming
-  your ``PYTHONPATH`` can find it) which should allow dumping the parsed AST
-  in a convenient-ish form, possibly doing searches through the AST, a
-  dependency graph extractor/analysis and a text dumper for the
-  documentation.
 
-* a sphinx extension (``autojsdoc.sphinx``) which can be used to integrate the
-  parsed JSDoc information into the Sphinx doc.
 
-How?
-====
 
-Sphinx-aside, the package relies on 3 libraries:
 
-* pyjsparser_, an Esprima-compliant ES5.1 parser (with bits of ES6 support),
-  sadly it does not support comments in its current form so I had to fork it.
-  Fed a javascript source file, pyjsparser_ simply generates a bunch of nested
-  dicts representing an Esprima ast, ast-types_ does a reasonably good job of
-  describing it once you understand that "bases" are basically just structural
-  mixins.
 
-  Because the original does not, this package provides a ``visitor`` module
-  for pyjsparser_ ASTs.
+|en|
 
-* pyjsdoc_, a one-file "port" of jsdoc, can actually do much of the JS parsing
-  (using string munging) but its core semantics don't fit our needs so I'm
-  only using it to parse the actual JSDoc content, and the ``jsdoc`` module
-  contains some replacement classes, extensions & monkey patches for things
-  `pyjsdoc`_ itself does not support, at the time of this writing:
 
-  - a bug in FunctionDoc.return_val
-  - a type on FunctionDoc so it's compatible with ParamDoc
-  - a more reliable comments-parsing function
-  - a replacement ModuleDoc as the original does not materialise AMD modules
-  - a ClassDoc extension to support mixins
-  - two additional CommentDoc extensions for "namespaces" objects (bag of
-    attributes without any more information) and mixin objects
+Installation / Installazione
+=============================
 
-* pytest_ to configure and run the test suite, which you can run by invoking
-  ``pytest doc/_extensions`` from the project top-level, the tests represent
-  both "happy path" things we want to parse and various code patterns which
-  tripped the happy path because e.g. they were matched and should not have,
-  they were not matched and should have, or they were more complex than the
-  happy path had expected
++---------------------------------+------------------------------------------+
+| |en|                            | |it|                                     |
++---------------------------------+------------------------------------------+
+| These instruction are just an   | Istruzioni di esempio valide solo per    |
+| example to remember what        | distribuzioni Linux CentOS 7, Ubuntu 14+ |
+| you have to do on Linux.        | e Debian 8+                              |
+|                                 |                                          |
+| Installation is based on:       | L'installazione è basata su:             |
++---------------------------------+------------------------------------------+
+| `Zeroincombenze Tools <https://github.com/zeroincombenze/tools>`__         |
++---------------------------------+------------------------------------------+
+| Suggested deployment is         | Posizione suggerita per l'installazione: |
++---------------------------------+------------------------------------------+
+| /opt/odoo/11.0/_extensions/autojsdoc                               |
++----------------------------------------------------------------------------+
 
-.. _ast-types: _https://github.com/benjamn/ast-types/blob/master/def/core.js
-.. _documentation.js: http://documentation.js.org
-.. _jsdoc: http://usejsdoc.org
-.. _pyjsdoc: https://github.com/nostrademons/pyjsdoc
-.. _pyjsparser: https://github.com/PiotrDabkowski/pyjsparser
-.. _pytest: https://pytest.org/
-.. _sphinx-js: https://sphinx-js-howto.readthedocs.io
+|
+
+::
+
+    cd $HOME
+    git clone https://github.com/zeroincombenze/tools.git
+    cd ./tools
+    ./install_tools.sh -p
+    export PATH=$HOME/dev:$PATH
+    odoo_install_repository _extensions -b 11.0 -O oia
+
+
+From UI: go to:
+
+|menu| Setting > Activate Developer mode 
+
+|menu| Apps > Update Apps List
+
+|menu| Setting > Apps |right_do| Select **autojsdoc** > Install
+
+|warning| If your Odoo instance crashes, you can do following instruction
+to recover installation status:
+
+``run_odoo_debug 11.0 -um autojsdoc -s -d MYDB``
+
+
+
+
+
+
+
+
+Known issues / Roadmap
+=======================
+
+|warning| Questo modulo rimpiazza il modulo OCA. Leggete attentamente il
+paragrafo relativo alle funzionalità e differenze.
+
+
+
+
+
+Issue Tracker
+==============
+
+Bug reports are welcome! You can use the issue tracker to report bugs,
+and/or submit pull requests on `GitHub Issues
+<https://github.com/Odoo-Italia-Associazione/_extensions/issues>`_.
+
+In case of trouble, please check there if your issue has already been reported.
+
+
+Proposals for enhancement
+--------------------------
+
+If you have a proposal to change this module, you may want to send an email to
+<moderatore@odoo-italia.org> for initial feedback.
+An Enhancement Proposal may be submitted if your idea gains ground.
+
+
+
+
+
+
+Credits
+========
+
+Authors
+--------
+
+* `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+
+Contributors
+-------------
+
+* Antonio Maria Vigliotti <antoniomaria.vigliotti@gmail.com>
+
+Maintainers
+------------
+
+|Odoo Italia Associazione|
+
+This module is maintained by the Odoo Italia Associazione.
+
+To contribute to this module, please visit https://odoo-italia.org/.
+
+
+
+
+----------------
+
+**Odoo** is a trademark of `Odoo S.A. <https://www.odoo.com/>`__
+(formerly OpenERP)
+
+**OCA**, or the `Odoo Community Association <http://odoo-community.org/>`__,
+is a nonprofit organization whose mission is to support
+the collaborative development of Odoo features and promote its widespread use.
+
+**Odoo Italia Associazione**, or the `Associazione Odoo Italia <https://www.odoo-italia.org/>`__
+is the nonprofit Italian Community Association whose mission
+is to support the collaborative development of Odoo designed for Italian law and markeplace.
+Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
+or available only with Odoo Proprietary License.
+Odoo Italia Associazione distributes code under `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+or `LGPL <https://www.gnu.org/licenses/lgpl.html>`__ free license.
+
+`Odoo Italia Associazione <https://www.odoo-italia.org/>`__ è un'Associazione senza fine di lucro
+che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
+o disponibili solo con `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
+
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenza `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+o `LGPL <https://www.gnu.org/licenses/lgpl.html>`__
+
+
+
+|
+
+Last Update / Ultimo aggiornamento: 2018-10-19
+
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
+    :target: https://odoo-community.org/page/development-status
+    :alt: Alfa
+.. |Build Status| image:: https://travis-ci.org/Odoo-Italia-Associazione/_extensions.svg?branch=11.0
+    :target: https://travis-ci.org/Odoo-Italia-Associazione/_extensions
+    :alt: github.com
+.. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
+    :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
+    :alt: License: LGPL-3
+.. |Coverage Status| image:: https://coveralls.io/repos/github/Odoo-Italia-Associazione/_extensions/badge.svg?branch=11.0
+    :target: https://coveralls.io/github/Odoo-Italia-Associazione/_extensions?branch=11.0
+    :alt: Coverage
+.. |Codecov Status| image:: https://codecov.io/gh/Odoo-Italia-Associazione/_extensions/branch/11.0/graph/badge.svg
+    :target: https://codecov.io/gh/Odoo-Italia-Associazione/_extensions/branch/11.0
+    :alt: Codecov
+.. |OCA project| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-11.svg
+    :target: https://github.com/OCA/_extensions/tree/11.0
+    :alt: OCA
+.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-11.svg
+    :target: https://wiki.zeroincombenze.org/en/Odoo/11.0/dev
+    :alt: Technical Documentation
+.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-11.svg
+    :target: https://wiki.zeroincombenze.org/it/Odoo/11.0/man
+    :alt: Technical Documentation
+.. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-11.svg
+    :target: https://odoo11.odoo-italia.org
+    :alt: Try Me
+.. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
+   :target: https://odoo-italia.org
+   :alt: Odoo Italia Associazione
+.. |en| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |it| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png
+   :target: https://www.facebook.com/groups/openerp.italia/
+.. |check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/check.png
+.. |no_check| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/no_check.png
+.. |menu| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/menu.png
+.. |right_do| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/right_do.png
+.. |exclamation| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/exclamation.png
+.. |warning| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/awesome/warning.png
+.. |xml_schema| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/iso/icons/xml-schema.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/iso/scope/xml-schema.md
+.. |DesktopTelematico| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/DesktopTelematico.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/DesktopTelematico.md
+.. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
+   :target: https://raw.githubusercontent.com/zeroincombenze/grymbcertificates/ade/scope/fatturapa.md
+   
+
