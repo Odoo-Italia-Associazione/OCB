@@ -11,11 +11,15 @@ Odoo 10.0 (formerly OpenERP)
 Overview / Panoramica
 =====================
 
-|en| 
+|en| Odoo is a suite of web based open source business apps.
+
+The main Odoo Apps include an Open Source CRM and Enterprise Resource Planning. The main ERP modules are: Warehouse Management, Project Management, Billing AND Accounting, Point of Sale, Human Resources, Manufacturing, Purchase Management, Sale Management and other modules.
+
 
 |it| Odoo è una suite di prodotti web open-source.
 
 Le principali applicazioni di Odoo includono un Open Source CRM e Enterprise Resource Planning.
+
 I principali moduli ERP sono: gestione Magazzino, gestione Progetti, Contabilità e Fatturazione, Punto vendite, Dipendenti, Produzione, gestione Acquisti, gestione vendite e molto altro ancora.
 
 
@@ -23,19 +27,19 @@ Distributions / Distribuzioni Odoo 10.0:
 ========================================
 
 
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
-| name / nome | description / descrizione        | Italy / Localizzazione Italiana    | Maintainers                                                  | License / Licenza                                                                  |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
-|             | Odoo EE - Enterprise Edition     | |check| Tramite partner        (1) | `Odoo S.A. <https://www.odoo.com/>`__                        | `OPL <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__ |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
-| odoo        | Odoo CE - Community Edition      | |no_check|                         | `Odoo S.A. <https://www.odoo.com/>`__                        | |license gpl|                                                                      |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
-| oca         | Odoo CE by OCA                   | |warning| Norme fiscali < 2107 (2) | `Odoo Community Association <http://odoo-community.org/>`__  | |license gpl|                                                                      |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
-| oia         | Odoo CE by OIA                   | |warning| Norme fiscali < 2107 (3) | `Associazione Odoo Italia <https://www.odoo-italia.org/>`__  | |license gpl|                                                                      |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
-| zero        | Zeroincombenze(R)                | |warning| Norme fiscali < 2107 (3) | `SHS-AV s.r.l. <http://www.shs-av.com/>`__                   | |license gpl|                                                                      |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+------------------------------------------------------------------------------------+
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
+| name / nome | description / descrizione        | Italy / Localizzazione Italiana    | Maintainers                                                  | License / Licenza |
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
+|             | Odoo EE - Enterprise Edition     | |check| Tramite partner        (1) | `Odoo S.A. <https://www.odoo.com/>`__                        | |license opl|     |
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
+| odoo        | Odoo CE - Community Edition      | |no_check|                         | `Odoo S.A. <https://www.odoo.com/>`__                        | |license gpl|     |
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
+| oca         | Odoo CE by OCA                   | |warning| Norme fiscali < 2107 (2) | `Odoo Community Association <http://odoo-community.org/>`__  | |license gpl|     |
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
+| oia         | Odoo CE by OIA                   | |warning| Norme fiscali < 2107 (3) | `Associazione Odoo Italia <https://www.odoo-italia.org/>`__  | |license gpl|     |
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
+| zero        | Zeroincombenze(R)                | |warning| Norme fiscali < 2107 (3) | `SHS-AV s.r.l. <http://www.shs-av.com/>`__                   | |license gpl|     |
++-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
 
 Notes / Note:
 -------------
@@ -67,12 +71,11 @@ Avaiable Addons / Moduli disponibili
 +-------------------------------+------------+------------+----------------------------------------------------+
 | account_check_printing        | 10.0.1.0   | |same|     | Check printing commons                             |
 +-------------------------------+------------+------------+----------------------------------------------------+
-| account_lock                  | |no_check| | 10.0.1.0   | Irreversible Lock Date                             |
+| account_lock                  | 10.0.1.0   | |same|     | Irreversible Lock Date                             |
 +-------------------------------+------------+------------+----------------------------------------------------+
 | account_tax_cash_basis        | 10.0.1.1   | |same|     | Allow to have cash basis on tax                    |
 +-------------------------------+------------+------------+----------------------------------------------------+
-| account_tax_python            | 10.0.1.0   | |same|     | 
-        Allows to use python code to define taxes |
+| account_tax_python            | 10.0.1.0   | |same|     | Allows to use python code to define taxes          |
 +-------------------------------+------------+------------+----------------------------------------------------+
 | account_test                  | 10.0.1.0   | |same|     | Accounting Consistency Tests                       |
 +-------------------------------+------------+------------+----------------------------------------------------+
@@ -258,8 +261,7 @@ Avaiable Addons / Moduli disponibili
 +-------------------------------+------------+------------+----------------------------------------------------+
 | portal_stock                  | 10.0.0.1   | |same|     | Portal Stock                                       |
 +-------------------------------+------------+------------+----------------------------------------------------+
-| pos_cache                     | 10.0.1.0   | |same|     | 
-        Enable a cache on products for a lower PO |
+| pos_cache                     | 10.0.1.0   | |same|     | Enable a cache on products for a lower POS loading |
 +-------------------------------+------------+------------+----------------------------------------------------+
 | pos_data_drinks               | 10.0.1.0   | |same|     | Common Drinks data for points of sale              |
 +-------------------------------+------------+------------+----------------------------------------------------+
@@ -323,7 +325,7 @@ Avaiable Addons / Moduli disponibili
 +-------------------------------+------------+------------+----------------------------------------------------+
 | sale_service_rating           | 10.0.0.0   | |same|     | Sale Service Rating                                |
 +-------------------------------+------------+------------+----------------------------------------------------+
-| sale_stock                    | 10.0.1.0.1 | 10.0.1.0   | Quotation, Sale Orders, Delivery & Invoicing Contr |
+| sale_stock                    | 10.0.1.0   | |same|     | Quotation, Sale Orders, Delivery & Invoicing Contr |
 +-------------------------------+------------+------------+----------------------------------------------------+
 | sale_timesheet                | 10.0.0.0   | |same|     | Sell based on timesheets                           |
 +-------------------------------+------------+------------+----------------------------------------------------+
@@ -488,7 +490,7 @@ Installation / Installazione
 +---------------------------------+------------------------------------------+
 | `Zeroincombenze Tools <https://github.com/zeroincombenze/tools>`__         |
 +---------------------------------+------------------------------------------+
-| Suggested deployment is         | Posizione suggerita per l'installazione: |
+| Suggested deployment is:        | Posizione suggerita per l'installazione: |
 +---------------------------------+------------------------------------------+
 | /opt/odoo/10.0                                                             |
 +----------------------------------------------------------------------------+
@@ -520,8 +522,7 @@ Upgrade / Aggiornamento
 
 ::
 
-    cd /opt/odoo/10.0
-    git pull origin 10.0
+    odoo_install_repository OCB -b 10.0 -O oia -U
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
@@ -551,9 +552,39 @@ If you have a proposal to change this module, you may want to send an email to
 <moderatore@odoo-italia.org> for initial feedback.
 An Enhancement Proposal may be submitted if your idea gains ground.
 
+Credits / Titoli di coda
+========================
+
+Copyright
+---------
+
+Odoo is a trademark of `Odoo S.A. <https://www.odoo.com/>`__ (formerly OpenERP)
+
+----------------
+
+
+**Odoo Italia Associazione**, or the `Associazione Odoo Italia <https://www.odoo-italia.org/>`__
+is the nonprofit Italian Community Association born in 2011, whose mission is
+collaborative development of Odoo to cover Italian law and markeplace.
+Since 2017 Odoo Italia Associazione issues modules for Italian localization not developed by OCA
+or available only with `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
+Odoo Italia Associazione distributes code under `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+or `LGPL <https://www.gnu.org/licenses/lgpl.html>`__ free licenses.
+
+`Odoo Italia Associazione <https://www.odoo-italia.org/>`__ è un'Associazione senza fine di lucro, nata nel 2011
+che dal 2017 rilascia moduli per la localizzazione italiana non sviluppati da OCA
+o disponibili solo con `Odoo Proprietary License <https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html>`__
+
+Odoo Italia Associazione distribuisce il codice esclusivamente con licenze `AGPL <https://www.gnu.org/licenses/agpl-3.0.html>`__
+o `LGPL <https://www.gnu.org/licenses/lgpl.html>`__
+
+
+|chat_with_us|
+
+
 |
 
-Last Update / Ultimo aggiornamento: 2018-11-12
+Last Update / Ultimo aggiornamento: 2018-11-13
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
@@ -564,6 +595,9 @@ Last Update / Ultimo aggiornamento: 2018-11-12
 .. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
+.. |license opl| image:: https://img.shields.io/badge/licence-OPL-7379c3.svg
+    :target: https://www.odoo.com/documentation/user/9.0/legal/licenses/licenses.html
+    :alt: License: OPL
 .. |Coverage Status| image:: https://coveralls.io/repos/github/Odoo-Italia-Associazione/OCB/badge.svg?branch=10.0
     :target: https://coveralls.io/github/Odoo-Italia-Associazione/OCB?branch=10.0
     :alt: Coverage
